@@ -20,6 +20,1134 @@
     ]
   },
   {
+    "name": "Amulet of the Beast",
+    "type": "Amulet",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Druid circles, beast magic specialists, wild shape enhancement vendors",
+    "description": "This bone amulet carved with animal totems enhances the wearer's connection to the natural world. It allows limited shapeshifting into animal forms.<br><br><strong>Mechanics:</strong> Once per day, you can cast polymorph on yourself to transform into a beast of CR 2 or lower for 1 hour. You retain your mental stats but gain the beast's physical abilities.",
+    "properties": {
+      "Self Polymorph": "Transform into CR 2 or lower beast",
+      "Duration": "1 hour",
+      "Mental Retention": "Keep your mental abilities"
+    },
+    "abilities": [
+      {
+        "name": "Beast Form",
+        "description": "Transform into various animal forms for utility and combat."
+      },
+      {
+        "name": "Natural Connection",
+        "description": "Tap into primal magic to assume the shape of wild creatures."
+      }
+    ]
+  },
+  {
+    "name": "Boots of the Winterlands",
+    "type": "Boots",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Cold weather equipment vendors, arctic gear specialists, winter survival stores",
+    "description": "These fur-lined boots provide protection against cold environments and enhance movement through snow and ice.<br><br><strong>Mechanics:</strong> You have resistance to cold damage and ignore difficult terrain created by ice or snow. You can walk on snow without sinking and leave no tracks in winter terrain.",
+    "properties": {
+      "Cold Resistance": "Resistance to cold damage",
+      "Ice Movement": "Ignore ice/snow difficult terrain",
+      "Trackless Travel": "No tracks in winter terrain"
+    },
+    "abilities": [
+      {
+        "name": "Arctic Adaptation",
+        "description": "Move freely through the harshest winter conditions."
+      },
+      {
+        "name": "Stealth Travel",
+        "description": "Leave no trace when traveling through snow and ice."
+      }
+    ]
+  },
+  {
+    "name": "Crown of Mental Prowess",
+    "type": "Crown",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Royal treasuries, mind enhancement specialists, intellectual augmentation vendors",
+    "description": "This golden crown set with sapphires enhances all mental capabilities. It radiates an aura of wisdom and intelligence.<br><br><strong>Mechanics:</strong> Your Intelligence, Wisdom, and Charisma scores increase by 2 each (maximum 22). You also gain proficiency in all mental skills if you don't already have it.",
+    "properties": {
+      "Mental Enhancement": "+2 to Int, Wis, and Cha (max 22)",
+      "Skill Proficiency": "All mental skills if not already proficient",
+      "Intellectual Aura": "Enhanced mental presence"
+    },
+    "abilities": [
+      {
+        "name": "Superior Intellect",
+        "description": "Dramatically enhance all aspects of mental capability."
+      },
+      {
+        "name": "Universal Knowledge",
+        "description": "Gain proficiency in skills requiring mental acuity."
+      }
+    ]
+  },
+  {
+    "name": "Dragonscale Armor",
+    "type": "Armor",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Dragon scale crafters, draconic equipment vendors, legendary armor smiths",
+    "description": "This armor is crafted from the scales of an ancient dragon. It provides both physical protection and resistance to the dragon's elemental type.<br><br><strong>Mechanics:</strong> This is +1 scale mail (AC 14 + Dex mod, max 2). You have resistance to one damage type based on the dragon color (fire for red, cold for white, etc.). You can speak Draconic.",
+    "properties": {
+      "Armor Class": "14 + Dex mod (max 2) +1",
+      "Elemental Resistance": "Resistance based on dragon type",
+      "Draconic Speech": "Speak and understand Draconic"
+    },
+    "abilities": [
+      {
+        "name": "Dragon Heritage",
+        "description": "Gain the elemental resistance and language of dragonkind."
+      },
+      {
+        "name": "Scaled Protection",
+        "description": "Enhanced armor protection with draconic properties."
+      }
+    ]
+  },
+  {
+    "name": "Elven Chain",
+    "type": "Armor",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Elven armorsmiths, fine chain specialists, lightweight armor vendors",
+    "description": "This extremely fine chain mail is made by elven artisans. It's so light and flexible it can be worn under normal clothing.<br><br><strong>Mechanics:</strong> This is +1 chain mail (AC 16) that doesn't impose disadvantage on Stealth checks. You can wear it under clothing and it's not obvious you're armored.",
+    "properties": {
+      "Armor Class": "16 (+1)",
+      "No Stealth Penalty": "No disadvantage on Stealth",
+      "Concealable": "Can be worn under clothing"
+    },
+    "abilities": [
+      {
+        "name": "Elven Craftsmanship",
+        "description": "Superior armor that combines protection with stealth capability."
+      },
+      {
+        "name": "Hidden Protection",
+        "description": "Wear armor protection without appearing armored."
+      }
+    ]
+  },
+  {
+    "name": "Flask of Endless Ale",
+    "type": "Flask",
+    "rarity": "Common",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Taverns, breweries, drinking establishment suppliers, endless beverage vendors",
+    "description": "This pewter flask never runs empty and always contains high-quality ale. The ale is always at the perfect temperature and never goes stale.<br><br><strong>Mechanics:</strong> The flask produces 1 pint of excellent ale every 10 minutes. The ale has mild restorative properties, providing 1 temporary hit point when consumed (max 1 per day).",
+    "properties": {
+      "Ale Production": "1 pint every 10 minutes",
+      "Perfect Quality": "Always fresh and ideal temperature",
+      "Minor Healing": "1 temporary HP per day"
+    },
+    "abilities": [
+      {
+        "name": "Endless Refreshment",
+        "description": "Never run out of high-quality ale for drinking or sharing."
+      },
+      {
+        "name": "Morale Boost",
+        "description": "Provide minor health benefits and social lubrication."
+      }
+    ]
+  },
+  {
+    "name": "Gloves of Swimming and Climbing",
+    "type": "Gloves",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Adventure gear vendors, climbing specialists, aquatic equipment stores",
+    "description": "These leather gloves have webbed fingers and textured palms. They enhance the wearer's ability to swim and climb difficult surfaces.<br><br><strong>Mechanics:</strong> You gain a climbing speed of 20 feet and a swimming speed of 20 feet. You have advantage on Strength (Athletics) checks for climbing and swimming.",
+    "properties": {
+      "Climbing Speed": "20 feet",
+      "Swimming Speed": "20 feet",
+      "Athletics Advantage": "Advantage on climbing and swimming checks"
+    },
+    "abilities": [
+      {
+        "name": "Aquatic Mobility",
+        "description": "Enhanced swimming capability with webbed finger design."
+      },
+      {
+        "name": "Superior Grip",
+        "description": "Textured palms provide excellent climbing ability."
+      }
+    ]
+  },
+  {
+    "name": "Helm of Telepathy",
+    "type": "Helmet",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Telepathic equipment vendors, mind magic specialists, communication device stores",
+    "description": "This silver circlet allows limited telepathic communication between minds. Gemstones along the band pulse when mental contact is made.<br><br><strong>Mechanics:</strong> You can cast detect thoughts at will (DC 13). You can also establish telepathic communication with any creature within 30 feet that shares a language with you.",
+    "properties": {
+      "Detect Thoughts": "At will (DC 13)",
+      "Telepathic Range": "30 feet",
+      "Language Requirement": "Must share a language"
+    },
+    "abilities": [
+      {
+        "name": "Mind Reading",
+        "description": "Detect the surface thoughts of nearby creatures."
+      },
+      {
+        "name": "Silent Communication",
+        "description": "Communicate telepathically without speaking aloud."
+      }
+    ]
+  },
+  {
+    "name": "Instrument of the Bards (Anstruth Harp)",
+    "type": "Instrument",
+    "rarity": "Very Rare",
+    "attunement": "yes (by a bard)",
+    "suggestedLevel": "11-16",
+    "location": "Bardic colleges, legendary instrument crafters, musical magic specialists",
+    "description": "This masterwork harp was crafted by legendary bards and holds tremendous magical power. Its strings sing with otherworldly beauty.<br><br><strong>Mechanics:</strong> Functions as a +2 spellcasting focus. You can cast control weather, cure wounds (5th level), and wall of thorns once per day each. All bard spells are cast at +1 level when using this harp.",
+    "properties": {
+      "Spellcasting Bonus": "+2 focus, bard spells at +1 level",
+      "Daily Spells": "Control weather, cure wounds (5th), wall of thorns",
+      "Legendary Craft": "Made by master bards"
+    },
+    "abilities": [
+      {
+        "name": "Bardic Mastery",
+        "description": "Enhanced magical music with legendary instrument quality."
+      },
+      {
+        "name": "Weather Command",
+        "description": "Control the weather through masterful musical performance."
+      }
+    ]
+  },
+  {
+    "name": "Jewel of Attacks",
+    "type": "Gemstone",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Combat enhancement vendors, attack speed specialists, martial enhancement stores",
+    "description": "This crystalline gem can be embedded in a weapon or worn as jewelry. It grants additional attacks through temporal acceleration.<br><br><strong>Mechanics:</strong> Once per day, you can activate the jewel to gain one additional attack action on your turn for 3 rounds. This stacks with all other abilities.",
+    "properties": {
+      "Extra Attacks": "One additional attack action",
+      "Duration": "3 rounds",
+      "Daily Use": "Once per day"
+    },
+    "abilities": [
+      {
+        "name": "Combat Acceleration",
+        "description": "Gain additional attacks through temporal magic enhancement."
+      },
+      {
+        "name": "Action Surge",
+        "description": "Multiple extra actions over several combat rounds."
+      }
+    ]
+  },
+  {
+    "name": "Knife of Returning",
+    "type": "Weapon",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Thrown weapon specialists, returning projectile dealers, assassin equipment vendors",
+    "description": "This balanced throwing knife returns to the wielder's hand immediately after being thrown. It never misses its mark when recalled.<br><br><strong>Mechanics:</strong> This is a +1 dagger that returns to your hand immediately after being thrown, hit or miss. You can catch it as part of the same action used to throw it.",
+    "properties": {
+      "Weapon Bonus": "+1 dagger",
+      "Instant Return": "Returns immediately after throwing",
+      "Auto Catch": "Automatically caught when returning"
+    },
+    "abilities": [
+      {
+        "name": "Perfect Recall",
+        "description": "Throwing knife returns instantly whether it hits or misses."
+      },
+      {
+        "name": "Seamless Combat",
+        "description": "Switch between melee and ranged attacks without delay."
+      }
+    ]
+  },
+  {
+    "name": "Lens of Truth",
+    "type": "Lens",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Truth detection vendors, investigation specialists, lie detection equipment stores",
+    "description": "This crystal lens reveals truth and cuts through deception when looked through. It glows softly when detecting lies or illusions.<br><br><strong>Mechanics:</strong> When you look through the lens, you automatically detect lies spoken within 30 feet. You also see through illusions and can detect invisible creatures within the same range.",
+    "properties": {
+      "Lie Detection": "Automatically detect lies within 30 feet",
+      "Illusion Piercing": "See through all illusions",
+      "Invisibility Sight": "Detect invisible creatures"
+    },
+    "abilities": [
+      {
+        "name": "Truth Sight",
+        "description": "Automatically know when someone is lying to you."
+      },
+      {
+        "name": "Reality Vision",
+        "description": "See through illusions and detect hidden creatures."
+      }
+    ]
+  },
+  {
+    "name": "Mantle of Spell Resistance",
+    "type": "Cloak",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Anti-magic specialists, spell resistance vendors, magical defense equipment stores",
+    "description": "This heavy cloak is woven with anti-magical threads that resist spells. Arcane symbols along the hem glow when magic is cast nearby.<br><br><strong>Mechanics:</strong> You have advantage on all saving throws against spells. Additionally, you have spell resistance 13 (roll 1d20, on 13+ the spell has no effect on you).",
+    "properties": {
+      "Spell Save Advantage": "Advantage on all spell saves",
+      "Spell Resistance": "SR 13 against all spells",
+      "Magic Detection": "Glows when spells are cast nearby"
+    },
+    "abilities": [
+      {
+        "name": "Anti-Magic Weaving",
+        "description": "Woven protections that resist magical effects."
+      },
+      {
+        "name": "Spell Immunity",
+        "description": "Chance to completely resist magical attacks."
+      }
+    ]
+  },
+  {
+    "name": "Necklace of Prayer Beads",
+    "type": "Necklace",
+    "rarity": "Rare",
+    "attunement": "yes (by a cleric, druid, or paladin)",
+    "suggestedLevel": "5-10",
+    "location": "Sacred temples, divine magic vendors, holy relic stores, religious equipment suppliers",
+    "description": "This necklace contains blessed beads that store divine magic. Each bead holds a different spell and glows when activated.<br><br><strong>Mechanics:</strong> The necklace has 6 beads, each storing a different spell: bless, cure wounds (2nd level), lesser restoration, spiritual weapon, freedom of movement, and greater restoration. Each can be used once before requiring consecration.",
+    "properties": {
+      "Spell Storage": "6 different divine spells",
+      "Single Use": "Each bead used once before recharging",
+      "Divine Attunement": "Requires divine spellcaster"
+    },
+    "abilities": [
+      {
+        "name": "Divine Reservoir",
+        "description": "Store multiple divine spells for emergency use."
+      },
+      {
+        "name": "Blessed Magic",
+        "description": "Access healing and protection spells beyond your normal capacity."
+      }
+    ]
+  },
+  {
+    "name": "Orb of Time",
+    "type": "Orb",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Time magic specialists, temporal manipulation vendors, chronology equipment stores",
+    "description": "This crystalline orb contains swirling temporal energy that allows limited manipulation of time. Watching it can be hypnotic.<br><br><strong>Mechanics:</strong> Once per day, you can cast haste or slow (DC 17). Once per week, you can rewind time by 6 seconds, allowing you or an ally to reroll one attack roll, ability check, or saving throw.",
+    "properties": {
+      "Time Spells": "Haste or slow once per day",
+      "Time Rewind": "Reroll one roll once per week",
+      "Temporal Energy": "Contains swirling time magic"
+    },
+    "abilities": [
+      {
+        "name": "Temporal Control",
+        "description": "Speed up or slow down the flow of time around targets."
+      },
+      {
+        "name": "Fate Revision",
+        "description": "Rewind critical moments to change outcomes."
+      }
+    ]
+  },
+  {
+    "name": "Potion of Giant Size",
+    "type": "Potion",
+    "rarity": "Legendary",
+    "attunement": "no",
+    "suggestedLevel": "17-20",
+    "location": "Giant magic specialists, size alteration vendors, legendary potion brewers",
+    "description": "This massive potion bottle contains liquid that transforms the drinker into giant size. The potion itself requires two hands to lift.<br><br><strong>Mechanics:</strong> For 24 hours, you become Huge size, your Strength becomes 25, and you gain 40 temporary hit points. Your reach increases to 15 feet and you deal double damage with weapon attacks.",
+    "properties": {
+      "Size Change": "Become Huge for 24 hours",
+      "Strength Boost": "Strength becomes 25",
+      "Combat Enhancement": "Double weapon damage, 15-foot reach"
+    },
+    "abilities": [
+      {
+        "name": "Giant Transformation",
+        "description": "Become the size of a true giant with proportional strength."
+      },
+      {
+        "name": "Colossal Power",
+        "description": "Devastating combat ability through massive size and strength."
+      }
+    ]
+  },
+  {
+    "name": "Quiver of Magic Arrows",
+    "type": "Quiver",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Master fletchers, magical ammunition vendors, archery enhancement specialists",
+    "description": "This quiver creates magical arrows with various special properties. Each arrow glows with different colored energy based on its effect.<br><br><strong>Mechanics:</strong> The quiver produces 3 arrows per day: one +3 arrow, one arrow of slaying (specific creature type), and one arrow of greater elemental damage (3d6 fire, cold, or lightning).",
+    "properties": {
+      "Daily Production": "3 magical arrows per day",
+      "Arrow Types": "+3, slaying, and greater elemental",
+      "Varied Effects": "Different arrows for different situations"
+    },
+    "abilities": [
+      {
+        "name": "Specialized Ammunition",
+        "description": "Create arrows with powerful magical enhancements."
+      },
+      {
+        "name": "Tactical Options",
+        "description": "Different arrows for various combat situations and enemy types."
+      }
+    ]
+  },
+  {
+    "name": "Ring of the Ram",
+    "type": "Ring",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Force magic specialists, battering equipment vendors, siege magic stores",
+    "description": "This ring can project rams of force that strike with tremendous impact. The ring has a relief of a ram's head that glows when activated.<br><br><strong>Mechanics:</strong> The ring has 3 charges and regains 1d3 charges at dawn. You can expend charges to create force rams: 1 charge (2d10 force damage, 20 feet), 2 charges (3d10, 40 feet), 3 charges (4d10, 60 feet, breaks objects).",
+    "properties": {
+      "Charges": "3 charges, regain 1d3 daily",
+      "Scalable Power": "1-3 charges for different effects",
+      "Force Damage": "2d10 to 4d10 force damage"
+    },
+    "abilities": [
+      {
+        "name": "Force Battering",
+        "description": "Strike enemies and objects with rams of pure force."
+      },
+      {
+        "name": "Siege Breaking",
+        "description": "Break through doors, walls, and barriers with concentrated force."
+      }
+    ]
+  },
+  {
+    "name": "Staff of Striking",
+    "type": "Staff",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Combat staff specialists, enhanced weapon vendors, striking force equipment stores",
+    "description": "This staff pulses with kinetic energy and delivers devastating blows. The shaft is reinforced with magical metals for enhanced striking power.<br><br><strong>Mechanics:</strong> This is a +3 quarterstaff. It has 10 charges and regains 1d6+4 charges daily. You can expend 1 charge to deal an extra 1d6 force damage on a hit (max 3 charges per hit).",
+    "properties": {
+      "Weapon Bonus": "+3 quarterstaff",
+      "Charges": "10 charges, regain 1d6+4 daily",
+      "Force Damage": "Extra 1d6 per charge spent"
+    },
+    "abilities": [
+      {
+        "name": "Enhanced Striking",
+        "description": "Deliver devastating blows enhanced with force energy."
+      },
+      {
+        "name": "Kinetic Power",
+        "description": "Channel magical energy to amplify physical strikes."
+      }
+    ]
+  },
+  {
+    "name": "Tentacle Rod",
+    "type": "Rod",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Aberrant magic specialists, grappling equipment vendors, tentacle creature research facilities",
+    "description": "This twisted rod can sprout writhing tentacles that grab and restrain enemies. The surface feels slightly slimy and warm to the touch.<br><br><strong>Mechanics:</strong> As an action, you can make 3 tentacle attacks (each +9 to hit, 5-foot reach). Hit targets are grappled (DC 15 to escape). You can grapple up to 3 creatures at once.",
+    "properties": {
+      "Tentacle Attacks": "3 attacks at +9 to hit",
+      "Grappling DC": "DC 15 to escape",
+      "Multiple Grapples": "Up to 3 creatures at once"
+    },
+    "abilities": [
+      {
+        "name": "Multi-Grapple",
+        "description": "Restrain multiple enemies simultaneously with writhing tentacles."
+      },
+      {
+        "name": "Battlefield Control",
+        "description": "Control enemy positioning through grappling abilities."
+      }
+    ]
+  },
+  {
+    "name": "Unicorn Horn",
+    "type": "Wand",
+    "rarity": "Legendary",
+    "attunement": "yes (by a creature of good alignment)",
+    "suggestedLevel": "17-20",
+    "location": "Sacred groves, unicorn sanctuaries, pure magic specialists, celestial equipment vaults",
+    "description": "This spiraling horn from a unicorn contains powerful healing and purification magic. It glows with pure white light when evil is near.<br><br><strong>Mechanics:</strong> The horn has 7 charges and regains 1d6+1 charges at dawn. You can expend charges to cast: cure wounds (1 charge), lesser restoration (2 charges), greater restoration (5 charges), or heal (6 charges). Detects evil within 60 feet.",
+    "properties": {
+      "Charges": "7 charges, regain 1d6+1 daily",
+      "Healing Spells": "Various restoration and healing effects",
+      "Evil Detection": "Detects evil within 60 feet"
+    },
+    "abilities": [
+      {
+        "name": "Pure Healing",
+        "description": "Channel the legendary healing power of unicorns."
+      },
+      {
+        "name": "Evil Warning",
+        "description": "Detect the presence of evil creatures and intentions."
+      }
+    ]
+  },
+  {
+    "name": "Vest of Escape",
+    "type": "Vest",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Escape specialists, prison break equipment vendors, freedom magic stores",
+    "description": "This leather vest has hidden compartments and magical properties that aid in escaping restraints. Lock picks and small tools seem to appear when needed.<br><br><strong>Mechanics:</strong> You have advantage on Dexterity checks to escape restraints and Sleight of Hand checks. Once per day, you can cast freedom of movement on yourself. Small thieves' tools appear when needed.",
+    "properties": {
+      "Escape Advantage": "Advantage on restraint escape checks",
+      "Sleight of Hand": "Advantage on Sleight of Hand",
+      "Freedom Spell": "Freedom of movement once per day"
+    },
+    "abilities": [
+      {
+        "name": "Master Escape",
+        "description": "Enhanced ability to escape from any form of restraint."
+      },
+      {
+        "name": "Tool Manifestation",
+        "description": "Small tools appear when needed for escape attempts."
+      }
+    ]
+  },
+  {
+    "name": "Wand of Paralysis",
+    "type": "Wand",
+    "rarity": "Rare",
+    "attunement": "yes (by a spellcaster)",
+    "suggestedLevel": "5-10",
+    "location": "Paralysis specialists, non-lethal combat vendors, disable magic equipment stores",
+    "description": "This wand can render enemies immobile without permanent harm. The tip crackles with restraining energy when activated.<br><br><strong>Mechanics:</strong> The wand has 7 charges and regains 1d6+1 charges daily. You can expend 1 charge to cast hold person (DC 15) or 3 charges to cast hold monster (DC 15).",
+    "properties": {
+      "Charges": "7 charges, regain 1d6+1 daily",
+      "Hold Spells": "Hold person (1 charge) or hold monster (3 charges)",
+      "Save DC": "DC 15 for all effects"
+    },
+    "abilities": [
+      {
+        "name": "Enemy Immobilization",
+        "description": "Render enemies helpless without causing permanent harm."
+      },
+      {
+        "name": "Non-Lethal Control",
+        "description": "Disable threats through magical paralysis effects."
+      }
+    ]
+  },
+  {
+    "name": "Xorn Hide Armor",
+    "type": "Armor",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Exotic creature hide crafters, earth elemental equipment vendors, underground armor specialists",
+    "description": "This armor is crafted from the hide of a xorn and provides protection against earth-based attacks. It has a metallic sheen and feels surprisingly lightweight.<br><br><strong>Mechanics:</strong> This is +1 studded leather armor (AC 12 + Dex mod +1). You have resistance to acid damage and can move through earth and stone as if it were difficult terrain without taking damage.",
+    "properties": {
+      "Armor Class": "12 + Dex mod +1",
+      "Acid Resistance": "Resistance to acid damage",
+      "Earth Walking": "Move through earth/stone as difficult terrain"
+    },
+    "abilities": [
+      {
+        "name": "Earth Affinity",
+        "description": "Move through solid earth and stone with xorn-like ability."
+      },
+      {
+        "name": "Elemental Protection",
+        "description": "Resist acid damage from earth elementals and corrosive effects."
+      }
+    ]
+  },
+  {
+    "name": "Yearning Locket",
+    "type": "Locket",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Emotional magic vendors, memory specialists, sentimental item crafters",
+    "description": "This silver locket holds the image of someone important to you and creates an emotional bond across any distance. It grows warm when they think of you.<br><br><strong>Mechanics:</strong> You can place an image or memento of a creature in the locket. While attuned, you always know the general direction and distance to that creature, and you can sense their emotional state once per day.",
+    "properties": {
+      "Direction Sense": "Know direction and distance to bonded creature",
+      "Emotional Link": "Sense their emotional state once per day",
+      "Unlimited Range": "Works across any distance"
+    },
+    "abilities": [
+      {
+        "name": "Emotional Bond",
+        "description": "Maintain connection with loved ones across vast distances."
+      },
+      {
+        "name": "Loving Guidance",
+        "description": "Always know which way leads back to those you care about."
+      }
+    ]
+  },
+  {
+    "name": "Zephyr Cloak",
+    "type": "Cloak",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Air elemental equipment vendors, wind magic specialists, atmospheric control stores",
+    "description": "This flowing cloak billows constantly with magical wind. It grants control over air currents and limited flight capability.<br><br><strong>Mechanics:</strong> You can cast gust of wind at will. Once per day, you can cast fly on yourself for 10 minutes. You also have resistance to falling damage and can glide 20 feet horizontally for every 10 feet fallen.",
+    "properties": {
+      "Wind Control": "Gust of wind at will",
+      "Flight": "Fly for 10 minutes once per day",
+      "Fall Protection": "Resistance to falling damage, gliding ability"
+    },
+    "abilities": [
+      {
+        "name": "Wind Mastery",
+        "description": "Control air currents and wind patterns around you."
+      },
+      {
+        "name": "Aerial Grace",
+        "description": "Glide safely and achieve limited flight through wind control."
+      }
+    ]
+  },
+  {
+    "name": "Amulet of Proof Against Detection",
+    "type": "Amulet",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Stealth specialists, anti-divination vendors, privacy protection stores",
+    "description": "This dark stone amulet shields the wearer from magical detection and scrying. It seems to absorb light around its edges.<br><br><strong>Mechanics:</strong> You can't be targeted by divination magic or perceived through magical scrying sensors. You also have advantage on Stealth checks against creatures using magical detection.",
+    "properties": {
+      "Divination Immunity": "Can't be targeted by divination magic",
+      "Scrying Protection": "Immune to magical scrying",
+      "Stealth Advantage": "Advantage vs magical detection"
+    },
+    "abilities": [
+      {
+        "name": "Magical Invisibility",
+        "description": "Remain hidden from all forms of magical detection and surveillance."
+      },
+      {
+        "name": "Privacy Shield",
+        "description": "Complete protection against scrying and divination attempts."
+      }
+    ]
+  },
+  {
+    "name": "Bracelet of Rock Magic",
+    "type": "Bracelet",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Earth magic specialists, geological equipment vendors, stone magic stores",
+    "description": "This stone bracelet grants control over earth and rock. Small stones orbit around it when the wearer concentrates.<br><br><strong>Mechanics:</strong> You can cast mold earth at will. Once per day each, you can cast stone shape, wall of stone, and move earth. You also have tremorsense out to 10 feet while touching the ground.",
+    "properties": {
+      "Earth Cantrip": "Mold earth at will",
+      "Daily Spells": "Stone shape, wall of stone, move earth",
+      "Tremorsense": "10 feet while touching ground"
+    },
+    "abilities": [
+      {
+        "name": "Geological Control",
+        "description": "Shape and move earth and stone to your will."
+      },
+      {
+        "name": "Earth Sense",
+        "description": "Feel vibrations through the ground to detect movement."
+      }
+    ]
+  },
+  {
+    "name": "Circlet of Blasting",
+    "type": "Circlet",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Evocation specialists, energy projection vendors, blast magic equipment stores",
+    "description": "This metal circlet can project destructive energy beams from the gem at its center. The gem glows with stored magical energy.<br><br><strong>Mechanics:</strong> The circlet has 3 charges and regains 1d3 charges at dawn. You can expend 1 charge to cast scorching ray as a 2nd-level spell.",
+    "properties": {
+      "Charges": "3 charges, regain 1d3 daily",
+      "Scorching Ray": "2nd level (3 rays)",
+      "Energy Projection": "Beams from forehead gem"
+    },
+    "abilities": [
+      {
+        "name": "Energy Beams",
+        "description": "Project multiple rays of destructive energy from your forehead."
+      },
+      {
+        "name": "Hands-Free Casting",
+        "description": "Attack with magic while keeping hands free for other actions."
+      }
+    ]
+  },
+  {
+    "name": "Dagger of Venom",
+    "type": "Weapon",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Assassin guilds, poison specialists, venomous weapon crafters",
+    "description": "This curved dagger has a hollow blade that secretes deadly poison. The metal has a greenish tint and the edge glistens with venom.<br><br><strong>Mechanics:</strong> This is a +1 dagger. You can use a bonus action to coat the blade with poison (3 uses per day). The next creature hit must make a DC 15 Constitution save or take 2d10 poison damage and be poisoned for 1 minute.",
+    "properties": {
+      "Weapon Bonus": "+1 dagger",
+      "Poison Coating": "3 uses per day",
+      "Poison Effect": "2d10 damage + poisoned condition"
+    },
+    "abilities": [
+      {
+        "name": "Venomous Strike",
+        "description": "Coat the blade with deadly poison for enhanced damage."
+      },
+      {
+        "name": "Toxic Debilitation",
+        "description": "Poison enemies to weaken them in extended combat."
+      }
+    ]
+  },
+  {
+    "name": "Elemental Gem (Fire)",
+    "type": "Gemstone",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Elemental summoning specialists, fire magic vendors, gemstone summoners",
+    "description": "This red gemstone contains a bound fire elemental that can be released when the gem is broken. It radiates warmth and occasionally flickers with inner flame.<br><br><strong>Mechanics:</strong> When broken, the gem summons a fire elemental that serves you for 1 hour or until dismissed. The elemental is friendly and obeys your commands. The gem is destroyed after use.",
+    "properties": {
+      "Single Use": "Gem destroyed when activated",
+      "Elemental Service": "Fire elemental for 1 hour",
+      "Command Obedience": "Elemental follows your orders"
+    },
+    "abilities": [
+      {
+        "name": "Elemental Ally",
+        "description": "Summon a powerful fire elemental to fight alongside you."
+      },
+      {
+        "name": "Emergency Support",
+        "description": "Break glass for instant powerful reinforcement."
+      }
+    ]
+  },
+  {
+    "name": "Figurine of Wondrous Power (Obsidian Steed)",
+    "type": "Figurine",
+    "rarity": "Very Rare",
+    "attunement": "no",
+    "suggestedLevel": "11-16",
+    "location": "Nightmare specialists, dark steed summoners, infernal mount vendors",
+    "description": "This black obsidian figurine of a horse can transform into a nightmare for riding. The figurine feels warm to the touch and smoke seems to rise from it.<br><br><strong>Mechanics:</strong> Once per week, the figurine transforms into a nightmare for up to 24 hours. The nightmare serves as a loyal mount and can fly and use its fear ability.",
+    "properties": {
+      "Weekly Use": "Once per week for 24 hours",
+      "Nightmare Mount": "Full nightmare statistics",
+      "Flight Capable": "Flying mount with fear abilities"
+    },
+    "abilities": [
+      {
+        "name": "Infernal Mount",
+        "description": "Ride a nightmare steed with flight and fear capabilities."
+      },
+      {
+        "name": "Extended Service",
+        "description": "24-hour duration allows for long-distance travel."
+      }
+    ]
+  },
+  {
+    "name": "Gauntlets of Sword Dancing",
+    "type": "Gauntlets",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Weapon mastery specialists, sword dancing academies, combat enhancement vendors",
+    "description": "These elegant gauntlets enhance swordplay with supernatural grace and precision. They adjust to fit perfectly and feel weightless when worn.<br><br><strong>Mechanics:</strong> When wielding a sword, you gain +2 to attack and damage rolls. You can also make an additional attack as a bonus action when fighting with a sword in each hand.",
+    "properties": {
+      "Sword Bonus": "+2 to attack and damage with swords",
+      "Dual Wielding": "Bonus action attack with two swords",
+      "Perfect Fit": "Adjusts to any hand size"
+    },
+    "abilities": [
+      {
+        "name": "Sword Mastery",
+        "description": "Enhanced skill and precision with all sword weapons."
+      },
+      {
+        "name": "Dual Blade Dance",
+        "description": "Fight with two swords with supernatural coordination."
+      }
+    ]
+  },
+  {
+    "name": "Horn of the Tritons",
+    "type": "Horn",
+    "rarity": "Legendary",
+    "attunement": "no",
+    "suggestedLevel": "17-20",
+    "location": "Underwater kingdoms, triton nobility, oceanic equipment vaults",
+    "description": "This conch shell horn can command the seas and summon sea creatures. It echoes with the sound of crashing waves when blown.<br><br><strong>Mechanics:</strong> You can cast fog cloud at will. Three times per day, you can summon sea creatures (equivalent to conjure animals at 5th level, but only sea creatures). Once per day, you can create a massive tidal wave.",
+    "properties": {
+      "Fog Cloud": "At will",
+      "Sea Summoning": "Conjure sea animals (5th level) 3/day",
+      "Tidal Wave": "Massive wave once per day"
+    },
+    "abilities": [
+      {
+        "name": "Ocean Command",
+        "description": "Control sea creatures and ocean currents with divine authority."
+      },
+      {
+        "name": "Tidal Devastation",
+        "description": "Create massive waves that can devastate coastal areas."
+      }
+    ]
+  },
+  {
+    "name": "Iron Flask",
+    "type": "Flask",
+    "rarity": "Legendary",
+    "attunement": "no",
+    "suggestedLevel": "17-20",
+    "location": "Binding specialists, creature containment vendors, imprisonment equipment stores",
+    "description": "This iron bottle can trap extraplanar creatures inside it. Ancient binding runes cover the surface and it feels heavier than it should.<br><br><strong>Mechanics:</strong> The flask can hold one creature from another plane. When opened while containing a creature, you can command it for 1 hour before it returns to its plane. The creature is hostile if you can't speak its language.",
+    "properties": {
+      "Planar Binding": "Trap one extraplanar creature",
+      "Service Time": "1 hour of commanded service",
+      "Language Dependency": "Hostile if you can't communicate"
+    },
+    "abilities": [
+      {
+        "name": "Creature Binding",
+        "description": "Trap powerful extraplanar beings for temporary service."
+      },
+      {
+        "name": "Planar Arsenal",
+        "description": "Access to creatures from other planes as allies or weapons."
+      }
+    ]
+  },
+  {
+    "name": "Javelin of Backbiting",
+    "type": "Weapon",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Cursed weapon vendors, punishment equipment stores, karmic justice specialists",
+    "description": "This javelin punishes those who use it dishonorably. It has an unsettling appearance and seems to writhe slightly in your grip.<br><br><strong>Mechanics:</strong> This is a +2 javelin. However, on a natural 1 attack roll, the javelin turns and strikes you instead for full damage. The javelin returns to your hand after being thrown.",
+    "properties": {
+      "Weapon Bonus": "+2 javelin",
+      "Backbiting": "Strikes wielder on natural 1",
+      "Returning": "Returns to hand after throwing"
+    },
+    "abilities": [
+      {
+        "name": "Honorable Combat",
+        "description": "Powerful weapon that punishes poor technique or dishonorable use."
+      },
+      {
+        "name": "Karmic Balance",
+        "description": "Great power comes with the risk of self-harm."
+      }
+    ]
+  },
+  {
+    "name": "Cube of Frost",
+    "type": "Cube",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Ice magic specialists, cold environment vendors, frost control equipment stores",
+    "description": "This ice-blue cube radiates intense cold and can freeze the area around it. Frost forms constantly on its surface.<br><br><strong>Mechanics:</strong> As an action, you can activate the cube to create a 20-foot radius sphere of intense cold centered on you. All creatures in the area take 4d6 cold damage (DC 15 Constitution save for half). Once per day use.",
+    "properties": {
+      "Cold Damage": "4d6 cold damage",
+      "Area Effect": "20-foot radius sphere",
+      "Daily Use": "Once per day"
+    },
+    "abilities": [
+      {
+        "name": "Frost Burst",
+        "description": "Create an explosion of freezing cold around yourself."
+      },
+      {
+        "name": "Area Denial",
+        "description": "Control battlefield positioning through cold damage zones."
+      }
+    ]
+  },
+  {
+    "name": "Darkskull",
+    "type": "Skull",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Necromancy specialists, death magic vendors, dark artifact collectors",
+    "description": "This obsidian skull radiates necrotic energy and can animate the dead. Its eye sockets glow with green flame when activated.<br><br><strong>Mechanics:</strong> You can cast speak with dead at will. Once per day, you can cast animate dead to create 4 skeletons or 2 zombies. You can also cast vampiric touch 3 times per day.",
+    "properties": {
+      "Speak with Dead": "At will",
+      "Animate Dead": "4 skeletons or 2 zombies once per day",
+      "Vampiric Touch": "3 times per day"
+    },
+    "abilities": [
+      {
+        "name": "Death Communication",
+        "description": "Speak with the spirits of the deceased for information."
+      },
+      {
+        "name": "Undead Command",
+        "description": "Create and control skeleton and zombie minions."
+      }
+    ]
+  },
+  {
+    "name": "Elixir of Health",
+    "type": "Potion",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Master healers, health restoration vendors, cure-all specialists",
+    "description": "This golden liquid cures all diseases and ailments when consumed. It glows with warm, healing light.<br><br><strong>Mechanics:</strong> When consumed, this potion cures any disease, removes the blinded, deafened, paralyzed, and poisoned conditions, and reduces exhaustion by one level.",
+    "properties": {
+      "Disease Cure": "Cures any disease",
+      "Condition Removal": "Removes blinded, deafened, paralyzed, poisoned",
+      "Exhaustion Relief": "Reduces exhaustion by one level"
+    },
+    "abilities": [
+      {
+        "name": "Universal Cure",
+        "description": "Remove almost any negative condition or ailment."
+      },
+      {
+        "name": "Perfect Health",
+        "description": "Restore the body to optimal condition instantly."
+      }
+    ]
+  },
+  {
+    "name": "Frost Brand Longsword",
+    "type": "Weapon",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Ice weapon masters, frost blade crafters, cold steel specialists",
+    "description": "This longsword is forged from ice that never melts and radiates intense cold. Ice crystals form along the blade during combat.<br><br><strong>Mechanics:</strong> This is a +1 longsword that deals an additional 1d6 cold damage. You have resistance to fire damage while wielding it. In freezing temperatures, the sword becomes a +2 weapon with 2d6 cold damage.",
+    "properties": {
+      "Base Enhancement": "+1 longsword with 1d6 cold damage",
+      "Fire Resistance": "Resistance while wielding",
+      "Cold Enhancement": "+2 and 2d6 cold in freezing temperatures"
+    },
+    "abilities": [
+      {
+        "name": "Perpetual Frost",
+        "description": "Weapon made of unmelting ice that freezes enemies."
+      },
+      {
+        "name": "Winter's Edge",
+        "description": "Enhanced power in cold environments and resistance to fire."
+      }
+    ]
+  },
+  {
+    "name": "Gem of Brightness",
+    "type": "Gemstone",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Light magic specialists, illumination equipment vendors, gem crafters",
+    "description": "This prism can create blinding flashes of light and continuous illumination. It captures and reflects light in brilliant patterns.<br><br><strong>Mechanics:</strong> The gem has 50 charges and regains 50 charges daily at dawn. You can use charges for: bright light (1 charge/minute), blinding flash in 30-foot cone (5 charges, DC 15 Con save or blinded), or continuous daylight (5 charges).",
+    "properties": {
+      "Daily Charges": "50 charges, fully replenish at dawn",
+      "Light Options": "Bright light, blinding flash, or daylight",
+      "Flash Save": "DC 15 Constitution vs blindness"
+    },
+    "abilities": [
+      {
+        "name": "Brilliant Illumination",
+        "description": "Provide bright light for exploration and eliminating darkness."
+      },
+      {
+        "name": "Tactical Blinding",
+        "description": "Create blinding flashes to disorient enemies in combat."
+      }
+    ]
+  },
+  {
+    "name": "Hat of Wizardry",
+    "type": "Hat",
+    "rarity": "Rare",
+    "attunement": "yes (by a wizard)",
+    "suggestedLevel": "5-10",
+    "location": "Wizard academies, arcane equipment vendors, spellcasting enhancement specialists",
+    "description": "This pointed wizard hat enhances spellcasting ability and contains hidden magical knowledge. Stars and moons shift across its surface.<br><br><strong>Mechanics:</strong> You can prepare one additional spell of each level you can cast. You also have advantage on Constitution saves to maintain concentration on spells, and your spell save DC increases by 1.",
+    "properties": {
+      "Extra Spells": "One additional spell of each level",
+      "Concentration": "Advantage on concentration saves",
+      "Enhanced DC": "Spell save DC +1"
+    },
+    "abilities": [
+      {
+        "name": "Arcane Mastery",
+        "description": "Enhanced spellcasting through traditional wizard regalia."
+      },
+      {
+        "name": "Magical Focus",
+        "description": "Improved concentration and spell effectiveness."
+      }
+    ]
+  },
+  {
+    "name": "Ioun Stone (Insight)",
+    "type": "Wondrous Item",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Ioun stone collectors, wisdom enhancement vendors, insight specialists",
+    "description": "This blue-green stone orbits your head and enhances your ability to understand people and situations. It pulses with perceptive energy.<br><br><strong>Mechanics:</strong> Your Wisdom score increases by 2 (maximum 22). You also gain proficiency in Insight if you don't have it, or expertise if you do. The stone has AC 24, 10 hit points, and damage immunities.",
+    "properties": {
+      "Wisdom Increase": "+2 to Wisdom (max 22)",
+      "Insight Mastery": "Proficiency or expertise in Insight",
+      "Stone Defense": "AC 24, 10 HP, damage immunities"
+    },
+    "abilities": [
+      {
+        "name": "Enhanced Perception",
+        "description": "Dramatically improved ability to read people and situations."
+      },
+      {
+        "name": "Intuitive Understanding",
+        "description": "Gain deep insights into motivations and hidden meanings."
+      }
+    ]
+  },
+  {
+    "name": "Jug of Alchemy",
+    "type": "Jug",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Alchemical laboratories, liquid transformation vendors, brewing specialists",
+    "description": "This ceramic jug can transform water into various useful liquids through alchemical processes. Bubbling sounds come from within when active.<br><br><strong>Mechanics:</strong> Once per day, you can transform up to 2 gallons of water into beer, wine, acid (vial), basic poison, or healing potion (lesser). The transformation takes 1 hour.",
+    "properties": {
+      "Daily Transform": "2 gallons of water once per day",
+      "Liquid Options": "Beer, wine, acid, poison, or healing potion",
+      "Transform Time": "1 hour process"
+    },
+    "abilities": [
+      {
+        "name": "Liquid Alchemy",
+        "description": "Transform mundane water into valuable or useful substances."
+      },
+      {
+        "name": "Resource Creation",
+        "description": "Generate supplies for healing, combat, or social situations."
+      }
+    ]
+  },
+  {
+    "name": "Keeper's Mantle",
+    "type": "Mantle",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Guardian organizations, protector equipment vendors, warden gear specialists",
+    "description": "This heavy mantle marks you as a protector and enhances your ability to defend others. It bears symbols of protection and vigilance.<br><br><strong>Mechanics:</strong> When an ally within 30 feet is targeted by an attack, you can use your reaction to teleport to an unoccupied space within 5 feet of them and become the target instead. You have resistance to the damage from this redirected attack.",
+    "properties": {
+      "Protection Range": "30 feet",
+      "Defensive Teleport": "Teleport to protect allies",
+      "Damage Resistance": "Resistance to redirected attack damage"
+    },
+    "abilities": [
+      {
+        "name": "Guardian's Duty",
+        "description": "Instantly protect allies by taking their place in danger."
+      },
+      {
+        "name": "Sacrificial Defense",
+        "description": "Reduce damage when protecting others through magical resistance."
+      }
+    ]
+  },
+  {
+    "name": "Libram of Souls and Flesh",
+    "type": "Book",
+    "rarity": "Very Rare",
+    "attunement": "yes (by a spellcaster)",
+    "suggestedLevel": "11-16",
+    "location": "Necromantic libraries, death magic scholars, soul manipulation specialists",
+    "description": "This tome contains forbidden knowledge about souls and the manipulation of life force. The pages feel cold to the touch and seem to whisper.<br><br><strong>Mechanics:</strong> You learn the spells speak with dead, animate dead, and soul cage if you don't know them. You can cast each once per day without expending a spell slot. Your necromancy spells deal maximum damage.",
+    "properties": {
+      "Necromancy Spells": "Speak with dead, animate dead, soul cage",
+      "Daily Casting": "Each spell once per day without slots",
+      "Maximum Damage": "Necromancy spells deal max damage"
+    },
+    "abilities": [
+      {
+        "name": "Soul Mastery",
+        "description": "Command over death magic and the manipulation of life force."
+      },
+      {
+        "name": "Necromantic Power",
+        "description": "Enhanced effectiveness with all death and undead magic."
+      }
+    ]
+  },
+  {
+    "name": "Mirror of Mental Prowess",
+    "type": "Mirror",
+    "rarity": "Legendary",
+    "attunement": "yes",
+    "suggestedLevel": "17-20",
+    "location": "Mind enhancement specialists, intelligence augmentation vendors, mental prowess equipment",
+    "description": "This perfect silver mirror can trap minds and transfer mental abilities between creatures. Gazing into it reveals hidden thoughts and potential.<br><br><strong>Mechanics:</strong> Once per day, you can cast feeblemind (DC 18). You can also view the memories of any creature that looks into the mirror. The mirror can store one creature's consciousness and swap it with another.",
+    "properties": {
+      "Feeblemind": "Once per day (DC 18)",
+      "Memory Viewing": "See memories of viewers",
+      "Consciousness Swap": "Exchange minds between creatures"
+    },
+    "abilities": [
+      {
+        "name": "Mind Imprisonment",
+        "description": "Trap consciousness and exchange minds between bodies."
+      },
+      {
+        "name": "Mental Domination",
+        "description": "Destroy enemy intellect and access their memories."
+      }
+    ]
+  },
+  {
     "name": "Circlet of Mental Fortitude",
     "type": "Headwear",
     "rarity": "Rare",
