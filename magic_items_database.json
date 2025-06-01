@@ -1,0 +1,1103 @@
+[
+  {
+    "name": "Deck of Many Things",
+    "type": "Wondrous Item",
+    "rarity": "Legendary",
+    "attunement": "no",
+    "suggestedLevel": "17-20",
+    "location": "Legendary treasure hoards, planar vaults, fate-touched locations",
+    "description": "This infamous collection of cards appears innocuous enough—thin sheets of ivory or vellum bearing intricate illustrations that shift when viewed from different angles. Each card is connected to fundamental forces of reality, and drawing from the deck attracts the attention of cosmic entities.<br><br><strong>Mechanics:</strong> Contains 13 or 22 cards. Before drawing, declare how many cards you intend to draw. Each card has powerful, often permanent effects that can dramatically alter a character's fate.",
+    "properties": {
+      "Cards": "13 or 22 cards",
+      "Danger": "Extremely powerful effects",
+      "Single Use": "Each card works once"
+    },
+    "abilities": [
+      {
+        "name": "Random Fate",
+        "description": "Each card produces powerful effects ranging from beneficial to catastrophic."
+      }
+    ]
+  },
+  {
+    "name": "Portable Hole",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Dimensional research labs, planar merchants, wizard colleges",
+    "description": "This black cloth appears to be a simple handkerchief but unfolds into a six-foot diameter circle. When placed on a solid surface, it creates an extradimensional hole 10 feet deep where items rest in temporal stasis.<br><br><strong>Mechanics:</strong> Unfolds into a 6-foot diameter circle. Creates an extradimensional hole 10 feet deep on a different plane. Cannot create open passages.",
+    "properties": {
+      "Dimensions": "6 feet diameter, 10 feet deep",
+      "Capacity": "Large extradimensional space",
+      "Deployment": "Action to unfold and place"
+    },
+    "abilities": [
+      {
+        "name": "Extradimensional Space",
+        "description": "Creates a hole that exists on another plane of existence."
+      }
+    ]
+  },
+  {
+    "name": "Cloak of Displacement",
+    "type": "Cloak",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Feywild markets, displacer beast lairs, illusion magic academies",
+    "description": "This extraordinary garment appears woven from illusion itself, creating a persistent false image of its wearer that appears slightly apart from their true location. The effect makes opponents consistently strike at empty air.<br><br><strong>Mechanics:</strong> Projects an illusion causing creatures to have disadvantage on attack rolls against you. If you take damage, the effect stops until the start of your next turn.",
+    "properties": {
+      "Defense": "Disadvantage on attacks against you",
+      "Disruption": "Stops working when damaged",
+      "Recovery": "Reactivates next turn"
+    },
+    "abilities": [
+      {
+        "name": "Displacement Illusion",
+        "description": "Projects false image of your position, making you harder to hit."
+      }
+    ]
+  },
+  {
+    "name": "Gauntlets of Ogre Power",
+    "type": "Gloves",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Ogre strongholds, strength training facilities, warrior guilds",
+    "description": "These massive gauntlets are crafted from thick leather treated with giant sinew oils and etched with primitive runes. When worn, they fundamentally transform the wearer's physical capabilities to supernatural levels.<br><br><strong>Mechanics:</strong> Your Strength score is 19 while you wear these gauntlets. They have no effect if your Strength is already 19 or higher.",
+    "properties": {
+      "Strength": "Sets to 19",
+      "Carrying Capacity": "Greatly increased",
+      "Melee Damage": "Improved strength bonus"
+    },
+    "abilities": [
+      {
+        "name": "Enhanced Strength",
+        "description": "Sets Strength to 19, improving physical capabilities."
+      }
+    ]
+  },
+  {
+    "name": "Rope of Climbing",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Mountaineer supplies, dungeon explorer kits, thieves' guilds",
+    "description": "This sixty-foot length of silk rope possesses an almost serpentine quality, moving with fluid motions and responding to voice commands with eagerness. It can tie itself into any knot and find the safest climbing paths.<br><br><strong>Mechanics:</strong> 60-foot silk rope weighing 3 pounds, holds 3,000 pounds. Speak command word to animate it. Use bonus action to command the other end to move toward a destination.",
+    "properties": {
+      "Length": "60 feet",
+      "Weight Capacity": "3,000 pounds",
+      "Control": "Verbal command + bonus action"
+    },
+    "abilities": [
+      {
+        "name": "Animate Rope",
+        "description": "Rope moves on command, can tie itself and climb surfaces."
+      }
+    ]
+  },
+  {
+    "name": "Bracers of Defense",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Monk monasteries, unarmored fighter schools, magical academies",
+    "description": "These elegant bracers are forged from a mysterious alloy with intricate geometric patterns. They create an invisible field of force that enhances the wearer's natural defensive abilities to superhuman levels.<br><br><strong>Mechanics:</strong> You gain a +2 bonus to AC if you are wearing no armor and using no shield.",
+    "properties": {
+      "AC Bonus": "+2 (unarmored only)",
+      "Restriction": "No armor or shield"
+    },
+    "abilities": [
+      {
+        "name": "Unarmored Defense",
+        "description": "Provides significant AC bonus for unarmored characters."
+      }
+    ]
+  },
+  {
+    "name": "Crystal Ball",
+    "type": "Wondrous Item",
+    "rarity": "Very Rare",
+    "attunement": "yes (by a spellcaster)",
+    "suggestedLevel": "11-16",
+    "location": "Divination towers, oracle temples, fortune teller shops",
+    "description": "This perfectly spherical orb of flawless crystal contains swirling silvery mists that reveal images of distant places and people. It acts as a focus for the ancient art of scrying, providing a stable window into the cosmic web.<br><br><strong>Mechanics:</strong> About 6 inches in diameter. While touching it, you can cast the scrying spell (save DC 17) with it.",
+    "properties": {
+      "Scrying DC": "17",
+      "Uses": "Once per day"
+    },
+    "abilities": [
+      {
+        "name": "Scrying",
+        "description": "Cast Scrying spell once per day to observe distant locations."
+      }
+    ]
+  },
+  {
+    "name": "Eyes of the Eagle",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Ranger outposts, scout training grounds, eagle aeries",
+    "description": "These crystal lenses are cut with precision to focus and intensify light, transforming ordinary vision into something approaching the supernatural sight of hunting birds. They enhance visual processing to predatory levels.<br><br><strong>Mechanics:</strong> Crystal lenses that fit over the eyes. You have advantage on Wisdom (Perception) checks that rely on sight and can make out details of distant objects as small as 2 feet across.",
+    "properties": {
+      "Perception": "Advantage on sight-based checks",
+      "Distance Vision": "See details at extreme range"
+    },
+    "abilities": [
+      {
+        "name": "Eagle Vision",
+        "description": "Dramatically enhances visual perception and distance sight."
+      }
+    ]
+  },
+  {
+    "name": "Flamebrand Sword",
+    "type": "Weapon",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Fire giant forges, salamander lairs, elemental fire temples",
+    "description": "This magnificent longsword has a blade forged from enchanted steel that burns with eternal flames. The crossguard resembles spreading phoenix wings, and the pommel contains a captured fire elemental essence that pulses with inner heat.<br><br><strong>Mechanics:</strong> +1 magic weapon. On a hit, deals an additional 1d6 fire damage. You can use a bonus action to speak the command word and cause flames to wreath the blade for 1 minute, shedding bright light in a 20-foot radius.",
+    "properties": {
+      "Weapon Type": "Longsword +1",
+      "Damage Bonus": "+1d6 fire damage",
+      "Light Source": "20-foot bright light when activated"
+    },
+    "abilities": [
+      {
+        "name": "Flame Wreath",
+        "description": "Bonus action to activate flaming blade that provides light and burns enemies."
+      },
+      {
+        "name": "Fire Resistance",
+        "description": "While attuned, you have resistance to fire damage."
+      }
+    ]
+  },
+  {
+    "name": "Ring of Water Walking",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Coastal temples, water elemental shrines, merfolk treasuries",
+    "description": "This elegant ring is crafted from polished coral and set with a sapphire that constantly swirls with what appears to be trapped seawater. When worn, it grants the wearer supernatural control over their buoyancy and surface tension.<br><br><strong>Mechanics:</strong> While wearing this ring, you can stand and move across any liquid surface as if it were solid ground. This includes water, lava, acid, and other liquids.",
+    "properties": {
+      "Surface Walking": "Walk on any liquid",
+      "No Concentration": "Always active while worn",
+      "Weight Limit": "Normal carrying capacity applies"
+    },
+    "abilities": [
+      {
+        "name": "Liquid Surface Traversal",
+        "description": "Move across any liquid surface as if it were solid ground."
+      }
+    ]
+  },
+  {
+    "name": "Boots of Elvenkind",
+    "type": "Boots",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Elven courts, forest ranger outposts, fey crossing points",
+    "description": "These soft leather boots are crafted from the hide of a celestial deer and stitched with thread spun from moonbeams. They mold perfectly to the wearer's feet and seem to anticipate every step, allowing movement with supernatural grace and silence.<br><br><strong>Mechanics:</strong> While wearing these boots, your steps make no sound, and you have advantage on Dexterity (Stealth) checks that rely on moving silently.",
+    "properties": {
+      "Stealth Bonus": "Advantage on silent movement",
+      "Sound Dampening": "Footsteps make no noise",
+      "Comfort": "Never cause fatigue from walking"
+    },
+    "abilities": [
+      {
+        "name": "Silent Steps",
+        "description": "Move without making any sound with your footsteps."
+      }
+    ]
+  },
+  {
+    "name": "Amulet of the Planes",
+    "type": "Amulet",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Planar research institutes, ancient wizard towers, extraplanar markets",
+    "description": "This complex amulet consists of multiple rotating rings of different metals, each inscribed with symbols representing various planes of existence. At its center lies a small sphere that shifts between different materials - sometimes crystal, sometimes metal, sometimes pure energy.<br><br><strong>Mechanics:</strong> While wearing this amulet, you can use an action to name a location on another plane of existence and cast the plane shift spell. Once used, this property can't be used again until the next dawn.",
+    "properties": {
+      "Plane Shift": "Cast once per day",
+      "No Spell Slot": "Doesn't require spell slots",
+      "Target Selection": "Can target specific locations"
+    },
+    "abilities": [
+      {
+        "name": "Planar Travel",
+        "description": "Cast plane shift spell once per day to travel between planes."
+      },
+      {
+        "name": "Planar Awareness",
+        "description": "Always know which plane of existence you're currently on."
+      }
+    ]
+  },
+  {
+    "name": "Staff of the Python",
+    "type": "Staff",
+    "rarity": "Uncommon",
+    "attunement": "yes (by a spellcaster)",
+    "suggestedLevel": "5-10",
+    "location": "Yuan-ti temples, druid groves, serpent cult sanctuaries",
+    "description": "This staff is carved from a single piece of ancient ironwood and shaped to resemble a coiled serpent. The head of the staff features intricate scales and ruby eyes that seem to watch the surroundings with predatory intelligence.<br><br><strong>Mechanics:</strong> You can use an action to speak the command word and throw the staff on the ground within 10 feet. The staff becomes a giant constrictor snake under your control and acts on its own initiative count.",
+    "properties": {
+      "Transformation": "Becomes giant constrictor snake",
+      "Control": "Snake obeys your commands",
+      "Duration": "1 hour or until reduced to 0 hit points"
+    },
+    "abilities": [
+      {
+        "name": "Serpent Form",
+        "description": "Transform staff into a loyal giant constrictor snake for 1 hour."
+      },
+      {
+        "name": "Mental Link",
+        "description": "Telepathically command the snake while it's within 60 feet."
+      }
+    ]
+  },
+  {
+    "name": "Wand of Magic Missiles",
+    "type": "Wand",
+    "rarity": "Uncommon",
+    "attunement": "yes (by a spellcaster)",
+    "suggestedLevel": "1-4",
+    "location": "Magic item shops, wizard academies, battle mage armories",
+    "description": "This slender wand is crafted from polished oak and tipped with a small crystal that pulses with arcane energy. Carved along its length are tiny runes that glow softly when the wand is charged with magical power.<br><br><strong>Mechanics:</strong> This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell. For 1 charge, you cast the 1st-level version. You can increase the spell slot level by one for each additional charge.",
+    "properties": {
+      "Charges": "7 charges",
+      "Recharge": "1d6+1 charges at dawn",
+      "Spell Level": "1st level + additional charges"
+    },
+    "abilities": [
+      {
+        "name": "Magic Missile",
+        "description": "Cast magic missile spell using charges to determine spell level."
+      }
+    ]
+  },
+  {
+    "name": "Bag of Tricks",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Traveling merchant caravans, circus troupes, trickster deity shrines",
+    "description": "This ordinary-looking gray bag is made from soft cloth and appears unremarkable at first glance. However, when opened, it reveals a swirling void of grey mist. The bag contains an extradimensional space connected to the Feywild, where various woodland creatures wait to be summoned.<br><br><strong>Mechanics:</strong> You can use an action to pull a fuzzy object from the bag and throw it 20 feet. The object transforms into a random beast (roll d8) that is friendly to you and your companions.",
+    "properties": {
+      "Uses": "3 times per day",
+      "Random Animals": "Roll d8 for creature type",
+      "Duration": "Animals last 10 minutes"
+    },
+    "abilities": [
+      {
+        "name": "Summon Beast",
+        "description": "Pull out a random friendly animal that helps you for 10 minutes."
+      }
+    ]
+  },
+  {
+    "name": "Potion of Giant Strength",
+    "type": "Potion",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Giant strongholds, alchemist laboratories, strength-based training grounds",
+    "description": "This thick, crimson potion swirls with golden flecks that seem to pulse with inner power. The liquid has the consistency of honey and emanates a faint warmth. When consumed, it temporarily grants the drinker the legendary strength of giants.<br><br><strong>Mechanics:</strong> When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect if your Strength is equal to or greater than 23.",
+    "properties": {
+      "Strength Score": "Sets to 23",
+      "Duration": "1 hour",
+      "Single Use": "Consumed when used"
+    },
+    "abilities": [
+      {
+        "name": "Giant's Might",
+        "description": "Temporarily gain the incredible strength of giants."
+      }
+    ]
+  },
+  {
+    "name": "Helm of Telepathy",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Psionicist academies, mind flayer ruins, telepathic research facilities",
+    "description": "This ornate helmet is crafted from silvered steel and adorned with intricate engravings of spiraling patterns that seem to shift when viewed directly. A large amethyst crystal is embedded in the center of the forehead plate, pulsing gently with psychic energy.<br><br><strong>Mechanics:</strong> While wearing this helm, you can use an action to cast the detect thoughts spell (save DC 13). Once used, this property can't be used again until the next dawn.",
+    "properties": {
+      "Detect Thoughts": "Cast once per day",
+      "Save DC": "13",
+      "Range": "30 feet"
+    },
+    "abilities": [
+      {
+        "name": "Mind Reading",
+        "description": "Cast detect thoughts spell to read surface thoughts of creatures."
+      },
+      {
+        "name": "Telepathic Communication",
+        "description": "Communicate telepathically with any creature within 30 feet that knows a language."
+      }
+    ]
+  },
+  {
+    "name": "Shield of Missile Attraction",
+    "type": "Shield",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Cursed armories, battlefield ruins, trickster god temples",
+    "description": "This polished steel shield bears an elaborate design of arrows, bolts, and other projectiles carved into its surface. The metal has an unusual lustrous quality that seems to draw the eye - and unfortunately, incoming missiles as well. While protective, it comes with an unexpected drawback.<br><br><strong>Mechanics:</strong> +2 magic shield. Cursed: While holding this shield, you have disadvantage on Dexterity saving throws, and ranged weapon attacks against you are made with advantage.",
+    "properties": {
+      "AC Bonus": "+2 shield bonus",
+      "Curse": "Attracts ranged attacks",
+      "Dexterity Penalty": "Disadvantage on Dex saves"
+    },
+    "abilities": [
+      {
+        "name": "Enhanced Protection",
+        "description": "Provides superior shield protection with +2 AC bonus."
+      },
+      {
+        "name": "Missile Magnet (Curse)",
+        "description": "Draws ranged attacks and impedes agility. Requires remove curse to unequip."
+      }
+    ]
+  },
+  {
+    "name": "Hammer of the Forge Master",
+    "type": "Weapon",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Master blacksmith workshops, dwarven forge guilds, fire giant smithies",
+    "description": "This magnificent warhammer doubles as both weapon and crafting tool. Forged from meteoric iron and blessed by the forge gods, its head bears intricate runes that glow with inner fire when striking metal. The handle is wrapped in dragonhide leather that never burns.<br><br><strong>Mechanics:</strong> +1 magic weapon that also functions as masterwork smith's tools. While using this hammer for crafting, you have advantage on all ability checks related to metalworking and reduce crafting time by half.",
+    "properties": {
+      "Weapon Type": "Warhammer +1",
+      "Tool Proficiency": "Counts as smith's tools",
+      "Crafting Speed": "Half normal time for metalwork"
+    },
+    "abilities": [
+      {
+        "name": "Perfect Strike",
+        "description": "Advantage on all metalworking ability checks when used as a crafting tool."
+      },
+      {
+        "name": "Forge Blessing",
+        "description": "Items crafted with this hammer gain +1 to durability and quality."
+      }
+    ]
+  },
+  {
+    "name": "Bellows of Endless Wind",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Blacksmith shops, artificer workshops, elemental air shrines",
+    "description": "These leather bellows are reinforced with bands of enchanted steel and connected to a small air elemental bound within. They never require manual pumping and can maintain any desired temperature in a forge indefinitely.<br><br><strong>Mechanics:</strong> When attached to a forge, these bellows automatically maintain optimal airflow. The forge reaches desired temperatures in half the normal time and maintains perfect heat without attention.",
+    "properties": {
+      "Automatic Operation": "No manual pumping required",
+      "Heat Control": "Precise temperature maintenance",
+      "Efficiency": "Halves heating time"
+    },
+    "abilities": [
+      {
+        "name": "Perpetual Airflow",
+        "description": "Provides continuous, controlled air supply to any forge."
+      },
+      {
+        "name": "Temperature Mastery",
+        "description": "Maintains exact forge temperatures without fluctuation."
+      }
+    ]
+  },
+  {
+    "name": "Anvil of True Shaping",
+    "type": "Wondrous Item",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Legendary smithies, dwarven clan treasuries, divine forge chambers",
+    "description": "This massive anvil is carved from a single block of adamantine and inscribed with creation runes in every known language. It radiates an aura of perfect craftsmanship and seems to guide the smith's hand toward ideal forms.<br><br><strong>Mechanics:</strong> When working at this anvil, all metalworking checks are made with advantage, and you can attempt to craft items that would normally be beyond your skill level. Once per day, you can automatically succeed on one crafting check.",
+    "properties": {
+      "Material": "Pure adamantine construction",
+      "Skill Enhancement": "Advantage on all metalworking",
+      "Perfect Creation": "One automatic success per day"
+    },
+    "abilities": [
+      {
+        "name": "Master's Guidance",
+        "description": "Advantage on all metalworking checks and ability to craft beyond normal skill level."
+      },
+      {
+        "name": "Flawless Strike",
+        "description": "Once per day, automatically succeed on any crafting ability check."
+      }
+    ]
+  },
+  {
+    "name": "Tongs of Elemental Grasping",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Elemental forges, magical smithies, artificer colleges",
+    "description": "These masterwork tongs are crafted from enchanted steel with grips wrapped in salamander leather. They can safely handle any material regardless of temperature and seem to anticipate the smith's needs.<br><br><strong>Mechanics:</strong> These tongs can safely grasp and manipulate any material, regardless of temperature, magical properties, or hazardous nature. They extend your reach by 5 feet when crafting.",
+    "properties": {
+      "Temperature Immunity": "Handle any heat or cold",
+      "Magic Resistance": "Safely manipulate magical materials",
+      "Extended Reach": "5 feet additional range"
+    },
+    "abilities": [
+      {
+        "name": "Universal Grip",
+        "description": "Safely handle any material regardless of temperature or magical properties."
+      },
+      {
+        "name": "Precise Control",
+        "description": "Gain fine manipulation abilities even with extremely hot or dangerous materials."
+      }
+    ]
+  },
+  {
+    "name": "Apron of the Forge Guardian",
+    "type": "Armor",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Master smiths' personal gear, forge safety equipment vendors, fire giant workshops",
+    "description": "This heavy leather apron is reinforced with overlapping scales of red dragon hide and blessed with protective ward runes. It provides both physical protection and magical defenses specifically tailored for forge work.<br><br><strong>Mechanics:</strong> While wearing this apron, you have resistance to fire damage and advantage on saving throws against effects that would damage or destroy crafted items. AC 12 + Dex modifier (max 2).",
+    "properties": {
+      "AC": "12 + Dex modifier (max 2)",
+      "Fire Resistance": "Resistance to fire damage",
+      "Craft Protection": "Advantage on saves to protect crafted items"
+    },
+    "abilities": [
+      {
+        "name": "Forge Ward",
+        "description": "Resistance to fire damage and protection from forge-related hazards."
+      },
+      {
+        "name": "Artisan's Shield",
+        "description": "Magical protection extends to items you're crafting, preventing damage from accidents."
+      }
+    ]
+  },
+  {
+    "name": "Crucible of Infinite Metals",
+    "type": "Wondrous Item",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Legendary smithies, planar trading posts, elemental earth temples",
+    "description": "This large crucible appears to be made of dark volcanic glass but is actually forged from crystallized earth elemental essence. When activated, it can produce any common metal in unlimited quantities, and rare metals in limited amounts.<br><br><strong>Mechanics:</strong> Once per day, you can command the crucible to produce up to 100 pounds of common metals (iron, copper, tin) or 10 pounds of uncommon metals (silver, gold, platinum) or 1 pound of rare metals (mithril, adamantine).",
+    "properties": {
+      "Common Metals": "100 pounds per day",
+      "Uncommon Metals": "10 pounds per day",
+      "Rare Metals": "1 pound per day"
+    },
+    "abilities": [
+      {
+        "name": "Metal Creation",
+        "description": "Generate any type of metal based on rarity limits once per day."
+      },
+      {
+        "name": "Pure Quality",
+        "description": "All metals produced are of perfect purity and quality."
+      }
+    ]
+  },
+  {
+    "name": "Quenching Basin of Perfect Cooling",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Professional smithies, weapon crafting guilds, magical tool vendors",
+    "description": "This wide stone basin is carved from a single piece of glacier ice that never melts. The water within remains at the perfect temperature for quenching any metal, automatically adjusting to provide optimal cooling rates.<br><br><strong>Mechanics:</strong> Any metal item quenched in this basin is cooled at the perfect rate, preventing warping, cracking, or other cooling-related defects. Items quenched here gain +1 to durability.",
+    "properties": {
+      "Perfect Temperature": "Optimal cooling for any metal",
+      "Defect Prevention": "No cooling-related flaws",
+      "Durability Bonus": "+1 to item durability"
+    },
+    "abilities": [
+      {
+        "name": "Optimal Quenching",
+        "description": "Provides perfect cooling rates to prevent defects in crafted items."
+      },
+      {
+        "name": "Enhanced Durability",
+        "description": "Items quenched here are more resistant to wear and damage."
+      }
+    ]
+  },
+  {
+    "name": "Lens of Flaw Detection",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Quality control stations, master craftsmen's tools, artificer laboratories",
+    "description": "This crystal magnifying lens is ground from pure divination crystal and set in a frame of enchanted silver. When looking through it, even the smallest imperfections in crafted items become clearly visible as glowing lines of colored light.<br><br><strong>Mechanics:</strong> While looking through this lens, you can instantly detect any flaws, weaknesses, or defects in crafted items. You gain advantage on Intelligence (Investigation) checks to assess item quality and can determine an item's exact durability and structural integrity.",
+    "properties": {
+      "Flaw Detection": "Reveals all structural defects",
+      "Quality Assessment": "Determines exact item condition",
+      "Investigation Bonus": "Advantage on quality checks"
+    },
+    "abilities": [
+      {
+        "name": "Perfect Vision",
+        "description": "See through illusions and detect any hidden flaws in crafted items."
+      },
+      {
+        "name": "Structural Analysis",
+        "description": "Instantly understand the complete structural integrity of any item."
+      }
+    ]
+  },
+  {
+    "name": "Gloves of Steady Hands",
+    "type": "Gloves",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Fine craftsmen's workshops, jeweler's guilds, precision tool vendors",
+    "description": "These supple leather gloves are stitched with silver thread in intricate patterns that seem to stabilize the wearer's movements. Tiny gems embedded in the fingertips pulse with a calming magical aura.<br><br><strong>Mechanics:</strong> While wearing these gloves, your hands never shake or tremble, and you have advantage on all Dexterity-based ability checks involving fine motor control, including crafting delicate items.",
+    "properties": {
+      "Hand Stability": "Eliminates hand tremors",
+      "Fine Control": "Advantage on delicate work",
+      "Precision Crafting": "Enhanced accuracy for detailed work"
+    },
+    "abilities": [
+      {
+        "name": "Unwavering Precision",
+        "description": "Advantage on all Dexterity checks requiring fine motor control."
+      },
+      {
+        "name": "Artisan's Grace",
+        "description": "Can work on extremely delicate projects without risk of accidental damage."
+      }
+    ]
+  },
+  {
+    "name": "Forge of Endless Flame",
+    "type": "Wondrous Item",
+    "rarity": "Legendary",
+    "attunement": "yes",
+    "suggestedLevel": "17-20",
+    "location": "Divine smithies, primordial fire temples, legendary craftsmen's workshops",
+    "description": "This massive forge appears to contain a captive star at its heart, burning with flames that have never been extinguished since the dawn of creation. The fire within burns at any desired temperature and can smelt any known material.<br><br><strong>Mechanics:</strong> This forge burns eternally without fuel and can reach any temperature instantly. It can smelt any material, including magical metals and extraplanar substances. Items forged here gain a permanent +1 enhancement bonus and count as magical.",
+    "properties": {
+      "Eternal Flame": "Burns forever without fuel",
+      "Infinite Temperature": "Can reach any heat level",
+      "Universal Smelting": "Can work any material"
+    },
+    "abilities": [
+      {
+        "name": "Divine Crafting",
+        "description": "All items forged here automatically gain +1 enhancement and magical properties."
+      },
+      {
+        "name": "Planar Metallurgy",
+        "description": "Can work with materials from any plane of existence."
+      },
+      {
+        "name": "Masterwork Creation",
+        "description": "Once per month, can create an item of up to Very Rare quality."
+      }
+    ]
+  },
+  {
+    "name": "Mirror of Past Reflections",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Ancient libraries, divination towers, historian's studies",
+    "description": "This ornate hand mirror has a frame of tarnished silver engraved with swirling temporal runes. Its surface shows not your current reflection, but glimpses of your past selves and the echoes of events that occurred in its presence.<br><br><strong>Mechanics:</strong> Once per day, you can gaze into the mirror and witness any event that occurred within 30 feet of the mirror's current location within the past 24 hours, viewing it as if you were present.",
+    "properties": {
+      "Temporal Range": "Past 24 hours",
+      "Viewing Area": "30-foot radius from mirror",
+      "Duration": "Up to 10 minutes of viewing"
+    },
+    "abilities": [
+      {
+        "name": "Historical Sight",
+        "description": "View any event that occurred near the mirror within the past day."
+      },
+      {
+        "name": "Past Self Glimpses",
+        "description": "Occasionally see reflections of your past experiences and decisions."
+      }
+    ]
+  },
+  {
+    "name": "Cloak of Many Fashions",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Fashion boutiques, noble courts, theatrical costume shops",
+    "description": "This remarkable garment appears to be a simple traveling cloak, but its fabric shimmers with subtle magical threads. At the wearer's command, it can transform into any style of clothing appropriate for any social situation or climate.<br><br><strong>Mechanics:</strong> As an action, you can command the cloak to change into any set of clothing, from peasant garb to noble finery. The clothing is always perfectly fitted and appropriate for the current weather.",
+    "properties": {
+      "Instant Transformation": "Change to any clothing style",
+      "Perfect Fit": "Always sized correctly",
+      "Climate Adaptation": "Adjusts for weather conditions"
+    },
+    "abilities": [
+      {
+        "name": "Fashion Transformation",
+        "description": "Transform into any style of clothing from any culture or social class."
+      },
+      {
+        "name": "Social Camouflage",
+        "description": "Gain advantage on Charisma (Deception) checks to blend into social situations."
+      }
+    ]
+  },
+  {
+    "name": "Candle of Truth Telling",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Courtrooms, interrogation chambers, temples of justice",
+    "description": "This white candle is made from the rendered fat of a celestial creature and burns with a pure, steady flame that never flickers. Its light has the power to compel honesty from those within its illumination.<br><br><strong>Mechanics:</strong> When lit, creatures within 10 feet of the candle must make a Wisdom saving throw (DC 13) when they attempt to tell a deliberate lie. On a failure, they must speak the truth or remain silent.",
+    "properties": {
+      "Truth Radius": "10 feet from candle",
+      "Save DC": "Wisdom DC 13",
+      "Burn Duration": "8 hours per lighting"
+    },
+    "abilities": [
+      {
+        "name": "Compel Truth",
+        "description": "Forces creatures to make saves when attempting to lie in the candle's light."
+      },
+      {
+        "name": "Detect Deception",
+        "description": "The flame flickers and dims when someone successfully lies nearby."
+      }
+    ]
+  },
+  {
+    "name": "Bottle of Boundless Air",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Underwater ruins, air elemental shrines, deep mining operations",
+    "description": "This crystal bottle contains what appears to be ordinary air, but it holds an extradimensional pocket connected to the Elemental Plane of Air. The bottle never empties and provides an unlimited supply of fresh, breathable air.<br><br><strong>Mechanics:</strong> You can drink from this bottle to breathe normally in any environment for 1 hour. Multiple creatures can share the air by each taking a drink. The bottle refills instantly after each use.",
+    "properties": {
+      "Air Duration": "1 hour per drink",
+      "Unlimited Uses": "Never empties",
+      "Universal Breathing": "Works in any environment"
+    },
+    "abilities": [
+      {
+        "name": "Eternal Breath",
+        "description": "Provides breathable air in any environment, including underwater or in toxic atmospheres."
+      },
+      {
+        "name": "Shared Respiration",
+        "description": "Multiple creatures can benefit by each taking a drink from the bottle."
+      }
+    ]
+  },
+  {
+    "name": "Compass of Desire",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Treasure hunter guilds, explorer's societies, wish-granting locations",
+    "description": "This brass compass has an ornate face inscribed with symbols representing various desires and needs. Instead of pointing north, its needle points toward whatever the attuned user most desires at the moment.<br><br><strong>Mechanics:</strong> While holding the compass, you can concentrate on something you desire. The needle will point in the direction of the closest example of that thing within 1 mile, if one exists.",
+    "properties": {
+      "Detection Range": "1 mile radius",
+      "Desire Tracking": "Points to whatever you most want",
+      "Concentration": "Requires focus to specify target"
+    },
+    "abilities": [
+      {
+        "name": "Heart's Direction",
+        "description": "Points toward whatever you most desire within range."
+      },
+      {
+        "name": "Specific Seeking",
+        "description": "Can focus on particular objects, people, or concepts when concentrating."
+      }
+    ]
+  },
+  {
+    "name": "Tankard of Endless Ale",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Taverns, breweries, dwarven halls, festival grounds",
+    "description": "This sturdy pewter tankard is etched with images of hops, barley, and singing dwarves. No matter how much you drink from it, it always remains full of perfectly crafted ale that matches the drinker's preferred taste.<br><br><strong>Mechanics:</strong> This tankard always contains fresh, high-quality ale that tastes exactly how the current drinker prefers. The ale provides the same nourishment as food and water for one meal per day.",
+    "properties": {
+      "Infinite Ale": "Never empties",
+      "Perfect Taste": "Matches drinker's preferences",
+      "Nutritional Value": "Counts as one meal per day"
+    },
+    "abilities": [
+      {
+        "name": "Endless Refreshment",
+        "description": "Provides unlimited ale that perfectly matches the drinker's taste preferences."
+      },
+      {
+        "name": "Sustaining Brew",
+        "description": "The magical ale can substitute for one meal per day when consumed."
+      }
+    ]
+  },
+  {
+    "name": "Bed of Restful Sleep",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Luxury inns, healing temples, noble bedchambers, rest shrines",
+    "description": "This comfortable bed appears to be made of the finest materials, with a mattress that perfectly conforms to any sleeper. The bed radiates an aura of peace and tranquility that promotes deep, restorative sleep.<br><br><strong>Mechanics:</strong> Anyone who sleeps in this bed for at least 4 hours gains the benefits of a long rest. Additionally, they recover from one level of exhaustion and gain temporary hit points equal to their level that last until their next long rest.",
+    "properties": {
+      "Accelerated Rest": "Long rest in 4 hours",
+      "Exhaustion Recovery": "Remove one exhaustion level",
+      "Temporary HP": "Gain temp HP equal to level"
+    },
+    "abilities": [
+      {
+        "name": "Perfect Rest",
+        "description": "Provides complete rest benefits in half the normal time."
+      },
+      {
+        "name": "Rejuvenating Dreams",
+        "description": "Sleep grants additional healing and removes exhaustion."
+      }
+    ]
+  },
+  {
+    "name": "Jar of Preserving",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Alchemist shops, food storage facilities, preservation labs",
+    "description": "This large glass jar has an airtight lid inscribed with preservation runes. Anything placed inside enters a state of temporal stasis, remaining exactly as it was when sealed, regardless of how much time passes.<br><br><strong>Mechanics:</strong> Any organic matter placed in this jar stops aging, decaying, or changing in any way. Food remains fresh, wounds don't heal or worsen, and even living creatures enter suspended animation.",
+    "properties": {
+      "Time Stasis": "Stops all aging and decay",
+      "Capacity": "Holds up to 1 cubic foot",
+      "Universal Preservation": "Works on any organic matter"
+    },
+    "abilities": [
+      {
+        "name": "Temporal Suspension",
+        "description": "Places any organic matter in complete temporal stasis."
+      },
+      {
+        "name": "Perfect Preservation",
+        "description": "Prevents all forms of deterioration, aging, or change."
+      }
+    ]
+  },
+  {
+    "name": "Book of Endless Stories",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Grand libraries, storyteller guilds, entertainment venues, bardic colleges",
+    "description": "This leather-bound tome appears to contain only blank pages at first glance, but when opened with intent, it fills with whatever story the reader most wants to experience. The words and illustrations move and change as the tale unfolds.<br><br><strong>Mechanics:</strong> Once per day, you can open the book and experience any story you desire. While reading, you gain inspiration and advantage on your next ability check, attack roll, or saving throw.",
+    "properties": {
+      "Story Generation": "Creates any story on demand",
+      "Interactive Reading": "Words and images move on pages",
+      "Inspiration Gain": "Provides mechanical benefits"
+    },
+    "abilities": [
+      {
+        "name": "Living Literature",
+        "description": "Generates any story you wish to read with moving text and illustrations."
+      },
+      {
+        "name": "Inspiring Tales",
+        "description": "Reading grants inspiration and advantage on your next d20 roll."
+      }
+    ]
+  },
+  {
+    "name": "Cloak of Useful Things",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Utility shops, adventurer outfitters, practical magic vendors",
+    "description": "This practical brown cloak has dozens of small pockets and patches sewn into its inner lining. Each patch can be pulled off to reveal a common item that might be needed in everyday situations.<br><br><strong>Mechanics:</strong> Three times per day, you can pull a patch from the cloak to produce any common, mundane item worth 1 gp or less (rope, candle, chalk, etc.). The cloak regrows these patches at dawn.",
+    "properties": {
+      "Item Value": "Up to 1 gold piece",
+      "Daily Uses": "3 patches per day",
+      "Regeneration": "Patches regrow at dawn"
+    },
+    "abilities": [
+      {
+        "name": "Mundane Creation",
+        "description": "Produce any common item worth 1 gp or less from the cloak's patches."
+      },
+      {
+        "name": "Daily Renewal",
+        "description": "The cloak regenerates its magical patches each dawn."
+      }
+    ]
+  },
+  {
+    "name": "Stone of Gravity Control",
+    "type": "Wondrous Item",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Floating cities, gravity research labs, elemental earth temples",
+    "description": "This smooth, spherical stone appears to be made of condensed starlight and feels surprisingly heavy for its size. It pulses with gravitational energy and allows the wielder to manipulate gravitational forces in localized areas.<br><br><strong>Mechanics:</strong> As an action, you can alter gravity in a 30-foot radius centered on you for 1 minute. You can make gravity lighter (creatures can jump twice as far), heavier (movement speed halved), or reversed (creatures fall upward). Usable once per long rest.",
+    "properties": {
+      "Gravity Radius": "30-foot area of effect",
+      "Duration": "1 minute",
+      "Gravity Options": "Lighter, heavier, or reversed"
+    },
+    "abilities": [
+      {
+        "name": "Gravitational Manipulation",
+        "description": "Alter gravity effects in a large area for tactical advantage."
+      },
+      {
+        "name": "Directional Control",
+        "description": "Can reverse gravity to make creatures and objects fall upward."
+      }
+    ]
+  },
+  {
+    "name": "Lantern of Revealing Light",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Investigation bureaus, guard stations, truth-seeking temples",
+    "description": "This brass lantern burns with a clear, white flame that illuminates more than just the physical world. Its light reveals hidden truths and exposes that which is concealed from normal sight.<br><br><strong>Mechanics:</strong> While lit, this lantern's light reveals invisible creatures and objects, illusions appear translucent, and hidden doors or compartments glow with a faint outline within its 30-foot radius of bright light.",
+    "properties": {
+      "Light Radius": "30 feet bright, 30 feet dim",
+      "Revelation Range": "Affects all within bright light",
+      "Truth Detection": "Reveals hidden and false things"
+    },
+    "abilities": [
+      {
+        "name": "True Sight Illumination",
+        "description": "Reveals invisible creatures, hidden objects, and makes illusions translucent."
+      },
+      {
+        "name": "Secret Detection",
+        "description": "Hidden doors, compartments, and passages glow with faint outlines."
+      }
+    ]
+  },
+  {
+    "name": "Coin of Fate's Fortune",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Gambling houses, fate temples, luck shrines, chance encounters",
+    "description": "This golden coin bears the image of a smiling face on one side and a frowning face on the other. It feels warm to the touch and seems to pulse with the rhythm of destiny itself.<br><br><strong>Mechanics:</strong> Once per day, you can flip this coin before making an attack roll, ability check, or saving throw. Call heads or tails - if you guess correctly, you have advantage on the roll. If wrong, you have disadvantage.",
+    "properties": {
+      "Daily Use": "Once per day",
+      "Luck Gamble": "Advantage or disadvantage based on guess",
+      "Fate Connection": "Tied to destiny and chance"
+    },
+    "abilities": [
+      {
+        "name": "Fortune's Gamble",
+        "description": "Risk disadvantage for the chance of advantage on important rolls."
+      },
+      {
+        "name": "Destiny's Call",
+        "description": "The coin seems to influence fate itself when flipped."
+      }
+    ]
+  },
+  {
+    "name": "Box of Infinite Scrolls",
+    "type": "Wondrous Item",
+    "rarity": "Very Rare",
+    "attunement": "yes (by a spellcaster)",
+    "suggestedLevel": "11-16",
+    "location": "Ancient libraries, wizard towers, magical archives, scribal academies",
+    "description": "This ornate wooden box is inlaid with silver runes and contains an extradimensional space filled with magical scrolls. The box somehow anticipates the user's needs and produces relevant scrolls when opened.<br><br><strong>Mechanics:</strong> Once per day, you can open the box and find a spell scroll of a spell you know of 3rd level or lower. Once per week, you can find a scroll of a 4th or 5th level spell you know.",
+    "properties": {
+      "Daily Scroll": "3rd level or lower",
+      "Weekly Scroll": "4th or 5th level",
+      "Known Spells Only": "Must be spells you know"
+    },
+    "abilities": [
+      {
+        "name": "Responsive Archive",
+        "description": "Produces spell scrolls of spells you know when you need them most."
+      },
+      {
+        "name": "Anticipatory Magic",
+        "description": "The box seems to predict which scrolls will be most useful."
+      }
+    ]
+  },
+  {
+    "name": "Carpet of Comfort",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Nomad camps, traveling merchants, comfort item vendors",
+    "description": "This richly woven carpet displays intricate patterns that seem to shift and flow when viewed from different angles. When laid out, it creates a zone of perfect comfort regardless of the surrounding environment.<br><br><strong>Mechanics:</strong> When spread out, this 10-foot by 10-foot carpet creates a zone where the temperature is always comfortable, the ground is soft, and light rain or snow doesn't penetrate. Sleeping on it provides all the comfort of a fine bed.",
+    "properties": {
+      "Coverage": "10x10 foot area",
+      "Climate Control": "Perfect temperature",
+      "Weather Protection": "Blocks light precipitation"
+    },
+    "abilities": [
+      {
+        "name": "Environmental Comfort",
+        "description": "Creates a zone of perfect climate and comfort in any environment."
+      },
+      {
+        "name": "Restful Surface",
+        "description": "Provides the comfort of a luxurious bed anywhere it's placed."
+      }
+    ]
+  },
+  {
+    "name": "Prism of Light Splitting",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Optical laboratories, light temples, rainbow bridges, crystal caves",
+    "description": "This perfectly cut crystal prism refracts light in impossible ways, creating rainbows that seem to exist in three dimensions. It can separate not just light but also magical energies and effects.<br><br><strong>Mechanics:</strong> As an action, you can point the prism at a spell effect or magical aura and split it into component parts. This allows you to redirect half of a spell's effect to a different target, or separate beneficial effects from harmful ones.",
+    "properties": {
+      "Spell Splitting": "Divide magical effects",
+      "Redirection": "Change targets of split effects",
+      "Light Manipulation": "Creates spectacular light displays"
+    },
+    "abilities": [
+      {
+        "name": "Magic Refraction",
+        "description": "Split spell effects and redirect portions to different targets."
+      },
+      {
+        "name": "Effect Separation",
+        "description": "Separate beneficial effects from harmful ones in complex spells."
+      }
+    ]
+  },
+  {
+    "name": "Hourglass of Borrowed Time",
+    "type": "Wondrous Item",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Time research facilities, temporal anomalies, chronomancer towers",
+    "description": "This elegant hourglass contains sand that flows upward and downward simultaneously in an impossible display of temporal manipulation. The sand seems to sparkle with captured moments from across time.<br><br><strong>Mechanics:</strong> Once per long rest, you can flip the hourglass to gain an extra action on your turn for the next minute. However, after the effect ends, you are stunned for one round as time catches up with you.",
+    "properties": {
+      "Extra Action": "Additional action each turn",
+      "Duration": "1 minute",
+      "Consequence": "Stunned for 1 round afterward"
+    },
+    "abilities": [
+      {
+        "name": "Temporal Acceleration",
+        "description": "Gain an extra action each turn for one minute."
+      },
+      {
+        "name": "Time Debt",
+        "description": "Must pay the price of borrowed time with temporary stunning."
+      }
+    ]
+  },
+  {
+    "name": "Paintbrush of Living Art",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Artist studios, creative academies, imagination workshops, fey galleries",
+    "description": "This fine paintbrush has bristles made from phoenix feathers and a handle carved from a treant's branch. Whatever it paints becomes temporarily real, bringing imagination into physical existence.<br><br><strong>Mechanics:</strong> You can paint simple objects or creatures on any surface. These paintings become real for 1 hour, with the limitations that they can't be larger than Medium size and can't have more than 2 hit dice. Usable once per day.",
+    "properties": {
+      "Size Limit": "Medium or smaller",
+      "Complexity": "Maximum 2 hit dice",
+      "Duration": "1 hour"
+    },
+    "abilities": [
+      {
+        "name": "Artistic Creation",
+        "description": "Paint objects or simple creatures that become temporarily real."
+      },
+      {
+        "name": "Imagination Manifestation",
+        "description": "Bring your artistic vision into physical reality for a limited time."
+      }
+    ]
+  },
+  {
+    "name": "Keyring of Universal Access",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Locksmith guilds, thieves' dens, security companies, master key vaults",
+    "description": "This simple iron keyring holds exactly seven keys that constantly shift and change their shapes. Each key can transform to open any lock, though each has its own personality and preferences for certain types of barriers.<br><br><strong>Mechanics:</strong> As an action, you can select one key to attempt to open any lock. Make a Dexterity check with proficiency bonus, adding different modifiers based on which key you choose (+1 to +5 depending on lock complexity).",
+    "properties": {
+      "Universal Keys": "7 keys that reshape themselves",
+      "Proficiency Bonus": "Always add proficiency to checks",
+      "Variable Bonuses": "+1 to +5 based on key chosen"
+    },
+    "abilities": [
+      {
+        "name": "Adaptive Unlocking",
+        "description": "Keys reshape themselves to fit any lock mechanism."
+      },
+      {
+        "name": "Master Access",
+        "description": "Different keys provide different bonuses for various types of locks."
+      }
+    ]
+  },
+  {
+    "name": "Satchel of Endless Provision",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Traveling supply stores, expedition outfitters, survival gear vendors",
+    "description": "This worn leather satchel appears ordinary but contains an extradimensional space connected to a realm of infinite basic supplies. It can provide essential items for survival and daily life.<br><br><strong>Mechanics:</strong> Three times per day, you can reach into the satchel and pull out any basic survival item worth 5 sp or less (rations, rope, blanket, torch, etc.). The items are mundane but perfectly functional.",
+    "properties": {
+      "Item Value": "5 silver pieces or less",
+      "Daily Uses": "3 items per day",
+      "Survival Focus": "Basic necessities only"
+    },
+    "abilities": [
+      {
+        "name": "Survival Provision",
+        "description": "Provides basic survival items when needed most."
+      },
+      {
+        "name": "Endless Supply",
+        "description": "Never runs out of basic necessities for adventuring."
+      }
+    ]
+  }
+]
