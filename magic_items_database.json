@@ -20,6 +20,486 @@
     ]
   },
   {
+    "name": "Ring of Telekinesis",
+    "type": "Ring",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Arcane academies, telekinetic specialists, mind magic vendors, psychic equipment stores",
+    "description": "This platinum ring is set with a floating gemstone that hovers slightly above the band. It grants the wearer the ability to move objects with their mind and manipulate the environment from a distance.<br><br><strong>Mechanics:</strong> You can cast telekinesis once per day (DC 15). Additionally, you can use mage hand at will, and the spectral hand can carry up to 30 pounds and has a range of 60 feet.",
+    "properties": {
+      "Telekinesis Spell": "Once per day (DC 15)",
+      "Enhanced Mage Hand": "At will, 30 pounds, 60 feet range",
+      "Mental Control": "Move objects with thought"
+    },
+    "abilities": [
+      {
+        "name": "Mind Over Matter",
+        "description": "Manipulate objects and the environment using pure mental force."
+      },
+      {
+        "name": "Distant Touch",
+        "description": "Interact with objects and manipulate your surroundings from afar."
+      }
+    ]
+  },
+  {
+    "name": "Boots of Elvenkind",
+    "type": "Boots",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Elven outfitters, stealth equipment vendors, forest gear suppliers, silent movement specialists",
+    "description": "These soft leather boots are crafted in the traditional elven style and grant supernatural stealth and grace. They make no sound when walking and leave barely any tracks.<br><br><strong>Mechanics:</strong> You have advantage on Dexterity (Stealth) checks, your movement doesn't make sound, and you leave only faint tracks that require DC 15 Survival to follow.",
+    "properties": {
+      "Stealth Advantage": "Advantage on Stealth checks",
+      "Silent Movement": "Movement makes no sound",
+      "Faint Tracks": "DC 15 Survival to follow tracks"
+    },
+    "abilities": [
+      {
+        "name": "Elven Grace",
+        "description": "Move with the legendary stealth and grace of the elven people."
+      },
+      {
+        "name": "Forest Walking",
+        "description": "Travel through any terrain without leaving obvious signs of passage."
+      }
+    ]
+  },
+  {
+    "name": "Wand of Magic Missiles",
+    "type": "Wand",
+    "rarity": "Uncommon",
+    "attunement": "yes (by a spellcaster)",
+    "suggestedLevel": "1-4",
+    "location": "Magic academies, arcane weapon vendors, force magic specialists, beginner caster equipment",
+    "description": "This slender wand is made from polished wood and tipped with a crystal that glows with arcane energy. It allows the wielder to fire unerring bolts of magical force.<br><br><strong>Mechanics:</strong> The wand has 7 charges and regains 1d6+1 charges daily at dawn. You can expend 1-3 charges to cast magic missile at 1st-3rd level respectively.",
+    "properties": {
+      "Charges": "7 charges, regain 1d6+1 daily",
+      "Magic Missile": "1st-3rd level based on charges used",
+      "Unerring Force": "Missiles never miss their target"
+    },
+    "abilities": [
+      {
+        "name": "Force Projection",
+        "description": "Launch bolts of pure magical force that automatically hit their targets."
+      },
+      {
+        "name": "Scalable Power",
+        "description": "Adjust the spell level based on the situation and charges available."
+      }
+    ]
+  },
+  {
+    "name": "Cloak of Displacement",
+    "type": "Cloak",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Illusion magic vendors, defensive equipment specialists, displacement effect stores, evasion gear suppliers",
+    "description": "This shimmering cloak causes the wearer to appear slightly displaced from their actual position. The fabric seems to bend light around it, creating a disorienting visual effect.<br><br><strong>Mechanics:</strong> Attacks against you have disadvantage unless you are incapacitated or restrained. If you take damage, this effect is suppressed until the start of your next turn.",
+    "properties": {
+      "Attack Disadvantage": "All attacks have disadvantage",
+      "Damage Suppression": "Effect stops when taking damage",
+      "Visual Displacement": "Appear to be in wrong location"
+    },
+    "abilities": [
+      {
+        "name": "Illusory Defense",
+        "description": "Create visual displacement that makes you harder to target accurately."
+      },
+      {
+        "name": "Evasive Presence",
+        "description": "Constant protection that makes enemy attacks less likely to connect."
+      }
+    ]
+  },
+  {
+    "name": "Amulet of the Planes",
+    "type": "Amulet",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Planar travel agencies, dimensional magic vendors, multiverse exploration equipment, plane-walking specialists",
+    "description": "This intricate amulet contains symbols from across the multiverse and allows travel between different planes of existence. It pulses with interdimensional energy.<br><br><strong>Mechanics:</strong> Once per day, you can cast plane shift (DC 15). The amulet has 3 charges for casting misty step, regaining all charges at dawn. You also have advantage on saves against planar effects.",
+    "properties": {
+      "Plane Shift": "Once per day (DC 15)",
+      "Misty Step": "3 charges, regain at dawn",
+      "Planar Resistance": "Advantage on saves vs planar effects"
+    },
+    "abilities": [
+      {
+        "name": "Dimensional Travel",
+        "description": "Travel between different planes of existence and dimensions."
+      },
+      {
+        "name": "Planar Protection",
+        "description": "Enhanced resistance to the harmful effects of alien planes."
+      }
+    ]
+  },
+  {
+    "name": "Gauntlets of Ogre Power",
+    "type": "Gloves",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Strength enhancement vendors, power amplification stores, giant equipment dealers, physical might specialists",
+    "description": "These iron gauntlets are sized for ogre hands but magically resize to fit the wearer. They grant tremendous physical strength and crushing grip power.<br><br><strong>Mechanics:</strong> Your Strength score becomes 19 while wearing these gauntlets. If your Strength is already 19 or higher, they have no effect. You also have advantage on Strength checks and saves.",
+    "properties": {
+      "Strength Score": "19 (if lower)",
+      "Strength Advantage": "Advantage on Strength checks and saves",
+      "Crushing Grip": "Enhanced grappling and grip strength"
+    },
+    "abilities": [
+      {
+        "name": "Ogre Might",
+        "description": "Gain the legendary physical strength associated with ogres."
+      },
+      {
+        "name": "Iron Grip",
+        "description": "Crush objects and maintain unbreakable holds on enemies."
+      }
+    ]
+  },
+  {
+    "name": "Potion of Flying",
+    "type": "Potion",
+    "rarity": "Very Rare",
+    "attunement": "no",
+    "suggestedLevel": "11-16",
+    "location": "Alchemical laboratories, flight magic vendors, aerial potion brewers, levitation specialists",
+    "description": "This crystal-clear potion swirls with tiny clouds and sparkles like captured sky. When consumed, it grants the drinker the power of flight for a limited time.<br><br><strong>Mechanics:</strong> When you drink this potion, you gain a flying speed of 60 feet for 1 hour. You can hover and fly in any direction, including straight up.",
+    "properties": {
+      "Flying Speed": "60 feet",
+      "Duration": "1 hour",
+      "Full Control": "Hover and fly in any direction"
+    },
+    "abilities": [
+      {
+        "name": "Aerial Mastery",
+        "description": "Gain complete three-dimensional movement control through magical flight."
+      },
+      {
+        "name": "Sky Navigation",
+        "description": "Hover, ascend, and descend with perfect control and stability."
+      }
+    ]
+  },
+  {
+    "name": "Crystal Ball",
+    "type": "Wondrous Item",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Divination specialists, scrying equipment vendors, fortune teller supplies, remote viewing services",
+    "description": "This perfectly clear crystal sphere sits on an ornate stand and serves as a focus for divination magic. Images swirl within its depths when activated.<br><br><strong>Mechanics:</strong> You can cast scrying (DC 17) once per day without requiring material components. The crystal ball also provides advantage on Wisdom (Perception) checks to notice scrying sensors targeting you.",
+    "properties": {
+      "Scrying Spell": "Once per day (DC 17)",
+      "No Components": "No material components required",
+      "Scrying Detection": "Advantage to notice scrying sensors"
+    },
+    "abilities": [
+      {
+        "name": "Remote Viewing",
+        "description": "Observe distant locations and people through magical scrying."
+      },
+      {
+        "name": "Divination Focus",
+        "description": "Enhanced connection to divination magic and far-sight abilities."
+      }
+    ]
+  },
+  {
+    "name": "Horn of Blasting",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Sonic weapon vendors, musical instrument dealers, destructive sound specialists, siege equipment stores",
+    "description": "This large horn produces devastating sonic blasts when blown. It's carved from the horn of a legendary creature and reinforced with magical metals.<br><br><strong>Mechanics:</strong> As an action, you can blow the horn to create a 30-foot cone of thunderous sound. Creatures in the area take 5d6 thunder damage (DC 15 Constitution save for half). You can use this 3 times per day.",
+    "properties": {
+      "Area Effect": "30-foot cone",
+      "Thunder Damage": "5d6 (DC 15 Con save for half)",
+      "Daily Uses": "3 times per day"
+    },
+    "abilities": [
+      {
+        "name": "Sonic Devastation",
+        "description": "Create powerful sound waves that damage multiple enemies."
+      },
+      {
+        "name": "Siege Breaking",
+        "description": "Destructive sound can damage structures and fortifications."
+      }
+    ]
+  },
+  {
+    "name": "Bag of Tricks",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Novelty magic vendors, summoning specialists, animal companion services, surprise effect stores",
+    "description": "This ordinary-looking cloth bag contains an assortment of fuzzy objects that transform into animals when pulled out. The bag seems to have more inside than its size suggests.<br><br><strong>Mechanics:</strong> As an action, you can pull a fuzzy object from the bag and throw it. It transforms into a random animal (roll d8) that obeys simple commands for 10 minutes. 3 uses per day.",
+    "properties": {
+      "Random Animals": "Roll d8 for animal type",
+      "Duration": "10 minutes per summon",
+      "Daily Uses": "3 times per day"
+    },
+    "abilities": [
+      {
+        "name": "Animal Summoning",
+        "description": "Pull various helpful animals from the magical bag."
+      },
+      {
+        "name": "Surprise Allies",
+        "description": "Never know what animal will emerge to help in various situations."
+      }
+    ]
+  },
+  {
+    "name": "Rope of Climbing",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Climbing equipment stores, adventure gear vendors, mountaineering suppliers, vertical access specialists",
+    "description": "This 60-foot length of silk rope is enchanted to move and secure itself on command. It can tie itself to anchor points and assist with climbing in dangerous terrain.<br><br><strong>Mechanics:</strong> The rope can animate and move up to 10 feet per round. It can tie itself to secure anchor points and untie itself on command. It has AC 20 and 2 hit points.",
+    "properties": {
+      "Length": "60 feet",
+      "Animation Speed": "10 feet per round",
+      "Durability": "AC 20, 2 hit points"
+    },
+    "abilities": [
+      {
+        "name": "Self-Securing",
+        "description": "Rope finds and ties itself to anchor points automatically."
+      },
+      {
+        "name": "Climbing Assistance",
+        "description": "Provides reliable support for climbing difficult surfaces."
+      }
+    ]
+  },
+  {
+    "name": "Decanter of Endless Water",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Water supply vendors, desert survival equipment, ship provisioning stores, endless resource specialists",
+    "description": "This ornate flask produces an endless supply of fresh, clean water. It can create gentle streams for drinking or powerful jets for combat and utility purposes.<br><br><strong>Mechanics:</strong> The decanter has three command words: 'Stream' (1 gallon), 'Fountain' (5 gallons/round), and 'Geyser' (30 gallons/round, can push creatures). Each mode has different uses and limitations.",
+    "properties": {
+      "Stream Mode": "1 gallon of water",
+      "Fountain Mode": "5 gallons per round",
+      "Geyser Mode": "30 gallons per round, combat capable"
+    },
+    "abilities": [
+      {
+        "name": "Unlimited Water",
+        "description": "Provide endless fresh water for drinking, cleaning, and survival."
+      },
+      {
+        "name": "Hydraulic Force",
+        "description": "Create powerful water jets for combat and environmental interaction."
+      }
+    ]
+  },
+  {
+    "name": "Cloak of Elvenkind",
+    "type": "Cloak",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Elven outfitters, stealth equipment vendors, camouflage specialists, nature magic stores",
+    "description": "This cloak is woven from the finest elven silk and dyed with natural pigments that help the wearer blend into their surroundings. It shifts color subtly to match the environment.<br><br><strong>Mechanics:</strong> You have advantage on Dexterity (Stealth) checks, and Wisdom (Perception) checks made to see you have disadvantage. The cloak's color adapts to your surroundings.",
+    "properties": {
+      "Stealth Advantage": "Advantage on Stealth checks",
+      "Detection Disadvantage": "Perception checks to see you have disadvantage",
+      "Color Adaptation": "Adapts to surrounding environment"
+    },
+    "abilities": [
+      {
+        "name": "Natural Camouflage",
+        "description": "Blend seamlessly into natural and urban environments."
+      },
+      {
+        "name": "Elven Stealth",
+        "description": "Move unseen with the legendary stealth of the elven people."
+      }
+    ]
+  },
+  {
+    "name": "Eyes of the Eagle",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Vision enhancement vendors, perception specialists, eagle rider equipment, keen sight providers",
+    "description": "These crystal lenses fit over the eyes and grant supernatural visual acuity. They provide the keen eyesight of an eagle and enhanced ability to spot distant objects.<br><br><strong>Mechanics:</strong> You have advantage on Wisdom (Perception) checks that rely on sight. In clear conditions, you can make out details of distant objects as if they were only 100 feet away.",
+    "properties": {
+      "Sight Advantage": "Advantage on sight-based Perception",
+      "Distance Vision": "See distant details as if 100 feet away",
+      "Eagle Sight": "Supernatural visual acuity"
+    },
+    "abilities": [
+      {
+        "name": "Telescopic Vision",
+        "description": "See fine details at great distances with perfect clarity."
+      },
+      {
+        "name": "Enhanced Perception",
+        "description": "Notice subtle visual cues and hidden details others miss."
+      }
+    ]
+  },
+  {
+    "name": "Immovable Rod",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Utility magic vendors, construction equipment stores, positioning specialists, spatial lock providers",
+    "description": "This iron rod has a button on one end that, when pressed, causes the rod to become magically fixed in place. It becomes an immovable object that defies most attempts to relocate it.<br><br><Strong>Mechanics:</strong> When activated, the rod becomes fixed in space and can hold up to 8,000 pounds. It requires a DC 30 Strength check to move when activated. The rod can be deactivated by pressing the button again.",
+    "properties": {
+      "Weight Capacity": "8,000 pounds",
+      "Movement DC": "DC 30 Strength check",
+      "Spatial Lock": "Fixed position in space"
+    },
+    "abilities": [
+      {
+        "name": "Absolute Stability",
+        "description": "Create unmovable anchor points in any location or situation."
+      },
+      {
+        "name": "Spatial Defiance",
+        "description": "Rod resists movement through magical positioning in space."
+      }
+    ]
+  },
+  {
+    "name": "Pearl of Power",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "yes (by a spellcaster)",
+    "suggestedLevel": "1-4",
+    "location": "Arcane academies, spell recovery specialists, magical energy vendors, caster equipment stores",
+    "description": "This lustrous pearl contains concentrated magical energy that can restore expended spell slots. It glows with soft inner light when magical energy is stored within.<br><br><Strong>Mechanics:</strong> Once per day, you can use the pearl to regain one expended spell slot of 3rd level or lower. The pearl must attune to you during a long rest before it can be used.",
+    "properties": {
+      "Spell Recovery": "Regain one spell slot of 3rd level or lower",
+      "Daily Use": "Once per day",
+      "Caster Attunement": "Must be attuned by spellcaster"
+    },
+    "abilities": [
+      {
+        "name": "Magical Restoration",
+        "description": "Recover expended magical energy for additional spellcasting."
+      },
+      {
+        "name": "Power Reserve",
+        "description": "Provides backup magical energy when you need it most."
+      }
+    ]
+  },
+  {
+    "name": "Winged Boots",
+    "type": "Boots",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Flight equipment vendors, aerial mobility stores, wing magic specialists, levitation gear suppliers",
+    "description": "These boots have small wings attached to the heels that flutter and grant limited flight ability. The wings are made from feathers of magical creatures.<br><br><Strong>Mechanics:</strong> You have a flying speed of 30 feet for 4 hours per day (can be used in 1-minute increments). You must land at the end of each turn or fall.",
+    "properties": {
+      "Flying Speed": "30 feet",
+      "Daily Duration": "4 hours total",
+      "Landing Requirement": "Must land at end of each turn"
+    },
+    "abilities": [
+      {
+        "name": "Limited Flight",
+        "description": "Gain temporary flying ability for short-distance aerial movement."
+      },
+      {
+        "name": "Tactical Mobility",
+        "description": "Cross obstacles and reach elevated positions with magical flight."
+      }
+    ]
+  },
+  {
+    "name": "Ring of Mind Shielding",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Mental protection vendors, psychic defense stores, mind magic specialists, telepathic security equipment",
+    "description": "This simple ring provides protection against mental intrusion and can preserve the wearer's consciousness even after death. It has a faint aura of protective energy.<br><br><Strong>Mechanics:</strong> You are immune to magic that allows others to read your thoughts or emotions. If you die while wearing the ring, your soul enters it and can communicate telepathically with whoever wears it.",
+    "properties": {
+      "Thought Protection": "Immune to mind reading",
+      "Emotion Shield": "Immune to emotion detection",
+      "Soul Preservation": "Soul enters ring upon death"
+    },
+    "abilities": [
+      {
+        "name": "Mental Fortress",
+        "description": "Complete protection against telepathic intrusion and mental magic."
+      },
+      {
+        "name": "Consciousness Backup",
+        "description": "Preserve your soul and ability to communicate even after death."
+      }
+    ]
+  },
+  {
+    "name": "Alchemy Jug",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Alchemical suppliers, brewers, liquid production vendors, material creation specialists",
+    "description": "This ceramic jug can produce a variety of liquids on command. It's decorated with alchemical symbols and has a cork that seems to move on its own.<br><br><Strong>Mechanics:</strong> The jug can produce 2 gallons of water daily, or various other liquids in smaller amounts: beer, wine, oil, vinegar, honey, etc. Each liquid has specific daily limits.",
+    "properties": {
+      "Water Production": "2 gallons per day",
+      "Various Liquids": "Beer, wine, oil, vinegar, honey, etc.",
+      "Daily Limits": "Different amounts for different liquids"
+    },
+    "abilities": [
+      {
+        "name": "Liquid Creation",
+        "description": "Produce essential liquids for survival, crafting, and commerce."
+      },
+      {
+        "name": "Alchemical Utility",
+        "description": "Generate various substances needed for different purposes."
+      }
+    ]
+  },
+  {
+    "name": "Figurine of Wondrous Power (Silver Raven)",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Figurine collectors, animal companion vendors, messenger services, animated object specialists",
+    "description": "This small silver figurine of a raven can transform into a living bird that serves as a messenger and scout. The craftsmanship is exquisite and the silver gleams with magical energy.<br><br><Strong>Mechanics:</strong> Once per day, you can command the figurine to become a real raven for up to 12 hours. It obeys your commands and can carry messages up to 50 miles away.",
+    "properties": {
+      "Transformation": "Becomes real raven for 12 hours",
+      "Daily Use": "Once per day",
+      "Message Range": "50 miles"
+    },
+    "abilities": [
+      {
+        "name": "Avian Messenger",
+        "description": "Send messages over long distances with a loyal raven companion."
+      },
+      {
+        "name": "Aerial Scout",
+        "description": "Use the raven to scout ahead and survey areas from above."
+      }
+    ]
+  }
+  {
     "name": "Portable Hole",
     "type": "Wondrous Item",
     "rarity": "Rare",
