@@ -1099,5 +1099,725 @@
         "description": "Never runs out of basic necessities for adventuring."
       }
     ]
+  },
+  {
+    "name": "Boots of Mud Walking",
+    "type": "Boots",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Swamp villages, marsh ranger outposts, bog witch huts",
+    "description": "These sturdy leather boots are treated with oils from bog moss and sealed with waterproof wax. They allow the wearer to traverse muddy, swampy terrain with ease, never getting stuck or slipping.<br><br><strong>Mechanics:</strong> While wearing these boots, you ignore difficult terrain caused by mud, swamp water, or similar wet, soft ground. You also have advantage on saving throws against being knocked prone on such terrain.",
+    "properties": {
+      "Terrain Immunity": "Ignore mud/swamp difficult terrain",
+      "Stability": "Advantage vs prone on wet ground",
+      "Waterproof": "Feet stay completely dry"
+    },
+    "abilities": [
+      {
+        "name": "Swamp Stride",
+        "description": "Move normally through muddy and swampy terrain without impediment."
+      },
+      {
+        "name": "Sure Footing",
+        "description": "Advantage on saves against being knocked prone on wet, muddy surfaces."
+      }
+    ]
+  },
+  {
+    "name": "Cloak of Billowing",
+    "type": "Cloak",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Theatrical costume shops, dramatic performer guilds, vanity merchants",
+    "description": "This dramatic cloak is made from fine silk that catches the wind in the most flattering ways. It always billows heroically behind the wearer, creating an impressive silhouette regardless of wind conditions.<br><br><strong>Mechanics:</strong> The cloak billows dramatically on command (no action required). While billowing, you have advantage on Charisma (Intimidation) and Charisma (Performance) checks. The effect is purely cosmetic but psychologically impactful.",
+    "properties": {
+      "Dramatic Effect": "Always billows impressively",
+      "Intimidation Bonus": "Advantage when billowing",
+      "Performance Bonus": "Advantage on dramatic displays"
+    },
+    "abilities": [
+      {
+        "name": "Heroic Billow",
+        "description": "Command the cloak to billow dramatically, enhancing your presence and charisma."
+      },
+      {
+        "name": "Wind Independence",
+        "description": "Billows perfectly regardless of actual wind conditions."
+      }
+    ]
+  },
+  {
+    "name": "Hat of Disguise",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Spy networks, actor guilds, disguise kit vendors, thieves' markets",
+    "description": "This unremarkable hat can transform into any style of headwear and subtly alters the wearer's facial features to create convincing disguises. The magic is subtle enough to fool casual observation.<br><br><strong>Mechanics:</strong> While wearing this hat, you can use an action to cast disguise self at will. The spell ends if the hat is removed.",
+    "properties": {
+      "Spell": "Disguise Self at will",
+      "Duration": "Until hat is removed",
+      "Transformation": "Hat changes to match disguise"
+    },
+    "abilities": [
+      {
+        "name": "Perfect Disguise",
+        "description": "Cast disguise self at will while wearing the hat."
+      },
+      {
+        "name": "Adaptive Headwear",
+        "description": "Hat automatically transforms to match your chosen disguise."
+      }
+    ]
+  },
+  {
+    "name": "Sending Stones (Pair)",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Communication networks, merchant caravans, military outposts, mage colleges",
+    "description": "These two smooth stones are carved from the same piece of mineral and maintain a mystical connection across any distance. They enable instant communication between holders, making them invaluable for coordinating activities.<br><br><strong>Mechanics:</strong> While holding one stone, you can use an action to cast the sending spell to the holder of the other stone. Each stone can be used once per day, and the spell only works between the paired stones.",
+    "properties": {
+      "Communication Range": "Unlimited distance",
+      "Daily Uses": "Once per stone per day",
+      "Paired Connection": "Only works between the two stones"
+    },
+    "abilities": [
+      {
+        "name": "Instant Messaging",
+        "description": "Send a 25-word message instantly to the holder of the paired stone."
+      },
+      {
+        "name": "Planar Communication",
+        "description": "Works even across different planes of existence."
+      }
+    ]
+  },
+  {
+    "name": "Immovable Rod",
+    "type": "Rod",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Engineering workshops, construction sites, puzzle dungeons, utility vendors",
+    "description": "This flat iron rod has a small button on one end. When the button is pressed, the rod becomes magically fixed in place, defying gravity and remaining absolutely stationary until the button is pressed again.<br><br><strong>Mechanics:</strong> As an action, you can press the button to fix the rod in place. It hovers in the air and can support up to 8,000 pounds. Another action pressing the button releases it.",
+    "properties": {
+      "Weight Capacity": "8,000 pounds",
+      "Activation": "Action to activate/deactivate",
+      "Positioning": "Fixes in exact position in space"
+    },
+    "abilities": [
+      {
+        "name": "Absolute Position",
+        "description": "Becomes completely immovable when activated, defying gravity."
+      },
+      {
+        "name": "Heavy Load Bearer",
+        "description": "Can support tremendous weight while activated."
+      }
+    ]
+  },
+  {
+    "name": "Eversmoking Bottle",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Alchemist shops, siege equipment stores, military supply depots",
+    "description": "This brass bottle contains compressed smoke from the Elemental Plane of Air. When uncorked, it releases a thick cloud of harmless but obscuring smoke that provides excellent cover for tactical maneuvers.<br><br><strong>Mechanics:</strong> As an action, you can remove the stopper and create a 20-foot radius sphere of thick smoke centered on the bottle. The smoke lasts for 1 hour or until dispersed by wind. The bottle can be used once per day.",
+    "properties": {
+      "Smoke Radius": "20-foot sphere",
+      "Duration": "1 hour",
+      "Daily Use": "Once per day"
+    },
+    "abilities": [
+      {
+        "name": "Tactical Concealment",
+        "description": "Create a large area of thick smoke for cover and concealment."
+      },
+      {
+        "name": "Harmless Smoke",
+        "description": "Smoke blocks vision but doesn't cause damage or breathing problems."
+      }
+    ]
+  },
+  {
+    "name": "Alchemy Jug",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Alchemist laboratories, tavern supply rooms, magical convenience stores",
+    "description": "This ceramic jug appears unremarkable, but it can produce a variety of liquids on command. The jug seems to draw these substances from elemental planes and pocket dimensions.<br><br><strong>Mechanics:</strong> You can speak the jug's command word and name one liquid from its list to produce up to 2 gallons per day. Liquids include water, wine, beer, oil, vinegar, and various other common substances.",
+    "properties": {
+      "Daily Production": "2 gallons total",
+      "Liquid Variety": "Multiple useful substances",
+      "Command Activation": "Speak liquid name to produce"
+    },
+    "abilities": [
+      {
+        "name": "Liquid Production",
+        "description": "Produce various useful liquids including water, oil, wine, and vinegar."
+      },
+      {
+        "name": "Daily Renewal",
+        "description": "Regains the ability to produce liquids each dawn."
+      }
+    ]
+  },
+  {
+    "name": "Bag of Holding",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Adventuring supply stores, magical storage facilities, dimensional merchants",
+    "description": "This appears to be a common cloth sack about 2 feet by 4 feet in size. The bag opens into a nondimensional space that is larger inside than outside, providing convenient storage for adventuring gear.<br><br><strong>Mechanics:</strong> The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item requires an action.",
+    "properties": {
+      "Weight Capacity": "500 pounds",
+      "Volume": "64 cubic feet",
+      "Bag Weight": "15 pounds regardless of contents"
+    },
+    "abilities": [
+      {
+        "name": "Extradimensional Storage",
+        "description": "Store far more than the bag's apparent size should allow."
+      },
+      {
+        "name": "Weight Reduction",
+        "description": "Contents don't add to the bag's weight beyond the base 15 pounds."
+      }
+    ]
+  },
+  {
+    "name": "Driftglobe",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Illumination specialists, underground exploration suppliers, magical lighting stores",
+    "description": "This small glass sphere contains swirling luminescent gas that responds to verbal commands. It can provide light and even float freely, making it an excellent hands-free light source for adventurers.<br><br><strong>Mechanics:</strong> Speaking the command word causes it to shed bright light in a 20-foot radius and dim light for another 20 feet. You can command it to float and follow you. Saying 'daylight' causes it to cast the daylight spell once per day.",
+    "properties": {
+      "Light Radius": "20 feet bright, 20 feet dim",
+      "Mobility": "Can float and follow commands",
+      "Daylight Spell": "Once per day"
+    },
+    "abilities": [
+      {
+        "name": "Floating Illumination",
+        "description": "Provides hands-free light that follows you around."
+      },
+      {
+        "name": "Daylight Burst",
+        "description": "Cast daylight spell once per day for intense illumination."
+      }
+    ]
+  },
+  {
+    "name": "Decanter of Endless Water",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Desert survival suppliers, ship provisioning stores, agricultural magic vendors",
+    "description": "This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds and connects to an endless reservoir on the Elemental Plane of Water.<br><br><strong>Mechanics:</strong> You can use an action to remove the stopper and speak one of three command words: 'Stream' produces 1 gallon of water, 'Fountain' produces 5 gallons, and 'Geyser' produces 30 gallons that can knock creatures prone.",
+    "properties": {
+      "Stream": "1 gallon per action",
+      "Fountain": "5 gallons per action",
+      "Geyser": "30 gallons with knockdown force"
+    },
+    "abilities": [
+      {
+        "name": "Unlimited Water",
+        "description": "Produce fresh water in varying quantities on command."
+      },
+      {
+        "name": "Pressurized Blast",
+        "description": "Geyser mode can knock down creatures with water pressure."
+      }
+    ]
+  },
+  {
+    "name": "Boots of the Winterlands",
+    "type": "Boots",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Arctic exploration outfitters, cold weather gear vendors, northern settlements",
+    "description": "These furred boots are snug and feel quite warm. While wearing them, you gain resistance to cold damage, and cold weather doesn't impose any drawbacks on your travel or survival.<br><br><strong>Mechanics:</strong> Resistance to cold damage. You ignore difficult terrain created by ice or snow, and you can tolerate temperatures as low as −50 degrees Fahrenheit without protection.",
+    "properties": {
+      "Cold Resistance": "Half damage from cold",
+      "Weather Immunity": "No penalties from cold weather",
+      "Ice Walking": "Ignore ice and snow difficult terrain"
+    },
+    "abilities": [
+      {
+        "name": "Arctic Adaptation",
+        "description": "Completely comfortable in extreme cold and resistant to cold damage."
+      },
+      {
+        "name": "Sure Ice Footing",
+        "description": "Move normally across ice and snow without slipping or slowing."
+      }
+    ]
+  },
+  {
+    "name": "Cloak of Protection",
+    "type": "Cloak",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Protective gear vendors, guardian temples, military quartermaster stores",
+    "description": "This fine cloak is woven with protective wards and blessed by benevolent spirits. It shimmers faintly with defensive magic that turns aside attacks and bolsters the wearer's natural defenses.<br><br><strong>Mechanics:</strong> While wearing this cloak, you gain a +1 bonus to AC and saving throws.",
+    "properties": {
+      "AC Bonus": "+1 to Armor Class",
+      "Save Bonus": "+1 to all saving throws",
+      "Universal Protection": "Applies to all defense types"
+    },
+    "abilities": [
+      {
+        "name": "Defensive Ward",
+        "description": "Provides a constant protective bonus to both AC and saving throws."
+      },
+      {
+        "name": "Universal Aegis",
+        "description": "Protection applies against all forms of attacks and harmful effects."
+      }
+    ]
+  },
+  {
+    "name": "Winged Boots",
+    "type": "Boots",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Aerial courier services, mountain climbing suppliers, sky temple gift shops",
+    "description": "These leather boots have small wings attached at the heels that flutter and beat when activated. They grant the wearer the power of flight for limited periods, though they require rest between uses.<br><br><strong>Mechanics:</strong> While wearing these boots, you can use a bonus action to gain a flying speed of 30 feet for 4 hours. The flying speed becomes 0 if you exceed the weight limit of 300 pounds. You can use this feature once per day.",
+    "properties": {
+      "Flying Speed": "30 feet for 4 hours",
+      "Weight Limit": "300 pounds maximum",
+      "Daily Use": "Once per long rest"
+    },
+    "abilities": [
+      {
+        "name": "Temporary Flight",
+        "description": "Gain the ability to fly for several hours once per day."
+      },
+      {
+        "name": "Weight Restriction",
+        "description": "Flight fails if you exceed the maximum weight capacity."
+      }
+    ]
+  },
+  {
+    "name": "Periapt of Health",
+    "type": "Amulet",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Healing temples, disease prevention clinics, medical supply vendors",
+    "description": "This amulet is carved from a single piece of pristine jade and blessed by deities of health and purity. It provides robust protection against diseases and poisons that would otherwise harm the wearer.<br><br><strong>Mechanics:</strong> While wearing this amulet, you are immune to contracting any disease. If you are already diseased when you don it, the effects are suppressed until you remove it.",
+    "properties": {
+      "Disease Immunity": "Cannot contract diseases",
+      "Effect Suppression": "Existing diseases dormant while worn",
+      "Permanent Protection": "No daily limit"
+    },
+    "abilities": [
+      {
+        "name": "Disease Ward",
+        "description": "Complete immunity to all forms of disease while wearing the amulet."
+      },
+      {
+        "name": "Purifying Presence",
+        "description": "Suppresses the effects of existing diseases without curing them."
+      }
+    ]
+  },
+  {
+    "name": "Gloves of Swimming and Climbing",
+    "type": "Gloves",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Athletic equipment stores, explorer outfitters, aquatic gear specialists",
+    "description": "These leather gloves have webbing between the fingers and tiny hooks embedded in the palms. They enhance the wearer's natural climbing and swimming abilities to superhuman levels.<br><br><strong>Mechanics:</strong> While wearing these gloves, your climbing speed and swimming speed are equal to your walking speed, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.",
+    "properties": {
+      "Climbing Speed": "Equal to walking speed",
+      "Swimming Speed": "Equal to walking speed",
+      "Athletics Bonus": "+5 to climb/swim checks"
+    },
+    "abilities": [
+      {
+        "name": "Enhanced Mobility",
+        "description": "Move at full speed while climbing or swimming."
+      },
+      {
+        "name": "Superior Grip",
+        "description": "Significant bonus to all climbing and swimming athletic checks."
+      }
+    ]
+  },
+  {
+    "name": "Ring of Mind Shielding",
+    "type": "Ring",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Mental protection specialists, anti-telepathy vendors, privacy consultants",
+    "description": "This simple band of metal contains intricate mental wards that protect the wearer's thoughts from intrusion. It provides immunity to magical attempts to read or influence the mind.<br><br><strong>Mechanics:</strong> You are immune to any effect that would sense your emotions, read your thoughts, or determine your location by divination magic. If you die while wearing this ring, your soul enters it and can communicate telepathically with any creature wearing it.",
+    "properties": {
+      "Thought Protection": "Immune to mind reading",
+      "Emotion Shield": "Immune to emotion sensing",
+      "Divination Block": "Immune to magical location"
+    },
+    "abilities": [
+      {
+        "name": "Mental Fortress",
+        "description": "Complete protection against telepathic intrusion and mind-affecting divination."
+      },
+      {
+        "name": "Soul Sanctuary",
+        "description": "Upon death, soul can reside in the ring and communicate with future wearers."
+      }
+    ]
+  },
+  {
+    "name": "Pearl of Power",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "yes (by a spellcaster)",
+    "suggestedLevel": "1-4",
+    "location": "Arcane academies, spell component suppliers, magical energy vendors",
+    "description": "This lustrous pearl contains concentrated magical energy that can restore a spellcaster's expended power. It glows faintly when touched by someone with magical ability.<br><br><strong>Mechanics:</strong> While holding this pearl, you can use an action to speak its command word and regain one expended spell slot of 3rd level or lower. Once used, the pearl can't be used again until the next dawn.",
+    "properties": {
+      "Spell Recovery": "Regain one spell slot",
+      "Maximum Level": "3rd level or lower",
+      "Daily Use": "Once per day"
+    },
+    "abilities": [
+      {
+        "name": "Magical Restoration",
+        "description": "Restore an expended spell slot once per day."
+      },
+      {
+        "name": "Energy Condensation",
+        "description": "Contains concentrated magical energy in a portable form."
+      }
+    ]
+  },
+  {
+    "name": "Stone of Good Luck",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Gambling houses, luck charm vendors, fortune teller shops",
+    "description": "This polished stone seems to shimmer with favorable fortune. While in your possession, it subtly nudges probability in your favor, making beneficial outcomes slightly more likely.<br><br><strong>Mechanics:</strong> While this stone is on your person, you gain a +1 bonus to ability checks and saving throws.",
+    "properties": {
+      "Ability Check Bonus": "+1 to all ability checks",
+      "Save Bonus": "+1 to all saving throws",
+      "Passive Effect": "Always active while carried"
+    },
+    "abilities": [
+      {
+        "name": "Fortune's Favor",
+        "description": "Constant bonus to ability checks and saving throws while carried."
+      },
+      {
+        "name": "Probability Nudge",
+        "description": "Subtly influences random chance in the bearer's favor."
+      }
+    ]
+  },
+  {
+    "name": "Folding Boat",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Nautical supply stores, transportation specialists, magical convenience vendors",
+    "description": "This small wooden box transforms into a full-sized boat when activated. The transformation is nearly instantaneous and the boat is sturdy enough for ocean travel.<br><br><strong>Mechanics:</strong> You can use an action to speak the command word and unfold the box into a boat 10 feet long, 4 feet wide, and 2 feet deep. It can hold up to four Medium creatures comfortably. Speaking the command word again folds it back into a box.",
+    "properties": {
+      "Boat Size": "10x4x2 feet when expanded",
+      "Capacity": "4 Medium creatures",
+      "Transformation Time": "Instant activation"
+    },
+    "abilities": [
+      {
+        "name": "Instant Vessel",
+        "description": "Transform from a small box into a fully functional boat."
+      },
+      {
+        "name": "Compact Storage",
+        "description": "Easily portable when folded, taking up minimal space."
+      }
+    ]
+  },
+  {
+    "name": "Necklace of Adaptation",
+    "type": "Amulet",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Environmental gear suppliers, survival equipment stores, planar travel agencies",
+    "description": "This necklace features a pendant made from crystallized air that allows the wearer to breathe normally in any environment. It's invaluable for underwater exploration or traveling through toxic atmospheres.<br><br><strong>Mechanics:</strong> While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors.",
+    "properties": {
+      "Universal Breathing": "Breathe in any environment",
+      "Gas Resistance": "Advantage vs harmful vapors",
+      "Environmental Protection": "No suffocation risk"
+    },
+    "abilities": [
+      {
+        "name": "Atmospheric Adaptation",
+        "description": "Breathe normally underwater, in toxic air, or in airless environments."
+      },
+      {
+        "name": "Vapor Ward",
+        "description": "Enhanced resistance to poisonous gases and harmful atmospheric effects."
+      }
+    ]
+  },
+  {
+    "name": "Ledger of Honest Accounts",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Merchant guilds, accounting firms, tax collection offices, honest trader shops",
+    "description": "This leather-bound ledger keeps perfect records of all financial transactions conducted near it. The pages fill themselves with precise accounting information, and the book can detect attempts at financial fraud or deception.<br><br><strong>Mechanics:</strong> All monetary transactions within 30 feet are automatically recorded. When reviewing transactions, you can detect if any party was attempting to deceive about money, prices, or trade goods. The ledger shows true values of items.",
+    "properties": {
+      "Auto-Recording": "Records all nearby transactions",
+      "Fraud Detection": "Reveals deceptive pricing",
+      "True Value": "Shows actual worth of goods"
+    },
+    "abilities": [
+      {
+        "name": "Perfect Bookkeeping",
+        "description": "Automatically maintains accurate financial records of all nearby transactions."
+      },
+      {
+        "name": "Deception Detection",
+        "description": "Reveals when someone is lying about prices, values, or financial matters."
+      }
+    ]
+  },
+  {
+    "name": "Scales of Fair Trade",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Merchant scales vendors, fair trade organizations, honest weight inspectors",
+    "description": "These ornate brass scales are enchanted to always show the true weight and value of items placed upon them. They cannot be fooled by illusions, transmutation magic, or clever counterfeits.<br><br><strong>Mechanics:</strong> The scales show the exact weight and true value of any item placed on them. They can see through illusions that would disguise an item's nature and reveal if items are magically altered or counterfeit.",
+    "properties": {
+      "True Weight": "Shows exact, unmodified weight",
+      "Value Assessment": "Reveals actual monetary worth",
+      "Illusion Immunity": "Sees through disguise magic"
+    },
+    "abilities": [
+      {
+        "name": "Honest Measurement",
+        "description": "Provides accurate weight and value assessment immune to magical deception."
+      },
+      {
+        "name": "Counterfeit Detection",
+        "description": "Instantly identifies fake or magically altered goods."
+      }
+    ]
+  },
+  {
+    "name": "Coin Purse of Endless Change",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Banking institutions, money changer shops, merchant convenience stores",
+    "description": "This leather coin purse always contains the exact change needed for any transaction, converting between different denominations of currency automatically. It never runs out of small coins for making change.<br><br><strong>Mechanics:</strong> The purse can break down larger denominations into smaller ones without limit. It always provides exact change for any transaction up to the total value of coins placed inside it. The purse doesn't create money, only converts it.",
+    "properties": {
+      "Denomination Exchange": "Converts large coins to small",
+      "Exact Change": "Always has perfect change amounts",
+      "No Money Creation": "Only converts existing coins"
+    },
+    "abilities": [
+      {
+        "name": "Perfect Change Making",
+        "description": "Always provides exact change for any transaction from existing coin value."
+      },
+      {
+        "name": "Currency Conversion",
+        "description": "Automatically converts between different coin denominations as needed."
+      }
+    ]
+  },
+  {
+    "name": "Display Case of Preservation",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Luxury shops, museum supply vendors, preservation specialists, high-end retailers",
+    "description": "This elegant glass display case keeps items in perfect condition indefinitely while making them clearly visible to customers. Items inside never decay, tarnish, or lose their quality, maintaining their appeal forever.<br><br><strong>Mechanics:</strong> Items placed inside are preserved in perfect condition and cannot deteriorate. The case provides a +5 bonus to the perceived value of displayed items for sale purposes and prevents theft (DC 20 Investigation to find the hidden lock).",
+    "properties": {
+      "Perfect Preservation": "Items never decay or deteriorate",
+      "Value Enhancement": "+5 bonus to sale price perception",
+      "Theft Protection": "Hidden lock (DC 20 to find)"
+    },
+    "abilities": [
+      {
+        "name": "Eternal Preservation",
+        "description": "Keep displayed items in perfect, unchanging condition forever."
+      },
+      {
+        "name": "Enhanced Appeal",
+        "description": "Items appear more valuable and desirable when displayed inside."
+      }
+    ]
+  },
+  {
+    "name": "Register of Customer Memory",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Customer service training centers, hospitality suppliers, memory enhancement vendors",
+    "description": "This ornate book automatically records information about every customer who enters the shop. It helps shopkeepers remember preferences, purchase history, and important details about their clientele.<br><br><strong>Mechanics:</strong> The book records basic information about anyone who enters your shop including appearance, name (if given), and purchases made. You can recall any customer's information perfectly and gain advantage on Charisma checks with repeat customers.",
+    "properties": {
+      "Customer Database": "Records all customer interactions",
+      "Perfect Recall": "Remember any past customer details",
+      "Relationship Bonus": "Advantage with repeat customers"
+    },
+    "abilities": [
+      {
+        "name": "Customer Tracking",
+        "description": "Automatically record and recall information about every customer."
+      },
+      {
+        "name": "Personal Service",
+        "description": "Enhanced ability to provide personalized service to returning customers."
+      }
+    ]
+  },
+  {
+    "name": "Shopkeeper's Apron of Many Pockets",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Merchant clothing suppliers, utility gear vendors, shopkeeper essentials stores",
+    "description": "This practical canvas apron has an seemingly impossible number of pockets, each enchanted to hold exactly what the shopkeeper needs at any given moment. Tools, samples, and small items appear when needed.<br><br><strong>Mechanics:</strong> The apron has 20 extradimensional pockets. You can pull any mundane item worth 1 gp or less from a pocket as a bonus action, 3 times per day. The apron also provides resistance to damage from spilled substances.",
+    "properties": {
+      "Pocket Count": "20 extradimensional pockets",
+      "Item Retrieval": "Mundane items up to 1 gp",
+      "Spill Protection": "Resistance to substance damage"
+    },
+    "abilities": [
+      {
+        "name": "Convenient Storage",
+        "description": "Pull needed tools and small items from pockets as a bonus action."
+      },
+      {
+        "name": "Workplace Protection",
+        "description": "Resistance to damage from common shop hazards and spills."
+      }
+    ]
+  },
+  {
+    "name": "Bell of Customer Alerting",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Shop fixture suppliers, customer service equipment vendors, small business essentials",
+    "description": "This brass bell chimes melodically whenever a potential customer approaches the shop, even alerting to their general mood and intent. It helps shopkeepers provide appropriate service levels.<br><br><strong>Mechanics:</strong> The bell rings when anyone approaches within 60 feet with intent to enter or conduct business. The tone indicates the visitor's general disposition: cheerful for friendly, somber for serious business, sharp for hostile intent.",
+    "properties": {
+      "Detection Range": "60 feet",
+      "Intent Reading": "Indicates customer mood",
+      "Automatic Function": "No activation required"
+    },
+    "abilities": [
+      {
+        "name": "Customer Detection",
+        "description": "Alerts when potential customers approach with different tones for different moods."
+      },
+      {
+        "name": "Mood Indicator",
+        "description": "Tone reveals whether approaching person is friendly, serious, or hostile."
+      }
+    ]
+  },
+  {
+    "name": "Inventory Crystal of Tracking",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Magical inventory systems, large merchant operations, warehouse management suppliers",
+    "description": "This multifaceted crystal hovers near the ceiling of a shop and tracks the location and quantity of every item in the inventory. It provides real-time updates on stock levels and can locate any specific item instantly.<br><br><strong>Mechanics:</strong> The crystal knows the location and quantity of every item in a building up to 10,000 square feet. You can mentally query it to find any specific item instantly. It alerts you when stock runs low (below 10% of normal levels).",
+    "properties": {
+      "Coverage Area": "10,000 square feet",
+      "Real-time Tracking": "Knows location of every item",
+      "Low Stock Alerts": "Warns at 10% remaining"
+    },
+    "abilities": [
+      {
+        "name": "Perfect Inventory",
+        "description": "Track exact location and quantity of every item in your shop."
+      },
+      {
+        "name": "Instant Location",
+        "description": "Find any specific item immediately through mental query."
+      }
+    ]
+  },
+  {
+    "name": "Contracts of Binding Agreement",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Legal document suppliers, contract law firms, merchant protection services",
+    "description": "This portfolio contains blank contracts that magically enforce their terms once signed by all parties. The contracts prevent violations and ensure fair dealing in business transactions.<br><br><strong>Mechanics:</strong> Once a contract is signed, all parties are compelled to follow its terms (Wisdom save DC 15 to resist taking actions that would violate the contract). The contract glows if someone attempts to break it, and violations cause psychic discomfort.",
+    "properties": {
+      "Binding Force": "Wisdom DC 15 to violate terms",
+      "Violation Detection": "Contract glows when broken",
+      "Psychic Deterrent": "Discomfort from breaking terms"
+    },
+    "abilities": [
+      {
+        "name": "Magical Enforcement",
+        "description": "Compel parties to honor signed agreements through magical compulsion."
+      },
+      {
+        "name": "Breach Warning",
+        "description": "Immediately detect when someone attempts to violate contract terms."
+      }
+    ]
+  },
+  {
+    "name": "Counting Frame of Rapid Calculation",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Accounting tool vendors, mathematical instrument shops, efficiency consultants",
+    "description": "This ornate abacus performs complex calculations instantly and helps with all forms of mathematical business operations. The beads move on their own to show results and prevent calculation errors.<br><br><strong>Mechanics:</strong> The counting frame performs any mathematical calculation instantly and accurately. You gain advantage on Intelligence checks related to mathematics, accounting, or financial planning. It can calculate complex inventory values, taxes, and profit margins automatically.",
+    "properties": {
+      "Instant Calculation": "Any math problem solved immediately",
+      "Error Prevention": "Cannot make calculation mistakes",
+      "Business Math": "Specializes in commercial calculations"
+    },
+    "abilities": [
+      {
+        "name": "Mathematical Mastery",
+        "description": "Perform complex business calculations instantly without error."
+      },
+      {
+        "name": "Financial Analysis",
+        "description": "Advantage on all mathematical and accounting-related Intelligence checks."
+      }
+    ]
   }
 ]
