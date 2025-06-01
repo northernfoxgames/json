@@ -20,6 +20,1302 @@
     ]
   },
   {
+    "name": "Circlet of Mental Fortitude",
+    "type": "Headwear",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Mind protection specialists, psychic defense vendors, mental fortification stores",
+    "description": "This silver circlet protects the mind from intrusion and enhances mental capabilities. Tiny gems pulse with protective energy around the band.<br><br><strong>Mechanics:</strong> You have resistance to psychic damage and advantage on Intelligence, Wisdom, and Charisma saving throws. You can cast detect thoughts once per day (DC 15).",
+    "properties": {
+      "Psychic Resistance": "Resistance to psychic damage",
+      "Mental Saves": "Advantage on Int, Wis, Cha saves",
+      "Detect Thoughts": "Once per day (DC 15)"
+    },
+    "abilities": [
+      {
+        "name": "Psychic Shield",
+        "description": "Protect your mind from mental attacks and intrusion."
+      },
+      {
+        "name": "Thought Reading",
+        "description": "Peer into the surface thoughts of others once per day."
+      }
+    ]
+  },
+  {
+    "name": "Bracers of Archery",
+    "type": "Bracers",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Archery specialists, ranged combat vendors, precision equipment stores",
+    "description": "These leather bracers are inscribed with targeting runes and enhance ranged weapon accuracy. They adjust to the wearer's arm for perfect fit.<br><br><strong>Mechanics:</strong> You gain proficiency with longbows and shortbows if you don't have it. You gain a +2 bonus to damage rolls with ranged weapons.",
+    "properties": {
+      "Bow Proficiency": "Gain proficiency if not already",
+      "Damage Bonus": "+2 to ranged weapon damage",
+      "Perfect Fit": "Adjusts to wearer's arms"
+    },
+    "abilities": [
+      {
+        "name": "Archer's Gift",
+        "description": "Enhanced proficiency and damage with all ranged weapons."
+      },
+      {
+        "name": "Precise Shooting",
+        "description": "Magical guidance improves accuracy and impact."
+      }
+    ]
+  },
+  {
+    "name": "Shield of Spell Turning",
+    "type": "Shield",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Anti-magic specialists, spell defense vendors, magical protection stores",
+    "description": "This polished metal shield can reflect magical attacks back at their casters. Arcane symbols glow around the rim when spells are cast nearby.<br><br><strong>Mechanics:</strong> This is a +1 shield. When targeted by a spell of 3rd level or lower, roll 1d6. On 4-6, the spell reflects back at the caster. You have advantage on saves against spells.",
+    "properties": {
+      "Shield Bonus": "+1 AC",
+      "Spell Reflection": "4-6 on d6 reflects spells 3rd level or lower",
+      "Spell Saves": "Advantage on all spell saves"
+    },
+    "abilities": [
+      {
+        "name": "Magical Reflection",
+        "description": "Turn enemy spells back against their casters."
+      },
+      {
+        "name": "Spell Resistance",
+        "description": "Enhanced protection against all forms of magical attack."
+      }
+    ]
+  },
+  {
+    "name": "Robe of Stars",
+    "type": "Robe",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Celestial magic vendors, starlight specialists, cosmic equipment stores",
+    "description": "This midnight blue robe is covered with glittering stars that seem to move across the fabric. It grants protection and limited access to cosmic magic.<br><br><strong>Mechanics:</strong> You gain a +1 bonus to saving throws. In dim light or darkness, you can cast magic missile at 5th level (6 missiles) at will. You can remove stars to cast various spells.",
+    "properties": {
+      "Save Bonus": "+1 to all saving throws",
+      "Magic Missile": "5th level at will in dim light/darkness",
+      "Star Spells": "Remove stars to cast spells"
+    },
+    "abilities": [
+      {
+        "name": "Stellar Protection",
+        "description": "Cosmic energy provides protection against all forms of harm."
+      },
+      {
+        "name": "Starlight Magic",
+        "description": "Channel the power of stars for devastating magical attacks."
+      }
+    ]
+  },
+  {
+    "name": "Belt of Giant Strength",
+    "type": "Belt",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Giant equipment vendors, strength enhancement stores, power amplification specialists",
+    "description": "This wide leather belt is reinforced with metal plates and grants tremendous physical strength. Runes of power glow along the buckle.<br><br><strong>Mechanics:</strong> Your Strength score becomes 23 while wearing this belt. If your Strength is already 23 or higher, it has no effect.",
+    "properties": {
+      "Strength Score": "23 (if lower)",
+      "Giant Power": "Strength of a giant",
+      "Physical Might": "Tremendous lifting and carrying capacity"
+    },
+    "abilities": [
+      {
+        "name": "Colossal Strength",
+        "description": "Gain the physical might of legendary giants."
+      },
+      {
+        "name": "Superhuman Power",
+        "description": "Lift, carry, and strike with incredible force."
+      }
+    ]
+  },
+  {
+    "name": "Helm of Brilliance",
+    "type": "Helmet",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Light magic specialists, radiant equipment vendors, brilliant illumination stores",
+    "description": "This golden helmet is set with ten diamonds, twenty rubies, thirty fire opals, and forty opals. It blazes with brilliant light and grants fire immunity.<br><br><strong>Mechanics:</strong> You have immunity to fire damage and resistance to radiant damage. The helmet sheds bright light in 30-foot radius. Gems can be used to cast various spells.",
+    "properties": {
+      "Fire Immunity": "Complete immunity to fire damage",
+      "Radiant Resistance": "Resistance to radiant damage",
+      "Gem Spells": "Use gems to cast powerful spells"
+    },
+    "abilities": [
+      {
+        "name": "Blazing Protection",
+        "description": "Complete immunity to fire and resistance to radiant energy."
+      },
+      {
+        "name": "Gem Magic",
+        "description": "Channel magical energy through precious gems for various effects."
+      }
+    ]
+  },
+  {
+    "name": "Gloves of Missile Snaring",
+    "type": "Gloves",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Defensive equipment vendors, projectile protection stores, ranged defense specialists",
+    "description": "These leather gloves allow the wearer to catch and deflect ranged attacks with supernatural reflexes. They're reinforced with magical fibers.<br><br><strong>Mechanics:</strong> When a ranged weapon attack hits you, you can use your reaction to reduce damage by 1d10 + Dex modifier. If you reduce damage to 0, you catch the missile.",
+    "properties": {
+      "Damage Reduction": "1d10 + Dex modifier as reaction",
+      "Missile Catching": "Catch projectile if damage reduced to 0",
+      "Ranged Defense": "Protection against all ranged attacks"
+    },
+    "abilities": [
+      {
+        "name": "Projectile Defense",
+        "description": "Catch arrows, bolts, and other ranged weapons with bare hands."
+      },
+      {
+        "name": "Supernatural Reflexes",
+        "description": "React to incoming projectiles with enhanced speed."
+      }
+    ]
+  },
+  {
+    "name": "Medallion of Thoughts",
+    "type": "Medallion",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Telepathic equipment vendors, mind reading specialists, thought detection stores",
+    "description": "This bronze medallion allows limited telepathic communication and thought detection. It grows warm when minds are actively thinking nearby.<br><br><strong>Mechanics:</strong> You can cast detect thoughts at will (DC 13). The medallion doesn't require concentration for this spell, but you can only target one creature at a time.",
+    "properties": {
+      "Detect Thoughts": "At will (DC 13)",
+      "No Concentration": "Doesn't require concentration",
+      "Single Target": "One creature at a time"
+    },
+    "abilities": [
+      {
+        "name": "Mind Reading",
+        "description": "Constantly scan for surface thoughts in nearby creatures."
+      },
+      {
+        "name": "Telepathic Awareness",
+        "description": "Sense the mental activity of thinking beings around you."
+      }
+    ]
+  },
+  {
+    "name": "Pipes of Haunting",
+    "type": "Instrument",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Musical instrument vendors, fear effect specialists, haunting melody stores",
+    "description": "These bone pipes produce eerie, haunting melodies that can frighten listeners. The music seems to echo from beyond the grave.<br><br><strong>Mechanics:</strong> You can play the pipes to cast fear (DC 13) once per day. The spell affects all creatures within 30 feet that can hear the music.",
+    "properties": {
+      "Fear Spell": "Once per day (DC 13)",
+      "Area Effect": "30-foot radius",
+      "Auditory Range": "Affects all who can hear"
+    },
+    "abilities": [
+      {
+        "name": "Terrifying Music",
+        "description": "Play haunting melodies that strike fear into listeners."
+      },
+      {
+        "name": "Supernatural Dread",
+        "description": "Music carries otherworldly terror that affects multiple targets."
+      }
+    ]
+  },
+  {
+    "name": "Ring of Elemental Command (Fire)",
+    "type": "Ring",
+    "rarity": "Legendary",
+    "attunement": "yes",
+    "suggestedLevel": "17-20",
+    "location": "Elemental plane vendors, fire magic masters, legendary equipment vaults",
+    "description": "This ruby ring grants mastery over fire and immunity to its effects. Flames dance around the band without burning the wearer.<br><br><strong>Mechanics:</strong> You have immunity to fire damage and can cast fire spells at will. You can speak Ignan and have telepathic communication with fire elementals.",
+    "properties": {
+      "Fire Immunity": "Complete immunity to fire damage",
+      "Fire Spells": "Various fire spells at will",
+      "Elemental Communication": "Speak with fire elementals"
+    },
+    "abilities": [
+      {
+        "name": "Fire Mastery",
+        "description": "Complete control over fire and immunity to its effects."
+      },
+      {
+        "name": "Elemental Lord",
+        "description": "Command fire elementals and wield legendary fire magic."
+      }
+    ]
+  },
+  {
+    "name": "Wand of Wonder",
+    "type": "Wand",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Chaos magic vendors, unpredictable effect specialists, wild magic stores",
+    "description": "This wand produces completely random magical effects when used. It's made from twisted wood and sparkles with chaotic energy.<br><br><strong>Mechanics:</strong> The wand has 7 charges, regaining 1d6+1 daily. When used, roll on a table of 50 different random magical effects ranging from helpful to chaotic.",
+    "properties": {
+      "Charges": "7 charges, regain 1d6+1 daily",
+      "Random Effects": "50 different possible outcomes",
+      "Chaos Magic": "Completely unpredictable results"
+    },
+    "abilities": [
+      {
+        "name": "Wild Magic",
+        "description": "Unleash completely random magical effects with each use."
+      },
+      {
+        "name": "Chaotic Power",
+        "description": "Never know what magical phenomenon will manifest."
+      }
+    ]
+  },
+  {
+    "name": "Carpet of Flying",
+    "type": "Wondrous Item",
+    "rarity": "Very Rare",
+    "attunement": "no",
+    "suggestedLevel": "11-16",
+    "location": "Flying carpet dealers, aerial transport vendors, levitation specialists",
+    "description": "This ornate carpet can fly through the air carrying passengers. It responds to spoken commands and hovers silently.<br><br><strong>Mechanics:</strong> The carpet has a flying speed of 80 feet and can carry up to 800 pounds. It hovers without making sound and obeys simple spoken commands.",
+    "properties": {
+      "Flying Speed": "80 feet",
+      "Weight Capacity": "800 pounds",
+      "Silent Flight": "Hovers without sound"
+    },
+    "abilities": [
+      {
+        "name": "Aerial Transport",
+        "description": "Fly passengers and cargo through the air at high speed."
+      },
+      {
+        "name": "Stealth Flight",
+        "description": "Move silently through the air without detection."
+      }
+    ]
+  },
+  {
+    "name": "Efreeti Bottle",
+    "type": "Wondrous Item",
+    "rarity": "Very Rare",
+    "attunement": "no",
+    "suggestedLevel": "11-16",
+    "location": "Genie specialists, djinn equipment vendors, elemental binding stores",
+    "description": "This brass bottle contains a bound efreeti that must serve whoever releases it. Ancient seals keep the powerful being contained.<br><br><strong>Mechanics:</strong> When opened, an efreeti appears and serves for 1 hour or until three wishes are granted. After service, the efreeti disappears for 24 hours before returning to the bottle.",
+    "properties": {
+      "Genie Service": "1 hour or 3 wishes",
+      "Wish Granting": "Limited wish interpretation",
+      "Cooldown": "24 hours between summons"
+    },
+    "abilities": [
+      {
+        "name": "Bound Servant",
+        "description": "Command a powerful efreeti to perform tasks and grant wishes."
+      },
+      {
+        "name": "Wish Magic",
+        "description": "Access to powerful reality-altering magic through wishes."
+      }
+    ]
+  },
+  {
+    "name": "Figurine of Wondrous Power (Golden Lions)",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Figurine collectors, animal companion vendors, guardian spirit specialists",
+    "description": "These two small golden lion figurines can transform into full-sized lions that serve as loyal guardians. They radiate noble courage.<br><br><strong>Mechanics:</strong> Once per day, you can activate both figurines to become two lions for up to 1 hour. They obey your commands and fight alongside you.",
+    "properties": {
+      "Dual Lions": "Two lions for 1 hour",
+      "Daily Use": "Once per day",
+      "Combat Ready": "Lions fight alongside you"
+    },
+    "abilities": [
+      {
+        "name": "Guardian Spirits",
+        "description": "Summon two loyal lions to protect and fight for you."
+      },
+      {
+        "name": "Noble Courage",
+        "description": "Lions inspire bravery and fight with supernatural valor."
+      }
+    ]
+  },
+  {
+    "name": "Folding Boat",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Marine equipment vendors, travel specialists, transformation item stores",
+    "description": "This small wooden box unfolds into a full-sized boat when the command word is spoken. It's perfectly seaworthy and magically buoyant.<br><br><strong>Mechanics:</strong> The box transforms into a 24-foot boat that holds 15 people and their gear. It includes oars, anchor, mast, and sail. Returns to box form on command.",
+    "properties": {
+      "Boat Size": "24 feet long",
+      "Capacity": "15 people plus gear",
+      "Full Equipment": "Includes all necessary sailing gear"
+    },
+    "abilities": [
+      {
+        "name": "Instant Vessel",
+        "description": "Transform from portable box to full-sized boat instantly."
+      },
+      {
+        "name": "Complete Sailing",
+        "description": "Fully equipped boat ready for immediate water travel."
+      }
+    ]
+  },
+  {
+    "name": "Handy Haversack",
+    "type": "Backpack",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Adventure gear vendors, storage specialists, dimensional space dealers",
+    "description": "This backpack has multiple compartments that can hold much more than their size suggests. Items can be retrieved instantly from any pocket.<br><br><strong>Mechanics:</strong> The haversack has three compartments that hold 120 pounds total but weighs only 5 pounds. Retrieving an item requires only reaching in - it appears in your hand.",
+    "properties": {
+      "Capacity": "120 pounds total",
+      "Weight": "5 pounds regardless of contents",
+      "Instant Retrieval": "Items appear in hand when reached for"
+    },
+    "abilities": [
+      {
+        "name": "Dimensional Storage",
+        "description": "Store far more than the bag's size suggests with easy access."
+      },
+      {
+        "name": "Perfect Organization",
+        "description": "Always find exactly what you're looking for instantly."
+      }
+    ]
+  },
+  {
+    "name": "Iron Bands of Binding",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Restraint specialists, capture equipment vendors, binding magic stores",
+    "description": "This rusty iron sphere can expand into restraining bands that hold even the strongest creatures. Ancient binding runes cover the surface.<br><br><Strong>Mechanics:</strong> As an action, throw the sphere at a Large or smaller creature within 20 feet. The target must make a DC 20 Dexterity save or be restrained until freed.",
+    "properties": {
+      "Range": "20 feet",
+      "Size Limit": "Large or smaller creatures",
+      "Escape DC": "DC 20 or higher to break free"
+    },
+    "abilities": [
+      {
+        "name": "Perfect Restraint",
+        "description": "Bind even the strongest creatures with magical iron bands."
+      },
+      {
+        "name": "Inescapable Bonds",
+        "description": "Extremely difficult restraints that few can break."
+      }
+    ]
+  },
+  {
+    "name": "Javelin of Lightning",
+    "type": "Weapon",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Lightning weapon vendors, electrical equipment stores, storm magic specialists",
+    "description": "This javelin crackles with electrical energy and can transform into a lightning bolt when thrown with enough force.<br><br><Strong>Mechanics:</strong> This is a +1 javelin. When thrown and hits, you can transform it into lightning for a 30-foot line (DC 13 Dex save, 4d6 lightning damage). The javelin is destroyed.",
+    "properties": {
+      "Weapon Bonus": "+1 javelin",
+      "Lightning Line": "30-foot line on transformation",
+      "Single Use": "Javelin destroyed when transformed"
+    },
+    "abilities": [
+      {
+        "name": "Lightning Transformation",
+        "description": "Convert the javelin into a devastating bolt of lightning."
+      },
+      {
+        "name": "Electrical Strike",
+        "description": "Strike multiple enemies in a line with pure electrical energy."
+      }
+    ]
+  },
+  {
+    "name": "Lantern of Revealing",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Truth detection vendors, invisible reveal specialists, hidden sight stores",
+    "description": "This magical lantern reveals hidden and invisible things within its light. The flame burns with pure white light that penetrates illusions.<br><br><Strong>Mechanics:</strong> The lantern burns for 6 hours on one pint of oil. Its light reveals invisible creatures and objects within 30 feet as faintly visible outlines.",
+    "properties": {
+      "Burn Duration": "6 hours per pint of oil",
+      "Reveal Range": "30 feet",
+      "True Sight": "Reveals invisible and hidden objects"
+    },
+    "abilities": [
+      {
+        "name": "Invisibility Detection",
+        "description": "Reveal invisible creatures and objects with pure light."
+      },
+      {
+        "name": "Illusion Piercing",
+        "description": "See through deceptions and hidden magical effects."
+      }
+    ]
+  },
+  {
+    "name": "Marvelous Pigments",
+    "type": "Wondrous Item",
+    "rarity": "Very Rare",
+    "attunement": "no",
+    "suggestedLevel": "11-16",
+    "location": "Artistic magic vendors, creation specialists, reality painting stores",
+    "description": "This set of magical paints can create objects that become real when painted. The pigments shimmer with creative energy.<br><br><Strong>Mechanics:</strong> You can paint objects that become real. Each pot covers 1,000 square feet. Takes 10 minutes per 25 square feet to paint. Objects are permanent but non-magical.",
+    "properties": {
+      "Coverage": "1,000 square feet per pot",
+      "Paint Speed": "25 square feet per 10 minutes",
+      "Permanent Creation": "Objects become real and permanent"
+    },
+    "abilities": [
+      {
+        "name": "Reality Creation",
+        "description": "Paint objects that become real and permanent when completed."
+      },
+      {
+        "name": "Artistic Magic",
+        "description": "Transform artistic vision into actual physical reality."
+      }
+    ]
+  },
+  {
+    "name": "Necklace of Adaptation",
+    "type": "Necklace",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Environmental protection vendors, adaptation specialists, survival gear stores",
+    "description": "This necklace allows the wearer to survive in hostile environments by adapting their body to current conditions.<br><br><Strong>Mechanics:</strong> You can breathe normally in any environment and are immune to harmful gases. You're also protected from extreme temperatures and pressure changes.",
+    "properties": {
+      "Universal Breathing": "Breathe in any environment",
+      "Gas Immunity": "Immune to harmful gases",
+      "Environmental Protection": "Protected from extreme conditions"
+    },
+    "abilities": [
+      {
+        "name": "Environmental Adaptation",
+        "description": "Survive in any environment regardless of atmosphere or conditions."
+      },
+      {
+        "name": "Life Support",
+        "description": "Body automatically adapts to maintain life in hostile conditions."
+      }
+    ]
+  },
+  {
+    "name": "Oil of Etherealness",
+    "type": "Potion",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Ethereal travel vendors, phase magic specialists, incorporeal effect stores",
+    "description": "This cloudy oil allows the user to become ethereal and phase through solid matter. It shimmers with otherworldly energy.<br><br><Strong>Mechanics:</strong> When applied to skin, you become ethereal for 1 hour. You can move through solid objects but can't affect the material plane while ethereal.",
+    "properties": {
+      "Duration": "1 hour",
+      "Phase Walking": "Move through solid objects",
+      "Plane Separation": "Can't affect material plane while ethereal"
+    },
+    "abilities": [
+      {
+        "name": "Ethereal Form",
+        "description": "Become incorporeal and phase through walls and obstacles."
+      },
+      {
+        "name": "Dimensional Escape",
+        "description": "Step out of reality to avoid physical dangers."
+      }
+    ]
+  },
+  {
+    "name": "Portable Hole",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Dimensional space vendors, storage specialists, reality manipulation stores",
+    "description": "This circular black cloth creates an extra-dimensional hole when placed on a surface. It provides access to a storage space outside reality.<br><br><Strong>Mechanics:</strong> The hole is 6 feet in diameter and 10 feet deep. It can hold 1,500 pounds. Breathing creatures can survive inside for 10 minutes.",
+    "properties": {
+      "Dimensions": "6 feet diameter, 10 feet deep",
+      "Weight Capacity": "1,500 pounds",
+      "Air Supply": "10 minutes for breathing creatures"
+    },
+    "abilities": [
+      {
+        "name": "Dimensional Storage",
+        "description": "Create a temporary extra-dimensional space for storage."
+      },
+      {
+        "name": "Portable Vault",
+        "description": "Carry large amounts of gear in a convenient cloth form."
+      }
+    ]
+  },
+  {
+    "name": "Quiver of Ehlonna",
+    "type": "Quiver",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Archery specialists, elven equipment vendors, endless ammunition stores",
+    "description": "This elven quiver can hold far more arrows than its size suggests and keeps them organized and easily accessible.<br><br><Strong>Mechanics:</strong> The quiver holds 60 arrows, 18 javelins, or 6 spears in three separate compartments. It weighs only 2 pounds regardless of contents.",
+    "properties": {
+      "Arrow Capacity": "60 arrows",
+      "Multiple Weapons": "Also holds javelins and spears",
+      "Light Weight": "2 pounds regardless of contents"
+    },
+    "abilities": [
+      {
+        "name": "Organized Storage",
+        "description": "Keep all ranged weapons perfectly organized and accessible."
+      },
+      {
+        "name": "Dimensional Quiver",
+        "description": "Hold far more ammunition than the quiver's size suggests."
+      }
+    ]
+  },
+  {
+    "name": "Ring of Regeneration",
+    "type": "Ring",
+    "rarity": "Very Rare",
+    "attunement": "yes",
+    "suggestedLevel": "11-16",
+    "location": "Healing specialists, regeneration magic vendors, life force enhancement stores",
+    "description": "This ring grants supernatural healing abilities and can restore lost limbs over time. It pulses with vital energy.<br><br><Strong>Mechanics:</strong> You regain 1d6 hit points every 10 minutes. If you lose a body part, it regrows after 1d6+1 days. The ring only functions if you have at least 1 hit point.",
+    "properties": {
+      "Healing Rate": "1d6 hit points every 10 minutes",
+      "Limb Regeneration": "Regrow lost parts in 1d6+1 days",
+      "Life Requirement": "Must have at least 1 hit point"
+    },
+    "abilities": [
+      {
+        "name": "Constant Healing",
+        "description": "Continuously heal wounds and recover from injuries."
+      },
+      {
+        "name": "Complete Restoration",
+        "description": "Regrow lost limbs and recover from devastating injuries."
+      }
+    ]
+  },
+  {
+    "name": "Sovereign Glue",
+    "type": "Potion",
+    "rarity": "Legendary",
+    "attunement": "no",
+    "suggestedLevel": "17-20",
+    "location": "Adhesive specialists, permanent bonding vendors, unbreakable attachment stores",
+    "description": "This clear adhesive creates permanent bonds between any two surfaces. Once applied, nothing can separate the bonded materials.<br><br><Strong>Mechanics:</strong> Permanently bonds any two objects together. Only universal solvent or wish spell can separate bonded items. One ounce covers 1 square foot.",
+    "properties": {
+      "Permanent Bond": "Cannot be broken by normal means",
+      "Universal Adhesion": "Works on any materials",
+      "Limited Solvent": "Only universal solvent or wish can break"
+    },
+    "abilities": [
+      {
+        "name": "Unbreakable Bond",
+        "description": "Create permanent connections that can never be separated."
+      },
+      {
+        "name": "Universal Adhesion",
+        "description": "Bond any materials together regardless of their properties."
+      }
+    ]
+  },
+  {
+    "name": "Sphere of Annihilation",
+    "type": "Wondrous Item",
+    "rarity": "Legendary",
+    "attunement": "no",
+    "suggestedLevel": "17-20",
+    "location": "Destruction magic vendors, void specialists, annihilation equipment stores",
+    "description": "This 2-foot-diameter black sphere destroys all matter that enters it. It hovers silently and emanates a void that consumes everything.<br><br><Strong>Mechanics:</strong> Any matter that enters the sphere is instantly destroyed. It can be controlled with a talisman or through extremely difficult Intelligence checks.",
+    "properties": {
+      "Destruction": "Instantly destroys all matter",
+      "Size": "2-foot diameter",
+      "Control": "Requires talisman or high Intelligence"
+    },
+    "abilities": [
+      {
+        "name": "Total Annihilation",
+        "description": "Destroy any matter that comes into contact with the void."
+      },
+      {
+        "name": "Ultimate Weapon",
+        "description": "The most destructive force available, destroying even magical items."
+      }
+    ]
+  },
+  {
+    "name": "Talisman of Pure Good",
+    "type": "Talisman",
+    "rarity": "Legendary",
+    "attunement": "yes (by a good-aligned creature)",
+    "suggestedLevel": "17-20",
+    "location": "Divine temples, celestial equipment vendors, holy relic sanctuaries",
+    "description": "This holy talisman radiates divine power and can destroy evil creatures with a touch. It glows with pure celestial light.<br><br><strong>Mechanics:</strong> You have advantage on death saving throws. As an action, you can destroy a fiend or undead with 100 hit points or fewer (DC 17 Charisma save negates). The talisman has 7 charges for this ability.",
+    "properties": {
+      "Death Save Advantage": "Advantage on death saving throws",
+      "Evil Destruction": "Destroy fiends/undead with 100 HP or less",
+      "Limited Charges": "7 charges total"
+    },
+    "abilities": [
+      {
+        "name": "Divine Destruction",
+        "description": "Instantly destroy evil creatures with pure divine power."
+      },
+      {
+        "name": "Death Defiance",
+        "description": "Enhanced ability to survive mortal wounds through divine protection."
+      }
+    ]
+  },
+  {
+    "name": "Universal Solvent",
+    "type": "Potion",
+    "rarity": "Legendary",
+    "attunement": "no",
+    "suggestedLevel": "17-20",
+    "location": "Alchemical masters, dissolution specialists, sovereign glue counters",
+    "description": "This powerful acid can dissolve any substance, including magical bonds and sovereign glue. It bubbles with destructive energy.<br><br><strong>Mechanics:</strong> Destroys up to 1 cubic foot of any substance instantly. Can dissolve sovereign glue, walls of force, and other magical barriers. Extremely dangerous to handle.",
+    "properties": {
+      "Destruction Volume": "1 cubic foot instantly",
+      "Universal Dissolution": "Dissolves any substance",
+      "Magical Breaking": "Destroys magical barriers"
+    },
+    "abilities": [
+      {
+        "name": "Ultimate Solvent",
+        "description": "Dissolve any material or magical barrier instantly."
+      },
+      {
+        "name": "Barrier Destruction",
+        "description": "Break through any obstacle or magical protection."
+      }
+    ]
+  },
+  {
+    "name": "Well of Many Worlds",
+    "type": "Wondrous Item",
+    "rarity": "Legendary",
+    "attunement": "no",
+    "suggestedLevel": "17-20",
+    "location": "Planar travel specialists, dimensional portal vendors, multiverse access points",
+    "description": "This portable portal can open gateways to any plane of existence. It appears as a circular cloth that opens into dimensional space.<br><br><strong>Mechanics:</strong> When placed on a surface, it creates a two-way portal to any plane you specify. The portal remains open for 1 round per use, and it has limited uses.",
+    "properties": {
+      "Portal Creation": "Two-way portal to any plane",
+      "Duration": "1 round per activation",
+      "Planar Access": "Connect to any plane of existence"
+    },
+    "abilities": [
+      {
+        "name": "Multiverse Gateway",
+        "description": "Open portals to any plane in the multiverse."
+      },
+      {
+        "name": "Dimensional Bridge",
+        "description": "Create temporary connections between different realities."
+      }
+    ]
+  },
+  {
+    "name": "Boots of Speed",
+    "type": "Boots",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Speed enhancement vendors, velocity specialists, quick movement stores",
+    "description": "These boots allow the wearer to move with supernatural speed, leaving trails of light with each step.<br><br><strong>Mechanics:</strong> As a bonus action, you can click the boot heels together to double your walking speed and gain an additional action for 10 minutes. Once per day use.",
+    "properties": {
+      "Speed Doubling": "Double walking speed",
+      "Extra Action": "Additional action each turn",
+      "Duration": "10 minutes once per day"
+    },
+    "abilities": [
+      {
+        "name": "Supernatural Speed",
+        "description": "Move and act at incredible speed for short periods."
+      },
+      {
+        "name": "Action Surge",
+        "description": "Gain extra actions through accelerated time perception."
+      }
+    ]
+  },
+  {
+    "name": "Cape of the Mountebank",
+    "type": "Cloak",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Teleportation specialists, escape equipment vendors, dimensional movement stores",
+    "description": "This elegant cape allows the wearer to teleport short distances in a dramatic fashion, leaving behind smoke and sparkles.<br><br><strong>Mechanics:</strong> Once per day, you can cast dimension door. When you teleport, you leave behind a cloud of smoke and appear in a similar dramatic fashion.",
+    "properties": {
+      "Dimension Door": "Once per day",
+      "Dramatic Effect": "Smoke and sparkles when teleporting",
+      "Short Range": "500 feet maximum distance"
+    },
+    "abilities": [
+      {
+        "name": "Dramatic Escape",
+        "description": "Teleport away from danger with theatrical flair."
+      },
+      {
+        "name": "Tactical Positioning",
+        "description": "Instantly move to strategic locations in combat."
+      }
+    ]
+  },
+  {
+    "name": "Chime of Opening",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Lock bypass specialists, opening equipment vendors, barrier removal stores",
+    "description": "This hollow metal tube produces a tone that can open any lock or barrier when struck. The sound resonates with unlocking frequencies.<br><br><strong>Mechanics:</strong> The chime can open any lock, including magical ones, and can dispel hold portal and arcane lock spells. It has 10 uses before becoming mundane.",
+    "properties": {
+      "Universal Opening": "Opens any lock or barrier",
+      "Spell Dispelling": "Dispels magical locking effects",
+      "Limited Uses": "10 uses total"
+    },
+    "abilities": [
+      {
+        "name": "Master Key",
+        "description": "Open any locked door, chest, or magical barrier."
+      },
+      {
+        "name": "Sonic Unlocking",
+        "description": "Use sound vibrations to bypass any locking mechanism."
+      }
+    ]
+  },
+  {
+    "name": "Cube of Force",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Force field specialists, protective barrier vendors, defensive cube stores",
+    "description": "This cube creates various types of force barriers around the user. Different faces provide different types of protection.<br><br><strong>Mechanics:</strong> Creates a 15-foot cube barrier with 6 different settings based on which face is activated. Each setting blocks different types of effects and damage.",
+    "properties": {
+      "Barrier Size": "15-foot cube",
+      "Six Settings": "Different protection types",
+      "Charge System": "Uses charges based on barrier type"
+    },
+    "abilities": [
+      {
+        "name": "Versatile Protection",
+        "description": "Create different types of barriers for various threats."
+      },
+      {
+        "name": "Force Barriers",
+        "description": "Generate impenetrable walls of force energy."
+      }
+    ]
+  },
+  {
+    "name": "Deck of Many Things",
+    "type": "Wondrous Item",
+    "rarity": "Legendary",
+    "attunement": "no",
+    "suggestedLevel": "17-20",
+    "location": "Fate dealers, destiny specialists, fortune and ruin vendors",
+    "description": "This deck of cards can grant incredible boons or terrible curses based on which cards are drawn. Each card holds powerful magic.<br><br><strong>Mechanics:</strong> Drawing cards produces random effects ranging from great fortune to terrible doom. Effects include gaining levels, losing souls, summoning death, or gaining keeps.",
+    "properties": {
+      "Random Effects": "22 different possible outcomes",
+      "Permanent Changes": "Most effects are permanent",
+      "High Risk/Reward": "Extreme positive or negative results"
+    },
+    "abilities": [
+      {
+        "name": "Fate Manipulation",
+        "description": "Alter your destiny with cards that change reality itself."
+      },
+      {
+        "name": "Ultimate Gamble",
+        "description": "Risk everything for the chance at incredible power."
+      }
+    ]
+  },
+  {
+    "name": "Efficient Quiver",
+    "type": "Quiver",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Archery equipment vendors, dimensional storage specialists, ranged weapon stores",
+    "description": "This leather quiver has three compartments that can hold far more ammunition than their size suggests.<br><br><strong>Mechanics:</strong> Holds 60 arrows, 18 javelins, and 6 spears in three compartments. Weighs only 2 pounds regardless of contents. Items appear in hand when reached for.",
+    "properties": {
+      "Triple Storage": "Three separate compartments",
+      "Light Weight": "2 pounds total weight",
+      "Instant Access": "Items appear when reached for"
+    },
+    "abilities": [
+      {
+        "name": "Organized Arsenal",
+        "description": "Keep all ranged weapons perfectly organized and accessible."
+      },
+      {
+        "name": "Dimensional Capacity",
+        "description": "Store far more than the quiver's physical size allows."
+      }
+    ]
+  },
+  {
+    "name": "Feather Token (Anchor)",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Naval equipment vendors, marine magic specialists, ship anchoring stores",
+    "description": "This tiny feather transforms into a massive ship's anchor when activated. It provides absolute stability for vessels.<br><br><strong>Mechanics:</strong> When thrown into water, the feather becomes a 4,000-pound anchor attached to 50 feet of chain. It prevents any vessel from moving until removed.",
+    "properties": {
+      "Anchor Weight": "4,000 pounds",
+      "Chain Length": "50 feet",
+      "Absolute Hold": "Prevents any vessel movement"
+    },
+    "abilities": [
+      {
+        "name": "Emergency Anchor",
+        "description": "Instantly secure any vessel with a massive magical anchor."
+      },
+      {
+        "name": "Storm Protection",
+        "description": "Provide absolute stability in the worst weather conditions."
+      }
+    ]
+  },
+  {
+    "name": "Gauntlet of Rust",
+    "type": "Gloves",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Corrosion specialists, metal destruction vendors, rust magic stores",
+    "description": "This iron gauntlet can cause metal objects to rust and decay with a touch. The metal of the gauntlet itself appears perpetually corroded.<br><br><strong>Mechanics:</strong> Any nonmagical ferrous metal object you touch crumbles to rust. Magical metal items get a saving throw. You can rust through metal armor and weapons.",
+    "properties": {
+      "Metal Destruction": "Nonmagical ferrous metal crumbles",
+      "Magical Saves": "Magical items get saving throws",
+      "Touch Activation": "Works on contact"
+    },
+    "abilities": [
+      {
+        "name": "Metal Corrosion",
+        "description": "Destroy metal weapons, armor, and barriers with a touch."
+      },
+      {
+        "name": "Rust Magic",
+        "description": "Accelerate corrosion to instantly age metal objects."
+      }
+    ]
+  },
+  {
+    "name": "Hat of Disguise",
+    "type": "Hat",
+    "rarity": "Uncommon",
+    "attunement": "yes",
+    "suggestedLevel": "1-4",
+    "location": "Disguise specialists, illusion equipment vendors, identity change stores",
+    "description": "This hat allows the wearer to change their appearance at will. The hat itself can take on any form of headwear.<br><br><strong>Mechanics:</strong> You can cast disguise self at will. The disguise includes changing your clothing, armor, weapons, and equipment appearance.",
+    "properties": {
+      "Disguise Self": "At will casting",
+      "Complete Disguise": "Includes equipment appearance",
+      "No Concentration": "Doesn't require concentration"
+    },
+    "abilities": [
+      {
+        "name": "Perfect Disguise",
+        "description": "Change your appearance completely including all equipment."
+      },
+      {
+        "name": "Identity Freedom",
+        "description": "Assume any appearance for infiltration or protection."
+      }
+    ]
+  },
+  {
+    "name": "Horseshoes of Speed",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Cavalry equipment vendors, horse enhancement specialists, mount improvement stores",
+    "description": "These magical horseshoes grant supernatural speed to any mount. They glow with kinetic energy when the horse moves quickly.<br><br><strong>Mechanics:</strong> A horse wearing all four shoes has its speed doubled. The horse also leaves no tracks and can walk on any solid surface including water.",
+    "properties": {
+      "Speed Doubling": "Double the mount's speed",
+      "No Tracks": "Leaves no footprints",
+      "Surface Walking": "Can walk on any solid surface"
+    },
+    "abilities": [
+      {
+        "name": "Lightning Speed",
+        "description": "Grant supernatural velocity to any mount."
+      },
+      {
+        "name": "Traceless Movement",
+        "description": "Move without leaving evidence of passage."
+      }
+    ]
+  },
+  {
+    "name": "Ioun Stone (Protection)",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Ioun stone collectors, orbital magic vendors, protective enhancement stores",
+    "description": "This translucent stone orbits around your head and provides magical protection. It glows with a soft protective aura.<br><br><strong>Mechanics:</strong> You gain a +1 bonus to AC and saving throws while this stone orbits your head. The stone has AC 24, 10 hit points, and immunity to most damage types.",
+    "properties": {
+      "AC Bonus": "+1 to AC",
+      "Save Bonus": "+1 to all saving throws",
+      "Stone Defense": "AC 24, 10 HP, damage immunities"
+    },
+    "abilities": [
+      {
+        "name": "Orbital Protection",
+        "description": "Constant magical protection that orbits around you."
+      },
+      {
+        "name": "Enhanced Defense",
+        "description": "Improve both armor class and saving throw resistance."
+      }
+    ]
+  },
+  {
+    "name": "Jar of Alchemy",
+    "type": "Wondrous Item",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Alchemical laboratories, potion brewing suppliers, liquid transformation stores",
+    "description": "This glass jar can transform common liquids into useful alchemical substances. Magical runes glow around the rim when active.<br><br><strong>Mechanics:</strong> Once per day, you can transform water into acid, oil, or alchemist's fire (1 pint each). The transformation takes 1 minute of concentration.",
+    "properties": {
+      "Daily Use": "Once per day transformation",
+      "Three Options": "Acid, oil, or alchemist's fire",
+      "Output Volume": "1 pint of chosen substance"
+    },
+    "abilities": [
+      {
+        "name": "Liquid Alchemy",
+        "description": "Transform common water into useful alchemical substances."
+      },
+      {
+        "name": "Emergency Supplies",
+        "description": "Create essential materials when no other sources are available."
+      }
+    ]
+  },
+  {
+    "name": "Keoghtom's Ointment",
+    "type": "Potion",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Healing specialists, medical supply vendors, wound treatment stores",
+    "description": "This magical salve can heal wounds and cure diseases when applied to the skin. It glows with soft healing energy.<br><br><strong>Mechanics:</strong> The jar contains 5 doses. Each dose heals 2d4+2 hit points, ends one disease, or neutralizes one poison affecting the target.",
+    "properties": {
+      "Dose Count": "5 doses per jar",
+      "Healing": "2d4+2 hit points per dose",
+      "Disease/Poison": "Ends one disease or poison"
+    },
+    "abilities": [
+      {
+        "name": "Rapid Healing",
+        "description": "Quickly heal wounds and restore health with magical ointment."
+      },
+      {
+        "name": "Cure Ailments",
+        "description": "Remove diseases and neutralize poisons affecting the body."
+      }
+    ]
+  },
+  {
+    "name": "Lyre of Building",
+    "type": "Instrument",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Construction magic vendors, building specialists, architectural music stores",
+    "description": "This magical lyre can assist in construction projects and repair damaged structures with music. The strings resonate with creative energy.<br><br><strong>Mechanics:</strong> Playing for 1 hour reduces construction time by half for projects within 300 feet. Can also cast fabricate once per day on stone or wood.",
+    "properties": {
+      "Construction Speed": "Reduce building time by half",
+      "Effect Range": "300 feet",
+      "Fabricate Spell": "Once per day on stone or wood"
+    },
+    "abilities": [
+      {
+        "name": "Musical Construction",
+        "description": "Accelerate building projects through magical music."
+      },
+      {
+        "name": "Instant Fabrication",
+        "description": "Create finished structures from raw materials with song."
+      }
+    ]
+  },
+  {
+    "name": "Manual of Bodily Health",
+    "type": "Book",
+    "rarity": "Very Rare",
+    "attunement": "no",
+    "suggestedLevel": "11-16",
+    "location": "Ancient libraries, attribute enhancement vendors, physical improvement stores",
+    "description": "This book contains exercises and techniques that permanently improve physical health. Reading it enhances the body's natural capabilities.<br><br><strong>Mechanics:</strong> Studying the book for 48 hours over 6 days increases your Constitution score by 2 (maximum 24). The book becomes mundane after use.",
+    "properties": {
+      "Constitution Increase": "+2 to Constitution score",
+      "Score Maximum": "Can exceed 20 up to 24",
+      "Single Use": "Book becomes mundane after reading"
+    },
+    "abilities": [
+      {
+        "name": "Physical Enhancement",
+        "description": "Permanently improve your body's health and endurance."
+      },
+      {
+        "name": "Attribute Mastery",
+        "description": "Exceed normal human limits through magical knowledge."
+      }
+    ]
+  },
+  {
+    "name": "Nolzur's Marvelous Pigments",
+    "type": "Wondrous Item",
+    "rarity": "Very Rare",
+    "attunement": "no",
+    "suggestedLevel": "11-16",
+    "location": "Artistic creation vendors, reality painting specialists, object manifestation stores",
+    "description": "These magical paints can create objects that become real when the painting is completed. The pigments shimmer with creative potential.<br><br><strong>Mechanics:</strong> Paint objects that become real and permanent. Takes 10 minutes per 25 square feet. Objects are nonmagical but fully functional.",
+    "properties": {
+      "Reality Creation": "Painted objects become real",
+      "Paint Speed": "25 square feet per 10 minutes",
+      "Permanent Objects": "Created items are permanent"
+    },
+    "abilities": [
+      {
+        "name": "Artistic Reality",
+        "description": "Paint objects that manifest as real, functional items."
+      },
+      {
+        "name": "Creative Magic",
+        "description": "Transform artistic vision into physical reality."
+      }
+    ]
+  },
+  {
+    "name": "Orb of Dragonkind",
+    "type": "Orb",
+    "rarity": "Artifact",
+    "attunement": "yes",
+    "suggestedLevel": "17-20",
+    "location": "Dragon hoards, ancient vaults, legendary artifact collections",
+    "description": "This crystal orb contains the essence of dragonkind and grants power over dragons. It pulses with draconic energy.<br><br><strong>Mechanics:</strong> Provides resistance to damage type of the orb's dragon. Can charm dragons, gain blindsight, and use dragon breath weapon. Extremely powerful but dangerous to use.",
+    "properties": {
+      "Damage Resistance": "Resistance to orb's dragon type",
+      "Dragon Control": "Charm and command dragons",
+      "Breath Weapon": "Use dragon breath attacks"
+    },
+    "abilities": [
+      {
+        "name": "Dragon Mastery",
+        "description": "Command and control dragons through draconic essence."
+      },
+      {
+        "name": "Draconic Power",
+        "description": "Gain the abilities and resistances of dragonkind."
+      }
+    ]
+  },
+  {
+    "name": "Periapt of Health",
+    "type": "Amulet",
+    "rarity": "Uncommon",
+    "attunement": "no",
+    "suggestedLevel": "1-4",
+    "location": "Health protection vendors, disease immunity specialists, wellness enhancement stores",
+    "description": "This crystal pendant protects the wearer from disease and poison. It glows with purifying light when toxins are near.<br><br><strong>Mechanics:</strong> You are immune to disease and have advantage on saving throws against poison. You also have resistance to poison damage.",
+    "properties": {
+      "Disease Immunity": "Complete immunity to disease",
+      "Poison Advantage": "Advantage on poison saves",
+      "Poison Resistance": "Resistance to poison damage"
+    },
+    "abilities": [
+      {
+        "name": "Perfect Health",
+        "description": "Maintain perfect health free from disease and poison."
+      },
+      {
+        "name": "Toxin Protection",
+        "description": "Enhanced resistance to all forms of poisonous substances."
+      }
+    ]
+  },
+  {
+    "name": "Quaal's Feather Token (Tree)",
+    "type": "Wondrous Item",
+    "rarity": "Rare",
+    "attunement": "no",
+    "suggestedLevel": "5-10",
+    "location": "Nature magic vendors, instant growth specialists, emergency shelter stores",
+    "description": "This tiny feather grows into a massive oak tree when activated. The tree provides shelter and can support structures.<br><br><strong>Mechanics:</strong> When thrown to the ground, the feather grows into a 60-foot tall oak tree with a 5-foot diameter trunk. The tree is permanent and fully alive.",
+    "properties": {
+      "Tree Height": "60 feet tall",
+      "Trunk Diameter": "5 feet",
+      "Permanent Growth": "Tree is alive and permanent"
+    },
+    "abilities": [
+      {
+        "name": "Instant Forest",
+        "description": "Create a massive tree instantly for shelter or obstacles."
+      },
+      {
+        "name": "Living Barrier",
+        "description": "Generate natural cover and climbing opportunities."
+      }
+    ]
+  },
+  {
+    "name": "Ring of Shooting Stars",
+    "type": "Ring",
+    "rarity": "Very Rare",
+    "attunement": "yes (outdoors at night)",
+    "suggestedLevel": "11-16",
+    "location": "Celestial magic vendors, star power specialists, night magic stores",
+    "description": "This ring allows the wearer to create and launch magical shooting stars. It draws power from the night sky.<br><br><strong>Mechanics:</strong> Can create dancing lights, light, or faerie fire at will. Can launch shooting stars (as magic missile) with 50 charges. Regains charges under starlight.",
+    "properties": {
+      "Light Magic": "Dancing lights, light, faerie fire at will",
+      "Shooting Stars": "Magic missile with 50 charges",
+      "Starlight Recharge": "Regains charges under night sky"
+    },
+    "abilities": [
+      {
+        "name": "Stellar Magic",
+        "description": "Channel the power of stars for light and offensive magic."
+      },
+      {
+        "name": "Night Power",
+        "description": "Draw magical energy from the celestial bodies above."
+      }
+    ]
+  },
+  {
+    "name": "Scarab of Protection",
+    "type": "Amulet",
+    "rarity": "Legendary",
+    "attunement": "yes",
+    "suggestedLevel": "17-20",
+    "location": "Death protection specialists, undead defense vendors, life preservation stores",
+    "description": "This golden scarab beetle amulet provides protection against death magic and negative energy. It glows with life-preserving energy.<br><br><strong>Mechanics:</strong> You have advantage on saving throws against death effects and negative energy. The scarab has 12 charges that can absorb instant death effects.",
+    "properties": {
+      "Death Save Advantage": "Advantage vs death effects",
+      "Negative Energy Protection": "Protection from energy drain",
+      "Absorption Charges": "12 charges to absorb death magic"
+    },
+    "abilities": [
+      {
+        "name": "Death Ward",
+        "description": "Protection against instant death and life-draining effects."
+      },
+      {
+        "name": "Life Preservation",
+        "description": "Maintain life force against the most powerful death magic."
+      }
+    ]
+  },
+  {
+    "name": "Tome of Understanding",
+    "type": "Book",
+    "rarity": "Very Rare",
+    "attunement": "no",
+    "suggestedLevel": "11-16",
+    "location": "Ancient libraries, wisdom enhancement vendors, intelligence improvement stores",
+    "description": "This book contains philosophical insights and mental exercises that permanently enhance understanding. Reading it expands mental capabilities.<br><br><strong>Mechanics:</strong> Studying the book for 48 hours over 6 days increases your Wisdom score by 2 (maximum 24). The book becomes mundane after use.",
+    "properties": {
+      "Wisdom Increase": "+2 to Wisdom score",
+      "Score Maximum": "Can exceed 20 up to 24",
+      "Single Use": "Book becomes mundane after reading"
+    },
+    "abilities": [
+      {
+        "name": "Enhanced Wisdom",
+        "description": "Permanently improve your understanding and perception."
+      },
+      {
+        "name": "Mental Transcendence",
+        "description": "Exceed normal human limits of wisdom and insight."
+      }
+    ]
+  },
+  {
+    "name": "Wand of Fireballs",
+    "type": "Wand",
+    "rarity": "Rare",
+    "attunement": "yes (by a spellcaster)",
+    "suggestedLevel": "5-10",
+    "location": "Evocation specialists, fire magic vendors, explosive spell stores",
+    "description": "This wand is tipped with a ruby that glows with inner fire. It can launch devastating fireballs at enemies.<br><br><strong>Mechanics:</strong> The wand has 7 charges and regains 1d6+1 charges daily at dawn. You can expend 1-3 charges to cast fireball at 3rd-5th level.",
+    "properties": {
+      "Charges": "7 charges, regain 1d6+1 daily",
+      "Fireball Levels": "3rd-5th level based on charges",
+      "Explosive Power": "Devastating area damage"
+    },
+    "abilities": [
+      {
+        "name": "Inferno Magic",
+        "description": "Launch powerful fireballs that devastate groups of enemies."
+      },
+      {
+        "name": "Scalable Destruction",
+        "description": "Adjust the power level based on the threat and charges available."
+      }
+    ]
+  },
+  {
+    "name": "Wings of Flying",
+    "type": "Cloak",
+    "rarity": "Rare",
+    "attunement": "yes",
+    "suggestedLevel": "5-10",
+    "location": "Flight equipment vendors, aerial mobility specialists, wing transformation stores",
+    "description": "This cloak transforms into a pair of bat wings when activated, granting the wearer the power of flight.<br><br><strong>Mechanics:</strong> You can transform the cloak into wings as an action, gaining a flying speed of 60 feet for 1 hour. Once per day use. You can hover and fly freely.",
+    "properties": {
+      "Flying Speed": "60 feet",
+      "Duration": "1 hour",
+      "Daily Use": "Once per day"
+    },
+    "abilities": [
+      {
+        "name": "Wing Transformation",
+        "description": "Transform the cloak into functional wings for powered flight."
+      },
+      {
+        "name": "Aerial Freedom",
+        "description": "Gain complete three-dimensional movement for exploration and combat."
+      }
+    ]
+  },
+  {
     "name": "Ring of Telekinesis",
     "type": "Ring",
     "rarity": "Very Rare",
