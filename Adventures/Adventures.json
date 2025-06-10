@@ -1,4 +1,3 @@
-
 [
   {
     "name": "The Whitmore Estate Murders",
@@ -16,6 +15,24 @@
     "type": "Gothic Horror",
     "preview": "In Ravenshollow, a murder of crows speaks with voices of the dead, driving villagers to madness...",
     "description": "When grief-stricken druid Mordecai Blackfeather tears the veil between life and death, thousands of crows become conduits for the voices of the deceased. In the Gothic horror tradition, this atmospheric adventure emphasizes psychological terror over combat as the party investigates a village where corvids whisper impossible secrets and reveal truths that shatter minds. Players must unravel the mystery of the corrupted druid circle, confront their own mortality through conversations with the dead, and choose between multiple resolution paths that each carry profound moral weight. Features rich atmospheric descriptions, extensive NPC dialogue, sanity mechanics, and multiple endings ranging from redemption to divine intervention.",
-    "downloadUrl": "https://github.com/northernfoxgames/json/blob/4e63731a073c283b4a73a1f27da7086b9e0455d7/Adventures/The%20Corvids%20Curse.pdf"
-  }
+    "downloadUrl": "https://github.com/northernfoxgames/json/blob/90d5b874d50ce97eacd02c6da69db5b22dc24c29/Adventures/The%20Corvids%20Curse.pdf"
+  },
+ {
+  "name": "The Gilded Conspiracy",
+  "levelRange": "6-8",
+  "partySize": "4-6",
+  "type": "Urban/Political Intrigue",
+  "preview": "In the golden city of Aurelius, missing persons return as perfect—but inhuman—versions of themselves...",
+  "description": "A sophisticated urban adventure that plunges players into the political heart of Aurelius, a magnificent city where wealth and corruption intertwine. When the desperate begin disappearing from the lower districts only to return as eerily perfect versions of themselves, the party uncovers a conspiracy that reaches the highest levels of government. This investigation-heavy adventure features complex faction politics, moral ambiguity, and body horror as players navigate between noble houses, merchant guilds, and a sinister cult seeking to transform humanity itself. With detailed city districts, extensive NPC interactions, and multiple resolution paths, players must prevent a mass transformation that would remake every citizen into golden perfection—but at the cost of their humanity.",
+  "downloadUrl": "https://github.com/northernfoxgames/json/blob/b76e1917293269bfa6de9515861fe9327e1894a0/Adventures/The%20Gilded%20Conspiracy.pdf"
+ },
+{
+  "name": "The Sundered Crown",
+  "levelRange": "7-9",
+  "partySize": "4-6",
+  "type": "Political/Cultural",
+  "preview": "The ancient dwarven crown lies shattered, and without its unifying power, the seven great clans fracture while ancient evils stir below...",
+  "description": "A deep dive into dwarven politics and culture as the party navigates the complex relationships between seven great clans in the underground kingdom of Khaz Ankor. When the legendary Crown of Mountain Kings shatters during a clan dispute, its seven sacred gems scatter across the realm, taking with them the magical unity that has held the kingdom together for millennia. Players must prove themselves worthy of each clan's trust through trials that test the core dwarven virtues: Honor, Courage, Wisdom, Industry, Loyalty, Faith, and Unity. As ancient seals weaken and forgotten enemies stir in the depths, the party races against time to restore not just a crown, but the very soul of dwarven civilization. Features rich cultural immersion, political intrigue, meaningful moral choices, and a climactic restoration ritual that brings together all seven clans.",
+  "downloadUrl": "https://github.com/northernfoxgames/json/blob/c7b2cf620a44f4f5d2185af25b89efda0ca7a96a/Adventures/The%20Sundered%20Crown.pdf"
+}
 ]
