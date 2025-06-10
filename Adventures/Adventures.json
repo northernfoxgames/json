@@ -4,18 +4,18 @@
     "name": "The Whitmore Estate Murders",
     "levelRange": "4-6",
     "partySize": "4-6",
-    "type": "Mystery",
+    "type": "Mystery/Horror",
     "preview": "Three impossible murders at a fog-shrouded estate reveal a nobleman's dark descent into necromancy...",
     "description": "When three guests are found dead under impossible circumstances at the remote Whitmore Estate, the party must unravel a web of secrets, forbidden research, and supernatural horror. This investigation-heavy adventure combines classic detective work with D&D's supernatural elements, as the characters discover that grief-stricken Lord Whitmore's attempts to resurrect his dead son have unleashed forces beyond his control. Featuring locked-room mysteries, hidden laboratories, and a climactic confrontation with the undead, this adventure emphasizes roleplay and deduction over combat while delivering genuine chills and meaningful choices.",
-    "downloadUrl": "https://raw.githubusercontent.com/northernfoxgames/json/90d5b874d50ce97eacd02c6da69db5b22dc24c29/Adventures/The%20Whitmore%20Estate%20Murders.pdf"
+    "downloadUrl": "https://github.com/northernfoxgames/json/blob/90d5b874d50ce97eacd02c6da69db5b22dc24c29/Adventures/The%20Whitmore%20Estate%20Murders.pdf"
   },
   {
-  "name": "The Corvid's Curse",
-  "levelRange": "5-7",
-  "partySize": "4-6", 
-  "type": "Gothic Horror",
-  "preview": "In Ravenshollow, a murder of crows speaks with voices of the dead, driving villagers to madness...",
-  "description": "When grief-stricken druid Mordecai Blackfeather tears the veil between life and death, thousands of crows become conduits for the voices of the deceased. In the Gothic horror tradition, this atmospheric adventure emphasizes psychological terror over combat as the party investigates a village where corvids whisper impossible secrets and reveal truths that shatter minds. Players must unravel the mystery of the corrupted druid circle, confront their own mortality through conversations with the dead, and choose between multiple resolution paths that each carry profound moral weight. Features rich atmospheric descriptions, extensive NPC dialogue, sanity mechanics, and multiple endings ranging from redemption to divine intervention.",
-  "downloadUrl": "https://github.com/northernfoxgames/json/blob/90d5b874d50ce97eacd02c6da69db5b22dc24c29/Adventures/The%20Corvids%20Curse.pdf"
-}
+    "name": "The Corvid's Curse",
+    "levelRange": "5-7",
+    "partySize": "4-6", 
+    "type": "Gothic Horror",
+    "preview": "In Ravenshollow, a murder of crows speaks with voices of the dead, driving villagers to madness...",
+    "description": "When grief-stricken druid Mordecai Blackfeather tears the veil between life and death, thousands of crows become conduits for the voices of the deceased. In the Gothic horror tradition, this atmospheric adventure emphasizes psychological terror over combat as the party investigates a village where corvids whisper impossible secrets and reveal truths that shatter minds. Players must unravel the mystery of the corrupted druid circle, confront their own mortality through conversations with the dead, and choose between multiple resolution paths that each carry profound moral weight. Features rich atmospheric descriptions, extensive NPC dialogue, sanity mechanics, and multiple endings ranging from redemption to divine intervention.",
+    "downloadUrl": "https://github.com/northernfoxgames/json/blob/90d5b874d50ce97eacd02c6da69db5b22dc24c29/Adventures/The%20Corvids%20Curse.pdf"
+  }
 ]
