@@ -17,6 +17,15 @@
     "description": "When grief-stricken druid Mordecai Blackfeather tears the veil between life and death, thousands of crows become conduits for the voices of the deceased. In the Gothic horror tradition, this atmospheric adventure emphasizes psychological terror over combat as the party investigates a village where corvids whisper impossible secrets and reveal truths that shatter minds. Players must unravel the mystery of the corrupted druid circle, confront their own mortality through conversations with the dead, and choose between multiple resolution paths that each carry profound moral weight. Features rich atmospheric descriptions, extensive NPC dialogue, sanity mechanics, and multiple endings ranging from redemption to divine intervention.",
     "downloadUrl": "https://raw.githubusercontent.com/northernfoxgames/json/90d5b874d50ce97eacd02c6da69db5b22dc24c29/Adventures/The%20Corvids%20Curse.pdf"
   },
+    {
+    "name": "Ravenscroft",
+    "levelRange": "5-7",
+    "partySize": "4-6",
+    "type": "Mystery/Horror",
+    "preview": "Uncover the haunted legacy of the Ravenscroft family in a dark, gothic mystery where secrets whisper from the shadows...",
+    "description": "In Ravenscroft: Whispers of the Forgotten, a party of brave adventurers is drawn to a fog-shrouded coastal town steeped in sorrow and superstition. At its heart looms the Ravenscroft Mansion—a decaying estate filled with arcane relics, restless spirits, and a cursed family secret buried deep beneath its foundations. As players explore its haunted halls, decipher cryptic clues, and face twisted horrors born of grief and ambition, they must unravel the truth behind the Soulshard Amulet before it falls into darker hands. This level 3 adventure blends gothic horror and magical mystery, perfect for those who love atmospheric storytelling and unraveling the secrets of the dead.",
+    "downloadUrl": "https://raw.githubusercontent.com/northernfoxgames/json/9832c97969d8600783362c063239d8036edc7573/Adventures/Ravenscroft.pdf
+  },
  {
   "name": "The Gilded Conspiracy",
   "levelRange": "6-8",
