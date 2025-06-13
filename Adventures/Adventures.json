@@ -52,5 +52,41 @@
   "preview": "Magical chaos erupts at the annual goblin county fair when enchanted attractions run amok...",
   "description": "A delightful one-shot adventure perfect for new players or groups seeking lighthearted fun. When young goblin inventor Pipkin supercharges the county fair's magical generator with experimental pixie dust, carnival attractions come to life with chaotic results. Players must rescue fairgoers from a carousel of bucking wooden horses, navigate a funhouse maze of interdimensional mirrors, battle sentient pies in a food fight gone wrong, and prevent superpowered strongmen from accidentally destroying everything. This adventure emphasizes creative problem-solving over combat, offers multiple solutions to each challenge, and rewards heroic thinking with memorable moments. Features colorful NPCs, escalating magical mayhem, and a satisfying resolution that lets heroes enjoy the restored fair festivities.",
   "downloadUrl": "https://raw.githubusercontent.com/northernfoxgames/json/2ef7239b33e66c12cdb6bb7af8ec7f234fe10f7c/Adventures/The%20Goblin%20County%20Fair.pdf"
+},
+  {
+  "name": "The Clockwork Conspiracy",
+  "levelRange": "2-4",
+  "partySize": "4-6",
+  "type": "Steampunk/Mystery",
+  "preview": "In the steam-shrouded city of Gearshire, brilliant inventor Professor Steamwright has vanished and his revolutionary automaton designs appear in criminal hands...",
+  "description": "A Victorian steampunk adventure that plunges players into the industrial intrigue of Gearshire, where steam-powered machines work alongside humans and brass-plated mansions tower over soot-covered tenements. When the city's greatest inventor disappears and factory 'accidents' multiply, the party uncovers a conspiracy involving forced mechanical modifications of workers, revolutionary sabotage, and a mysterious figure known as the Brass Baron who manipulates both sides for personal gain. This investigation-heavy adventure features rich steampunk atmosphere, moral complexity around industrial progress versus worker welfare, and multiple resolution paths ranging from social reform to armed revolution. Players navigate between corporate espionage and revolutionary politics while dealing with rogue automatons, steam-powered street gangs, and the ethical implications of magical technology in an industrial society.",
+  "downloadUrl": "https://raw.githubusercontent.com/northernfoxgames/json/380c1a556a2ddfb72a0a2897715f2b0dec5bacb3/Adventures/The%20Clockwork%20Conspiracy.pdf"
+},
+{
+  "name": "The Willowbrook Incident",
+  "levelRange": "4-6",
+  "partySize": "4-6",
+  "type": "Psychological Horror",
+  "preview": "In the quiet farming town of Willowbrook, children draw disturbing pictures and residents sleepwalk toward the old grain silo...",
+  "description": "A psychological horror adventure that captures the essence of small-town terror, where the party discovers that the seemingly peaceful community of Willowbrook harbors a dark secret spanning generations. When travelers begin disappearing and children's drawings reveal disturbing patterns, the heroes uncover an ancient covenant between the town's leadership and a malevolent entity known as the Hunger. This investigation-heavy adventure emphasizes atmospheric tension over combat, building dread through gradually revealed corruption as ordinary townspeople prove to be something far more sinister. Players must navigate social interactions where trust becomes impossible, uncover a conspiracy that has consumed most of the town's population, and confront an aberrant horror that has been feeding on human sacrifice for nearly a century. Features multiple resolution paths, moral complexity around community survival versus individual conscience, and escalating supernatural encounters that culminate in a choice between containing ancient evil or destroying it entirely.",
+  "downloadUrl": "https://raw.githubusercontent.com/northernfoxgames/json/380c1a556a2ddfb72a0a2897715f2b0dec5bacb3/Adventures/The%20Willowbrook%20Incident.pdf"
+},
+{
+  "name": "Pirates of the Shattered Sky",
+  "levelRange": "5-7",
+  "partySize": "4-6",
+  "type": "High Adventure/Exploration",
+  "preview": "Sail the endless blue skies aboard the Windchaser, seeking the legendary Celestial Compass among floating islands and storm-wracked peaks...",
+  "description": "A swashbuckling high-adventure campaign that takes players into the realm of Aethermoor, where a magical catastrophe called the Skybreak has shattered the heavens and left floating islands drifting through endless blue skies. As crew members aboard Captain Zara Stormwind's sky ship Windchaser, the party embarks on a quest to find the three components of the legendary Celestial Compass—an artifact that points toward the greatest treasure within a thousand miles. Their journey leads them to a wind monastery where monks test their wisdom, a storm-wracked dragon's lair that challenges their courage, and the treasure vault of the infamous Pirate Queen Scarlett Cloudrider. Featuring aerial ship combat, exploration of wondrous floating islands, colorful NPCs with their own agendas, and multiple approaches to each challenge, this adventure emphasizes the joy of discovery and the freedom of limitless horizons. The campaign culminates in the discovery of the Heart of the Skybreak itself, offering players ultimate power and the choice of how to reshape their world.",
+  "downloadUrl": "https://raw.githubusercontent.com/northernfoxgames/json/380c1a556a2ddfb72a0a2897715f2b0dec5bacb3/Adventures/Pirates%20of%20the%20Shattered%20Sky.pdf"
+},
+{
+  "name": "Lords of the Crimson Fleet",
+  "levelRange": "6-10",
+  "partySize": "4-6",
+  "type": "Empire Building/Naval Combat",
+  "preview": "From adventurers to pirate lords—claim territory, build a fleet, and forge your own empire in the lawless Crimson Reaches...",
+  "description": "A comprehensive empire-building campaign that transforms players from adventurers into pirate lords commanding their own fleet and territory. Set in the resource-rich Crimson Reaches following the death of the previous Pirate King, players must navigate complex politics, build and manage multiple ships, establish territorial control, and deal with the moral complexities of balancing piracy with leadership. This campaign features large-scale naval combat, economic management, crew development, and meaningful choices between profit and principles. Players face rival pirate captains, Royal Navy expeditions, merchant consortiums, and ancient guardians while building relationships, managing resources, and deciding what kind of leaders they want to become. The campaign emphasizes the transformation from individual heroes to responsible rulers, exploring whether power corrupts or whether good people can create better systems even within traditionally villainous frameworks.",
+  "downloadUrl": "https://raw.githubusercontent.com/northernfoxgames/json/380c1a556a2ddfb72a0a2897715f2b0dec5bacb3/Adventures/Lords%20of%20the%20Crimson%20Fleet.pdf"
 }
 ]
