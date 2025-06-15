@@ -80,6 +80,42 @@
   "description": "A swashbuckling high-adventure campaign that takes players into the realm of Aethermoor, where a magical catastrophe called the Skybreak has shattered the heavens and left floating islands drifting through endless blue skies. As crew members aboard Captain Zara Stormwind's sky ship Windchaser, the party embarks on a quest to find the three components of the legendary Celestial Compass—an artifact that points toward the greatest treasure within a thousand miles. Their journey leads them to a wind monastery where monks test their wisdom, a storm-wracked dragon's lair that challenges their courage, and the treasure vault of the infamous Pirate Queen Scarlett Cloudrider. Featuring aerial ship combat, exploration of wondrous floating islands, colorful NPCs with their own agendas, and multiple approaches to each challenge, this adventure emphasizes the joy of discovery and the freedom of limitless horizons. The campaign culminates in the discovery of the Heart of the Skybreak itself, offering players ultimate power and the choice of how to reshape their world.",
   "downloadUrl": "https://raw.githubusercontent.com/northernfoxgames/json/380c1a556a2ddfb72a0a2897715f2b0dec5bacb3/Adventures/Pirates%20of%20the%20Shattered%20Sky.pdf"
 },
+  {
+  "name": "The Sunken Halls of Tidewatch",
+  "levelRange": "3-5",
+  "partySize": "4-6",
+  "type": "Dungeon Crawl",
+  "preview": "Explore the drowned ruins of an ancient keep where elemental magic gone wrong threatens to flood the coastal regions...",
+  "description": "Beneath the waves off Saltmarsh lies Tidewatch Keep, a fortress swallowed by the sea fifty years ago during a catastrophic magical storm. Once home to the Order of the Coral Throne, the keep housed both naval defenders and researchers studying elemental water magic. When their experiments with a planar rift went disastrously wrong, the entire structure was dragged into the depths. Now the rift grows stronger, spawning aberrant creatures and threatening to merge the coastal region with the Elemental Plane of Water. Players must navigate flooded chambers, confront the undead remnants of the Order, and gather the knowledge and artifacts needed to seal the rift before it dooms the entire coast. This underwater dungeon crawler emphasizes resource management, environmental challenges, and moral complexity as players encounter the transformed survivors of the original disaster.",
+  "downloadUrl": "https://raw.githubusercontent.com/northernfoxgames/json/755e9008be5e302ecaa884360413df989351deb6/Adventures/The%20Sunken%20Halls%20of%20Tidewatch.pdf"
+},
+{
+  "name": "The Crown's Shadow",
+  "levelRange": "4-7",
+  "partySize": "3-6",
+  "type": "Political Intrigue",
+  "preview": "Navigate the treacherous waters of court politics as a dying king's succession crisis threatens to tear the kingdom apart...",
+  "description": "The Kingdom of Astoria faces its greatest crisis as King Aldric the Wise lies dying without a clear succession plan. Five powerful factions vie for control: traditional nobles, ambitious merchants, military commanders, reform-minded populists, and shadowy manipulators with their own agenda. As the Feast of Crowns celebration masks growing tensions, the party must navigate complex court politics, uncover hidden conspiracies, and ultimately decide which vision of the kingdom's future they will support. This political intrigue adventure emphasizes social encounters, investigation, and moral complexity over traditional dungeon crawling. Players must build relationships, gather intelligence, and make difficult choices that will determine not only their own fate but the future of an entire kingdom. Every conversation matters, every alliance has consequences, and the crown's shadow falls on all who seek power.",
+  "downloadUrl": "https://raw.githubusercontent.com/northernfoxgames/json/755e9008be5e302ecaa884360413df989351deb6/Adventures/The%20Crown's%20Shadow.pdf
+},
+{
+  "name": "The Whispering Woods",
+  "levelRange": "1-3",
+  "partySize": "3-5",
+  "type": "Mystery",
+  "preview": "Three children have vanished into woods that have turned strange and hostile, and their whispers carry on the wind...",
+  "description": "The peaceful village of Millbrook has always lived in harmony with the nearby Whispering Woods, but something has gone terribly wrong. The forest has fallen silent, animals have fled, and eerie whispers echo through the trees even when no wind stirs the leaves. Most alarming of all, three beloved village children ventured into the woods five days ago and haven't returned. As supernatural corruption spreads and the villagers grow desperate, the party must investigate what has transformed this once-benevolent forest into a place of fear and mystery. This investigation-focused adventure emphasizes roleplay, problem-solving, and moral choices over combat, making it perfect for new players and low-level characters. The truth behind the mystery involves a frightened young druid whose awakening powers have spiraled out of control, creating a story about understanding, compassion, and the responsibility that comes with magical abilities. Players must navigate village politics, decode supernatural clues, and ultimately choose between justice and mercy in resolving a crisis that threatens both the forest's ancient magic and the community's future.",
+  "downloadUrl": "https://raw.githubusercontent.com/northernfoxgames/json/755e9008be5e302ecaa884360413df989351deb6/Adventures/The%20Whispering%20Woods.pdf"
+},
+{
+  "name": "Shadows of the Convergence",
+  "levelRange": "2-4", 
+  "partySize": "3-5",
+  "type": "Investigation",
+  "preview": "Six months after the Whispering Woods, young magic-users across the region are vanishing into shadow, and an ancient evil stirs...",
+  "description": "This sequel to 'The Whispering Woods' finds the heroes returning to Millbrook six months later, only to discover that Lyra's magical awakening was part of a much larger and more dangerous pattern. Across the region, young druids, wizards, and sorcerers are disappearing, taken by shadowy creatures that leave behind withered crops and corrupted landscapes. As the party investigates these mysterious kidnappings, they uncover an ancient threat: the Shadow of the Deep, a primordial entity imprisoned centuries ago by heroic magic-users, is using the convergence of magical awakenings to break free from its bonds. The adventure combines investigation, wilderness exploration, and moral complexity as the party must not only rescue the captured magic-users but also decide how far they're willing to go to renew the ancient binding that keeps this cosmic horror contained. Featuring returning characters like Lyra Reed, now a confident young druid, and new allies including the captured magic-users themselves, this adventure explores themes of responsibility, sacrifice, and the true cost of protecting others from threats beyond their understanding.",
+  "downloadUrl": "https://raw.githubusercontent.com/northernfoxgames/json/755e9008be5e302ecaa884360413df989351deb6/Adventures/Shadows%20of%20the%20Convergence.pdf"
+},
 {
   "name": "Lords of the Crimson Fleet",
   "levelRange": "6-10",
