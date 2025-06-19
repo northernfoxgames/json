@@ -1173,5 +1173,971 @@
         "role": "Spring Attendant"
       }
     ]
+  },
+    {
+    "name": "The Gilded Page",
+    "type": "Bookstore",
+    "location": "City",
+    "priceRange": "Expensive",
+    "quality": "Excellent",
+    "preview": "An upscale bookstore specializing in rare texts, spellbooks, and literary treasures...",
+    "description": "Leather-bound tomes line mahogany shelves in this prestigious bookstore, where the scent of aged parchment and fine ink creates an atmosphere of scholarly luxury. The Gilded Page caters to wizards, nobles, and serious collectors, offering rare spellbooks, historical texts, and beautifully illuminated manuscripts. Each book is carefully curated for quality and authenticity.",
+    "services": ["Equipment", "Information", "Special Orders", "Appraisal"],
+    "pricing": {
+      "Common Spellbook": "50 gp",
+      "Rare Spellbook": "200-1,000 gp",
+      "Historical Text": "25-500 gp",
+      "Poetry Collection": "15 gp",
+      "Maps & Charts": "10-100 gp",
+      "Book Appraisal": "5 gp",
+      "Custom Binding": "20 gp",
+      "Book Restoration": "varies"
+    },
+    "npcs": [
+      {
+        "name": "Madame Isabelle Goldleaf",
+        "role": "Proprietor & Book Collector"
+      },
+      {
+        "name": "Scholar Aldwin",
+        "role": "Book Appraiser"
+      }
+    ]
+  },
+  {
+    "name": "Thornback's Exotic Meats",
+    "type": "Butcher",
+    "location": "City",
+    "priceRange": "Expensive",
+    "quality": "Good",
+    "preview": "A specialized butcher shop offering exotic meats from magical creatures and far-off lands...",
+    "description": "This unique establishment caters to adventurous palates and those seeking ingredients with magical properties. Preserved meats from owlbears, hippogriffs, and other exotic creatures hang in enchanted cold rooms. Thornback sources his wares from licensed monster hunters and far-traveling merchants, ensuring both quality and legality.",
+    "services": ["Food & Drink", "Special Orders", "Preservation"],
+    "pricing": {
+      "Owlbear Steak": "25 gp/lb",
+      "Dragon Turtle Soup": "100 gp/bowl",
+      "Hippogriff Wing": "50 gp/piece",
+      "Exotic Jerky": "10 gp/lb",
+      "Magical Sausages": "15 gp/lb",
+      "Preservation Service": "5 gp/lb",
+      "Cooking Consultation": "10 gp",
+      "Custom Orders": "varies"
+    },
+    "npcs": [
+      {
+        "name": "Grok Thornback",
+        "role": "Master Butcher & Beast Expert"
+      },
+      {
+        "name": "Cleaver Pete",
+        "role": "Assistant & Delivery"
+      }
+    ]
+  },
+  {
+    "name": "Riversong Trading Post",
+    "type": "General Store",
+    "location": "Village",
+    "priceRange": "Budget",
+    "quality": "Common",
+    "preview": "A humble village trading post serving the basic needs of rural folk and travelers...",
+    "description": "This weathered wooden building serves as the commercial heart of a small riverside village. Shelves hold basic necessities: tools, cloth, preserved foods, and simple medicines. The trading post also serves as an informal message center and gathering place where locals exchange news and gossip while conducting business.",
+    "services": ["Equipment", "Information", "Message Service"],
+    "pricing": {
+      "Basic Tools": "1-5 gp",
+      "Common Cloth": "2 sp/yard",
+      "Preserved Food": "3 cp/meal",
+      "Simple Medicine": "5 sp",
+      "Farming Supplies": "varies",
+      "Message Delivery": "1 cp/mile",
+      "Local Information": "free with purchase",
+      "Emergency Supplies": "standard + 20%"
+    },
+    "npcs": [
+      {
+        "name": "Old Henrik",
+        "role": "Shopkeeper & Village Elder"
+      },
+      {
+        "name": "Young Mira",
+        "role": "Assistant & Message Runner"
+      }
+    ]
+  },
+  {
+    "name": "The Crystal Gazer",
+    "type": "Fortune Teller",
+    "location": "City",
+    "priceRange": "Moderate",
+    "quality": "Good",
+    "preview": "A mysterious shop where a gifted oracle reads the future in crystal balls and tarot cards...",
+    "description": "Veiled in silks and filled with the soft glow of crystal orbs, this intimate shop offers glimpses into possible futures. Madame Zelda, a half-elf with genuine prophetic gifts, provides divination services to those seeking guidance. Her predictions, while cryptic, have proven surprisingly accurate, earning her a loyal clientele among the city's merchants and nobles.",
+    "services": ["Information", "Divination", "Guidance"],
+    "pricing": {
+      "Basic Fortune": "10 gp",
+      "Detailed Reading": "25 gp",
+      "Love Reading": "15 gp",
+      "Business Consultation": "30 gp",
+      "Dream Interpretation": "20 gp",
+      "Crystal Scrying": "50 gp",
+      "Curse Detection": "40 gp",
+      "Life Path Reading": "75 gp"
+    },
+    "npcs": [
+      {
+        "name": "Madame Zelda Starweaver",
+        "role": "Oracle & Fortune Teller"
+      },
+      {
+        "name": "Mystic",
+        "role": "Shop Cat & Familiar"
+      }
+    ]
+  },
+  {
+    "name": "Ironbound Security",
+    "type": "Security Service",
+    "location": "City",
+    "priceRange": "Expensive",
+    "quality": "Excellent",
+    "preview": "A professional security company providing guards, escorts, and protection services...",
+    "description": "This well-fortified office serves as headquarters for the city's premier security company. Ironbound provides trained guards for merchant caravans, personal bodyguards for nobles, and security consultations for businesses. Their reputation for professionalism and discretion makes them the first choice for those who can afford quality protection.",
+    "services": ["Security", "Transportation", "Information"],
+    "pricing": {
+      "Personal Bodyguard": "20 gp/day",
+      "Caravan Guard": "15 gp/day",
+      "Building Security": "50 gp/week",
+      "Investigation Service": "25 gp/day",
+      "Escort Service": "10 gp/day",
+      "Security Consultation": "50 gp",
+      "Emergency Response": "100 gp",
+      "Discrete Service": "+50% fee"
+    },
+    "npcs": [
+      {
+        "name": "Captain Marcus Ironbound",
+        "role": "Company Commander"
+      },
+      {
+        "name": "Sergeant Vera Shieldwall",
+        "role": "Operations Manager"
+      },
+      {
+        "name": "Scout Quickstep",
+        "role": "Intelligence Specialist"
+      }
+    ]
+  },
+  {
+    "name": "Songbird Music Hall",
+    "type": "Music Shop",
+    "location": "City",
+    "priceRange": "Moderate",
+    "quality": "Excellent",
+    "preview": "A vibrant music shop selling instruments, offering lessons, and hosting performances...",
+    "description": "Music fills the air in this lively establishment where craftsmen create beautiful instruments and musicians gather to practice and perform. The main floor showcases handcrafted lutes, drums, flutes, and exotic instruments from distant lands. Upstairs practice rooms rent by the hour, while the basement serves as a performance venue for local talent.",
+    "services": ["Equipment", "Entertainment", "Education", "Repairs"],
+    "pricing": {
+      "Lute": "35 gp",
+      "Flute": "12 gp",
+      "Drum": "25 gp",
+      "Exotic Instrument": "50-200 gp",
+      "Music Lessons": "5 gp/session",
+      "Practice Room": "1 gp/hour",
+      "Instrument Repair": "5-25 gp",
+      "Performance Booking": "varies"
+    },
+    "npcs": [
+      {
+        "name": "Melody Songbird",
+        "role": "Master Musician & Shop Owner"
+      },
+      {
+        "name": "Harmony",
+        "role": "Instrument Crafter"
+      },
+      {
+        "name": "Rhythm",
+        "role": "Music Teacher"
+      }
+    ]
+  },
+  {
+    "name": "The Poisoned Chalice",
+    "type": "Alchemy Shop",
+    "location": "City",
+    "priceRange": "Expensive",
+    "quality": "Good",
+    "preview": "A dangerous alchemy shop dealing in poisons, antidotes, and questionable substances...",
+    "description": "This dimly lit shop operates in the gray areas of legality, selling poisons to those with coin and few scruples. Glass vials containing colorful and deadly substances line reinforced shelves, while the proprietor carefully screens customers. Despite its dark reputation, the shop also produces legitimate antidotes and rare alchemical components.",
+    "services": ["Equipment", "Information", "Special Orders"],
+    "pricing": {
+      "Basic Poison": "100 gp",
+      "Deadly Poison": "500-2,000 gp",
+      "Antidote": "150 gp",
+      "Truth Serum": "200 gp",
+      "Sleep Draught": "50 gp",
+      "Alchemical Component": "25-500 gp",
+      "Custom Formula": "varies",
+      "Consultation": "25 gp"
+    },
+    "npcs": [
+      {
+        "name": "Vex Nightshade",
+        "role": "Master Alchemist & Poisoner"
+      },
+      {
+        "name": "Silent Partner",
+        "role": "Mysterious Benefactor"
+      }
+    ]
+  },
+  {
+    "name": "Cobblestone Shoes & Boots",
+    "type": "Cobbler",
+    "location": "Town",
+    "priceRange": "Moderate",
+    "quality": "Excellent",
+    "preview": "A master cobbler crafting fine footwear for every occasion and profession...",
+    "description": "The rhythmic tapping of hammer on leather echoes from this well-organized shop where master cobbler creates footwear of exceptional quality. From delicate dancing slippers to sturdy adventuring boots, every pair is crafted with attention to detail and comfort. The shop also offers repairs and custom fittings for those with unusual requirements.",
+    "services": ["Equipment", "Repairs", "Custom Orders"],
+    "pricing": {
+      "Basic Boots": "8 gp",
+      "Fine Shoes": "15 gp",
+      "Adventuring Boots": "25 gp",
+      "Noble's Slippers": "50 gp",
+      "Specialty Footwear": "varies",
+      "Boot Repair": "2-8 gp",
+      "Custom Fitting": "10 gp",
+      "Waterproofing": "3 gp"
+    },
+    "npcs": [
+      {
+        "name": "Master Cobbler Heel",
+        "role": "Shoemaker & Leather Artist"
+      },
+      {
+        "name": "Apprentice Sole",
+        "role": "Assistant & Delivery"
+      }
+    ]
+  },
+  {
+    "name": "Windwhisper Courier Service",
+    "type": "Messenger Service",
+    "location": "City",
+    "priceRange": "Moderate",
+    "quality": "Good",
+    "preview": "A reliable courier service providing fast message delivery across land, sea, and air...",
+    "description": "This busy office coordinates message delivery throughout the region using a network of runners, riders, and even trained birds. Windwhisper has built a reputation for speed and reliability, with services ranging from simple local deliveries to urgent cross-country messages. Their discrete service is popular among merchants, nobles, and anyone needing confidential communications.",
+    "services": ["Information", "Transportation", "Special Services"],
+    "pricing": {
+      "Local Delivery": "5 sp",
+      "City-wide": "2 gp",
+      "Regional": "10 gp",
+      "Long Distance": "50 gp",
+      "Express Service": "double cost",
+      "Confidential": "+5 gp",
+      "Bird Post": "20 gp",
+      "Package Delivery": "varies by size"
+    },
+    "npcs": [
+      {
+        "name": "Swiftwind Sam",
+        "role": "Courier Master"
+      },
+      {
+        "name": "Fleet-foot Jenny",
+        "role": "Lead Runner"
+      },
+      {
+        "name": "Cloudwing",
+        "role": "Trained Raven"
+      }
+    ]
+  },
+  {
+    "name": "The Brass Dragon Inn",
+    "type": "Inn",
+    "location": "Town",
+    "priceRange": "Expensive",
+    "quality": "Excellent",
+    "preview": "An upscale inn known for luxury accommodations and exotic cuisine from distant lands...",
+    "description": "This grand three-story inn stands as the finest lodging for miles around, its brass fixtures and dragon motifs speaking to both elegance and adventure. Each room features fine furniture and magical amenities, while the restaurant serves cuisine from across the realm. The inn attracts wealthy merchants, minor nobles, and successful adventurers seeking comfort and prestige.",
+    "services": ["Lodging", "Food & Drink", "Entertainment", "Special Services"],
+    "pricing": {
+      "Luxury Suite": "20 gp/night",
+      "Noble Room": "10 gp/night",
+      "Standard Room": "5 gp/night",
+      "Exotic Cuisine": "8 gp/meal",
+      "Private Dining": "25 gp",
+      "Bath House": "2 gp",
+      "Laundry Service": "5 sp",
+      "Concierge Service": "varies"
+    },
+    "npcs": [
+      {
+        "name": "Lord Reginald Brass",
+        "role": "Inn Master & Former Adventurer"
+      },
+      {
+        "name": "Chef Spicewind",
+        "role": "Exotic Cuisine Master"
+      },
+      {
+        "name": "Concierge Silk",
+        "role": "Guest Services Manager"
+      }
+    ]
+  },
+  {
+    "name": "Thornfield Herb Garden",
+    "type": "Herbalist",
+    "location": "Village",
+    "priceRange": "Budget",
+    "quality": "Good",
+    "preview": "A peaceful herb garden offering natural remedies and magical plant components...",
+    "description": "Rows of carefully tended herbs and medicinal plants surround this cottage-workshop where a wise herbalist creates natural remedies and harvests spell components. The garden blooms year-round thanks to gentle magic, providing fresh ingredients for potions, teas, and healing salves. Visitors often find peace in the garden's tranquil atmosphere.",
+    "services": ["Healing", "Equipment", "Information"],
+    "pricing": {
+      "Healing Herbs": "2-10 gp",
+      "Spell Components": "5-50 gp",
+      "Herbal Tea": "5 sp",
+      "Healing Salve": "8 gp",
+      "Garden Tour": "1 sp",
+      "Consultation": "5 gp",
+      "Custom Remedy": "varies",
+      "Herb Drying": "1 gp"
+    },
+    "npcs": [
+      {
+        "name": "Grandmother Willow",
+        "role": "Master Herbalist & Healer"
+      },
+      {
+        "name": "Young Basil",
+        "role": "Garden Assistant"
+      }
+    ]
+  },
+  {
+    "name": "The Fighting Cock",
+    "type": "Arena",
+    "location": "City",
+    "priceRange": "Moderate",
+    "quality": "Common",
+    "preview": "A rough fighting arena where warriors test their skills for coin and glory...",
+    "description": "Sawdust covers the fighting pit of this rowdy establishment where combatants face off for prize money and crowd entertainment. The Fighting Cock attracts a diverse crowd of spectators placing bets on their favorite fighters. While not elegant, it provides legitimate sport and a chance for skilled warriors to earn coin through their prowess.",
+    "services": ["Entertainment", "Information", "Training"],
+    "pricing": {
+      "Arena Entry": "1 sp",
+      "Fighter Registration": "5 gp",
+      "Training Session": "2 gp",
+      "Equipment Rental": "1 gp/fight",
+      "Betting": "varies",
+      "Private Match": "50 gp",
+      "Victory Prize": "varies",
+      "Healing Service": "10 gp"
+    },
+    "npcs": [
+      {
+        "name": "\"Iron\" Jake Barknuckle",
+        "role": "Arena Master & Former Champion"
+      },
+      {
+        "name": "Doc Stitches",
+        "role": "Arena Healer"
+      },
+      {
+        "name": "Betting Betty",
+        "role": "Odds Keeper"
+      }
+    ]
+  },
+  {
+    "name": "Moonbeam Textiles",
+    "type": "Tailor",
+    "location": "City",
+    "priceRange": "Expensive",
+    "quality": "Excellent",
+    "preview": "An elegant tailor shop creating exquisite clothing for nobles and wealthy merchants...",
+    "description": "Bolts of fine silk, velvet, and magical fabric fill this upscale establishment where master tailors create garments of exceptional beauty and quality. Each piece is custom-fitted and crafted with attention to both fashion and function. The shop serves the city's elite, creating everything from court gowns to enchanted traveling clothes.",
+    "services": ["Equipment", "Custom Orders", "Repairs"],
+    "pricing": {
+      "Noble's Outfit": "75-300 gp",
+      "Court Dress": "150-500 gp",
+      "Traveling Clothes": "25-100 gp",
+      "Magical Garment": "500-2,000 gp",
+      "Alterations": "5-25 gp",
+      "Rush Order": "+50% cost",
+      "Fabric Sale": "5-50 gp/yard",
+      "Consultation": "10 gp"
+    },
+    "npcs": [
+      {
+        "name": "Madame Celeste Moonbeam",
+        "role": "Master Tailor & Fashion Designer"
+      },
+      {
+        "name": "Silk",
+        "role": "Seamstress & Embroiderer"
+      }
+    ]
+  },
+  {
+    "name": "Copperkettle Distillery",
+    "type": "Distillery",
+    "location": "Town",
+    "priceRange": "Moderate",
+    "quality": "Excellent",
+    "preview": "A renowned distillery crafting fine spirits and liqueurs using traditional methods...",
+    "description": "Copper stills gleam in this traditional distillery where master distillers create exceptional spirits using recipes passed down through generations. The facility produces everything from smooth whiskeys to exotic liqueurs, with many bottles aging in oak barrels in the cellars below. Tours and tastings attract connoisseurs from across the region.",
+    "services": ["Food & Drink", "Tours", "Special Orders"],
+    "pricing": {
+      "House Whiskey": "5 gp/bottle",
+      "Premium Spirits": "15-50 gp/bottle",
+      "Exotic Liqueur": "25-100 gp/bottle",
+      "Custom Blend": "varies",
+      "Distillery Tour": "1 gp",
+      "Private Tasting": "10 gp",
+      "Bulk Orders": "discount available",
+      "Aged Spirits": "premium pricing"
+    },
+    "npcs": [
+      {
+        "name": "Master Distiller Copper",
+        "role": "Head Distiller & Owner"
+      },
+      {
+        "name": "Barrel-aged Bob",
+        "role": "Cellar Master"
+      }
+    ]
+  },
+  {
+    "name": "The Gilded Quill",
+    "type": "Art Supply",
+    "location": "City",
+    "priceRange": "Moderate",
+    "quality": "Good",
+    "preview": "An artist's paradise offering paints, brushes, canvases, and creative supplies...",
+    "description": "This bright, airy shop caters to artists of all skill levels, from amateur sketchers to master painters. Shelves display an impressive array of pigments, brushes, papers, and canvases, while the back workshop offers space for classes and demonstrations. The shop also showcases and sells works by local artists.",
+    "services": ["Equipment", "Education", "Art Sales"],
+    "pricing": {
+      "Paint Set": "10-50 gp",
+      "Fine Brushes": "2-25 gp",
+      "Canvas": "1-10 gp",
+      "Art Lessons": "5 gp/session",
+      "Custom Portrait": "25-200 gp",
+      "Art Supplies": "varies",
+      "Framing Service": "5-50 gp",
+      "Gallery Space": "20% commission"
+    },
+    "npcs": [
+      {
+        "name": "Artist Palette",
+        "role": "Master Painter & Shop Owner"
+      },
+      {
+        "name": "Sketch",
+        "role": "Art Teacher & Assistant"
+      }
+    ]
+  },
+  {
+    "name": "Seaside Fish Market",
+    "type": "Fish Market",
+    "location": "Port",
+    "priceRange": "Budget",
+    "quality": "Good",
+    "preview": "A bustling fish market offering the day's fresh catch and preserved seafood...",
+    "description": "The salty smell of the sea and fresh fish fills this busy market where fishermen sell their daily catch. Ice-filled stalls display everything from common cod to exotic deep-sea delicacies. The market opens before dawn and operates until the day's catch is sold, creating a lively atmosphere of haggling and commerce.",
+    "services": ["Food & Drink", "Information", "Preservation"],
+    "pricing": {
+      "Common Fish": "1-5 sp/lb",
+      "Premium Fish": "1-10 gp/lb",
+      "Exotic Seafood": "5-50 gp/lb",
+      "Preserved Fish": "2 sp/lb",
+      "Smoking Service": "1 sp/lb",
+      "Market Information": "free",
+      "Bulk Orders": "discount",
+      "Special Catch": "varies"
+    },
+    "npcs": [
+      {
+        "name": "Captain Saltbeard",
+        "role": "Fish Vendor & Boat Captain"
+      },
+      {
+        "name": "Net-mender Nancy",
+        "role": "Market Organizer"
+      }
+    ]
+  },
+  {
+    "name": "Dreamcatcher's Workshop",
+    "type": "Toy Shop",
+    "location": "Town",
+    "priceRange": "Budget",
+    "quality": "Good",
+    "preview": "A whimsical toy shop creating handcrafted playthings and childhood wonders...",
+    "description": "Wooden toys, stuffed animals, and mechanical marvels fill this cheerful shop where a kindly toymaker creates joy for children and the young at heart. Each toy is lovingly handcrafted with attention to safety and durability. The workshop also takes custom orders for special occasions and creates unique gifts.",
+    "services": ["Equipment", "Custom Orders", "Repairs"],
+    "pricing": {
+      "Wooden Toys": "5 sp - 2 gp",
+      "Stuffed Animals": "1-5 gp",
+      "Mechanical Toys": "5-25 gp",
+      "Custom Toy": "varies",
+      "Toy Repair": "2 sp - 1 gp",
+      "Birthday Special": "custom pricing",
+      "Bulk Orders": "discount",
+      "Educational Toys": "2-10 gp"
+    },
+    "npcs": [
+      {
+        "name": "Grandfather Whimsy",
+        "role": "Master Toymaker"
+      },
+      {
+        "name": "Little Helper",
+        "role": "Workshop Assistant"
+      }
+    ]
+  },
+  {
+    "name": "The Velvet Rope",
+    "type": "Exclusive Club",
+    "location": "Capital",
+    "priceRange": "Luxury",
+    "quality": "Legendary",
+    "preview": "An ultra-exclusive private club catering to the most elite members of society...",
+    "description": "Behind unmarked doors lies the most exclusive establishment in the capital, where only the wealthiest nobles, influential merchants, and powerful figures gather. The Velvet Rope offers unparalleled luxury, privacy, and services that cater to every desire of its elite membership. Admission requires both significant wealth and proper connections.",
+    "services": ["Entertainment", "Information", "Banking", "Special Services"],
+    "pricing": {
+      "Membership Fee": "10,000 gp/year",
+      "Guest Pass": "100 gp/visit",
+      "Private Dining": "500 gp",
+      "Information Brokerage": "varies",
+      "Discrete Services": "varies",
+      "Exclusive Events": "member only",
+      "Concierge Service": "included",
+      "Private Meetings": "member only"
+    },
+    "npcs": [
+      {
+        "name": "Lord Blackwood",
+        "role": "Club Director & Power Broker"
+      },
+      {
+        "name": "Madame Whisper",
+        "role": "Information Specialist"
+      },
+      {
+        "name": "The Doorman",
+        "role": "Gatekeeper & Judge"
+      }
+    ]
+  },
+  {
+    "name": "Stumpy's Lumber Mill",
+    "type": "Lumber Mill",
+    "location": "Town",
+    "priceRange": "Budget",
+    "quality": "Common",
+    "preview": "A busy lumber mill providing wood and building materials for construction projects...",
+    "description": "The sound of saws and the smell of fresh-cut wood define this hardworking mill where logs are processed into lumber for building and crafting. Stumpy and his crew work dawn to dusk providing affordable building materials to the local community. The mill also offers custom cutting and delivery services.",
+    "services": ["Equipment", "Transportation", "Custom Orders"],
+    "pricing": {
+      "Common Lumber": "1 sp/board foot",
+      "Hardwood": "5 sp/board foot",
+      "Specialty Wood": "1-10 gp/board foot",
+      "Custom Cutting": "1 cp/cut",
+      "Delivery Service": "varies by distance",
+      "Bulk Orders": "discount",
+      "Sawdust": "1 cp/bag",
+      "Woodworking": "varies"
+    },
+    "npcs": [
+      {
+        "name": "Stumpy Ironaxe",
+        "role": "Mill Owner & Lumberjack"
+      },
+      {
+        "name": "Buzz Saw",
+        "role": "Mill Operator"
+      }
+    ]
+  },
+  {
+    "name": "Nightingale's Perfumery",
+    "type": "Perfume Shop",
+    "location": "City",
+    "priceRange": "Expensive",
+    "quality": "Excellent",
+    "preview": "An elegant perfumery creating exquisite fragrances and cosmetic products...",
+    "description": "Delicate scents waft through this sophisticated shop where a master perfumer creates custom fragrances for discerning clientele. Crystal bottles contain exotic essences from rare flowers, while the workshop produces soaps, oils, and cosmetics of exceptional quality. Each fragrance is a unique work of art.",
+    "services": ["Equipment", "Custom Orders", "Consultation"],
+    "pricing": {
+      "House Perfume": "25-100 gp",
+      "Custom Fragrance": "200-500 gp",
+      "Luxury Soap": "5-20 gp",
+      "Scented Oils": "10-50 gp",
+      "Fragrance Consultation": "25 gp",
+      "Bulk Cosmetics": "varies",
+      "Gift Sets": "50-300 gp",
+      "Rare Essences": "100-1,000 gp"
+    },
+    "npcs": [
+      {
+        "name": "Madame Nightingale",
+        "role": "Master Perfumer"
+      },
+      {
+        "name": "Essence",
+        "role": "Assistant & Mixer"
+      }
+    ]
+  },
+  {
+    "name": "The Rusty Anchor Tavern",
+    "type": "Tavern",
+    "location": "Port",
+    "priceRange": "Budget",
+    "quality": "Common",
+    "preview": "A rough dockside tavern where sailors, pirates, and smugglers gather for drinks and tales...",
+    "description": "This weathered tavern sits on the docks where the air is thick with salt spray and the clientele is equally rough. Sailors fresh from long voyages share tales of distant lands while nursing strong ale. The Rusty Anchor asks no questions and serves anyone with coin, making it popular with those who prefer to avoid official attention.",
+    "services": ["Food & Drink", "Information", "Lodging"],
+    "pricing": {
+      "Grog": "2 cp",
+      "Sailor's Stew": "4 cp",
+      "Hammock": "1 cp/night",
+      "Private Room": "2 sp/night",
+      "Smuggler's Information": "5-50 gp",
+      "No Questions Service": "+1 gp",
+      "Message Delivery": "varies",
+      "Safe Storage": "1 sp/day"
+    },
+    "npcs": [
+      {
+        "name": "One-Eye Pete",
+        "role": "Tavern Keeper & Former Pirate"
+      },
+      {
+        "name": "Salty Sarah",
+        "role": "Barmaid & Information Broker"
+      },
+      {
+        "name": "Parrot Jack",
+        "role": "Talking Bird & Entertainment"
+      }
+    ]
+  },
+  {
+    "name": "Goldsmith's Pride",
+    "type": "Goldsmith",
+    "location": "City",
+    "priceRange": "Luxury",
+    "quality": "Excellent",
+    "preview": "A master goldsmith creating exquisite jewelry and precious metal artifacts...",
+    "description": "This prestigious workshop showcases the finest goldsmithing in the city, where master craftsmen work with precious metals to create jewelry, religious artifacts, and decorative items of exceptional beauty. The shop serves nobility and wealthy merchants seeking the highest quality workmanship in gold, silver, and platinum.",
+    "services": ["Equipment", "Custom Orders", "Repairs", "Appraisal"],
+    "pricing": {
+      "Gold Jewelry": "50-1,000 gp",
+      "Silver Items": "25-500 gp",
+      "Platinum Work": "200-5,000 gp",
+      "Custom Commission": "varies",
+      "Jewelry Repair": "10-100 gp",
+      "Metal Appraisal": "25 gp",
+      "Engraving Service": "5-50 gp",
+      "Rush Orders": "+100% cost"
+    },
+    "npcs": [
+      {
+        "name": "Master Aurelius Goldhand",
+        "role": "Master Goldsmith"
+      },
+      {
+        "name": "Apprentice Silver",
+        "role": "Junior Craftsman"
+      }
+    ]
+  },
+  {
+    "name": "The Wandering Wagon",
+    "type": "Mobile Merchant",
+    "location": "Crossroads",
+    "priceRange": "Moderate",
+    "quality": "Common",
+    "preview": "A traveling merchant's wagon offering goods from distant lands and exotic locations...",
+    "description": "This colorful wagon travels between settlements, bringing exotic goods and news from far-off places. The merchant stocks items not found in local shops: spices from desert kingdoms, silk from eastern empires, and curiosities from distant shores. Prices vary based on rarity and the merchant's mood, making each visit an adventure in negotiation.",
+    "services": ["Equipment", "Information", "Special Orders"],
+    "pricing": {
+      "Exotic Spices": "5-25 gp",
+      "Foreign Textiles": "10-100 gp",
+      "Rare Trinkets": "1-50 gp",
+      "Travel Information": "1-10 gp",
+      "Special Orders": "varies + time",
+      "Local News": "free with purchase",
+      "Map Updates": "5 gp",
+      "Curiosities": "varies"
+    },
+    "npcs": [
+      {
+        "name": "Merchant Caravan Cal",
+        "role": "Traveling Trader & Explorer"
+      },
+      {
+        "name": "Pack Mule Murphy",
+        "role": "Loyal Companion"
+      }
+    ]
+  },
+  {
+    "name": "Frostbite's Ice House",
+    "type": "Ice Merchant",
+    "location": "City",
+    "priceRange": "Budget",
+    "quality": "Good",
+    "preview": "A specialized business providing ice and cold storage services year-round...",
+    "description": "Using a combination of magic and mundane techniques, this establishment provides ice and cold storage services to the city's residents and businesses. Deep cellars lined with enchanted ice keep food fresh and drinks cold, while delivery services bring ice directly to customers' homes and shops.",
+    "services": ["Food Preservation", "Special Services", "Transportation"],
+    "pricing": {
+      "Block of Ice": "1 sp",
+      "Daily Ice Delivery": "5 sp",
+      "Cold Storage": "2 sp/day",
+      "Bulk Ice": "discount pricing",
+      "Emergency Cooling": "5 gp",
+      "Magic Ice": "1 gp/block",
+      "Preservation Service": "varies",
+      "Ice Sculpture": "10-100 gp"
+    },
+    "npcs": [
+      {
+        "name": "Frostbite McGillicuddy",
+        "role": "Ice Merchant & Cold Mage"
+      },
+      {
+        "name": "Chill Bill",
+        "role": "Delivery & Storage"
+      }
+    ]
+  },
+  {
+    "name": "The Scholar's Retreat",
+    "type": "Study Hall",
+    "location": "City",
+    "priceRange": "Moderate",
+    "quality": "Excellent",
+    "preview": "A quiet establishment providing study spaces, research assistance, and academic services...",
+    "description": "This peaceful building offers scholars, students, and researchers a quiet environment for study and contemplation. Private study rooms, research assistance, and access to specialized texts make it popular among those pursuing academic goals. The retreat also hosts lectures and scholarly discussions.",
+    "services": ["Education", "Information", "Research"],
+    "pricing": {
+      "Study Room": "1 gp/day",
+      "Research Assistance": "5 gp/hour",
+      "Lecture Attendance": "2 gp",
+      "Private Tutoring": "10 gp/session",
+      "Document Copying": "1 sp/page",
+      "Translation Work": "5 gp/page",
+      "Academic Consultation": "25 gp",
+      "Thesis Review": "50 gp"
+    },
+    "npcs": [
+      {
+        "name": "Professor Wisdom",
+        "role": "Head Scholar & Administrator"
+      },
+      {
+        "name": "Librarian Quiet",
+        "role": "Research Specialist"
+      }
+    ]
+  },
+  {
+    "name": "Battlefield Salvage",
+    "type": "Salvage Shop",
+    "location": "City",
+    "priceRange": "Budget",
+    "quality": "Common",
+    "preview": "A gritty shop dealing in used weapons, armor, and equipment recovered from battlefields...",
+    "description": "This no-nonsense establishment buys and sells used military equipment, offering affordable gear to those who can't afford new items. While the merchandise shows wear and battle damage, everything is functional and reasonably priced. The shop also offers repair services and equipment identification.",
+    "services": ["Equipment", "Repairs", "Appraisal"],
+    "pricing": {
+      "Used Weapons": "50% normal cost",
+      "Damaged Armor": "30% normal cost",
+      "Salvaged Gear": "varies",
+      "Repair Service": "varies",
+      "Equipment ID": "5 gp",
+      "Bulk Purchase": "further discount",
+      "Trade-in Value": "25% retail",
+      "Restoration": "varies"
+    },
+    "npcs": [
+      {
+        "name": "Sergeant Rust",
+        "role": "Shop Owner & Veteran"
+      },
+      {
+        "name": "Patch",
+        "role": "Repair Specialist"
+      }
+    ]
+  },
+  {
+    "name": "The Midnight Market",
+    "type": "Night Market",
+    "location": "City",
+    "priceRange": "Moderate",
+    "quality": "Common",
+    "preview": "A mysterious market that only operates after dark, selling unusual and exotic wares...",
+    "description": "When the sun sets, this seemingly empty lot transforms into a bustling market where vendors sell items that rarely see daylight. From rare spell components to questionable artifacts, the Midnight Market caters to those with unusual needs and flexible morals. All transactions are conducted in whispers and shadows.",
+    "services": ["Equipment", "Information", "Special Orders"],
+    "pricing": {
+      "Rare Components": "25-500 gp",
+      "Questionable Items": "varies",
+      "Information": "10-100 gp",
+      "Discrete Service": "+50% fee",
+      "Special Orders": "varies + time",
+      "No Questions": "standard policy",
+      "Market Access": "5 gp fee",
+      "Guard Service": "20 gp"
+    },
+    "npcs": [
+      {
+        "name": "The Shadow Broker",
+        "role": "Market Coordinator"
+      },
+      {
+        "name": "Whisper",
+        "role": "Information Dealer"
+      },
+      {
+        "name": "Night Watch",
+        "role": "Market Security"
+      }
+    ]
+  },
+  {
+    "name": "Candlewick & Flame",
+    "type": "Candle Shop",
+    "location": "Town",
+    "priceRange": "Budget",
+    "quality": "Good",
+    "preview": "A cozy shop creating candles, lanterns, and lighting solutions for every need...",
+    "description": "The warm glow of hundreds of candles illuminates this charming shop where a master chandler creates lighting solutions for every purpose. From simple tallow candles to elaborate magical lights, the shop provides illumination for homes, businesses, and special occasions. Custom scents and colors are available on request.",
+    "services": ["Equipment", "Custom Orders", "Special Services"],
+    "pricing": {
+      "Simple Candles": "1 cp each",
+      "Quality Candles": "1 sp each",
+      "Scented Candles": "5 sp each",
+      "Magical Lights": "5-50 gp",
+      "Custom Orders": "varies",
+      "Lanterns": "2-20 gp",
+      "Lamp Oil": "1 sp/flask",
+      "Bulk Orders": "discount"
+    },
+    "npcs": [
+      {
+        "name": "Master Wick",
+        "role": "Chandler & Light-bringer"
+      },
+      {
+        "name": "Flame",
+        "role": "Assistant & Wick-dipper"
+      }
+    ]
+  },
+  {
+    "name": "The Curious Cabinet",
+    "type": "Curio Shop",
+    "location": "City",
+    "priceRange": "Expensive",
+    "quality": "Good",
+    "preview": "An eccentric shop filled with oddities, artifacts, and mysterious objects from unknown origins...",
+    "description": "This cluttered establishment overflows with strange and wonderful objects collected from across the realms. Ancient artifacts, peculiar inventions, and items of unknown purpose fill every available space. The proprietor claims each item has a story, though he's often vague about their true origins and properties.",
+    "services": ["Equipment", "Appraisal", "Information"],
+    "pricing": {
+      "Minor Curiosities": "5-50 gp",
+      "Strange Artifacts": "100-1,000 gp",
+      "Unknown Items": "varies",
+      "Appraisal Service": "25 gp",
+      "Item History": "10-100 gp",
+      "Authentication": "50 gp",
+      "Special Acquisitions": "varies",
+      "Mystery Box": "25 gp"
+    },
+    "npcs": [
+      {
+        "name": "Curator Oddwell",
+        "role": "Collector & Appraiser"
+      },
+      {
+        "name": "The Assistant",
+        "role": "Mysterious Helper"
+      }
+    ]
+  },
+  {
+    "name": "Dwarven Stoneworks",
+    "type": "Mason",
+    "location": "City",
+    "priceRange": "Expensive",
+    "quality": "Excellent",
+    "preview": "Master dwarven masons providing exceptional stonework and architectural services...",
+    "description": "This workshop showcases the finest dwarven craftsmanship in stone, from delicate sculptures to massive architectural projects. The dwarven masons pride themselves on work that will last for centuries, combining traditional techniques with innovative design. Their reputation for quality attracts nobles and institutions requiring the best stonework.",
+    "services": ["Construction", "Custom Orders", "Repairs"],
+    "pricing": {
+      "Stone Carving": "varies by size",
+      "Architectural Design": "100-1,000 gp",
+      "Monument Creation": "500-5,000 gp",
+      "Building Construction": "varies by project",
+      "Stone Repair": "varies",
+      "Consultation": "50 gp",
+      "Custom Sculpture": "200-2,000 gp",
+      "Dwarven Craftsmanship": "premium pricing"
+    },
+    "npcs": [
+      {
+        "name": "Master Mason Ironbeard",
+        "role": "Chief Architect & Stone Carver"
+      },
+      {
+        "name": "Hammer",
+        "role": "Assistant & Apprentice"
+      },
+      {
+        "name": "Chisel",
+        "role": "Detail Specialist"
+      }
+    ]
+  },
+  {
+    "name": "The Phoenix Egg",
+    "type": "Egg Merchant",
+    "location": "Village",
+    "priceRange": "Budget",
+    "quality": "Good",
+    "preview": "A specialized farm offering fresh eggs from common chickens to exotic magical creatures...",
+    "description": "This unique farm raises a variety of egg-laying creatures, from common chickens to more exotic birds and magical creatures. The eggs vary in size, flavor, and even magical properties, providing ingredients for both cooking and alchemy. The proprietor is an expert in creature care and egg identification.",
+    "services": ["Food & Drink", "Equipment", "Information"],
+    "pricing": {
+      "Chicken Eggs": "1 cp/dozen",
+      "Duck Eggs": "2 cp/dozen",
+      "Exotic Bird Eggs": "1-10 gp each",
+      "Magical Creature Eggs": "25-500 gp each",
+      "Preserved Eggs": "varies",
+      "Creature Care Advice": "5 gp",
+      "Egg Identification": "1 gp",
+      "Custom Orders": "varies"
+    },
+    "npcs": [
+      {
+        "name": "Farmer Nest",
+        "role": "Egg Farmer & Creature Expert"
+      },
+      {
+        "name": "Henrietta",
+        "role": "Prize Chicken & Mascot"
+      }
+    ]
   }
 ]
