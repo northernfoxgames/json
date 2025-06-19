@@ -1172,5 +1172,476 @@
       "notable_suppliers": "Academic enhancement, Corporate espionage",
       "special_notes": "Perfect recall of everything, can share memories"
     }
+  },
+  {
+    "name": "Cybernetic Gills",
+    "category": "Cyberware",
+    "description": "Artificial gill system that allows breathing underwater indefinitely. Popular among aquatic workers and underwater infiltrators.",
+    "stats": {
+      "Underwater Duration": "Unlimited",
+      "Depth Rating": "200 meters",
+      "Air/Water Switch": "Automatic",
+      "Installation": "Neck/throat"
+    },
+    "market": {
+      "shop_price": "16,500eb",
+      "black_market_price": "13,200eb",
+      "availability": "R",
+      "legality": "Legal with permit"
+    },
+    "gm_notes": {
+      "install_time": "5 hours surgery",
+      "humanity_cost": "1d6+2",
+      "surgery_difficulty": "18",
+      "notable_suppliers": "Marine biology clinics, Underwater salvage corps",
+      "special_notes": "Obvious gills visible on neck, can speak underwater"
+    }
+  },
+  {
+    "name": "Laser Rifle",
+    "category": "Weapons",
+    "description": "High-energy directed beam weapon with adjustable power settings. Silent operation and no ammunition requirements.",
+    "stats": {
+      "Damage": "3d6+1",
+      "Weapon Accuracy": "+3",
+      "Concealability": "L",
+      "Reliability": "VR"
+    },
+    "market": {
+      "shop_price": "22,000eb",
+      "black_market_price": "17,500eb",
+      "availability": "E",
+      "legality": "Military Restricted"
+    },
+    "gm_notes": {
+      "rate_of_fire": "1",
+      "power_source": "Energy cell, 30 shots",
+      "range": "800m",
+      "notable_suppliers": "Military R&D, Corporate security",
+      "special_notes": "Silent, no muzzle flash, can cut through materials"
+    }
+  },
+  {
+    "name": "Bio-Scanner Implant",
+    "category": "Cyberware",
+    "description": "Internal sensor array that continuously monitors the user's biological functions and environmental hazards.",
+    "stats": {
+      "Health Monitoring": "Real-time vitals",
+      "Toxin Detection": "+6 bonus",
+      "Disease Immunity": "+4 bonus",
+      "Environmental Scan": "50m range"
+    },
+    "market": {
+      "shop_price": "11,500eb",
+      "black_market_price": "9,200eb",
+      "availability": "C",
+      "legality": "Medical Device - Legal"
+    },
+    "gm_notes": {
+      "install_time": "3 hours surgery",
+      "humanity_cost": "1d6/2",
+      "surgery_difficulty": "16",
+      "notable_suppliers": "Medical equipment, Hazmat specialists",
+      "special_notes": "Warns of biological/chemical threats, tracks health"
+    }
+  },
+  {
+    "name": "Cyber-Ninja Suit",
+    "category": "Armor",
+    "description": "Form-fitting armor designed for stealth operations. Integrates sound dampening, thermal masking, and mobility enhancement.",
+    "stats": {
+      "Stopping Power": "SP 10",
+      "Stealth Bonus": "+5",
+      "Athletics Bonus": "+2",
+      "Encumbrance Value": "0"
+    },
+    "market": {
+      "shop_price": "19,500eb",
+      "black_market_price": "15,600eb",
+      "availability": "R",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "integrated_systems": "Sound dampening, thermal masking, grip pads",
+      "maintenance": "Weekly servicing required",
+      "notable_suppliers": "Specialized infiltration gear, Corpo black ops",
+      "special_notes": "Enhanced climbing ability, near-silent movement"
+    }
+  },
+  {
+    "name": "Portable Fabricator",
+    "category": "Tools",
+    "description": "Compact 3D printer/fabricator capable of creating simple tools, weapons, and electronic components from raw materials.",
+    "stats": {
+      "Build Volume": "30cm cube",
+      "Material Types": "Plastic, metal, ceramic",
+      "Build Time": "1-12 hours",
+      "Resolution": "0.1mm precision"
+    },
+    "market": {
+      "shop_price": "35,000eb",
+      "black_market_price": "28,000eb",
+      "availability": "R",
+      "legality": "Manufacturing License Required"
+    },
+    "gm_notes": {
+      "skill_requirement": "Tech 6+, Electronics 4+",
+      "power_requirement": "Industrial connection",
+      "notable_suppliers": "Industrial equipment, Underground workshops",
+      "special_notes": "Can create simple weapons/tools, requires blueprints"
+    }
+  },
+  {
+    "name": "Vampyre Fangs",
+    "category": "Cyberware",
+    "description": "Retractable cybernetic fangs with injection systems. Can deliver drugs, poisons, or medical compounds through bite.",
+    "stats": {
+      "Damage": "1d6 (bite)",
+      "Injection Volume": "5ml per fang",
+      "Retraction": "Instant",
+      "Reservoir": "Refillable"
+    },
+    "market": {
+      "shop_price": "4,200eb",
+      "black_market_price": "3,400eb",
+      "availability": "R",
+      "legality": "Restricted - Weapon"
+    },
+    "gm_notes": {
+      "install_time": "2 hours surgery",
+      "humanity_cost": "1d6",
+      "surgery_difficulty": "14",
+      "notable_suppliers": "Exotic body modification, Assassin gear",
+      "special_notes": "Can inject any liquid compound, obvious when extended"
+    }
+  },
+  {
+    "name": "Gravity Gun",
+    "category": "Weapons",
+    "description": "Experimental weapon that manipulates gravitational fields to launch objects or create crushing forces.",
+    "stats": {
+      "Damage": "Variable (object dependent)",
+      "Weapon Accuracy": "+1",
+      "Concealability": "L",
+      "Reliability": "UR"
+    },
+    "market": {
+      "shop_price": "95,000eb",
+      "black_market_price": "76,000eb",
+      "availability": "E",
+      "legality": "Experimental Technology"
+    },
+    "gm_notes": {
+      "effect": "Can lift/throw objects up to 500kg",
+      "range": "100m",
+      "battery_life": "10 shots per charge",
+      "notable_suppliers": "Corporate R&D, Experimental weapons black market",
+      "special_notes": "Unreliable technology, 1 in 6 chance to malfunction"
+    }
+  },
+  {
+    "name": "Digital Eye Recorder",
+    "category": "Tools",
+    "description": "Microscopic recording device that can be injected into the eye. Records everything the target sees for later retrieval.",
+    "stats": {
+      "Recording Time": "72 hours",
+      "Video Quality": "4K resolution",
+      "Audio": "Directional microphone",
+      "Detection": "Nearly impossible"
+    },
+    "market": {
+      "shop_price": "8,500eb",
+      "black_market_price": "6,800eb",
+      "availability": "E",
+      "legality": "Surveillance - Restricted"
+    },
+    "gm_notes": {
+      "installation": "Medical injection, 5 minutes",
+      "detection_difficulty": "Medical scan 20+ to find",
+      "notable_suppliers": "Corporate espionage, Intelligence agencies",
+      "special_notes": "Self-destructs after 1 week, wireless data transfer"
+    }
+  },
+  {
+    "name": "Cyber-Lungs",
+    "category": "Cyberware",
+    "description": "Artificial lung system with enhanced capacity and built-in filtration. Immune to most airborne toxins and diseases.",
+    "stats": {
+      "Oxygen Storage": "30 minutes",
+      "Filtration": "99.9% effective",
+      "Endurance Bonus": "+3",
+      "Pressure Resistance": "Deep sea rated"
+    },
+    "market": {
+      "shop_price": "28,500eb",
+      "black_market_price": "22,800eb",
+      "availability": "C",
+      "legality": "Medical Device - Legal"
+    },
+    "gm_notes": {
+      "install_time": "10 hours surgery",
+      "humanity_cost": "2d6",
+      "surgery_difficulty": "21",
+      "notable_suppliers": "Respiratory specialists, Hazmat workers",
+      "special_notes": "Immune to gas attacks, can hold breath indefinitely"
+    }
+  },
+  {
+    "name": "Mono-Wire Garrote",
+    "category": "Weapons",
+    "description": "Ultra-thin molecular wire designed for silent assassination. Cuts through most materials with minimal force required.",
+    "stats": {
+      "Damage": "3d6+4",
+      "Weapon Accuracy": "+2",
+      "Concealability": "P",
+      "Reliability": "ST"
+    },
+    "market": {
+      "shop_price": "3,500eb",
+      "black_market_price": "2,800eb",
+      "availability": "R",
+      "legality": "Illegal"
+    },
+    "gm_notes": {
+      "special_attack": "Rear attack only, silent kill",
+      "durability": "1 in 10 chance to break per use",
+      "notable_suppliers": "Assassin gear dealers, Stealth weapon specialists",
+      "special_notes": "Nearly invisible, cuts through armor"
+    }
+  },
+  {
+    "name": "Holographic Disguise Matrix",
+    "category": "Tools",
+    "description": "Personal holographic projector that creates convincing visual disguises. Can mimic any humanoid appearance.",
+    "stats": {
+      "Disguise Quality": "Photorealistic",
+      "Battery Life": "2 hours",
+      "Scan Library": "1000 faces",
+      "Real-time Adaptation": "Yes"
+    },
+    "market": {
+      "shop_price": "42,000eb",
+      "black_market_price": "33,500eb",
+      "availability": "E",
+      "legality": "Identity Fraud Equipment"
+    },
+    "gm_notes": {
+      "detection": "Touch reveals hologram, Electronics 18+ to spot",
+      "limitations": "Visual only, doesn't change voice/mannerisms",
+      "notable_suppliers": "Corporate espionage, Identity black market",
+      "special_notes": "Perfect visual disguise, requires biometric scanning"
+    }
+  },
+  {
+    "name": "Cybernetic Claws",
+    "category": "Cyberware",
+    "description": "Retractable claws in fingertips made from diamond-hard carbide. Excellent for climbing and close combat.",
+    "stats": {
+      "Damage": "1d6+2",
+      "Weapon Accuracy": "+0",
+      "Climbing Bonus": "+4",
+      "Concealability": "N/A (Internal)"
+    },
+    "market": {
+      "shop_price": "6,800eb",
+      "black_market_price": "5,400eb",
+      "availability": "R",
+      "legality": "Weapon - Restricted"
+    },
+    "gm_notes": {
+      "install_time": "3 hours surgery",
+      "humanity_cost": "1d6+1",
+      "surgery_difficulty": "15",
+      "notable_suppliers": "Combat chrome clinics, Climbing specialists",
+      "special_notes": "Can cut through most materials, obvious when extended"
+    }
+  },
+  {
+    "name": "Nano-Assembler Kit",
+    "category": "Tools",
+    "description": "Molecular-level construction system that can build or disassemble materials at the atomic level. Highly experimental.",
+    "stats": {
+      "Assembly Rate": "1 gram per hour",
+      "Material Types": "Any atomic structure",
+      "Power Consumption": "Massive",
+      "Control Precision": "Molecular level"
+    },
+    "market": {
+      "shop_price": "150,000eb",
+      "black_market_price": "120,000eb",
+      "availability": "E",
+      "legality": "Experimental Technology"
+    },
+    "gm_notes": {
+      "skill_requirement": "Tech 9+, Electronics 8+, Chemistry 6+",
+      "setup_time": "24 hours calibration",
+      "notable_suppliers": "Corporate R&D only, Theoretical physicists",
+      "special_notes": "Can create any material, extremely dangerous if misused"
+    }
+  },
+  {
+    "name": "Riot Shield Generator",
+    "category": "Armor",
+    "description": "Portable energy shield projector that creates a large protective barrier. Designed for crowd control situations.",
+    "stats": {
+      "Shield Size": "3m x 2m",
+      "Stopping Power": "SP 30",
+      "Duration": "15 minutes",
+      "Transparency": "50%"
+    },
+    "market": {
+      "shop_price": "15,800eb",
+      "black_market_price": "12,600eb",
+      "availability": "R",
+      "legality": "Police/Security Only"
+    },
+    "gm_notes": {
+      "setup_time": "30 seconds",
+      "mobility": "Cannot move while active",
+      "notable_suppliers": "Police equipment, Crowd control specialists",
+      "special_notes": "Protects multiple people, visible energy field"
+    }
+  },
+  {
+    "name": "Neural Link Communicator",
+    "category": "Cyberware",
+    "description": "Direct brain-to-brain communication system allowing silent mental conversation between linked individuals.",
+    "stats": {
+      "Range": "1km",
+      "Linked Users": "Up to 8",
+      "Encryption": "Military grade",
+      "Thought Speed": "Real-time"
+    },
+    "market": {
+      "shop_price": "24,000eb",
+      "black_market_price": "19,200eb",
+      "availability": "R",
+      "legality": "Legal with permit"
+    },
+    "gm_notes": {
+      "install_time": "4 hours surgery",
+      "humanity_cost": "1d6+1",
+      "surgery_difficulty": "17",
+      "notable_suppliers": "Military communications, Corporate teams",
+      "special_notes": "Silent communication, can share surface thoughts"
+    }
+  },
+  {
+    "name": "Cryo Rifle",
+    "category": "Weapons",
+    "description": "Specialized weapon that fires super-cooled projectiles designed to flash-freeze targets on impact.",
+    "stats": {
+      "Damage": "2d6+2",
+      "Weapon Accuracy": "+1",
+      "Concealability": "L",
+      "Reliability": "ST"
+    },
+    "market": {
+      "shop_price": "18,500eb",
+      "black_market_price": "14,800eb",
+      "availability": "E",
+      "legality": "Exotic Weapon License"
+    },
+    "gm_notes": {
+      "rate_of_fire": "1",
+      "magazine": "12 cryo charges",
+      "range": "150m",
+      "notable_suppliers": "Exotic weapons dealers, Scientific equipment",
+      "special_notes": "Freezes target for 1d6 rounds, brittle when frozen"
+    }
+  },
+  {
+    "name": "Emotion Chip",
+    "category": "Cyberware",
+    "description": "Neural implant that can artificially induce or suppress emotions. Popular among high-stress professionals.",
+    "stats": {
+      "Emotion Control": "Complete",
+      "Response Time": "Instant",
+      "Duration": "1-24 hours",
+      "Intensity": "Variable"
+    },
+    "market": {
+      "shop_price": "14,500eb",
+      "black_market_price": "11,600eb",
+      "availability": "R",
+      "legality": "Psychological Device - Restricted"
+    },
+    "gm_notes": {
+      "install_time": "3 hours surgery",
+      "humanity_cost": "2d6/2",
+      "surgery_difficulty": "16",
+      "notable_suppliers": "Psychological clinics, Corporate stress management",
+      "special_notes": "Can induce any emotion, risk of psychological dependence"
+    }
+  },
+  {
+    "name": "Quantum Encryptor",
+    "category": "Tools",
+    "description": "Ultimate data security device using quantum entanglement for unbreakable encryption. Corporate and government grade.",
+    "stats": {
+      "Encryption Level": "Quantum grade",
+      "Data Rate": "10TB per second",
+      "Security Rating": "Unbreakable",
+      "Range": "Unlimited"
+    },
+    "market": {
+      "shop_price": "125,000eb",
+      "black_market_price": "100,000eb",
+      "availability": "E",
+      "legality": "Corporate/Government Only"
+    },
+    "gm_notes": {
+      "skill_requirement": "Electronics 8+, Programming 7+",
+      "setup_complexity": "Requires quantum lab",
+      "notable_suppliers": "Government contractors, Corporate R&D",
+      "special_notes": "Truly unbreakable encryption, detects any interception"
+    }
+  },
+  {
+    "name": "Synthetic Muscle Fibers",
+    "category": "Cyberware",
+    "description": "Artificial muscle enhancement that replaces natural muscle tissue with high-performance synthetic alternatives.",
+    "stats": {
+      "Strength Bonus": "+5",
+      "Athletics Bonus": "+3",
+      "Endurance Bonus": "+2",
+      "Power Output": "3x normal"
+    },
+    "market": {
+      "shop_price": "52,000eb",
+      "black_market_price": "41,500eb",
+      "availability": "R",
+      "legality": "Legal with permit"
+    },
+    "gm_notes": {
+      "install_time": "20 hours surgery",
+      "humanity_cost": "3d6",
+      "surgery_difficulty": "24",
+      "notable_suppliers": "Athletic enhancement, Military cyberware",
+      "special_notes": "Obvious muscle definition, requires protein supplements"
+    }
+  },
+  {
+    "name": "Hacking Drone",
+    "category": "Tools",
+    "description": "Autonomous drone equipped with advanced hacking capabilities. Can infiltrate systems remotely while maintaining operator safety.",
+    "stats": {
+      "Electronics Skill": "Effective 7",
+      "Stealth Rating": "+4",
+      "Flight Time": "6 hours",
+      "Control Range": "5km"
+    },
+    "market": {
+      "shop_price": "28,500eb",
+      "black_market_price": "22,800eb",
+      "availability": "E",
+      "legality": "Hacking Device - Illegal"
+    },
+    "gm_notes": {
+      "size": "Insect-sized",
+      "detection_difficulty": "Awareness 20+ to spot",
+      "notable_suppliers": "Underground tech markets, Corporate espionage",
+      "special_notes": "Can access physical terminals, nearly invisible"
+    }
   }
 ]
