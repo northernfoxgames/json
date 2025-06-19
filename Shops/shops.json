@@ -500,5 +500,333 @@
         "role": "Delivery Girl"
       }
     ]
+  },
+    {
+    "name": "The Crimson Quill",
+    "type": "Scribe Shop",
+    "location": "City",
+    "priceRange": "Moderate",
+    "quality": "Excellent",
+    "preview": "A professional scribal service offering document creation, copying, and official correspondence...",
+    "description": "Rows of neat desks fill this quiet establishment, where skilled scribes work with quills, inks, and fine parchments. The Crimson Quill handles everything from simple letters to complex legal documents, maps, and spell scrolls. Master Scribe Aldrich maintains the highest standards of penmanship and confidentiality, making this the go-to place for nobles, merchants, and adventurers needing professional writing services.",
+    "services": ["Information", "Document Services", "Translation", "Map Making"],
+    "pricing": {
+      "Simple Letter": "5 sp",
+      "Legal Document": "2 gp",
+      "Contract Drafting": "5 gp",
+      "Map Copying": "10 gp",
+      "Spell Scroll (1st level)": "25 gp + materials",
+      "Translation Service": "1 gp/page",
+      "Forgery Detection": "10 gp",
+      "Confidential Service": "+50% fee"
+    },
+    "npcs": [
+      {
+        "name": "Master Aldrich Inkwell",
+        "role": "Head Scribe"
+      },
+      {
+        "name": "Quentin Swiftquill",
+        "role": "Senior Scribe"
+      },
+      {
+        "name": "Penelope",
+        "role": "Apprentice Scribe"
+      }
+    ]
+  },
+  {
+    "name": "Dockside Provisions",
+    "type": "General Store",
+    "location": "Port",
+    "priceRange": "Moderate",
+    "quality": "Common",
+    "preview": "A rough-and-tumble supply shop catering to sailors, fishermen, and sea-bound adventurers...",
+    "description": "Salt-stained and weathered, this dockside shop stocks everything needed for life at sea. Coils of rope, barrels of hardtack, fishing nets, and nautical equipment fill the cramped space. The smell of tar and brine permeates everything. Captain Redbeard runs a practical business serving the port's working folk, with prices that reflect the harsh realities of maritime life.",
+    "services": ["Equipment", "Information", "Repairs"],
+    "pricing": {
+      "Ship's Rope (50 ft)": "3 gp",
+      "Fishing Net": "2 gp",
+      "Hardtack (10 days)": "2 sp",
+      "Grappling Hook": "2 gp",
+      "Waterproof Case": "5 gp",
+      "Sailor's Kit": "10 gp",
+      "Navigation Tools": "25 gp",
+      "Emergency Rations": "5 gp"
+    },
+    "npcs": [
+      {
+        "name": "Captain Jeremiah Redbeard",
+        "role": "Shop Owner & Retired Sailor"
+      },
+      {
+        "name": "Salty Pete",
+        "role": "Shop Assistant"
+      }
+    ]
+  },
+  {
+    "name": "Whispering Winds Tavern",
+    "type": "Tavern",
+    "location": "Wilderness",
+    "priceRange": "Budget",
+    "quality": "Common",
+    "preview": "An isolated waystation tavern serving travelers brave enough to venture into the wild lands...",
+    "description": "Standing alone in the wilderness, this sturdy log building offers shelter and sustenance to travelers far from civilization. The common room is simple but warm, with a massive stone fireplace and hunting trophies on the walls. Innkeeper Gareth serves hearty fare and strong drink, while his establishment acts as an informal message center for rangers, trappers, and adventurers passing through the wild.",
+    "services": ["Lodging", "Food & Drink", "Information", "Wilderness Guides"],
+    "pricing": {
+      "Bed in Common Room": "5 cp/night",
+      "Private Room": "2 sp/night",
+      "Hot Stew": "4 cp",
+      "Strong Ale": "3 cp",
+      "Trail Guide Service": "5 gp/day",
+      "Wilderness Map": "2 gp",
+      "Monster Information": "1 gp",
+      "Emergency Shelter": "free (storm nights)"
+    },
+    "npcs": [
+      {
+        "name": "Gareth Wildwood",
+        "role": "Innkeeper & Former Ranger"
+      },
+      {
+        "name": "Silent Sara",
+        "role": "Scout & Guide"
+      },
+      {
+        "name": "Tracker Tom",
+        "role": "Local Guide"
+      }
+    ]
+  },
+  {
+    "name": "Thornwall's Exotic Menagerie",
+    "type": "Pet Shop",
+    "location": "City",
+    "priceRange": "Expensive",
+    "quality": "Good",
+    "preview": "A unique establishment offering rare animals, magical creatures, and exotic pets...",
+    "description": "Cages, terrariums, and enchanted habitats house an incredible variety of creatures in this fascinating shop. From common cats and dogs to rare pseudodragons and pixies, Thornwall provides companions for those with the coin and responsibility to care for them. The shop also offers training services and specialized care for magical creatures. Each animal comes with detailed care instructions and a guarantee of health.",
+    "services": ["Equipment", "Animal Training", "Information"],
+    "pricing": {
+      "Cat": "2 sp",
+      "Dog": "5 sp",
+      "Raven": "25 gp",
+      "Hawk": "18 gp",
+      "Pseudodragon": "1,000 gp",
+      "Sprite": "2,500 gp",
+      "Animal Training": "50 gp/month",
+      "Creature Care Kit": "10 gp",
+      "Exotic Feed": "5 gp/month"
+    },
+    "npcs": [
+      {
+        "name": "Magister Elias Thornwall",
+        "role": "Beast Master & Shop Owner"
+      },
+      {
+        "name": "Chirpy",
+        "role": "Shop Mascot (Awakened Parrot)"
+      },
+      {
+        "name": "Young Marcus",
+        "role": "Animal Caretaker"
+      }
+    ]
+  },
+  {
+    "name": "The Lucky Horseshoe",
+    "type": "Gambling House",
+    "location": "City",
+    "priceRange": "Moderate",
+    "quality": "Common",
+    "preview": "A dimly lit establishment where fortunes are won and lost on games of chance and skill...",
+    "description": "Smoke fills the air as dice clatter across felt tables and cards are shuffled with practiced ease. The Lucky Horseshoe caters to those who enjoy risking their coin for the chance at greater rewards. Gaming tables offer various games, from simple dice to complex card games requiring skill and strategy. The house takes its cut, but fair play is strictly enforced by burly guards.",
+    "services": ["Entertainment", "Information", "Food & Drink"],
+    "pricing": {
+      "Table Stakes (Low)": "1 sp minimum",
+      "Table Stakes (High)": "1 gp minimum",
+      "Private Game Room": "10 gp/night",
+      "House Drink": "3 cp",
+      "Information Broker": "5-50 gp",
+      "Cheating Insurance": "10% of winnings",
+      "Debt Collection": "20% of debt"
+    },
+    "npcs": [
+      {
+        "name": "\"Lucky\" Lou Silvertongue",
+        "role": "House Owner & Dealer"
+      },
+      {
+        "name": "Iron Mike",
+        "role": "Bouncer & Debt Collector"
+      },
+      {
+        "name": "Whisper Jenny",
+        "role": "Information Broker"
+      }
+    ]
+  },
+  {
+    "name": "Crystalbrook Brewery",
+    "type": "Brewery",
+    "location": "Town",
+    "priceRange": "Moderate",
+    "quality": "Excellent",
+    "preview": "A renowned brewery crafting exceptional ales and spirits using pure mountain spring water...",
+    "description": "Massive copper vats and oak barrels fill this expansive brewery, where the art of fermentation has been perfected over generations. The Crystalbrook family uses water from a magical spring to create ales of exceptional quality and unique properties. Their tavern room allows visitors to sample fresh brews while watching the brewing process through glass windows.",
+    "services": ["Food & Drink", "Equipment", "Special Orders"],
+    "pricing": {
+      "House Ale (Mug)": "6 cp",
+      "Premium Ale (Mug)": "1 sp",
+      "Magical Brew": "5 sp",
+      "Bottle of Spirits": "2 gp",
+      "Keg of Ale": "4 gp",
+      "Custom Brew": "20 gp + time",
+      "Brewery Tour": "1 sp",
+      "Brewing Supplies": "varies"
+    },
+    "npcs": [
+      {
+        "name": "Master Brewer Aldwin Crystalbrook",
+        "role": "Head Brewer & Owner"
+      },
+      {
+        "name": "Hops",
+        "role": "Brewery Assistant"
+      },
+      {
+        "name": "Barley Betty",
+        "role": "Tavern Keeper"
+      }
+    ]
+  },
+  {
+    "name": "Midnight's Curiosities",
+    "type": "Pawn Shop",
+    "location": "City",
+    "priceRange": "Moderate",
+    "quality": "Common",
+    "preview": "A cluttered shop dealing in secondhand goods, mysterious artifacts, and questionable acquisitions...",
+    "description": "Every available surface in this cramped shop displays an eclectic collection of items: tarnished jewelry, worn weapons, strange artifacts, and everyday objects with unknown histories. Midnight asks no questions about where items come from, making this a popular spot for those needing quick coin or looking for unusual bargains. The proprietor has an uncanny ability to appraise anything brought to him.",
+    "services": ["Equipment", "Appraisal", "Information", "Special Orders"],
+    "pricing": {
+      "Item Appraisal": "1 gp",
+      "Pawn Rate": "30% of value",
+      "Buyback Fee": "150% of loan",
+      "Purchase Rate": "60% of value",
+      "Information": "5-20 gp",
+      "Fence Service": "20% of value",
+      "Storage": "1 gp/month",
+      "\"No Questions\" Fee": "+10 gp"
+    },
+    "npcs": [
+      {
+        "name": "Midnight",
+        "role": "Shop Owner & Appraiser"
+      },
+      {
+        "name": "Fingers",
+        "role": "\"Acquisitions Specialist\""
+      }
+    ]
+  },
+  {
+    "name": "Frostpeak Furs & Leathers",
+    "type": "Leather Shop",
+    "location": "Town",
+    "priceRange": "Moderate",
+    "quality": "Good",
+    "preview": "A specialist leather worker crafting fine armor, clothing, and goods from exotic hides...",
+    "description": "The rich smell of leather and tanning oils fills this workshop, where skilled artisans work with hides from both common and exotic creatures. Frostpeak specializes in leather armor, winter clothing, and practical goods that can withstand harsh conditions. Their work with monster hides makes them popular with adventurers seeking unique protection and cold-weather gear.",
+    "services": ["Equipment", "Repairs", "Custom Orders"],
+    "pricing": {
+      "Leather Armor": "10 gp",
+      "Studded Leather": "45 gp",
+      "Winter Cloak": "5 gp",
+      "Monster Hide Armor": "100-300 gp",
+      "Custom Leather Goods": "varies",
+      "Armor Repair": "2-10 gp",
+      "Hide Processing": "10% of value",
+      "Waterproofing": "1 gp"
+    },
+    "npcs": [
+      {
+        "name": "Thane Frostpeak",
+        "role": "Master Leatherworker"
+      },
+      {
+        "name": "Vera Quickstitch",
+        "role": "Apprentice & Seamstress"
+      }
+    ]
+  },
+  {
+    "name": "The Merchant's Scale",
+    "type": "Market",
+    "location": "City",
+    "priceRange": "Moderate",
+    "quality": "Good",
+    "preview": "A bustling indoor market where dozens of vendors sell goods from across the known world...",
+    "description": "This large covered marketplace buzzes with activity as merchants from distant lands display their wares. Stalls offer everything from exotic spices and silks to rare books and minor magical items. The Merchant's Scale serves as a hub for international trade, where savvy shoppers can find items unavailable elsewhere. Market Master Goldhand ensures fair dealing and maintains order among the competing vendors.",
+    "services": ["Equipment", "Information", "Special Orders", "Currency Exchange"],
+    "pricing": {
+      "Vendor Stall": "5 gp/day",
+      "Storage Space": "1 gp/day",
+      "Market Information": "2 gp",
+      "Trade Contacts": "10 gp",
+      "Currency Exchange": "3% fee",
+      "Auction Service": "10% of sale",
+      "Security Service": "2 gp/day",
+      "Import Permits": "25 gp"
+    },
+    "npcs": [
+      {
+        "name": "Market Master Harald Goldhand",
+        "role": "Market Administrator"
+      },
+      {
+        "name": "Zara the Spice Merchant",
+        "role": "Exotic Goods Vendor"
+      },
+      {
+        "name": "Quick-Fingers Quinn",
+        "role": "Information Broker"
+      }
+    ]
+  },
+  {
+    "name": "The Drunken Scholar",
+    "type": "Tavern",
+    "location": "City",
+    "priceRange": "Expensive",
+    "quality": "Good",
+    "preview": "An upscale tavern frequenting by intellectuals, wizards, and those who appreciate fine conversation...",
+    "description": "Unlike typical taverns, the Drunken Scholar maintains a refined atmosphere where learned discussion flows as freely as the wine. Bookshelves line the walls, comfortable chairs invite lengthy conversations, and the clientele includes professors, mages, and nobles seeking stimulating company. The menu features sophisticated fare and an extensive wine selection from renowned vineyards.",
+    "services": ["Food & Drink", "Information", "Lodging", "Private Meetings"],
+    "pricing": {
+      "Scholar's Suite": "2 gp/night",
+      "Fine Dining": "1 gp/meal",
+      "Vintage Wine": "5-25 gp/bottle",
+      "Private Study Room": "5 gp/day",
+      "Research Consultation": "10 gp/hour",
+      "Debate Tournament Entry": "1 gp",
+      "Sage Advice": "5-20 gp",
+      "Rare Book Access": "2 gp/day"
+    },
+    "npcs": [
+      {
+        "name": "Professor Cornelius Wisebeard",
+        "role": "Tavern Owner & Scholar"
+      },
+      {
+        "name": "Madame Violette",
+        "role": "Wine Curator"
+      },
+      {
+        "name": "Young Archimedes",
+        "role": "Research Assistant"
+      }
+    ]
   }
 ]
