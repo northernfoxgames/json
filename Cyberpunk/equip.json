@@ -1883,5 +1883,465 @@
       "notable_suppliers": "Trauma Team, Medical services",
       "special_notes": "Priority airspace access, advanced medical AI"
     }
+  },
+  {
+    "name": "Neon Dreams Jacket",
+    "category": "Clothing",
+    "description": "Street fashion jacket with integrated EL-wire patterns that pulse in rhythm with music. Popular among techno-goths and ravers.",
+    "stats": {
+      "Style Bonus": "+2",
+      "EL-Wire Patterns": "Programmable",
+      "Battery Life": "12 hours",
+      "Durability": "Standard"
+    },
+    "market": {
+      "shop_price": "450eb",
+      "black_market_price": "360eb",
+      "availability": "C",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "power_source": "Rechargeable battery pack",
+      "customization": "Patterns can be programmed via smartphone",
+      "notable_suppliers": "Fashion boutiques, Street vendors",
+      "special_notes": "Visible in dark, draws attention, trendy among youth"
+    }
+  },
+  {
+    "name": "Corporate Executive Suit",
+    "category": "Clothing",
+    "description": "High-end business attire made from climate-controlled smart fabric. Essential wear for climbing the corporate ladder.",
+    "stats": {
+      "Style Bonus": "+4",
+      "Climate Control": "Auto-adjusting",
+      "Stain Resistance": "100%",
+      "Social Class": "Executive"
+    },
+    "market": {
+      "shop_price": "3,500eb",
+      "black_market_price": "2,800eb",
+      "availability": "C",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "maintenance": "Self-cleaning fabric",
+      "status_symbol": "+2 to corporate social interactions",
+      "notable_suppliers": "High-end fashion houses, Corporate outfitters",
+      "special_notes": "Temperature regulated, wrinkle-free, impressive appearance"
+    }
+  },
+  {
+    "name": "Nomad Leathers Enhanced",
+    "category": "Clothing",
+    "description": "Traditional nomad clothing enhanced with modern materials. Provides protection from road hazards and environmental dangers.",
+    "stats": {
+      "Style Bonus": "+1",
+      "Protection": "SP 4",
+      "Weather Resistance": "All conditions",
+      "Durability": "Excellent"
+    },
+    "market": {
+      "shop_price": "1,200eb",
+      "black_market_price": "960eb",
+      "availability": "C",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "cultural_significance": "Marks wearer as nomad clan member",
+      "repair": "Can be field repaired with basic tools",
+      "notable_suppliers": "Nomad camps, Biker shops",
+      "special_notes": "Intimidating to city dwellers, respected by nomads"
+    }
+  },
+  {
+    "name": "Holo-Shift Dress",
+    "category": "Clothing",
+    "description": "Designer dress with holographic fabric that changes patterns and colors. The ultimate in high-fashion technology.",
+    "stats": {
+      "Style Bonus": "+5",
+      "Pattern Library": "500+ designs",
+      "Color Range": "Full spectrum",
+      "Battery Life": "8 hours"
+    },
+    "market": {
+      "shop_price": "8,500eb",
+      "black_market_price": "6,800eb",
+      "availability": "R",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "social_impact": "Guarantees attention at any event",
+      "customization": "Patterns downloadable from fashion feeds",
+      "notable_suppliers": "Ultra-high-end boutiques, Celebrity stylists",
+      "special_notes": "Can match any environment or mood, very fragile"
+    }
+  },
+  {
+    "name": "Street Samurai Gi",
+    "category": "Clothing",
+    "description": "Traditional martial arts uniform made with modern ballistic fibers. Favored by street fighters and corporate ninjas.",
+    "stats": {
+      "Style Bonus": "+2",
+      "Protection": "SP 6",
+      "Flexibility": "+1 to martial arts",
+      "Stealth Bonus": "+1"
+    },
+    "market": {
+      "shop_price": "2,200eb",
+      "black_market_price": "1,760eb",
+      "availability": "R",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "cultural_respect": "Shows dedication to martial arts",
+      "hidden_pockets": "Concealed weapon storage",
+      "notable_suppliers": "Martial arts suppliers, Solo gear shops",
+      "special_notes": "Silent movement, intimidating to street gangs"
+    }
+  },
+  {
+    "name": "Rockerboy Stage Outfit",
+    "category": "Clothing",
+    "description": "Flashy performance clothing with integrated sound system and light show capabilities. Essential for any serious musician.",
+    "stats": {
+      "Style Bonus": "+4",
+      "Sound System": "Amplified speakers",
+      "Light Show": "Synchronized LEDs",
+      "Stage Presence": "+3"
+    },
+    "market": {
+      "shop_price": "5,200eb",
+      "black_market_price": "4,160eb",
+      "availability": "C",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "performance_boost": "+2 to all performance skills on stage",
+      "power_consumption": "High, 4 hours battery",
+      "notable_suppliers": "Music equipment stores, Performance specialists",
+      "special_notes": "Extremely flashy, draws crowds, loud"
+    }
+  },
+  {
+    "name": "Medtech Scrubs Plus",
+    "category": "Clothing",
+    "description": "Medical scrubs with integrated biometric sensors and anti-contamination properties. Standard wear for trauma medics.",
+    "stats": {
+      "Medical Bonus": "+1",
+      "Contamination Protection": "Biological/chemical",
+      "Sensor Array": "Vital sign monitoring",
+      "Sterilization": "UV self-cleaning"
+    },
+    "market": {
+      "shop_price": "1,800eb",
+      "black_market_price": "1,440eb",
+      "availability": "C",
+      "legality": "Medical Equipment - Legal"
+    },
+    "gm_notes": {
+      "professional_appearance": "Trusted by patients",
+      "sensor_feedback": "Alerts to patient status changes",
+      "notable_suppliers": "Medical supply companies, Trauma Team",
+      "special_notes": "Self-sterilizing, can detect diseases"
+    }
+  },
+  {
+    "name": "Netrunner Hoodie",
+    "category": "Clothing",
+    "description": "Casual streetwear with built-in electromagnetic shielding and cable management system. The netrunner's uniform.",
+    "stats": {
+      "Style Bonus": "+1",
+      "EM Shielding": "+2 vs electronic detection",
+      "Cable Management": "Organized ports",
+      "Anonymity": "+2 to blend in"
+    },
+    "market": {
+      "shop_price": "950eb",
+      "black_market_price": "760eb",
+      "availability": "C",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "concealment": "Hides cybernetic connections",
+      "comfort": "Perfect for long hacking sessions",
+      "notable_suppliers": "Tech wear shops, Netrunner markets",
+      "special_notes": "Reduces EM signature, multiple hidden pockets"
+    }
+  },
+  {
+    "name": "Gang Colors Vest",
+    "category": "Clothing",
+    "description": "Gang identification vest with territory markers and intimidation features. Shows allegiance and warns rivals.",
+    "stats": {
+      "Style Bonus": "+2 (gang members only)",
+      "Intimidation": "+3 vs civilians",
+      "Territory Marker": "Gang identification",
+      "Durability": "Reinforced"
+    },
+    "market": {
+      "shop_price": "Not Available",
+      "black_market_price": "300eb",
+      "availability": "R",
+      "legality": "Legal (but dangerous)"
+    },
+    "gm_notes": {
+      "gang_politics": "May trigger conflicts with rival gangs",
+      "street_cred": "Respected in gang territories",
+      "notable_suppliers": "Gang workshops, Street tailors",
+      "special_notes": "Makes wearer a target, provides gang protection"
+    }
+  },
+  {
+    "name": "Corpo Spy Ensemble",
+    "category": "Clothing",
+    "description": "Sophisticated formal wear with hidden surveillance equipment and defensive systems. Perfect for corporate espionage.",
+    "stats": {
+      "Style Bonus": "+3",
+      "Hidden Cameras": "Micro surveillance",
+      "Recording Time": "24 hours",
+      "Social Camouflage": "+4"
+    },
+    "market": {
+      "shop_price": "12,000eb",
+      "black_market_price": "9,600eb",
+      "availability": "E",
+      "legality": "Surveillance Equipment"
+    },
+    "gm_notes": {
+      "detection_difficulty": "Electronics 20+ to find devices",
+      "data_storage": "Encrypted solid state memory",
+      "notable_suppliers": "Corporate intelligence, Espionage specialists",
+      "special_notes": "Looks completely normal, military-grade electronics"
+    }
+  },
+  {
+    "name": "Urban Ninja Outfit",
+    "category": "Clothing",
+    "description": "Modern interpretation of traditional ninja gear. Made from sound-absorbing materials with urban camouflage patterns.",
+    "stats": {
+      "Style Bonus": "+1",
+      "Stealth Bonus": "+3",
+      "Urban Camouflage": "+2 in cities",
+      "Sound Dampening": "-4 to detection"
+    },
+    "market": {
+      "shop_price": "4,200eb",
+      "black_market_price": "3,360eb",
+      "availability": "R",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "movement": "Silent running capability",
+      "visibility": "Blends with urban shadows",
+      "notable_suppliers": "Martial arts suppliers, Stealth gear dealers",
+      "special_notes": "Nearly silent movement, intimidating appearance"
+    }
+  },
+  {
+    "name": "Cyberwear Fashion Line",
+    "category": "Clothing",
+    "description": "Trendy streetwear designed to showcase cybernetic implants. Popular among those who want to display their chrome.",
+    "stats": {
+      "Style Bonus": "+3",
+      "Chrome Display": "Shows off implants",
+      "Youth Appeal": "+2 with teens",
+      "Breathability": "Climate adaptive"
+    },
+    "market": {
+      "shop_price": "1,500eb",
+      "black_market_price": "1,200eb",
+      "availability": "C",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "fashion_statement": "Shows cybernetic pride",
+      "social_impact": "Attractive to cyber-enthusiasts",
+      "notable_suppliers": "Fashion boutiques, Cyber-culture shops",
+      "special_notes": "Designed to complement cybernetics, very trendy"
+    }
+  },
+  {
+    "name": "Environmental Hazmat Suit",
+    "category": "Clothing",
+    "description": "Full-body protective suit for toxic environments. Essential gear for anyone working in contaminated zones.",
+    "stats": {
+      "Environmental Protection": "Complete",
+      "Toxin Resistance": "+8",
+      "Air Supply": "6 hours",
+      "Mobility": "-2 to movement"
+    },
+    "market": {
+      "shop_price": "3,800eb",
+      "black_market_price": "3,040eb",
+      "availability": "C",
+      "legality": "Safety Equipment - Legal"
+    },
+    "gm_notes": {
+      "full_protection": "Immune to environmental hazards",
+      "communication": "Built-in radio system",
+      "notable_suppliers": "Industrial safety, Environmental services",
+      "special_notes": "Bulky but essential for toxic zones"
+    }
+  },
+  {
+    "name": "Biker Gang Leathers",
+    "category": "Clothing",
+    "description": "Heavy motorcycle leathers with gang patches and protective features. Shows membership in biker culture.",
+    "stats": {
+      "Style Bonus": "+2",
+      "Protection": "SP 8",
+      "Intimidation": "+2",
+      "Road Resistance": "Excellent"
+    },
+    "market": {
+      "shop_price": "1,800eb",
+      "black_market_price": "1,440eb",
+      "availability": "C",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "biker_culture": "Respected by motorcycle gangs",
+      "crash_protection": "Reduces road rash damage",
+      "notable_suppliers": "Biker shops, Gang suppliers",
+      "special_notes": "Tough image, practical protection"
+    }
+  },
+  {
+    "name": "High Fashion Bodysuit",
+    "category": "Clothing",
+    "description": "Skin-tight designer bodysuit made from programmable smart fabric. Changes texture and temperature on command.",
+    "stats": {
+      "Style Bonus": "+4",
+      "Texture Control": "Variable surface",
+      "Temperature": "Heating/cooling",
+      "Fit": "Perfect contour"
+    },
+    "market": {
+      "shop_price": "6,500eb",
+      "black_market_price": "5,200eb",
+      "availability": "R",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "luxury_item": "Shows wealth and status",
+      "comfort": "Perfect climate control",
+      "notable_suppliers": "Ultra-luxury boutiques, Celebrity designers",
+      "special_notes": "Can simulate any fabric texture, very expensive"
+    }
+  },
+  {
+    "name": "Fixer Business Casual",
+    "category": "Clothing",
+    "description": "Professional but relaxed attire with hidden pockets and communication equipment. Perfect for conducting business.",
+    "stats": {
+      "Style Bonus": "+2",
+      "Hidden Pockets": "12 concealed spaces",
+      "Communication": "Encrypted radio",
+      "Professional Look": "+2 to business deals"
+    },
+    "market": {
+      "shop_price": "2,800eb",
+      "black_market_price": "2,240eb",
+      "availability": "C",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "practicality": "Perfect for carrying gear discretely",
+      "trust_factor": "Looks honest and professional",
+      "notable_suppliers": "Business outfitters, Fixer supply chains",
+      "special_notes": "Conceals small items perfectly, trustworthy appearance"
+    }
+  },
+  {
+    "name": "Techie Work Coveralls",
+    "category": "Clothing",
+    "description": "Heavy-duty work clothing with integrated tool harnesses and protection systems. Essential for technical work.",
+    "stats": {
+      "Tech Work Bonus": "+1",
+      "Tool Integration": "Built-in harnesses",
+      "Protection": "SP 6",
+      "Utility Pockets": "20+ specialized"
+    },
+    "market": {
+      "shop_price": "1,200eb",
+      "black_market_price": "960eb",
+      "availability": "C",
+      "legality": "Work Clothing - Legal"
+    },
+    "gm_notes": {
+      "functionality": "Perfect for technical work",
+      "durability": "Resists wear and chemicals",
+      "notable_suppliers": "Industrial suppliers, Tech shops",
+      "special_notes": "Extremely practical, many pockets and attachments"
+    }
+  },
+  {
+    "name": "Street Fashion Ensemble",
+    "category": "Clothing",
+    "description": "Cutting-edge street fashion with bold colors and experimental materials. Makes a statement about youth rebellion.",
+    "stats": {
+      "Style Bonus": "+3",
+      "Youth Appeal": "+4",
+      "Shock Value": "+2",
+      "Trend Factor": "High"
+    },
+    "market": {
+      "shop_price": "2,200eb",
+      "black_market_price": "1,760eb",
+      "availability": "C",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "fashion_forward": "Sets trends among youth",
+      "attention_grabbing": "Impossible to ignore",
+      "notable_suppliers": "Youth fashion boutiques, Underground designers",
+      "special_notes": "Very trendy, may offend conservative types"
+    }
+  },
+  {
+    "name": "Corpo Security Uniform",
+    "category": "Clothing",
+    "description": "Official corporate security outfit with authority symbols and protective features. Commands respect and fear.",
+    "stats": {
+      "Authority": "+3",
+      "Intimidation": "+2",
+      "Protection": "SP 10",
+      "Professional": "+2 in corporate settings"
+    },
+    "market": {
+      "shop_price": "3,200eb",
+      "black_market_price": "2,560eb",
+      "availability": "R",
+      "legality": "Security Personnel Only"
+    },
+    "gm_notes": {
+      "impersonation_risk": "Illegal to wear without authorization",
+      "access_benefits": "May provide access to secure areas",
+      "notable_suppliers": "Corporate security, Uniform suppliers",
+      "special_notes": "Commands authority but illegal for civilians"
+    }
+  },
+  {
+    "name": "Climate Adaptive Poncho",
+    "category": "Clothing",
+    "description": "All-weather outer garment that adapts to environmental conditions. Essential for outdoor survival in any climate.",
+    "stats": {
+      "Weather Protection": "All conditions",
+      "Temperature Range": "-40°C to +60°C",
+      "Breathability": "Smart ventilation",
+      "Durability": "Military grade"
+    },
+    "market": {
+      "shop_price": "850eb",
+      "black_market_price": "680eb",
+      "availability": "C",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "versatility": "Works in any weather condition",
+      "practicality": "Essential for outdoor operations",
+      "notable_suppliers": "Outdoor gear shops, Military surplus",
+      "special_notes": "Automatically adjusts to weather, very practical"
+    }
   }
 ]
