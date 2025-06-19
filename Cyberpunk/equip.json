@@ -4,22 +4,23 @@
     "category": "Cyberware",
     "description": "Retractable mono-molecular edged blades integrated into the forearm cybernetics. Capable of slicing through most materials with surgical precision.",
     "stats": {
-      "Damage": "380 DPS",
-      "Critical Chance": "25%",
-      "Durability": "Excellent",
-      "Installation Cost": "€15,000"
+      "Damage": "2d6+3",
+      "Weapon Accuracy": "+1",
+      "Concealability": "N/A (Internal)",
+      "Reliability": "VR"
     },
     "market": {
-      "shop_price": "€25,000",
-      "black_market_price": "€18,000",
-      "availability": "Rare",
-      "legality": "Restricted - Class 3 Weapon"
+      "shop_price": "25,000eb",
+      "black_market_price": "18,000eb",
+      "availability": "R",
+      "legality": "Illegal"
     },
     "gm_notes": {
       "install_time": "4 hours surgery",
-      "humanity_cost": "8 points",
-      "side_effects": "Phantom limb sensations, increased aggression",
-      "notable_suppliers": "Arasaka Clinics, Underground Ripperdocs"
+      "humanity_cost": "2d6",
+      "surgery_difficulty": "20",
+      "notable_suppliers": "Arasaka Clinics, Underground Ripperdocs",
+      "special_notes": "AP rounds don't affect, counts as edged weapon"
     }
   },
   {
@@ -27,21 +28,21 @@
     "category": "Armor",
     "description": "Military-grade adaptive camouflage system that adjusts to environmental conditions. Provides near-perfect invisibility in most lighting conditions.",
     "stats": {
-      "Stealth Rating": "95%",
+      "Stealth Modifier": "+8",
       "Duration": "8 minutes",
-      "Recharge Time": "45 seconds",
-      "Weight": "2.1kg"
+      "Encumbrance Value": "1",
+      "Stopping Power": "0"
     },
     "market": {
       "shop_price": "Not Available",
-      "black_market_price": "€45,000",
-      "availability": "Extremely Rare",
+      "black_market_price": "45,000eb",
+      "availability": "E",
       "legality": "Military Restricted"
     },
     "gm_notes": {
-      "power_source": "Requires portable fusion cell",
-      "detection_methods": "Thermal, motion sensors still work",
-      "maintenance": "Weekly calibration required",
+      "power_source": "Requires portable fusion cell (500eb)",
+      "detection_methods": "+6 to spot with thermal/motion sensors",
+      "maintenance": "Tech skill 15+ weekly or -2 stealth",
       "notable_suppliers": "Military black market, Corporate espionage gear"
     }
   },
@@ -50,22 +51,23 @@
     "category": "Cyberware",
     "description": "Advanced neural interface allowing direct connection to the Net. Features enhanced ICE protection and quantum encryption protocols.",
     "stats": {
-      "Net Speed": "+40%",
-      "ICE Resistance": "Military Grade",
-      "RAM": "512TB",
-      "Hack Defense": "Level 9"
+      "Interface Bonus": "+3",
+      "Data Wall": "25",
+      "Memory": "50 MU",
+      "Speed": "3"
     },
     "market": {
-      "shop_price": "€35,000",
-      "black_market_price": "€28,000",
-      "availability": "Uncommon",
-      "legality": "Licensed Required"
+      "shop_price": "35,000eb",
+      "black_market_price": "28,000eb",
+      "availability": "C",
+      "legality": "License Required"
     },
     "gm_notes": {
       "install_time": "6 hours surgery",
-      "humanity_cost": "12 points",
-      "side_effects": "Chronic migraines, data overflow syndrome",
-      "notable_suppliers": "NetWatch approved dealers, Corpo clinics"
+      "humanity_cost": "1d6+1",
+      "surgery_difficulty": "18",
+      "notable_suppliers": "NetWatch approved dealers, Corpo clinics",
+      "special_notes": "Requires Interface skill 6+ to use effectively"
     }
   },
   {
@@ -73,21 +75,21 @@
     "category": "Weapons",
     "description": "Traditional katana enhanced with thermal edge technology. The blade heats to 2000°C on activation, cauterizing wounds instantly.",
     "stats": {
-      "Damage": "420 DPS",
-      "Heat Damage": "+150",
-      "Battery Life": "2 hours",
-      "Craftsmanship": "Legendary"
+      "Damage": "2d6+3",
+      "Weapon Accuracy": "+1",
+      "Concealability": "N",
+      "Reliability": "VR"
     },
     "market": {
-      "shop_price": "€8,500",
-      "black_market_price": "€6,200",
-      "availability": "Rare",
+      "shop_price": "8,500eb",
+      "black_market_price": "6,200eb",
+      "availability": "R",
       "legality": "Weapon License Required"
     },
     "gm_notes": {
-      "crafted_by": "Wakako's Weapon Shop, Street Smiths",
-      "special_notes": "Leaves distinctive cauterized wounds",
-      "battery_type": "Replaceable thermal cells",
+      "rate_of_fire": "1/2",
+      "battery_life": "50 swings per charge",
+      "special_notes": "Ignores 2 points of armor, cauterizes wounds (+2 to stabilization)",
       "notable_suppliers": "Traditional weapon shops, Yakuza connections"
     }
   },
@@ -96,21 +98,21 @@
     "category": "Tools",
     "description": "Comprehensive hacking suite containing quantum processors, signal amplifiers, and custom malware. Essential for any serious netrunner.",
     "stats": {
-      "Breach Success": "89%",
-      "Trace Resistance": "High",
-      "Malware Library": "2,847 programs",
-      "Processing Speed": "12.5 THz"
+      "Electronics Bonus": "+4",
+      "Programming Bonus": "+3",
+      "System Knowledge": "+2",
+      "Range": "100m"
     },
     "market": {
-      "shop_price": "€12,000",
-      "black_market_price": "€9,500",
-      "availability": "Uncommon",
-      "legality": "Hacking Tools - Restricted"
+      "shop_price": "12,000eb",
+      "black_market_price": "9,500eb",
+      "availability": "R",
+      "legality": "Restricted"
     },  
     "gm_notes": {
-      "update_frequency": "Weekly malware updates available",
-      "detection_risk": "Moderate - leaves digital fingerprints",
-      "skill_requirement": "Interface +6 minimum",
+      "skill_requirement": "Electronics 6+, Programming 4+",
+      "detection_risk": "+2 difficulty to trace attempts",
+      "battery_life": "12 hours continuous use",
       "notable_suppliers": "Netrunner collectives, Tech markets"
     }
   },
@@ -119,22 +121,23 @@
     "category": "Cyberware",
     "description": "Titanium-alloy plates surgically implanted beneath the skin. Provides protection without compromising mobility or appearance.",
     "stats": {
-      "Damage Reduction": "35%",
-      "Detection Difficulty": "Very High",
-      "Rejection Risk": "2%",
-      "Coverage": "Torso & Limbs"
+      "Stopping Power": "SP 14",
+      "Encumbrance Value": "0",
+      "Coverage": "Torso & Arms",
+      "Hardened": "No"
     },
     "market": {
-      "shop_price": "€20,000",
-      "black_market_price": "€15,500",
-      "availability": "Common",
-      "legality": "Legal with Medical License"
+      "shop_price": "20,000eb",
+      "black_market_price": "15,500eb",
+      "availability": "C",
+      "legality": "Legal with permit"
     },
     "gm_notes": {
       "install_time": "8 hours surgery",
-      "humanity_cost": "6 points",
-      "side_effects": "Metal detectors, reduced flexibility",
-      "notable_suppliers": "Body modification clinics, Corporate med centers"
+      "humanity_cost": "2d6",
+      "surgery_difficulty": "17",
+      "notable_suppliers": "Body modification clinics, Corporate med centers",
+      "special_notes": "Not obvious, +4 difficulty to detect"
     }
   },
   {
@@ -142,21 +145,21 @@
     "category": "Weapons",
     "description": "Electromagnetic pulse grenade designed to disable electronic systems. Effective against drones, vehicles, and cybernetic implants.",
     "stats": {
-      "Blast Radius": "15 meters",
-      "EMP Duration": "30 seconds",
-      "Electronics Disable": "100%",
-      "Quantity per Pack": "3 units"
+      "Damage": "Special (EMP)",
+      "Blast Radius": "15m radius",
+      "Weapon Accuracy": "+0",
+      "Concealability": "J"
     },
     "market": {
-      "shop_price": "€450 each",
-      "black_market_price": "€320 each",
-      "availability": "Uncommon",
+      "shop_price": "450eb each",
+      "black_market_price": "320eb each",
+      "availability": "R",
       "legality": "Explosive License Required"
     },
     "gm_notes": {
-      "civilian_impact": "Affects pacemakers, neural implants",
-      "shielding": "Military vehicles may be hardened",
-      "detection": "Standard explosive scanners work",
+      "effect_duration": "1d6+1 rounds",
+      "vs_cyberware": "Electronics check vs 20 or disabled",
+      "vs_vehicles": "Shuts down for effect duration",
       "notable_suppliers": "Military surplus, Nomad weapon dealers"
     }
   },
@@ -165,22 +168,23 @@
     "category": "Cyberware",
     "description": "Real-time health monitoring system that tracks vitals, toxin levels, and neurological activity. Includes automatic emergency response protocols.",
     "stats": {
-      "Health Tracking": "Real-time",
-      "Toxin Detection": "99.7%",
-      "Emergency Response": "Automatic",
-      "Battery Life": "5 years"
+      "Medical Bonus": "+3",
+      "Poison Resistance": "+4",
+      "First Aid Bonus": "+2",
+      "Range": "Internal"
     },
     "market": {
-      "shop_price": "€7,500",
-      "black_market_price": "€5,800",
-      "availability": "Common",
-      "legality": "Medical Device - Legal"
+      "shop_price": "7,500eb",
+      "black_market_price": "5,800eb",
+      "availability": "C",
+      "legality": "Legal"
     },
     "gm_notes": {
       "install_time": "2 hours surgery",
-      "humanity_cost": "2 points",
-      "side_effects": "Constant health awareness, anxiety",
-      "notable_suppliers": "Medical supply stores, Trauma Team"
+      "humanity_cost": "1d6/2",
+      "surgery_difficulty": "15",
+      "notable_suppliers": "Medical supply stores, Trauma Team",
+      "special_notes": "Automatic poison/drug detection, alerts medic"
     }
   },
   {
@@ -188,22 +192,23 @@
     "category": "Weapons",
     "description": "AI-assisted sidearm with smart targeting system. Features biometric lock, wireless ammo counter, and predictive trajectory calculation.",
     "stats": {
-      "Accuracy Bonus": "+35%",
-      "Smart Lock": "Biometric",
-      "Magazine": "15 rounds",
-      "Effective Range": "50 meters"
+      "Damage": "2d6+1",
+      "Weapon Accuracy": "+2",
+      "Concealability": "P",
+      "Reliability": "ST"
     },
     "market": {
-      "shop_price": "€3,200",
-      "black_market_price": "€2,400",
-      "availability": "Common",
+      "shop_price": "3,200eb",
+      "black_market_price": "2,400eb",
+      "availability": "C",
       "legality": "Weapon License Required"
     },
     "gm_notes": {
-      "ammo_type": "Smart rounds only",
-      "hacking_risk": "Can be hacked to misfire or lock",
-      "battery_life": "500 shots per charge",
-      "notable_suppliers": "Gun shops, Security equipment dealers"
+      "rate_of_fire": "2",
+      "magazine": "15 rounds",
+      "range": "50m",
+      "notable_suppliers": "Gun shops, Security equipment dealers",
+      "special_notes": "Requires smartgun link, +1 WA with smart ammo"
     }
   },
   {
@@ -211,21 +216,21 @@
     "category": "Tools",
     "description": "Specialized device for encoding, decoding, and manipulating memory chips. Can extract data from damaged or encrypted storage devices.",
     "stats": {
-      "Success Rate": "94%",
-      "Supported Formats": "All Standard",
-      "Encryption Breaking": "Level 8",
-      "Data Recovery": "Advanced"
+      "Electronics Bonus": "+3",
+      "Forgery Bonus": "+4",
+      "Programming Bonus": "+2",
+      "Weight": "0.5kg"
     },
     "market": {
-      "shop_price": "€4,800",
-      "black_market_price": "€3,600",
-      "availability": "Uncommon",
-      "legality": "Data Recovery - Restricted Use"
+      "shop_price": "4,800eb",
+      "black_market_price": "3,600eb",
+      "availability": "R",
+      "legality": "Restricted Use"
     },
     "gm_notes": {
-      "operation_time": "15 minutes per chip",
-      "failure_risk": "6% chance of data corruption",
-      "skill_requirement": "Tech +4 minimum",
+      "operation_time": "1d6+2 minutes per chip",
+      "failure_chance": "6% (roll 95+ on d100)",
+      "skill_requirement": "Electronics 4+",
       "notable_suppliers": "Data recovery services, Tech black market"
     }
   }
