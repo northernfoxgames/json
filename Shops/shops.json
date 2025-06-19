@@ -1,325 +1,179 @@
-[
   {
-    "name": "The Singing Sword",
-    "type": "Weapon Shop",
-    "location": "City",
-    "priceRange": "Expensive",
-    "quality": "Excellent",
-    "preview": "An elite weapon shop where master bladesmiths craft legendary weapons that hum with power...",
-    "description": "This prestigious weapon shop displays gleaming blades of every description, from delicate rapiers to massive two-handed swords. Each weapon is a work of art, perfectly balanced and razor-sharp. The walls showcase weapons of legendary heroes, while the forge in the back glows with magical fire. Master weaponsmith Gareth Steelwill takes pride in creating weapons worthy of heroes.",
-    "services": ["Equipment", "Repairs", "Custom Orders", "Enchantment"],
-    "pricing": {
-      "Masterwork Longsword": "315 gp",
-      "Masterwork Battleaxe": "310 gp",
-      "Masterwork Bow": "375 gp",
-      "Silvered Weapon": "+100 gp",
-      "Cold Iron Weapon": "+200 gp",
-      "Minor Enchantment": "500-1,500 gp",
-      "Weapon Sharpening": "5 gp",
-      "Legendary Commission": "2,000-10,000 gp"
-    },
-    "npcs": [
-      {
-        "name": "Gareth Steelwill",
-        "role": "Master Weaponsmith"
-      },
-      {
-        "name": "Elena Sharpedge",
-        "role": "Enchantment Specialist"
-      },
-      {
-        "name": "Finn",
-        "role": "Shop Assistant"
-      }
-    ]
-  },
-  {
-    "name": "Thornfield's Tomes & Trinkets",
-    "type": "Library",
-    "location": "City",
-    "priceRange": "Moderate",
-    "quality": "Excellent",
-    "preview": "A scholarly sanctuary filled with ancient books, magical research, and arcane knowledge...",
-    "description": "Towering bookshelves stretch to the vaulted ceiling of this grand library, filled with tomes on every subject imaginable. Comfortable reading nooks with soft cushions invite study, while magical lights provide perfect illumination. Professor Thornfield maintains an extensive collection of rare texts, historical records, and magical research. The smell of old parchment and ink creates an atmosphere of scholarly pursuit.",
-    "services": ["Information", "Research", "Spell Copying", "Translation"],
-    "pricing": {
-      "Library Access": "1 sp/day",
-      "Book Rental": "5 sp/week",
-      "Research Service": "10 gp/day",
-      "Spell Scroll Copying": "50 gp + materials",
-      "Translation Service": "2 gp/page",
-      "Map Creation": "25 gp",
-      "Historical Research": "20 gp/day",
-      "Rare Book Purchase": "50-500 gp"
-    },
-    "npcs": [
-      {
-        "name": "Professor Aldwin Thornfield",
-        "role": "Head Librarian & Scholar"
-      },
-      {
-        "name": "Scribe Millicent",
-        "role": "Research Assistant"
-      },
-      {
-        "name": "Ink",
-        "role": "Library Cat"
-      }
-    ]
-  },
-  {
-    "name": "Goldleaf Jewelry & Gems",
-    "type": "Jewelry",
-    "location": "City",
-    "priceRange": "Luxury",
-    "quality": "Excellent",
-    "preview": "An opulent jewelry shop showcasing exquisite gems, precious metals, and divine craftsmanship...",
-    "description": "Velvet-lined display cases show off sparkling gemstones, intricate golden jewelry, and ornate religious symbols. Every piece is a masterwork of artistry, from delicate elven earrings to bold dwarven torcs. The shop caters to nobility, wealthy merchants, and adventurers looking to invest their treasure in portable wealth. Madame Goldleaf has an eye for quality that's renowned throughout the realm.",
-    "services": ["Equipment", "Custom Orders", "Appraisal", "Gem Cutting"],
-    "pricing": {
-      "Gold Ring": "25 gp",
-      "Silver Necklace": "15 gp",
-      "Gemstone Earrings": "50-200 gp",
-      "Noble's Crown": "500-2,000 gp",
-      "Gem Appraisal": "10 gp",
-      "Custom Jewelry": "100-1,000 gp",
-      "Gem Cutting": "25% of gem value",
-      "Religious Symbol (Gold)": "100 gp"
-    },
-    "npcs": [
-      {
-        "name": "Madame Seraphina Goldleaf",
-        "role": "Master Jeweler"
-      },
-      {
-        "name": "Marcus Brightstone",
-        "role": "Gem Cutter"
-      }
-    ]
-  },
-  {
-    "name": "The Wanderer's Rest",
-    "type": "Inn",
-    "location": "Crossroads",
-    "priceRange": "Budget",
-    "quality": "Good",
-    "preview": "A reliable roadside inn offering clean beds, hot meals, and honest hospitality to travelers...",
-    "description": "This sturdy stone inn sits at the junction of three major roads, serving as a beacon for weary travelers. The common room features a large fireplace, sturdy tables, and the comforting smell of stew always simmering. Rooms are simple but clean, with comfortable beds and washbasins. The Wanderer's Rest has built its reputation on fair prices, good food, and reliable service.",
-    "services": ["Lodging", "Food & Drink", "Information", "Transportation"],
-    "pricing": {
-      "Common Room": "2 cp/night",
-      "Shared Room": "1 sp/night",
-      "Private Room": "2 sp/night",
-      "Hot Meal": "6 cp",
-      "Trail Rations": "1 sp",
-      "Ale": "2 cp",
-      "Wine": "1 sp",
-      "Horse Care": "1 sp/night"
-    },
-    "npcs": [
-      {
-        "name": "Willem Roadkeeper",
-        "role": "Innkeeper"
-      },
-      {
-        "name": "Marta",
-        "role": "Cook & Barmaid"
-      },
-      {
-        "name": "Young Ben",
-        "role": "Stable Boy"
-      }
-    ]
-  },
-  {
-    "name": "Brightwater General Goods",
-    "type": "General Store",
+    "name": "The Prancing Pony",
+    "type": "Tavern",
     "location": "Town",
     "priceRange": "Moderate",
     "quality": "Good",
-    "preview": "A well-stocked general store carrying everything adventurers and townsfolk need for daily life...",
-    "description": "Shelves and barrels fill this spacious store with goods of every description. From farming tools to adventuring gear, cooking supplies to basic weapons, if someone needs it, Brightwater probably has it. The Brightwater family has run this store for three generations, building relationships with suppliers across the region to keep their inventory diverse and reasonably priced.",
-    "services": ["Equipment", "Information", "Special Orders"],
+    "preview": "A warm, welcoming tavern known for its hearty meals and comfortable rooms...",
+    "description": "The Prancing Pony stands as the heart of the town's social life. With its thick stone walls, heavy wooden beams, and roaring fireplace, it offers respite to weary travelers and locals alike. The common room buzzes with conversation, and the smell of roasted meat and fresh bread fills the air. Upstairs, clean rooms with comfortable beds await those needing rest.",
+    "services": ["Lodging", "Food & Drink", "Information", "Entertainment"],
     "pricing": {
-      "Backpack": "2 gp",
-      "Bedroll": "2 sp",
-      "Rope (50 ft)": "2 gp",
-      "Lantern": "5 sp",
-      "Oil Flask": "1 sp",
-      "Rations (10 days)": "2 gp",
-      "Waterskin": "2 sp",
-      "Simple Tools": "2-10 gp"
+      "Room (Common)": "2 sp/night",
+      "Room (Private)": "5 sp/night",
+      "Meal (Simple)": "3 cp",
+      "Meal (Hearty)": "1 sp",
+      "Ale (Mug)": "4 cp",
+      "Wine (Glass)": "2 sp",
+      "Stable Horse": "2 cp/night"
     },
     "npcs": [
       {
-        "name": "Tobias Brightwater",
-        "role": "Store Owner"
+        "name": "Bartholomew Greenhill",
+        "role": "Innkeeper & Barkeep"
       },
       {
-        "name": "Sarah Brightwater",
-        "role": "Inventory Manager"
+        "name": "Rosie Greenhill",
+        "role": "Cook & Server"
       }
     ]
   },
   {
-    "name": "The Merry Minstrel",
-    "type": "Tavern",
+    "name": "Ironforge Armaments",
+    "type": "Blacksmith",
     "location": "City",
     "priceRange": "Moderate",
     "quality": "Excellent",
-    "preview": "A lively tavern where music fills the air and stories flow as freely as the ale...",
-    "description": "This vibrant tavern pulses with life and music. A small stage hosts traveling bards and local musicians nightly, while patrons enjoy excellent ale and hearty food. The walls display musical instruments from around the world, and the atmosphere is always festive. The Merry Minstrel is known as the best place in the city to hear news, gossip, and entertainment.",
-    "services": ["Food & Drink", "Entertainment", "Information", "Lodging"],
+    "preview": "Master craftsman Durgan creates weapons and armor renowned throughout the realm...",
+    "description": "The rhythmic pounding of hammer on anvil echoes from this renowned smithy. Durgan Ironforge, a dwarf of legendary skill, crafts weapons and armor that are both functional and beautiful. The shop displays an impressive array of swords, axes, shields, and plate armor, each piece showing the master's attention to detail and quality.",
+    "services": ["Equipment", "Repairs", "Custom Orders"],
     "pricing": {
-      "Room Upstairs": "5 sp/night",
-      "Hearty Meal": "1 sp",
-      "Fine Ale": "5 cp",
-      "Imported Wine": "3 sp",
-      "Private Performance": "10 gp",
-      "Stage Rental": "5 gp/night",
-      "Musical Instrument Rental": "1 sp/day"
+      "Longsword": "15 gp",
+      "Battleaxe": "10 gp",
+      "Chain Mail": "75 gp",
+      "Shield": "10 gp",
+      "Weapon Repair": "1-5 gp",
+      "Armor Repair": "2-10 gp",
+      "Custom Weapon": "50-200 gp",
+      "Masterwork Upgrade": "+300 gp"
     },
     "npcs": [
       {
-        "name": "Lydia Songweaver",
-        "role": "Tavern Owner & Bard"
+        "name": "Durgan Ironforge",
+        "role": "Master Blacksmith"
       },
       {
-        "name": "Gruff",
-        "role": "Bouncer"
-      },
-      {
-        "name": "Melody",
-        "role": "Serving Girl & Dancer"
+        "name": "Pip",
+        "role": "Apprentice"
       }
     ]
   },
   {
-    "name": "Sacred Grove Temple",
-    "type": "Temple",
-    "location": "Village",
-    "priceRange": "Budget",
-    "quality": "Good",
-    "preview": "A peaceful temple dedicated to nature deities, offering healing and spiritual guidance...",
-    "description": "Built around a circle of ancient oak trees, this temple blends seamlessly with the natural world. Sunlight filters through leaves onto simple stone altars, while healing herbs grow in carefully tended gardens. The temple serves the local farming community, providing healing, blessing crops, and conducting seasonal ceremonies. Brother Oak leads services that celebrate the cycles of nature.",
-    "services": ["Healing", "Information", "Religious Services"],
+    "name": "Mystic Curiosities",
+    "type": "Magic Shop",
+    "location": "City",
+    "priceRange": "Expensive",
+    "quality": "Excellent",
+    "preview": "A mysterious shop filled with arcane artifacts, spell components, and magical services...",
+    "description": "Crystals hum with magical energy in the windows of this enigmatic establishment. Inside, shelves line the walls from floor to ceiling, filled with spell components, potions, scrolls, and minor magical items. The air shimmers with residual magic, and the scent of exotic herbs and ozone fills the space. Madame Zelara, the proprietor, offers both goods and magical services to those with coin and need.",
+    "services": ["Magic Services", "Equipment", "Information", "Spell Components"],
     "pricing": {
-      "Healing (Minor)": "10 gp",
-      "Healing (Major)": "25 gp",
-      "Disease Removal": "40 gp",
-      "Blessing": "5 gp",
-      "Wedding Ceremony": "10 gp",
-      "Funeral Service": "5 gp",
-      "Crop Blessing": "2 gp/field",
-      "Holy Water": "5 gp/vial"
+      "Potion of Healing": "50 gp",
+      "Scroll (1st Level)": "75 gp",
+      "Scroll (2nd Level)": "150 gp",
+      "Component Pouch": "25 gp",
+      "Spell Component (Rare)": "10-100 gp",
+      "Magic Item Identification": "25 gp",
+      "Spellcasting Service": "10-500 gp",
+      "Enchantment (Minor)": "100-1000 gp"
     },
     "npcs": [
       {
-        "name": "Brother Oak",
-        "role": "Druid & Temple Keeper"
+        "name": "Madame Zelara",
+        "role": "Shop Owner & Wizard"
       },
       {
-        "name": "Sister Willow",
+        "name": "Whiskers",
+        "role": "Familiar (Cat)"
+      }
+    ]
+  },
+  {
+    "name": "The Healer's Haven",
+    "type": "Apothecary",
+    "location": "Town",
+    "priceRange": "Moderate",
+    "quality": "Good",
+    "preview": "A peaceful sanctuary offering healing potions, herbs, and medical treatment...",
+    "description": "Bundles of dried herbs hang from the rafters, filling this cozy shop with the scent of lavender, sage, and other healing plants. Glass bottles containing colorful potions line the shelves, while a garden visible through the back window grows medicinal plants. The proprietor, Brother Marcus, tends to both the shop and the sick with equal care and devotion.",
+    "services": ["Healing", "Equipment", "Medical Treatment"],
+    "pricing": {
+      "Healing Potion": "50 gp",
+      "Antitoxin": "50 gp",
+      "Herbal Medicine": "5 gp",
+      "Medical Treatment": "5-20 gp",
+      "Disease Cure": "25 gp",
+      "Poison Neutralization": "30 gp",
+      "Herbalism Kit": "5 gp",
+      "Rare Herb": "10-50 gp"
+    },
+    "npcs": [
+      {
+        "name": "Brother Marcus",
         "role": "Healer & Herbalist"
       }
     ]
   },
   {
-    "name": "Moonlight Armory",
-    "type": "Armor Shop",
-    "location": "City",
-    "priceRange": "Expensive",
-    "quality": "Excellent",
-    "preview": "A specialist armor shop creating protective gear that combines style, function, and magical enhancement...",
-    "description": "Suits of gleaming armor stand at attention throughout this specialized shop, from lightweight leather to full plate mail. Each piece is carefully crafted for both protection and appearance, with many featuring decorative elements that don't compromise their defensive capabilities. Master armorer Diana Moonforge is particularly renowned for her work with exotic materials and magical enhancement.",
-    "services": ["Equipment", "Repairs", "Custom Orders", "Fitting"],
+    "name": "The Silver Saddle",
+    "type": "Stable",
+    "location": "Crossroads",
+    "priceRange": "Budget",
+    "quality": "Common",
+    "preview": "A roadside stable offering horses, supplies, and shelter for travelers...",
+    "description": "This weathered but sturdy stable sits at the crossroads, serving travelers heading in all directions. The stalls house a variety of horses, from sturdy pack animals to swift riding mounts. The attached shop sells traveling gear, feed, and basic supplies. While not luxurious, it's clean, honest, and reliable - exactly what road-weary travelers need.",
+    "services": ["Transportation", "Equipment", "Lodging", "Information"],
     "pricing": {
-      "Studded Leather": "45 gp",
-      "Chain Shirt": "50 gp",
-      "Scale Mail": "50 gp",
-      "Chain Mail": "75 gp",
-      "Splint Armor": "200 gp",
-      "Plate Armor": "1,500 gp",
-      "Armor Fitting": "10 gp",
-      "Masterwork Upgrade": "+150 gp"
+      "Riding Horse": "75 gp",
+      "Draft Horse": "50 gp",
+      "Pony": "30 gp",
+      "Horse Rental": "2 gp/day",
+      "Feed & Stabling": "2 sp/night",
+      "Traveler's Pack": "2 gp",
+      "Bedroll": "2 sp",
+      "Trail Rations": "2 gp/10 days"
     },
     "npcs": [
       {
-        "name": "Diana Moonforge",
-        "role": "Master Armorer"
+        "name": "Old Tom",
+        "role": "Stable Master"
       },
       {
-        "name": "Kael Ironbender",
-        "role": "Assistant Armorer"
+        "name": "Sarah",
+        "role": "Hostler"
       }
     ]
   },
   {
-    "name": "The Coin & Crown",
-    "type": "Bank",
+    "name": "The Golden Goblet",
+    "type": "Inn",
     "location": "Capital",
     "priceRange": "Luxury",
-    "quality": "Excellent",
-    "preview": "An exclusive banking house serving nobles and wealthy merchants with secure vaults and financial services...",
-    "description": "Marble columns and gold fixtures mark this as the most prestigious banking establishment in the capital. Behind heavy vault doors lie secure deposit boxes and counting rooms where large transactions are conducted in privacy. The Coin & Crown offers services beyond simple money storage, including letters of credit, foreign exchange, and investment opportunities for the wealthy.",
-    "services": ["Banking", "Information", "Transportation"],
+    "quality": "Legendary",
+    "preview": "The finest establishment in the capital, catering to nobles and wealthy merchants...",
+    "description": "Marble floors, crystal chandeliers, and silk tapestries mark this as the most prestigious inn in the capital. Each room is a suite fit for nobility, with feather beds, private baths, and personal service. The dining hall serves exotic delicacies prepared by master chefs, while the wine cellar holds vintages from across the realm. Only the wealthy can afford to stay here, but the luxury is unmatched.",
+    "services": ["Lodging", "Food & Drink", "Entertainment", "Banking", "Information"],
     "pricing": {
-      "Account Opening": "50 gp",
-      "Vault Rental (Small)": "10 gp/month",
-      "Vault Rental (Large)": "25 gp/month",
-      "Money Changing": "2% fee",
-      "Letter of Credit": "1% of amount",
-      "Secure Transport": "5% of value",
-      "Investment Service": "10% of profits",
-      "Loan Interest": "20% annually"
+      "Noble Suite": "10 gp/night",
+      "Merchant Room": "5 gp/night",
+      "Fine Dining": "5 gp/meal",
+      "Exotic Wine": "10-50 gp/bottle",
+      "Private Entertainment": "20 gp/evening",
+      "Banking Services": "1% transaction fee",
+      "Messenger Service": "5 gp",
+      "Secure Storage": "1 gp/week"
     },
     "npcs": [
       {
-        "name": "Lord Reginald Goldworth",
-        "role": "Bank Director"
+        "name": "Lord Aldric Pemberton",
+        "role": "Inn Master"
       },
       {
-        "name": "Vera Locksworth",
-        "role": "Vault Keeper"
+        "name": "Henri",
+        "role": "Head Chef"
       },
       {
-        "name": "Guards Maxwell & Stone",
-        "role": "Bank Security"
-      }
-    ]
-  },
-  {
-    "name": "Sunrise Bakery",
-    "type": "Bakery",
-    "location": "Town",
-    "priceRange": "Budget",
-    "quality": "Good",
-    "preview": "A warm, welcoming bakery filling the morning air with the scent of fresh bread and pastries...",
-    "description": "The aroma of baking bread draws customers from blocks away to this cozy bakery. Glass cases display an array of fresh breads, sweet pastries, and meat pies, while the ovens work continuously from before dawn. Baker Constance is known for her generosity to the poor and her special celebration cakes that mark important occasions throughout the town.",
-    "services": ["Food & Drink", "Special Orders"],
-    "pricing": {
-      "Loaf of Bread": "2 cp",
-      "Sweet Roll": "1 cp",
-      "Meat Pie": "3 cp",
-      "Celebration Cake": "1 gp",
-      "Wedding Cake": "5 gp",
-      "Travel Biscuits": "1 sp/dozen",
-      "Special Order": "varies",
-      "Catering Service": "2 gp/person"
-    },
-    "npcs": [
-      {
-        "name": "Constance Sweetdough",
-        "role": "Master Baker"
-      },
-      {
-        "name": "Peter",
-        "role": "Baker's Apprentice"
-      },
-      {
-        "name": "Little Annie",
-        "role": "Delivery Girl"
+        "name": "Isabella",
+        "role": "Concierge"
       }
     ]
   }
-]
