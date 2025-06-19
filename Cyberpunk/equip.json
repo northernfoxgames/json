@@ -8,6 +8,18 @@
       "Critical Chance": "25%",
       "Durability": "Excellent",
       "Installation Cost": "€15,000"
+    },
+    "market": {
+      "shop_price": "€25,000",
+      "black_market_price": "€18,000",
+      "availability": "Rare",
+      "legality": "Restricted - Class 3 Weapon"
+    },
+    "gm_notes": {
+      "install_time": "4 hours surgery",
+      "humanity_cost": "8 points",
+      "side_effects": "Phantom limb sensations, increased aggression",
+      "notable_suppliers": "Arasaka Clinics, Underground Ripperdocs"
     }
   },
   {
@@ -19,6 +31,18 @@
       "Duration": "8 minutes",
       "Recharge Time": "45 seconds",
       "Weight": "2.1kg"
+    },
+    "market": {
+      "shop_price": "Not Available",
+      "black_market_price": "€45,000",
+      "availability": "Extremely Rare",
+      "legality": "Military Restricted"
+    },
+    "gm_notes": {
+      "power_source": "Requires portable fusion cell",
+      "detection_methods": "Thermal, motion sensors still work",
+      "maintenance": "Weekly calibration required",
+      "notable_suppliers": "Military black market, Corporate espionage gear"
     }
   },
   {
@@ -30,6 +54,18 @@
       "ICE Resistance": "Military Grade",
       "RAM": "512TB",
       "Hack Defense": "Level 9"
+    },
+    "market": {
+      "shop_price": "€35,000",
+      "black_market_price": "€28,000",
+      "availability": "Uncommon",
+      "legality": "Licensed Required"
+    },
+    "gm_notes": {
+      "install_time": "6 hours surgery",
+      "humanity_cost": "12 points",
+      "side_effects": "Chronic migraines, data overflow syndrome",
+      "notable_suppliers": "NetWatch approved dealers, Corpo clinics"
     }
   },
   {
@@ -41,6 +77,18 @@
       "Heat Damage": "+150",
       "Battery Life": "2 hours",
       "Craftsmanship": "Legendary"
+    },
+    "market": {
+      "shop_price": "€8,500",
+      "black_market_price": "€6,200",
+      "availability": "Rare",
+      "legality": "Weapon License Required"
+    },
+    "gm_notes": {
+      "crafted_by": "Wakako's Weapon Shop, Street Smiths",
+      "special_notes": "Leaves distinctive cauterized wounds",
+      "battery_type": "Replaceable thermal cells",
+      "notable_suppliers": "Traditional weapon shops, Yakuza connections"
     }
   },
   {
@@ -52,6 +100,18 @@
       "Trace Resistance": "High",
       "Malware Library": "2,847 programs",
       "Processing Speed": "12.5 THz"
+    },
+    "market": {
+      "shop_price": "€12,000",
+      "black_market_price": "€9,500",
+      "availability": "Uncommon",
+      "legality": "Hacking Tools - Restricted"
+    },  
+    "gm_notes": {
+      "update_frequency": "Weekly malware updates available",
+      "detection_risk": "Moderate - leaves digital fingerprints",
+      "skill_requirement": "Interface +6 minimum",
+      "notable_suppliers": "Netrunner collectives, Tech markets"
     }
   },
   {
@@ -63,6 +123,18 @@
       "Detection Difficulty": "Very High",
       "Rejection Risk": "2%",
       "Coverage": "Torso & Limbs"
+    },
+    "market": {
+      "shop_price": "€20,000",
+      "black_market_price": "€15,500",
+      "availability": "Common",
+      "legality": "Legal with Medical License"
+    },
+    "gm_notes": {
+      "install_time": "8 hours surgery",
+      "humanity_cost": "6 points",
+      "side_effects": "Metal detectors, reduced flexibility",
+      "notable_suppliers": "Body modification clinics, Corporate med centers"
     }
   },
   {
@@ -74,6 +146,18 @@
       "EMP Duration": "30 seconds",
       "Electronics Disable": "100%",
       "Quantity per Pack": "3 units"
+    },
+    "market": {
+      "shop_price": "€450 each",
+      "black_market_price": "€320 each",
+      "availability": "Uncommon",
+      "legality": "Explosive License Required"
+    },
+    "gm_notes": {
+      "civilian_impact": "Affects pacemakers, neural implants",
+      "shielding": "Military vehicles may be hardened",
+      "detection": "Standard explosive scanners work",
+      "notable_suppliers": "Military surplus, Nomad weapon dealers"
     }
   },
   {
@@ -85,6 +169,18 @@
       "Toxin Detection": "99.7%",
       "Emergency Response": "Automatic",
       "Battery Life": "5 years"
+    },
+    "market": {
+      "shop_price": "€7,500",
+      "black_market_price": "€5,800",
+      "availability": "Common",
+      "legality": "Medical Device - Legal"
+    },
+    "gm_notes": {
+      "install_time": "2 hours surgery",
+      "humanity_cost": "2 points",
+      "side_effects": "Constant health awareness, anxiety",
+      "notable_suppliers": "Medical supply stores, Trauma Team"
     }
   },
   {
@@ -96,6 +192,18 @@
       "Smart Lock": "Biometric",
       "Magazine": "15 rounds",
       "Effective Range": "50 meters"
+    },
+    "market": {
+      "shop_price": "€3,200",
+      "black_market_price": "€2,400",
+      "availability": "Common",
+      "legality": "Weapon License Required"
+    },
+    "gm_notes": {
+      "ammo_type": "Smart rounds only",
+      "hacking_risk": "Can be hacked to misfire or lock",
+      "battery_life": "500 shots per charge",
+      "notable_suppliers": "Gun shops, Security equipment dealers"
     }
   },
   {
@@ -107,6 +215,18 @@
       "Supported Formats": "All Standard",
       "Encryption Breaking": "Level 8",
       "Data Recovery": "Advanced"
+    },
+    "market": {
+      "shop_price": "€4,800",
+      "black_market_price": "€3,600",
+      "availability": "Uncommon",
+      "legality": "Data Recovery - Restricted Use"
+    },
+    "gm_notes": {
+      "operation_time": "15 minutes per chip",
+      "failure_risk": "6% chance of data corruption",
+      "skill_requirement": "Tech +4 minimum",
+      "notable_suppliers": "Data recovery services, Tech black market"
     }
   }
 ]
