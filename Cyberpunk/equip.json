@@ -2343,5 +2343,481 @@
       "notable_suppliers": "Outdoor gear shops, Military surplus",
       "special_notes": "Automatically adjusts to weather, very practical"
     }
+  },
+  {
+    "name": "Cybernetic Arm Cannon",
+    "category": "Weapons",
+    "description": "Heavy weapon system integrated into a cybernetic arm replacement. Fires high-velocity explosive rounds with devastating effect.",
+    "stats": {
+      "Damage": "4d6+4",
+      "Weapon Accuracy": "+0",
+      "Concealability": "N/A (Integrated)",
+      "Reliability": "VR"
+    },
+    "market": {
+      "shop_price": "45,000eb",
+      "black_market_price": "36,000eb",
+      "availability": "E",
+      "legality": "Military Restricted"
+    },
+    "gm_notes": {
+      "rate_of_fire": "1",
+      "magazine": "6 rounds (internal)",
+      "range": "300m",
+      "notable_suppliers": "Military cyberware, Black market arms dealers",
+      "special_notes": "Requires cybernetic arm, obvious weapon, armor piercing"
+    }
+  },
+  {
+    "name": "Needle Pistol",
+    "category": "Weapons",
+    "description": "Compact sidearm that fires poison-tipped needles. Silent operation makes it perfect for assassinations.",
+    "stats": {
+      "Damage": "1d6+poison",
+      "Weapon Accuracy": "+1",
+      "Concealability": "P",
+      "Reliability": "ST"
+    },
+    "market": {
+      "shop_price": "2,800eb",
+      "black_market_price": "2,240eb",
+      "availability": "E",
+      "legality": "Illegal"
+    },
+    "gm_notes": {
+      "rate_of_fire": "1",
+      "magazine": "20 needles",
+      "range": "15m",
+      "notable_suppliers": "Assassin gear dealers, Poison specialists",
+      "special_notes": "Silent, poison delivery system, very concealable"
+    }
+  },
+  {
+    "name": "Vibro-Blade",
+    "category": "Weapons",
+    "description": "High-frequency vibrating knife that can cut through most materials. The blade oscillates at ultrasonic speeds.",
+    "stats": {
+      "Damage": "2d6+2",
+      "Weapon Accuracy": "+1",
+      "Concealability": "J",
+      "Reliability": "VR"
+    },
+    "market": {
+      "shop_price": "4,200eb",
+      "black_market_price": "3,360eb",
+      "availability": "R",
+      "legality": "Weapon License Required"
+    },
+    "gm_notes": {
+      "rate_of_fire": "1/2",
+      "battery_life": "2 hours continuous",
+      "special_notes": "Ignores 3 points of armor, can cut metal",
+      "notable_suppliers": "High-tech weapon shops, Industrial tool dealers"
+    }
+  },
+  {
+    "name": "Gyrojet Pistol",
+    "category": "Weapons",
+    "description": "Unique handgun that fires self-propelled rocket bullets. Ammunition accelerates after leaving the barrel.",
+    "stats": {
+      "Damage": "3d6",
+      "Weapon Accuracy": "+2",
+      "Concealability": "P",
+      "Reliability": "ST"
+    },
+    "market": {
+      "shop_price": "6,500eb",
+      "black_market_price": "5,200eb",
+      "availability": "R",
+      "legality": "Exotic Weapon License"
+    },
+    "gm_notes": {
+      "rate_of_fire": "2",
+      "magazine": "12 rounds",
+      "range": "100m",
+      "notable_suppliers": "Exotic weapon dealers, Collectors",
+      "special_notes": "No recoil, quiet firing, expensive ammunition"
+    }
+  },
+  {
+    "name": "Electro-Whip",
+    "category": "Weapons",
+    "description": "Flexible weapon that delivers electrical shocks on contact. Can entangle targets and disable electronics.",
+    "stats": {
+      "Damage": "2d6+stun",
+      "Weapon Accuracy": "+0",
+      "Concealability": "J",
+      "Reliability": "VR"
+    },
+    "market": {
+      "shop_price": "3,800eb",
+      "black_market_price": "3,040eb",
+      "availability": "R",
+      "legality": "Restricted Weapon"
+    },
+    "gm_notes": {
+      "range": "4 meters",
+      "entangle_chance": "50% on successful hit",
+      "battery_life": "30 strikes",
+      "notable_suppliers": "Exotic weapon shops, Security equipment",
+      "special_notes": "Can entangle, stuns on contact, disables electronics"
+    }
+  },
+  {
+    "name": "Magnetic Accelerator Rifle",
+    "category": "Weapons",
+    "description": "Experimental railgun that uses magnetic fields to propel projectiles at hypersonic velocities.",
+    "stats": {
+      "Damage": "5d6+2",
+      "Weapon Accuracy": "+3",
+      "Concealability": "N",
+      "Reliability": "UR"
+    },
+    "market": {
+      "shop_price": "85,000eb",
+      "black_market_price": "68,000eb",
+      "availability": "E",
+      "legality": "Experimental Technology"
+    },
+    "gm_notes": {
+      "rate_of_fire": "1/3",
+      "power_source": "Energy cell, 10 shots",
+      "range": "1000m",
+      "notable_suppliers": "Corporate R&D, Experimental weapons black market",
+      "special_notes": "Penetrates any armor, unreliable technology"
+    }
+  },
+  {
+    "name": "Taser Baton",
+    "category": "Weapons",
+    "description": "Non-lethal crowd control weapon that extends into a staff and delivers powerful electrical charges.",
+    "stats": {
+      "Damage": "1d6+stun",
+      "Weapon Accuracy": "+1",
+      "Concealability": "L",
+      "Reliability": "VR"
+    },
+    "market": {
+      "shop_price": "850eb",
+      "black_market_price": "680eb",
+      "availability": "C",
+      "legality": "Security License Required"
+    },
+    "gm_notes": {
+      "extendable": "Collapses to 30cm, extends to 1.5m",
+      "stun_effect": "Target must save vs 15 or lose actions",
+      "battery_life": "50 discharges",
+      "notable_suppliers": "Security equipment, Police suppliers",
+      "special_notes": "Non-lethal, reaches multiple targets, intimidating"
+    }
+  },
+  {
+    "name": "Dart Gun",
+    "category": "Weapons",
+    "description": "Silent pneumatic weapon that fires tranquilizer darts. Perfect for non-lethal takedowns and capture operations.",
+    "stats": {
+      "Damage": "1d6+drug effect",
+      "Weapon Accuracy": "+2",
+      "Concealability": "L",
+      "Reliability": "VR"
+    },
+    "market": {
+      "shop_price": "1,500eb",
+      "black_market_price": "1,200eb",
+      "availability": "R",
+      "legality": "Tranquilizer License Required"
+    },
+    "gm_notes": {
+      "rate_of_fire": "1",
+      "magazine": "10 darts",
+      "range": "50m",
+      "notable_suppliers": "Medical equipment, Animal control",
+      "special_notes": "Silent operation, drug delivery system, non-lethal"
+    }
+  },
+  {
+    "name": "Chainsaw Sword",
+    "category": "Weapons",
+    "description": "Brutal melee weapon combining a sword with chainsaw technology. Favored by psychopathic street samurai.",
+    "stats": {
+      "Damage": "3d6+3",
+      "Weapon Accuracy": "-1",
+      "Concealability": "N",
+      "Reliability": "ST"
+    },
+    "market": {
+      "shop_price": "8,500eb",
+      "black_market_price": "6,800eb",
+      "availability": "R",
+      "legality": "Illegal"
+    },
+    "gm_notes": {
+      "rate_of_fire": "1/2",
+      "fuel_consumption": "2 hours continuous use",
+      "noise_level": "Extremely loud",
+      "notable_suppliers": "Psycho weapons dealers, Underground workshops",
+      "special_notes": "Terrifying appearance, cuts through armor, very loud"
+    }
+  },
+  {
+    "name": "Smart Grenade",
+    "category": "Weapons",
+    "description": "Programmable explosive device with multiple detonation modes and target recognition capabilities.",
+    "stats": {
+      "Damage": "5d6",
+      "Blast Radius": "10m",
+      "Weapon Accuracy": "+2",
+      "Concealability": "J"
+    },
+    "market": {
+      "shop_price": "1,200eb each",
+      "black_market_price": "960eb each",
+      "availability": "E",
+      "legality": "Military Restricted"
+    },
+    "gm_notes": {
+      "programming": "Timer, proximity, remote, impact modes",
+      "target_recognition": "Can identify friend/foe",
+      "notable_suppliers": "Military contractors, Advanced weapons dealers",
+      "special_notes": "Multiple trigger modes, can avoid friendlies"
+    }
+  },
+  {
+    "name": "Nano-Wire Cutter",
+    "category": "Weapons",
+    "description": "Handheld device that projects a microscopic cutting wire. Can slice through virtually any material.",
+    "stats": {
+      "Damage": "2d6+4",
+      "Weapon Accuracy": "+1",
+      "Concealability": "P",
+      "Reliability": "ST"
+    },
+    "market": {
+      "shop_price": "15,000eb",
+      "black_market_price": "12,000eb",
+      "availability": "E",
+      "legality": "Industrial Tool - Restricted"
+    },
+    "gm_notes": {
+      "range": "2 meters",
+      "cutting_ability": "Can cut through any material",
+      "battery_life": "1 hour continuous use",
+      "notable_suppliers": "Industrial equipment, High-tech black market",
+      "special_notes": "Invisible cutting wire, extremely dangerous"
+    }
+  },
+  {
+    "name": "Cyber-Shotgun",
+    "category": "Weapons",
+    "description": "High-tech shotgun with smart ammunition selection and electronic targeting system.",
+    "stats": {
+      "Damage": "3d6+2",
+      "Weapon Accuracy": "+1",
+      "Concealability": "L",
+      "Reliability": "VR"
+    },
+    "market": {
+      "shop_price": "7,200eb",
+      "black_market_price": "5,760eb",
+      "availability": "R",
+      "legality": "Weapon License Required"
+    },
+    "gm_notes": {
+      "rate_of_fire": "2",
+      "magazine": "10 shells",
+      "range": "75m",
+      "notable_suppliers": "High-tech gun shops, Security equipment",
+      "special_notes": "Multiple ammo types, smart targeting, combat computer"
+    }
+  },
+  {
+    "name": "Poison Blade",
+    "category": "Weapons",
+    "description": "Traditional knife with integrated poison reservoir. The blade is hollow and delivers toxins through the wound.",
+    "stats": {
+      "Damage": "1d6+1+poison",
+      "Weapon Accuracy": "+0",
+      "Concealability": "P",
+      "Reliability": "VR"
+    },
+    "market": {
+      "shop_price": "1,800eb",
+      "black_market_price": "1,440eb",
+      "availability": "R",
+      "legality": "Illegal"
+    },
+    "gm_notes": {
+      "poison_reservoir": "5 doses before refill",
+      "delivery_method": "Automatic injection on wound",
+      "notable_suppliers": "Assassin gear, Poison specialists",
+      "special_notes": "Silent, delivers any liquid poison, reusable"
+    }
+  },
+  {
+    "name": "Flamethrower Compact",
+    "category": "Weapons",
+    "description": "Portable flame projector designed for close-quarters combat. Effective against crowds and unarmored targets.",
+    "stats": {
+      "Damage": "2d6+fire",
+      "Weapon Accuracy": "+2",
+      "Concealability": "L",
+      "Reliability": "ST"
+    },
+    "market": {
+      "shop_price": "5,500eb",
+      "black_market_price": "4,400eb",
+      "availability": "R",
+      "legality": "Exotic Weapon License"
+    },
+    "gm_notes": {
+      "range": "20m cone",
+      "fuel_capacity": "30 seconds continuous use",
+      "fire_damage": "Continues burning for 1d6 rounds",
+      "notable_suppliers": "Industrial equipment, Exotic weapons",
+      "special_notes": "Area effect, sets targets on fire, intimidating"
+    }
+  },
+  {
+    "name": "Sonic Pistol",
+    "category": "Weapons",
+    "description": "Compact weapon that fires focused sound waves. Causes disorientation and can shatter glass and electronics.",
+    "stats": {
+      "Damage": "1d6+stun",
+      "Weapon Accuracy": "+1",
+      "Concealability": "P",
+      "Reliability": "VR"
+    },
+    "market": {
+      "shop_price": "3,200eb",
+      "black_market_price": "2,560eb",
+      "availability": "R",
+      "legality": "Non-lethal Weapon License"
+    },
+    "gm_notes": {
+      "rate_of_fire": "3",
+      "battery_life": "40 shots",
+      "range": "25m",
+      "notable_suppliers": "Non-lethal weapons, Security equipment",
+      "special_notes": "Disrupts electronics, causes disorientation, silent"
+    }
+  },
+  {
+    "name": "Molecular Disruptor",
+    "category": "Weapons",
+    "description": "Experimental weapon that breaks down molecular bonds in the target. Extremely dangerous and highly illegal.",
+    "stats": {
+      "Damage": "6d6",
+      "Weapon Accuracy": "+0",
+      "Concealability": "L",
+      "Reliability": "UR"
+    },
+    "market": {
+      "shop_price": "150,000eb",
+      "black_market_price": "120,000eb",
+      "availability": "E",
+      "legality": "Banned Technology"
+    },
+    "gm_notes": {
+      "rate_of_fire": "1/5",
+      "power_consumption": "Massive, 3 shots per cell",
+      "range": "50m",
+      "notable_suppliers": "Illegal weapons research, Corporate black projects",
+      "special_notes": "Ignores all armor, dissolves targets, extremely unstable"
+    }
+  },
+  {
+    "name": "Net Launcher",
+    "category": "Weapons",
+    "description": "Non-lethal weapon that fires electrified nets to capture targets. Popular with bounty hunters and security forces.",
+    "stats": {
+      "Damage": "Special (entanglement)",
+      "Weapon Accuracy": "+1",
+      "Concealability": "L",
+      "Reliability": "VR"
+    },
+    "market": {
+      "shop_price": "2,200eb",
+      "black_market_price": "1,760eb",
+      "availability": "C",
+      "legality": "Non-lethal License Required"
+    },
+    "gm_notes": {
+      "rate_of_fire": "1",
+      "magazine": "4 nets",
+      "range": "30m",
+      "notable_suppliers": "Security equipment, Bounty hunter gear",
+      "special_notes": "Entangles target, electrical stun, reusable nets"
+    }
+  },
+  {
+    "name": "Cyber-Crossbow",
+    "category": "Weapons",
+    "description": "Modern crossbow with electronic sighting and auto-loading mechanism. Silent and deadly accurate.",
+    "stats": {
+      "Damage": "3d6+1",
+      "Weapon Accuracy": "+3",
+      "Concealability": "L",
+      "Reliability": "VR"
+    },
+    "market": {
+      "shop_price": "4,800eb",
+      "black_market_price": "3,840eb",
+      "availability": "R",
+      "legality": "Weapon License Required"
+    },
+    "gm_notes": {
+      "rate_of_fire": "1",
+      "magazine": "20 bolts (auto-feeder)",
+      "range": "200m",
+      "notable_suppliers": "Hunting equipment, Stealth weapon dealers",
+      "special_notes": "Silent operation, various bolt types available"
+    }
+  },
+  {
+    "name": "Plasma Grenade",
+    "category": "Weapons",
+    "description": "High-energy explosive that creates a localized plasma field. Devastating against both personnel and equipment.",
+    "stats": {
+      "Damage": "6d6+heat",
+      "Blast Radius": "8m",
+      "Weapon Accuracy": "+0",
+      "Concealability": "J"
+    },
+    "market": {
+      "shop_price": "2,500eb each",
+      "black_market_price": "2,000eb each",
+      "availability": "E",
+      "legality": "Military Restricted"
+    },
+    "gm_notes": {
+      "heat_effect": "Melts metal, ignites everything",
+      "detonation": "Timer or impact",
+      "notable_suppliers": "Military black market, Advanced weapons",
+      "special_notes": "Extreme heat damage, melts armor, very dangerous"
+    }
+  },
+  {
+    "name": "Magnetic Pulse Gun",
+    "category": "Weapons",
+    "description": "Weapon designed to disable vehicles and electronics. Fires concentrated electromagnetic pulses.",
+    "stats": {
+      "Damage": "Special (EMP only)",
+      "Weapon Accuracy": "+1",
+      "Concealability": "L",
+      "Reliability": "ST"
+    },
+    "market": {
+      "shop_price": "12,000eb",
+      "black_market_price": "9,600eb",
+      "availability": "E",
+      "legality": "Electronic Warfare Device"
+    },
+    "gm_notes": {
+      "rate_of_fire": "1",
+      "battery_life": "10 shots",
+      "range": "100m",
+      "notable_suppliers": "Electronic warfare, Corporate security",
+      "special_notes": "Disables all electronics, no physical damage"
+    }
   }
 ]
