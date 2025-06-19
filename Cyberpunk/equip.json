@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Mantis Blades Mk-IV",
+    "category": "Cyberware",
+    "description": "Retractable mono-molecular edged blades integrated into the forearm cybernetics. Capable of slicing through most materials with surgical precision.",
+    "stats": {
+      "Damage": "380 DPS",
+      "Critical Chance": "25%",
+      "Durability": "Excellent",
+      "Installation Cost": "€15,000"
+    }
+  },
+  {
+    "name": "Optical Camouflage Suit",
+    "category": "Armor",
+    "description": "Military-grade adaptive camouflage system that adjusts to environmental conditions. Provides near-perfect invisibility in most lighting conditions.",
+    "stats": {
+      "Stealth Rating": "95%",
+      "Duration": "8 minutes",
+      "Recharge Time": "45 seconds",
+      "Weight": "2.1kg"
+    }
+  },
+  {
+    "name": "Neuralware Deck v3.7",
+    "category": "Cyberware",
+    "description": "Advanced neural interface allowing direct connection to the Net. Features enhanced ICE protection and quantum encryption protocols.",
+    "stats": {
+      "Net Speed": "+40%",
+      "ICE Resistance": "Military Grade",
+      "RAM": "512TB",
+      "Hack Defense": "Level 9"
+    }
+  },
+  {
+    "name": "Thermal Katana",
+    "category": "Weapons",
+    "description": "Traditional katana enhanced with thermal edge technology. The blade heats to 2000°C on activation, cauterizing wounds instantly.",
+    "stats": {
+      "Damage": "420 DPS",
+      "Heat Damage": "+150",
+      "Battery Life": "2 hours",
+      "Craftsmanship": "Legendary"
+    }
+  },
+  {
+    "name": "Breach Protocol Toolkit",
+    "category": "Tools",
+    "description": "Comprehensive hacking suite containing quantum processors, signal amplifiers, and custom malware. Essential for any serious netrunner.",
+    "stats": {
+      "Breach Success": "89%",
+      "Trace Resistance": "High",
+      "Malware Library": "2,847 programs",
+      "Processing Speed": "12.5 THz"
+    }
+  },
+  {
+    "name": "Subdermal Armor Plating",
+    "category": "Cyberware",
+    "description": "Titanium-alloy plates surgically implanted beneath the skin. Provides protection without compromising mobility or appearance.",
+    "stats": {
+      "Damage Reduction": "35%",
+      "Detection Difficulty": "Very High",
+      "Rejection Risk": "2%",
+      "Coverage": "Torso & Limbs"
+    }
+  },
+  {
+    "name": "EMP Grenade Mk-II",
+    "category": "Weapons",
+    "description": "Electromagnetic pulse grenade designed to disable electronic systems. Effective against drones, vehicles, and cybernetic implants.",
+    "stats": {
+      "Blast Radius": "15 meters",
+      "EMP Duration": "30 seconds",
+      "Electronics Disable": "100%",
+      "Quantity per Pack": "3 units"
+    }
+  },
+  {
+    "name": "Biomonitor Implant",
+    "category": "Cyberware",
+    "description": "Real-time health monitoring system that tracks vitals, toxin levels, and neurological activity. Includes automatic emergency response protocols.",
+    "stats": {
+      "Health Tracking": "Real-time",
+      "Toxin Detection": "99.7%",
+      "Emergency Response": "Automatic",
+      "Battery Life": "5 years"
+    }
+  },
+  {
+    "name": "Smart Pistol X-45",
+    "category": "Weapons",
+    "description": "AI-assisted sidearm with smart targeting system. Features biometric lock, wireless ammo counter, and predictive trajectory calculation.",
+    "stats": {
+      "Accuracy Bonus": "+35%",
+      "Smart Lock": "Biometric",
+      "Magazine": "15 rounds",
+      "Effective Range": "50 meters"
+    }
+  },
+  {
+    "name": "Memory Chip Encoder",
+    "category": "Tools",
+    "description": "Specialized device for encoding, decoding, and manipulating memory chips. Can extract data from damaged or encrypted storage devices.",
+    "stats": {
+      "Success Rate": "94%",
+      "Supported Formats": "All Standard",
+      "Encryption Breaking": "Level 8",
+      "Data Recovery": "Advanced"
+    }
+  }
+]
