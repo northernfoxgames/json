@@ -828,5 +828,350 @@
         "role": "Research Assistant"
       }
     ]
+  },
+    {
+    "name": "Cathedral of the Radiant Dawn",
+    "type": "Temple",
+    "location": "Capital",
+    "priceRange": "Expensive",
+    "quality": "Legendary",
+    "preview": "A magnificent cathedral dedicated to the sun god, offering powerful divine magic and holy services...",
+    "description": "This awe-inspiring cathedral rises majestically above the capital, its golden spires catching the first rays of dawn. Stained glass windows depict the heroic deeds of sun-blessed champions, while marble statues of angels line the grand nave. The cathedral serves as the primary temple of the sun god, offering the most powerful healing and divine magic in the realm. High Priestess Aurelia leads morning prayers that draw nobles and commoners alike.",
+    "services": ["Healing", "Religious Services", "Information", "Magic Services"],
+    "pricing": {
+      "Greater Healing": "100 gp",
+      "Resurrection": "1,000 gp",
+      "Remove Curse": "80 gp",
+      "Restoration": "200 gp",
+      "Wedding (Noble)": "100 gp",
+      "Blessing (Major)": "25 gp",
+      "Holy Water (Vial)": "10 gp",
+      "Divine Consultation": "50 gp",
+      "Consecration Service": "500 gp"
+    },
+    "npcs": [
+      {
+        "name": "High Priestess Aurelia Lightbringer",
+        "role": "Cathedral Leader & Oracle"
+      },
+      {
+        "name": "Father Marcus Goldenheart",
+        "role": "Senior Cleric"
+      },
+      {
+        "name": "Sister Celeste",
+        "role": "Healer & Choir Leader"
+      },
+      {
+        "name": "Paladin Commander Thane",
+        "role": "Temple Guardian"
+      }
+    ]
+  },
+  {
+    "name": "The Shadowed Sanctuary",
+    "type": "Temple",
+    "location": "City",
+    "priceRange": "Moderate",
+    "quality": "Good",
+    "preview": "A mysterious temple dedicated to the goddess of secrets, night, and hidden knowledge...",
+    "description": "Hidden in the winding alleys of the old city, this temple appears unremarkable from the outside. Within, candles flicker in alcoves dedicated to the goddess of secrets and night. The faithful come here seeking hidden knowledge, protection from enemies, or guidance in matters requiring discretion. The temple operates quietly, offering services to those who value privacy and understand the power of shadows.",
+    "services": ["Information", "Religious Services", "Magic Services", "Special Services"],
+    "pricing": {
+      "Secret Information": "25-100 gp",
+      "Divination (Private)": "50 gp",
+      "Protection Blessing": "20 gp",
+      "Identity Concealment": "75 gp",
+      "Nightmare Ward": "30 gp",
+      "Truth Detection": "40 gp",
+      "Memory Modification": "150 gp",
+      "Shadow Sanctuary": "10 gp/night"
+    },
+    "npcs": [
+      {
+        "name": "Shadowmere",
+        "role": "High Priestess (True name unknown)"
+      },
+      {
+        "name": "Brother Silence",
+        "role": "Information Broker"
+      },
+      {
+        "name": "The Whisperer",
+        "role": "Oracle of Secrets"
+      }
+    ]
+  },
+  {
+    "name": "Forge Temple of the Iron God",
+    "type": "Temple",
+    "location": "City",
+    "priceRange": "Moderate",
+    "quality": "Excellent",
+    "preview": "A temple-forge where divine smiths create blessed weapons and armor for the faithful...",
+    "description": "The sound of hammers on anvils echoes from this unique temple dedicated to the god of smiths and craftsmen. The sanctuary doubles as a workshop where priest-smiths create blessed weapons and armor. The central altar is a massive anvil that burns with sacred fire, while the walls display masterwork creations. Dwarven and human smiths work side by side, honoring their deity through the creation of perfect craftsmanship.",
+    "services": ["Equipment", "Religious Services", "Enchantment", "Repairs"],
+    "pricing": {
+      "Blessed Weapon": "+200 gp to base cost",
+      "Consecrated Armor": "+150 gp to base cost",
+      "Tool Blessing": "25 gp",
+      "Forge Blessing": "50 gp",
+      "Masterwork Enchantment": "300 gp",
+      "Weapon Repair (Blessed)": "10 gp",
+      "Sacred Smithing": "varies",
+      "Apprentice Training": "100 gp/month"
+    },
+    "npcs": [
+      {
+        "name": "High Smith Thorek Ironprayer",
+        "role": "Master Smith & High Priest"
+      },
+      {
+        "name": "Sister Forge-Heart",
+        "role": "Weapon Specialist"
+      },
+      {
+        "name": "Apprentice Ember",
+        "role": "Sacred Fire Keeper"
+      }
+    ]
+  },
+  {
+    "name": "Moonwell Sanctuary",
+    "type": "Temple",
+    "location": "Village",
+    "priceRange": "Budget",
+    "quality": "Good",
+    "preview": "A serene temple dedicated to the moon goddess, specializing in night healing and lunar magic...",
+    "description": "Built around a natural spring that reflects moonlight even on cloudy nights, this peaceful temple serves a farming village and surrounding countryside. The spring is said to hold healing properties that are strongest during the full moon. The temple provides essential healing services to the rural community, along with blessings for crops, protection from lycanthropes, and guidance for night travelers.",
+    "services": ["Healing", "Religious Services", "Information", "Agricultural Services"],
+    "pricing": {
+      "Moonlight Healing": "15 gp",
+      "Lycanthropy Cure": "200 gp",
+      "Crop Blessing": "5 gp/field",
+      "Travel Ward": "10 gp",
+      "Nightmares Banishment": "20 gp",
+      "Moon-blessed Water": "5 gp/vial",
+      "Fertility Blessing": "15 gp",
+      "Lunar Calendar": "1 gp"
+    },
+    "npcs": [
+      {
+        "name": "Priestess Luna Silverbrook",
+        "role": "Temple Keeper"
+      },
+      {
+        "name": "Elder Moonwhisper",
+        "role": "Wise Woman & Herbalist"
+      },
+      {
+        "name": "Young Stella",
+        "role": "Acolyte & Star-reader"
+      }
+    ]
+  },
+  {
+    "name": "Temple of the Storm Lord",
+    "type": "Temple",
+    "location": "Port",
+    "priceRange": "Moderate",
+    "quality": "Good",
+    "preview": "A weathered temple serving sailors and fishermen with blessings for safe voyages and storm protection...",
+    "description": "Perched on a cliff overlooking the harbor, this stone temple bears the scars of countless storms. Inside, ship wheels, anchors, and nautical charts serve as religious icons. The temple serves the maritime community, blessing ships before long voyages and providing sanctuary during fierce storms. The sound of crashing waves mingles with prayers for those lost at sea.",
+    "services": ["Religious Services", "Weather Magic", "Information", "Maritime Services"],
+    "pricing": {
+      "Ship Blessing": "50 gp",
+      "Storm Protection": "100 gp",
+      "Weather Divination": "25 gp",
+      "Safe Harbor Charm": "20 gp",
+      "Sailor's Luck": "10 gp",
+      "Funeral at Sea": "30 gp",
+      "Navigation Blessing": "15 gp",
+      "Tide Chart": "2 gp"
+    },
+    "npcs": [
+      {
+        "name": "Captain-Priest Stormcaller",
+        "role": "High Priest & Former Sea Captain"
+      },
+      {
+        "name": "Sister Tidereader",
+        "role": "Oracle of Storms"
+      },
+      {
+        "name": "Bosun Weatherbeard",
+        "role": "Temple Guardian"
+      }
+    ]
+  },
+  {
+    "name": "Grove of the Ancient Oak",
+    "type": "Temple",
+    "location": "Wilderness",
+    "priceRange": "Budget",
+    "quality": "Excellent",
+    "preview": "A sacred druidic grove centered around an enormous ancient oak, offering natural healing and wisdom...",
+    "description": "Deep in the ancient forest stands a massive oak tree older than memory, its trunk so wide that twenty people holding hands couldn't encircle it. The druids who tend this sacred grove have built simple stone circles and wooden platforms among its roots. Animals show no fear here, and the very air seems to pulse with natural magic. The grove serves as a sanctuary for all forest creatures and those who respect the natural world.",
+    "services": ["Healing", "Animal Services", "Weather Magic", "Nature Guidance"],
+    "pricing": {
+      "Natural Healing": "10 gp",
+      "Animal Communication": "20 gp",
+      "Plant Growth": "15 gp",
+      "Weather Calling": "50 gp",
+      "Beast Friendship": "25 gp",
+      "Druidic Teaching": "30 gp/week",
+      "Goodberry Creation": "5 gp",
+      "Sanctuary for Animals": "free"
+    },
+    "npcs": [
+      {
+        "name": "Archdruid Oakenheart",
+        "role": "Grove Keeper & Ancient Wisdom"
+      },
+      {
+        "name": "Ranger-Druid Swiftarrow",
+        "role": "Forest Protector"
+      },
+      {
+        "name": "Sage the Owl",
+        "role": "Awakened Animal Advisor"
+      }
+    ]
+  },
+  {
+    "name": "Halls of Eternal Memory",
+    "type": "Temple",
+    "location": "City",
+    "priceRange": "Expensive",
+    "quality": "Excellent",
+    "preview": "A grand temple dedicated to knowledge and memory, housing vast libraries and scholarly pursuits...",
+    "description": "This magnificent temple-library combines worship with scholarship, dedicated to the god of knowledge and memory. Endless shelves of books and scrolls fill cathedral-like halls, while scribes work tirelessly to preserve all written knowledge. The temple serves as both a place of worship and the most comprehensive library in the region, attracting scholars, wizards, and anyone seeking wisdom from the accumulated knowledge of ages.",
+    "services": ["Information", "Education", "Religious Services", "Research"],
+    "pricing": {
+      "Research Access": "10 gp/day",
+      "Memory Enhancement": "75 gp",
+      "Knowledge Divination": "50 gp",
+      "Scribe Training": "100 gp/month",
+      "Book Copying": "5 gp/10 pages",
+      "Truth Verification": "25 gp",
+      "Wisdom Blessing": "30 gp",
+      "Archive Storage": "50 gp/year"
+    },
+    "npcs": [
+      {
+        "name": "High Lorekeeper Erasmus Scrollborn",
+        "role": "Master of All Knowledge"
+      },
+      {
+        "name": "Sister Memoria",
+        "role": "Memory Keeper & Oracle"
+      },
+      {
+        "name": "Brother Quill",
+        "role": "Chief Archivist"
+      }
+    ]
+  },
+  {
+    "name": "Shrine of the Wanderer",
+    "type": "Temple",
+    "location": "Crossroads",
+    "priceRange": "Budget",
+    "quality": "Common",
+    "preview": "A simple roadside shrine offering protection and guidance to travelers on their journeys...",
+    "description": "At the intersection of three major roads stands this modest stone shrine dedicated to the god of travelers and roads. Worn smooth by countless hands, the shrine offers a place of rest and prayer for those far from home. Simple offerings of food and coin left by grateful travelers fund basic services for those in need. The shrine-keeper maintains the roads and provides guidance to lost souls.",
+    "services": ["Religious Services", "Information", "Lodging", "Travel Aid"],
+    "pricing": {
+      "Travel Blessing": "5 gp",
+      "Road Information": "1 gp",
+      "Safe Passage Charm": "10 gp",
+      "Emergency Shelter": "2 sp/night",
+      "Lost Item Divination": "15 gp",
+      "Direction Finding": "5 gp",
+      "Message Delivery": "varies by distance",
+      "Wayfinder's Kit": "8 gp"
+    },
+    "npcs": [
+      {
+        "name": "Father Crosswind",
+        "role": "Shrine Keeper & Road Warden"
+      },
+      {
+        "name": "Pilgrim Mary",
+        "role": "Eternal Traveler & Guide"
+      }
+    ]
+  },
+  {
+    "name": "The Silver Scale Temple",
+    "type": "Temple",
+    "location": "City",
+    "priceRange": "Expensive",
+    "quality": "Excellent",
+    "preview": "An elegant temple dedicated to justice and law, serving as both courthouse and divine sanctuary...",
+    "description": "This imposing temple features scales of justice carved from white marble and silver, symbolizing the god of law and justice. The main hall serves dual purposes as both sanctuary and courtroom, where divine magic aids in determining truth and dispensing justice. The temple maintains the city's legal records and provides arbitration services for those seeking fair resolution to disputes.",
+    "services": ["Religious Services", "Legal Services", "Truth Magic", "Arbitration"],
+    "pricing": {
+      "Zone of Truth": "50 gp",
+      "Legal Consultation": "25 gp/hour",
+      "Contract Blessing": "20 gp",
+      "Truth Verification": "30 gp",
+      "Divine Arbitration": "100 gp",
+      "Justice Blessing": "40 gp",
+      "Legal Documentation": "10 gp",
+      "Oath Binding": "75 gp"
+    },
+    "npcs": [
+      {
+        "name": "Chief Justice Veritas Goldscale",
+        "role": "High Priest & Supreme Judge"
+      },
+      {
+        "name": "Advocate Sterling",
+        "role": "Temple Lawyer & Mediator"
+      },
+      {
+        "name": "Paladin Truthseeker",
+        "role": "Divine Investigator"
+      }
+    ]
+  },
+  {
+    "name": "The Healing Springs",
+    "type": "Temple",
+    "location": "Town",
+    "priceRange": "Moderate",
+    "quality": "Excellent",
+    "preview": "A renowned healing temple built around natural hot springs with miraculous restorative properties...",
+    "description": "Steam rises from the sacred pools of this temple dedicated to the goddess of healing and mercy. The natural hot springs are said to cure ailments both physical and spiritual, drawing pilgrims from across the land. Comfortable chambers surround the pools, where the sick and injured can rest during their recovery. The temple maintains a hospice for those unable to pay, funded by generous donations from grateful nobles.",
+    "services": ["Healing", "Medical Treatment", "Hospice Care", "Religious Services"],
+    "pricing": {
+      "Spring Healing (Minor)": "25 gp",
+      "Spring Healing (Major)": "75 gp",
+      "Disease Treatment": "50 gp",
+      "Recovery Chamber": "20 gp/day",
+      "Healing Potion": "50 gp",
+      "Hospice Care": "sliding scale",
+      "Medicinal Bath": "15 gp",
+      "Consultation": "10 gp"
+    },
+    "npcs": [
+      {
+        "name": "Mother Superior Compassion",
+        "role": "Head Healer & High Priestess"
+      },
+      {
+        "name": "Brother Mender",
+        "role": "Physician & Surgeon"
+      },
+      {
+        "name": "Sister Gentle-hands",
+        "role": "Hospice Caretaker"
+      },
+      {
+        "name": "Novice Hope",
+        "role": "Spring Attendant"
+      }
+    ]
   }
 ]
