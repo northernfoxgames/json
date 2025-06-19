@@ -702,5 +702,475 @@
       "notable_suppliers": "Sports cyberware, Military prosthetics",
       "special_notes": "Obvious chrome, immune to leg injuries"
     }
+  },
+  {
+    "name": "Razorwire Implant",
+    "category": "Cyberware",
+    "description": "Subdermal wire mesh that can be extruded through pores as a defensive weapon. Creates a painful barrier when activated.",
+    "stats": {
+      "Damage": "1d6+1 (contact)",
+      "Coverage": "Full body",
+      "Activation Time": "1 action",
+      "Duration": "10 minutes"
+    },
+    "market": {
+      "shop_price": "18,500eb",
+      "black_market_price": "14,200eb",
+      "availability": "R",
+      "legality": "Illegal"
+    },
+    "gm_notes": {
+      "install_time": "5 hours surgery",
+      "humanity_cost": "2d6",
+      "surgery_difficulty": "19",
+      "notable_suppliers": "Combat chrome clinics, Underground ripperdocs",
+      "special_notes": "Damages anyone in grapple, obvious when active"
+    }
+  },
+  {
+    "name": "Netrunner Visor",
+    "category": "Tools",
+    "description": "Augmented reality display system designed for netrunning operations. Projects Net topology and data streams directly into field of vision.",
+    "stats": {
+      "Interface Bonus": "+1",
+      "Data Display": "AR overlay",
+      "Battery Life": "6 hours",
+      "Resolution": "8K per eye"
+    },
+    "market": {
+      "shop_price": "7,800eb",
+      "black_market_price": "6,200eb",
+      "availability": "C",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "skill_requirement": "Interface 3+",
+      "special_notes": "Can display Net activity in realspace, +2 to spot ICE",
+      "notable_suppliers": "Netrunner gear shops, Tech markets",
+      "compatibility": "Works with any cyberdeck"
+    }
+  },
+  {
+    "name": "Plasma Sword",
+    "category": "Weapons",
+    "description": "Energy blade weapon that generates a contained plasma field. Cuts through most materials and cauterizes wounds instantly.",
+    "stats": {
+      "Damage": "3d6+2",
+      "Weapon Accuracy": "+0",
+      "Concealability": "J (when off)",
+      "Reliability": "ST"
+    },
+    "market": {
+      "shop_price": "15,000eb",
+      "black_market_price": "11,500eb",
+      "availability": "R",
+      "legality": "Weapon License Required"
+    },
+    "gm_notes": {
+      "rate_of_fire": "1/2",
+      "battery_life": "30 minutes continuous",
+      "special_notes": "Ignores 4 points of armor, cauterizes wounds",
+      "notable_suppliers": "High-tech weapon dealers, Corporate security"
+    }
+  },
+  {
+    "name": "Tactical Body Armor",
+    "category": "Armor",
+    "description": "Military-grade modular armor system with integrated electronics and life support. Standard issue for corporate security forces.",
+    "stats": {
+      "Stopping Power": "SP 18",
+      "Encumbrance Value": "3",
+      "Coverage": "Full body",
+      "Hardened": "Yes"
+    },
+    "market": {
+      "shop_price": "8,200eb",
+      "black_market_price": "6,500eb",
+      "availability": "R",
+      "legality": "Military License Required"
+    },
+    "gm_notes": {
+      "integrated_systems": "Radio, medscanner, air filter",
+      "repair_difficulty": "Tech 15+",
+      "notable_suppliers": "Military contractors, Corporate security",
+      "special_notes": "Modular design, can mount additional equipment"
+    }
+  },
+  {
+    "name": "Cybernetic Spine",
+    "category": "Cyberware",
+    "description": "Reinforced spinal column replacement that provides enhanced structural integrity and neural pathway protection.",
+    "stats": {
+      "Body Bonus": "+3",
+      "Stun Resistance": "+2",
+      "Neural Protection": "EMP immune",
+      "Weight Capacity": "+100kg"
+    },
+    "market": {
+      "shop_price": "45,000eb",
+      "black_market_price": "36,000eb",
+      "availability": "R",
+      "legality": "Legal with permit"
+    },
+    "gm_notes": {
+      "install_time": "16 hours surgery",
+      "humanity_cost": "2d6+3",
+      "surgery_difficulty": "25",
+      "notable_suppliers": "Military cyberware, Trauma rehabilitation",
+      "special_notes": "Immune to paralysis, +4 vs spinal injuries"
+    }
+  },
+  {
+    "name": "Sonic Disruptor",
+    "category": "Weapons",
+    "description": "Non-lethal weapon that uses focused sound waves to disorient and incapacitate targets. Favored by security forces.",
+    "stats": {
+      "Damage": "Stun only",
+      "Weapon Accuracy": "+1",
+      "Concealability": "L",
+      "Reliability": "VR"
+    },
+    "market": {
+      "shop_price": "3,800eb",
+      "black_market_price": "3,000eb",
+      "availability": "C",
+      "legality": "Security License Required"
+    },
+    "gm_notes": {
+      "effect": "Stun save vs 15 or lose actions",
+      "range": "25m cone",
+      "battery_life": "50 shots",
+      "notable_suppliers": "Security equipment, Police suppliers",
+      "special_notes": "Area effect, can affect multiple targets"
+    }
+  },
+  {
+    "name": "Holo Projector",
+    "category": "Tools",
+    "description": "Portable holographic display system capable of creating realistic three-dimensional images and environments.",
+    "stats": {
+      "Image Quality": "Photorealistic",
+      "Projection Size": "10m cube",
+      "Battery Life": "4 hours",
+      "Control Range": "50m"
+    },
+    "market": {
+      "shop_price": "9,200eb",
+      "black_market_price": "7,400eb",
+      "availability": "C",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "detection_difficulty": "Awareness 18+ to spot fake",
+      "setup_time": "2 minutes",
+      "notable_suppliers": "Entertainment tech, Corporate presentations",
+      "special_notes": "Can create moving images, sound included"
+    }
+  },
+  {
+    "name": "Neural Processor",
+    "category": "Cyberware",
+    "description": "Advanced cognitive enhancement that increases mental processing speed and multi-tasking capabilities.",
+    "stats": {
+      "Intelligence Bonus": "+2",
+      "Initiative Bonus": "+1",
+      "Skill Points": "+2 per level",
+      "Processing Speed": "x3 normal"
+    },
+    "market": {
+      "shop_price": "55,000eb",
+      "black_market_price": "44,000eb",
+      "availability": "R",
+      "legality": "Legal with permit"
+    },
+    "gm_notes": {
+      "install_time": "10 hours surgery",
+      "humanity_cost": "2d6+1",
+      "surgery_difficulty": "23",
+      "notable_suppliers": "Corporate executive clinics, Academic enhancement",
+      "special_notes": "Can operate multiple devices simultaneously"
+    }
+  },
+  {
+    "name": "Micro Missile Launcher",
+    "category": "Weapons",
+    "description": "Compact shoulder-mounted launcher that fires guided micro missiles. Each missile contains a small but potent warhead.",
+    "stats": {
+      "Damage": "5d6",
+      "Weapon Accuracy": "+2 (guided)",
+      "Concealability": "N",
+      "Reliability": "ST"
+    },
+    "market": {
+      "shop_price": "12,500eb",
+      "black_market_price": "9,800eb",
+      "availability": "E",
+      "legality": "Military Restricted"
+    },
+    "gm_notes": {
+      "rate_of_fire": "1",
+      "magazine": "6 missiles",
+      "range": "500m",
+      "notable_suppliers": "Arms dealers, Military black market",
+      "special_notes": "Guided missiles, +4 WA vs vehicles"
+    }
+  },
+  {
+    "name": "Synthetic Skin",
+    "category": "Cyberware",
+    "description": "Bio-engineered skin replacement that can change color, texture, and temperature. Popular for disguise and vanity purposes.",
+    "stats": {
+      "Disguise Bonus": "+4",
+      "Color Change": "Full spectrum",
+      "Texture Control": "Variable",
+      "Temperature Control": "±20°C"
+    },
+    "market": {
+      "shop_price": "12,000eb",
+      "black_market_price": "9,600eb",
+      "availability": "C",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "install_time": "12 hours surgery",
+      "humanity_cost": "1d6+1",
+      "surgery_difficulty": "17",
+      "notable_suppliers": "Cosmetic clinics, Espionage gear",
+      "special_notes": "Can mimic other skin types, affects thermal signature"
+    }
+  },
+  {
+    "name": "Grav Boots",
+    "category": "Tools",
+    "description": "Magnetic levitation footwear that allows walking on walls and ceilings. Uses gravitic manipulation technology.",
+    "stats": {
+      "Surface Adhesion": "Any magnetic/metal",
+      "Weight Limit": "200kg total",
+      "Battery Life": "8 hours",
+      "Movement": "Normal speed"
+    },
+    "market": {
+      "shop_price": "18,000eb",
+      "black_market_price": "14,500eb",
+      "availability": "R",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "skill_requirement": "Athletics 4+ for complex maneuvers",
+      "special_notes": "Works on any ferrous surface, silent operation",
+      "notable_suppliers": "Industrial equipment, Space tech dealers",
+      "limitations": "Doesn't work on non-magnetic surfaces"
+    }
+  },
+  {
+    "name": "Auto-Doc Medical Suite",
+    "category": "Tools",
+    "description": "Automated surgical system capable of performing complex medical procedures without human intervention.",
+    "stats": {
+      "Medical Skill": "Effective 8",
+      "Surgery Types": "All standard",
+      "Operation Time": "Half normal",
+      "Success Rate": "85%"
+    },
+    "market": {
+      "shop_price": "75,000eb",
+      "black_market_price": "60,000eb",
+      "availability": "R",
+      "legality": "Medical License Required"
+    },
+    "gm_notes": {
+      "power_requirement": "Industrial connection",
+      "setup_time": "2 hours",
+      "notable_suppliers": "Medical equipment, Trauma Team",
+      "special_notes": "Can install cyberware, requires medical supplies"
+    }
+  },
+  {
+    "name": "Chameleon Cloak",
+    "category": "Armor",
+    "description": "Advanced camouflage system that adapts to surrounding environment in real-time. More flexible than rigid optical suits.",
+    "stats": {
+      "Stopping Power": "SP 6",
+      "Stealth Bonus": "+6",
+      "Encumbrance Value": "1",
+      "Adaptation Time": "3 seconds"
+    },
+    "market": {
+      "shop_price": "25,000eb",
+      "black_market_price": "20,000eb",
+      "availability": "E",
+      "legality": "Military Restricted"
+    },
+    "gm_notes": {
+      "power_source": "Internal battery, 6 hours",
+      "effectiveness": "Useless if damaged or dirty",
+      "notable_suppliers": "Military R&D, Corporate black ops",
+      "special_notes": "Adapts to any environment, moves with wearer"
+    }
+  },
+  {
+    "name": "Cyber-Heart",
+    "category": "Cyberware",
+    "description": "Artificial heart with enhanced performance characteristics. Provides superior oxygenation and endurance capabilities.",
+    "stats": {
+      "Endurance Bonus": "+4",
+      "Poison Resistance": "+3",
+      "Athletic Performance": "+2",
+      "Operating Pressure": "2x normal"
+    },
+    "market": {
+      "shop_price": "32,000eb",
+      "black_market_price": "25,500eb",
+      "availability": "C",
+      "legality": "Medical Device - Legal"
+    },
+    "gm_notes": {
+      "install_time": "8 hours surgery",
+      "humanity_cost": "1d6+2",
+      "surgery_difficulty": "20",
+      "notable_suppliers": "Cardiac specialists, Athletic enhancement",
+      "special_notes": "Immune to heart attacks, EMP vulnerable"
+    }
+  },
+  {
+    "name": "Flechette Rifle",
+    "category": "Weapons",
+    "description": "Specialized rifle that fires needle-like projectiles at extreme velocity. Designed to penetrate armor efficiently.",
+    "stats": {
+      "Damage": "2d6+4",
+      "Weapon Accuracy": "+2",
+      "Concealability": "N",
+      "Reliability": "VR"
+    },
+    "market": {
+      "shop_price": "6,800eb",
+      "black_market_price": "5,200eb",
+      "availability": "R",
+      "legality": "Military License Required"
+    },
+    "gm_notes": {
+      "rate_of_fire": "20 (full auto)",
+      "magazine": "40 flechettes",
+      "range": "300m",
+      "notable_suppliers": "Military contractors, Specialized arms dealers",
+      "special_notes": "Ignores 3 points of soft armor, AP ammo available"
+    }
+  },
+  {
+    "name": "Personal Force Field",
+    "category": "Tools",
+    "description": "Portable energy shield generator that creates a protective barrier around the user. Experimental technology with limited duration.",
+    "stats": {
+      "Shield Strength": "SP 25",
+      "Coverage": "360 degrees",
+      "Duration": "5 minutes",
+      "Recharge Time": "30 minutes"
+    },
+    "market": {
+      "shop_price": "85,000eb",
+      "black_market_price": "68,000eb",
+      "availability": "E",
+      "legality": "Military Restricted"
+    },
+    "gm_notes": {
+      "power_drain": "Massive battery consumption",
+      "vulnerability": "EMP shuts down instantly",
+      "notable_suppliers": "Corporate R&D, Experimental weapons dealers",
+      "special_notes": "Visible energy field, stops all physical attacks"
+    }
+  },
+  {
+    "name": "Cybernetic Tail",
+    "category": "Cyberware",
+    "description": "Fully functional artificial tail with enhanced balance and manipulation capabilities. Popular among certain subcultures.",
+    "stats": {
+      "Balance Bonus": "+3",
+      "Athletics Bonus": "+1",
+      "Manipulation": "Fine motor control",
+      "Weapon Mount": "Light weapons only"
+    },
+    "market": {
+      "shop_price": "8,500eb",
+      "black_market_price": "6,800eb",
+      "availability": "R",
+      "legality": "Legal with permit"
+    },
+    "gm_notes": {
+      "install_time": "4 hours surgery",
+      "humanity_cost": "1d6+1",
+      "surgery_difficulty": "16",
+      "notable_suppliers": "Exotic body modification, Fashion cyberware",
+      "special_notes": "Can hold/manipulate objects, obvious modification"
+    }
+  },
+  {
+    "name": "Hacker Deck Portable",
+    "category": "Tools",
+    "description": "Ultra-compact netrunning system designed for field operations. Sacrifices power for portability and stealth.",
+    "stats": {
+      "Interface Bonus": "+1",
+      "Stealth Rating": "+6",
+      "Memory": "25 MU",
+      "Programs": "8 slots"
+    },
+    "market": {
+      "shop_price": "8,900eb",
+      "black_market_price": "7,100eb",
+      "availability": "R",
+      "legality": "License Required"
+    },
+    "gm_notes": {
+      "battery_life": "4 hours netrunning",
+      "size": "Smartphone sized",
+      "notable_suppliers": "Underground netrunners, Stealth tech dealers",
+      "special_notes": "Harder to detect, limited capabilities"
+    }
+  },
+  {
+    "name": "Shock Gloves",
+    "category": "Weapons",
+    "description": "Electrically charged gloves that deliver stunning electrical discharges on contact. Non-lethal but highly effective.",
+    "stats": {
+      "Damage": "1d6 stun",
+      "Weapon Accuracy": "+0",
+      "Concealability": "P",
+      "Reliability": "VR"
+    },
+    "market": {
+      "shop_price": "850eb",
+      "black_market_price": "650eb",
+      "availability": "C",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "effect": "Stun save vs 12 or lose next action",
+      "battery_life": "20 discharges",
+      "notable_suppliers": "Security equipment, Self-defense stores",
+      "special_notes": "Works with any punch attack, reusable"
+    }
+  },
+  {
+    "name": "Memory Palace Implant",
+    "category": "Cyberware",
+    "description": "Neural enhancement that creates perfect digital memory storage and recall. Never forget anything again.",
+    "stats": {
+      "Memory Capacity": "Unlimited",
+      "Recall Speed": "Instant",
+      "Data Types": "All sensory input",
+      "Search Function": "Advanced indexing"
+    },
+    "market": {
+      "shop_price": "38,000eb",
+      "black_market_price": "30,500eb",
+      "availability": "R",
+      "legality": "Legal with permit"
+    },
+    "gm_notes": {
+      "install_time": "6 hours surgery",
+      "humanity_cost": "1d6+2",
+      "surgery_difficulty": "19",
+      "notable_suppliers": "Academic enhancement, Corporate espionage",
+      "special_notes": "Perfect recall of everything, can share memories"
+    }
   }
 ]
