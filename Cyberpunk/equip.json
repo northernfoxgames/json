@@ -1643,5 +1643,245 @@
       "notable_suppliers": "Underground tech markets, Corporate espionage",
       "special_notes": "Can access physical terminals, nearly invisible"
     }
+  },
+  {
+    "name": "Militech Griffin AV-4",
+    "category": "Vehicles",
+    "description": "Military aerodyne assault vehicle with VTOL capabilities. Heavily armored and equipped with advanced weapon systems for corporate security operations.",
+    "stats": {
+      "Top Speed": "400 kph",
+      "Maneuver": "+2",
+      "Structural Damage Points": "40",
+      "Armor": "SP 25"
+    },
+    "market": {
+      "shop_price": "2,500,000eb",
+      "black_market_price": "2,000,000eb",
+      "availability": "E",
+      "legality": "Military Restricted"
+    },
+    "gm_notes": {
+      "crew": "2 (pilot, gunner)",
+      "passengers": "8 troops",
+      "weapons": "20mm autocannon, missile pods",
+      "notable_suppliers": "Militech, Corporate security divisions",
+      "special_notes": "VTOL capable, stealth coating, military-grade sensors"
+    }
+  },
+  {
+    "name": "Yamaha Rapier Street Bike",
+    "category": "Vehicles",
+    "description": "High-performance motorcycle designed for urban navigation and speed. Popular among couriers, gangers, and anyone needing fast transport.",
+    "stats": {
+      "Top Speed": "280 kph",
+      "Maneuver": "+4",
+      "Structural Damage Points": "12",
+      "Armor": "SP 8"
+    },
+    "market": {
+      "shop_price": "35,000eb",
+      "black_market_price": "28,000eb",
+      "availability": "C",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "crew": "1 rider",
+      "passengers": "1 (tandem)",
+      "fuel_type": "Electric, 400km range",
+      "notable_suppliers": "Motorcycle dealers, Street vendors",
+      "special_notes": "Excellent acceleration, can weave through traffic"
+    }
+  },
+  {
+    "name": "Arasaka Sedan Executive",
+    "category": "Vehicles",
+    "description": "Luxury armored limousine designed for corporate executives. Features advanced security systems and comfort amenities.",
+    "stats": {
+      "Top Speed": "200 kph",
+      "Maneuver": "+0",
+      "Structural Damage Points": "35",
+      "Armor": "SP 20"
+    },
+    "market": {
+      "shop_price": "450,000eb",
+      "black_market_price": "360,000eb",
+      "availability": "R",
+      "legality": "Legal"
+    },
+    "gm_notes": {
+      "crew": "1 (chauffeur)",
+      "passengers": "6 (luxury seating)",
+      "special_features": "Bulletproof glass, communication suite, bar",
+      "notable_suppliers": "Arasaka dealerships, Luxury auto dealers",
+      "special_notes": "Run-flat tires, EMP hardened, encrypted communications"
+    }
+  },
+  {
+    "name": "Nomad Interceptor",
+    "category": "Vehicles",
+    "description": "Modified high-speed pursuit vehicle used by Nomad clans. Built for durability and performance in harsh conditions.",
+    "stats": {
+      "Top Speed": "320 kph",
+      "Maneuver": "+3",
+      "Structural Damage Points": "25",
+      "Armor": "SP 15"
+    },
+    "market": {
+      "shop_price": "Not Available",
+      "black_market_price": "85,000eb",
+      "availability": "R",
+      "legality": "Legal (if unmodified)"
+    },
+    "gm_notes": {
+      "crew": "1 driver",
+      "passengers": "1",
+      "modifications": "Nitrous injection, roll cage, weapon mounts",
+      "notable_suppliers": "Nomad camps, Underground mechanics",
+      "special_notes": "All-terrain capable, heavy modification potential"
+    }
+  },
+  {
+    "name": "Kang Tao Cargo Hauler",
+    "category": "Vehicles",
+    "description": "Heavy-duty transport truck designed for industrial cargo operations. Features automated loading systems and security measures.",
+    "stats": {
+      "Top Speed": "120 kph",
+      "Maneuver": "-1",
+      "Structural Damage Points": "50",
+      "Armor": "SP 18"
+    },
+    "market": {
+      "shop_price": "180,000eb",
+      "black_market_price": "144,000eb",
+      "availability": "C",
+      "legality": "Commercial License Required"
+    },
+    "gm_notes": {
+      "crew": "1-2 (driver, optional loader)",
+      "cargo_capacity": "20 tons",
+      "special_features": "Automated loading, GPS tracking, cargo security",
+      "notable_suppliers": "Industrial vehicle dealers, Shipping companies",
+      "special_notes": "Can be automated, reinforced cargo bay"
+    }
+  },
+  {
+    "name": "Street Samurai Gyrocopter",
+    "category": "Vehicles",
+    "description": "Single-person rotorcraft modified for urban reconnaissance and rapid deployment. Favored by solo operators.",
+    "stats": {
+      "Top Speed": "180 kph",
+      "Maneuver": "+3",
+      "Structural Damage Points": "15",
+      "Armor": "SP 6"
+    },
+    "market": {
+      "shop_price": "95,000eb",
+      "black_market_price": "76,000eb",
+      "availability": "R",
+      "legality": "Aircraft License Required"
+    },
+    "gm_notes": {
+      "crew": "1 pilot",
+      "passengers": "0",
+      "special_features": "VTOL capable, stealth modifications, weapon hardpoints",
+      "notable_suppliers": "Aviation specialists, Solo gear dealers",
+      "special_notes": "Quiet operation, can land anywhere, limited fuel"
+    }
+  },
+  {
+    "name": "Biotechnica Research Submersible",
+    "category": "Vehicles",
+    "description": "Deep-sea exploration vessel equipped with advanced life support and research equipment. Used for underwater operations.",
+    "stats": {
+      "Top Speed": "60 kph (underwater)",
+      "Maneuver": "+1",
+      "Structural Damage Points": "30",
+      "Armor": "SP 22"
+    },
+    "market": {
+      "shop_price": "850,000eb",
+      "black_market_price": "680,000eb",
+      "availability": "E",
+      "legality": "Research License Required"
+    },
+    "gm_notes": {
+      "crew": "2 (pilot, researcher)",
+      "passengers": "4",
+      "depth_rating": "2000 meters",
+      "notable_suppliers": "Biotechnica, Marine research facilities",
+      "special_notes": "Life support for 72 hours, specimen collection bay"
+    }
+  },
+  {
+    "name": "Gang War Buggy",
+    "category": "Vehicles",
+    "description": "Improvised combat vehicle built from salvaged parts. Common among street gangs for territorial warfare and raids.",
+    "stats": {
+      "Top Speed": "200 kph",
+      "Maneuver": "+2",
+      "Structural Damage Points": "20",
+      "Armor": "SP 12"
+    },
+    "market": {
+      "shop_price": "Not Available",
+      "black_market_price": "25,000eb",
+      "availability": "C",
+      "legality": "Legal (if street legal)"
+    },
+    "gm_notes": {
+      "crew": "1 driver",
+      "passengers": "3 (gunners)",
+      "modifications": "Weapon mounts, armor plating, nitrous",
+      "notable_suppliers": "Gang workshops, Scrap dealers",
+      "special_notes": "Unreliable but cheap, easy to modify and repair"
+    }
+  },
+  {
+    "name": "Corporate Shuttle",
+    "category": "Vehicles",
+    "description": "Luxury passenger aircraft for corporate transportation between cities. Features executive amenities and security systems.",
+    "stats": {
+      "Top Speed": "900 kph",
+      "Maneuver": "+1",
+      "Structural Damage Points": "45",
+      "Armor": "SP 16"
+    },
+    "market": {
+      "shop_price": "3,200,000eb",
+      "black_market_price": "2,560,000eb",
+      "availability": "E",
+      "legality": "Aircraft License Required"
+    },
+    "gm_notes": {
+      "crew": "3 (pilot, co-pilot, attendant)",
+      "passengers": "12 (luxury configuration)",
+      "range": "5000km",
+      "notable_suppliers": "Corporate aviation, Executive transport",
+      "special_notes": "Autopilot capable, encrypted communications, bar/office"
+    }
+  },
+  {
+    "name": "Trauma Team Medical AV",
+    "category": "Vehicles",
+    "description": "Specialized medical aerodyne for emergency response. Equipped with advanced life support and trauma treatment facilities.",
+    "stats": {
+      "Top Speed": "350 kph",
+      "Maneuver": "+2",
+      "Structural Damage Points": "32",
+      "Armor": "SP 14"
+    },
+    "market": {
+      "shop_price": "1,800,000eb",
+      "black_market_price": "1,440,000eb",
+      "availability": "E",
+      "legality": "Medical Service License"
+    },
+    "gm_notes": {
+      "crew": "4 (pilot, medic, 2 trauma specialists)",
+      "patients": "2 (critical care)",
+      "medical_equipment": "Full surgical suite, life support",
+      "notable_suppliers": "Trauma Team, Medical services",
+      "special_notes": "Priority airspace access, advanced medical AI"
+    }
   }
 ]
