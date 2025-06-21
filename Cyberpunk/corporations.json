@@ -1,0 +1,574 @@
+[
+  {
+    "name": "Arasaka Corporation",
+    "type": "Megacorp",
+    "powerLevel": 10,
+    "description": "The most powerful Japanese megacorporation, specializing in security, banking, and corporate services. Known for their ruthless efficiency and advanced technology.",
+    "headquarters": "Tokyo, Japan",
+    "ceo": "Saburo Arasaka",
+    "employees": "900,000+",
+    "founded": "1915",
+    "majorAssets": ["Arasaka Bank", "Counter-Intelligence Division", "Security Services", "Biotechnology Research"],
+    "keyPersonnel": [
+      "Saburo Arasaka - CEO",
+      "Yorinobu Arasaka - Heir Apparent",
+      "Hanako Arasaka - Board Member"
+    ],
+    "relationships": {
+      "Militech": "Hostile",
+      "Biotechnica": "Allied",
+      "Zetatech": "Rival"
+    },
+    "secrets": "Developing illegal AI research, maintains private military forces, involved in Fourth Corporate War planning."
+  },
+  {
+    "name": "Militech",
+    "type": "Megacorp",
+    "powerLevel": 9,
+    "description": "American military-industrial megacorp specializing in weapons, vehicles, and military technology. Primary rival to Arasaka.",
+    "headquarters": "Washington, D.C., NUSA",
+    "ceo": "Donald Lundee",
+    "employees": "750,000+",
+    "founded": "1996",
+    "majorAssets": ["Military Contracts", "Weapon Manufacturing", "Aerospace Division", "Private Military"],
+    "keyPersonnel": [
+      "Donald Lundee - CEO",
+      "General Patricia Hayes - Military Liaison",
+      "Dr. Marcus Chen - R&D Director"
+    ],
+    "relationships": {
+      "Arasaka": "Hostile",
+      "Petrochem": "Allied",
+      "Kang Tao": "Rival"
+    },
+    "secrets": "Secret government contracts, developing autonomous weapons systems, planning corporate military expansion."
+  },
+  {
+    "name": "Biotechnica",
+    "type": "Megacorp",
+    "powerLevel": 8,
+    "description": "Italian biotech giant controlling global food production through advanced genetic engineering and agricultural technology.",
+    "headquarters": "Rome, Italy",
+    "ceo": "Dr. Elena Vasquez",
+    "employees": "400,000+",
+    "founded": "2003",
+    "majorAssets": ["Genetic Engineering Labs", "Agricultural Patents", "Food Production", "Pharmaceutical Division"],
+    "keyPersonnel": [
+      "Dr. Elena Vasquez - CEO",
+      "Marco Rinaldi - Head of Agriculture",
+      "Dr. Yuki Tanaka - Genetics Director"
+    ],
+    "relationships": {
+      "Arasaka": "Allied",
+      "Petrochem": "Neutral",
+      "Zetatech": "Rival"
+    },
+    "secrets": "Illegal human genetic experiments, controlling food supply chains, developing bio-weapons."
+  },
+  {
+    "name": "World Stock Exchange",
+    "type": "Finance",
+    "powerLevel": 8,
+    "description": "Global financial trading platform and investment bank controlling major stock exchanges and currency markets.",
+    "headquarters": "Zurich, Switzerland",
+    "ceo": "Dr. Heinrich Fischer",
+    "employees": "45,000+",
+    "founded": "1987",
+    "majorAssets": ["Stock Exchanges", "Currency Trading", "Investment Banking", "Financial Data"],
+    "keyPersonnel": [
+      "Dr. Heinrich Fischer - CEO",
+      "Marie Laurent - Trading Director",
+      "Dr. Robert Kim - Risk Management"
+    ],
+    "relationships": {
+      "Arasaka": "Allied",
+      "International Credit Bank": "Rival",
+      "NetWatch": "Allied"
+    },
+    "secrets": "Market manipulation, insider trading networks, illegal financial surveillance."
+  },
+  {
+    "name": "NetWatch",
+    "type": "Government",
+    "powerLevel": 8,
+    "description": "International cybersecurity and netrunner monitoring organization with quasi-governmental authority over the Net.",
+    "headquarters": "Geneva, Switzerland",
+    "ceo": "Director Sarah Chen",
+    "employees": "25,000+",
+    "founded": "2012",
+    "majorAssets": ["Net Monitoring", "Cybersecurity", "Anti-Netrunner Operations", "Data Fortress Protection"],
+    "keyPersonnel": [
+      "Director Sarah Chen - Chief Administrator",
+      "Agent Marcus Torres - Field Operations",
+      "Dr. Elena Rodriguez - Cyber Analysis"
+    ],
+    "relationships": {
+      "All Corps": "Regulatory",
+      "Netrunner Groups": "Hostile",
+      "Criminal Networks": "Hostile"
+    },
+    "secrets": "Illegal data harvesting, corporate favoritism, rogue agent operations."
+  },
+  {
+    "name": "Kang Tao",
+    "type": "Technology",
+    "powerLevel": 7,
+    "description": "Chinese technology corporation known for smart weapons, AI systems, and advanced manufacturing processes.",
+    "headquarters": "Hong Kong, China",
+    "ceo": "Li Wei Chen",
+    "employees": "350,000+",
+    "founded": "2008",
+    "majorAssets": ["Smart Weapons Technology", "AI Research", "Manufacturing", "Cybernetics Division"],
+    "keyPersonnel": [
+      "Li Wei Chen - CEO",
+      "Dr. Zhang Min - AI Director",
+      "Colonel Wang Lei - Military Contracts"
+    ],
+    "relationships": {
+      "Arasaka": "Neutral",
+      "Militech": "Rival",
+      "Zetatech": "Allied"
+    },
+    "secrets": "State-sponsored espionage, developing sentient AI weapons, secret government backing."
+  },
+  {
+    "name": "Petrochem",
+    "type": "Manufacturing",
+    "powerLevel": 7,
+    "description": "American petrochemical giant controlling oil, gas, and synthetic fuel production across the Americas.",
+    "headquarters": "Houston, Texas, NUSA",
+    "ceo": "Robert Kane",
+    "employees": "300,000+",
+    "founded": "1987",
+    "majorAssets": ["Oil Refineries", "Chemical Plants", "Synthetic Fuel Production", "Energy Distribution"],
+    "keyPersonnel": [
+      "Robert Kane - CEO",
+      "Maria Rodriguez - Operations Director",
+      "Dr. James Wilson - Chemical Research"
+    ],
+    "relationships": {
+      "Militech": "Allied",
+      "SovOil": "Hostile",
+      "Orbital Air": "Allied"
+    },
+    "secrets": "Environmental cover-ups, illegal fuel additives, private mercenary forces."
+  },
+  {
+    "name": "International Credit Bank",
+    "type": "Finance",
+    "powerLevel": 7,
+    "description": "Multinational banking corporation providing corporate loans, financial services, and currency exchange globally.",
+    "headquarters": "London, United Kingdom",
+    "ceo": "Sir Charles Westminster",
+    "employees": "85,000+",
+    "founded": "1992",
+    "majorAssets": ["Banking Networks", "Corporate Loans", "Currency Exchange", "Financial Services"],
+    "keyPersonnel": [
+      "Sir Charles Westminster - CEO",
+      "Dr. Elena Rodriguez - Risk Assessment",
+      "Marcus Torres - International Banking"
+    ],
+    "relationships": {
+      "World Stock Exchange": "Rival",
+      "Arasaka": "Business Partner",
+      "Militech": "Allied"
+    },
+    "secrets": "Money laundering operations, tax evasion services, illegal corporate financing."
+  },
+  {
+    "name": "Trauma Team International",
+    "type": "Security",
+    "powerLevel": 6,
+    "description": "Premier emergency medical and security service provider, operating as both lifesavers and corporate enforcers.",
+    "headquarters": "Night City, Free State",
+    "ceo": "Dr. Sandra Kim",
+    "employees": "150,000+",
+    "founded": "2005",
+    "majorAssets": ["Emergency Medical Services", "Security Forces", "Air Ambulances", "Medical Insurance"],
+    "keyPersonnel": [
+      "Dr. Sandra Kim - CEO",
+      "Captain Alex Rivera - Security Chief",
+      "Dr. Mohammed Hassan - Medical Director"
+    ],
+    "relationships": {
+      "Raven Microcyb": "Allied",
+      "Arasaka": "Neutral",
+      "Lazarus Group": "Rival"
+    },
+    "secrets": "Corporate assassination contracts, experimental medical procedures, intelligence gathering operations."
+  },
+  {
+    "name": "World Entertainment Network",
+    "type": "Entertainment",
+    "powerLevel": 6,
+    "description": "Global media empire controlling television, music, gaming, and virtual entertainment across multiple platforms.",
+    "headquarters": "Los Angeles, NUSA",
+    "ceo": "Victoria Sterling",
+    "employees": "180,000+",
+    "founded": "1998",
+    "majorAssets": ["Television Networks", "Music Labels", "Gaming Studios", "Virtual Reality Platforms"],
+    "keyPersonnel": [
+      "Victoria Sterling - CEO",
+      "Marcus Johnson - Content Director",
+      "Dr. Elena Rodriguez - VR Development"
+    ],
+    "relationships": {
+      "Diverse Media Systems": "Rival",
+      "Arasaka": "Neutral",
+      "Biotechnica": "Allied"
+    },
+    "secrets": "Subliminal messaging in content, illegal data harvesting from viewers, corporate propaganda networks."
+  },
+  {
+    "name": "Ziggurat Corporation",
+    "type": "Manufacturing",
+    "powerLevel": 6,
+    "description": "Massive construction and urban development corporation specializing in arcology and megastructure projects.",
+    "headquarters": "Dubai, UAE",
+    "ceo": "Hassan Al-Rashid",
+    "employees": "280,000+",
+    "founded": "2001",
+    "majorAssets": ["Construction Projects", "Urban Planning", "Arcology Design", "Infrastructure Development"],
+    "keyPersonnel": [
+      "Hassan Al-Rashid - CEO",
+      "Dr. Elena Rodriguez - Chief Architect",
+      "Marcus Torres - Project Director"
+    ],
+    "relationships": {
+      "Arasaka": "Business Partner",
+      "Petrochem": "Allied",
+      "SovOil": "Neutral"
+    },
+    "secrets": "Corporate surveillance built into buildings, illegal worker exploitation, environmental regulation violations."
+  },
+  {
+    "name": "Fujiwara Heavy Industries",
+    "type": "Manufacturing",
+    "powerLevel": 6,
+    "description": "Japanese vehicle manufacturer specializing in military vehicles, aircraft, and high-performance transportation.",
+    "headquarters": "Nagoya, Japan",
+    "ceo": "Takeshi Fujiwara",
+    "employees": "190,000+",
+    "founded": "1994",
+    "majorAssets": ["Vehicle Manufacturing", "Aircraft Production", "Military Contracts", "Transportation Systems"],
+    "keyPersonnel": [
+      "Takeshi Fujiwara - CEO",
+      "Yuki Nakamura - Military Division",
+      "Hiroshi Tanaka - Engineering Director"
+    ],
+    "relationships": {
+      "Arasaka": "Allied",
+      "Militech": "Rival",
+      "Orbital Air": "Business Partner"
+    },
+    "secrets": "Illegal weapons modifications, corporate espionage through vehicle systems, military coup involvement."
+  },
+  {
+    "name": "Global Insurance Syndicate",
+    "type": "Finance",
+    "powerLevel": 6,
+    "description": "International insurance corporation providing corporate protection, life insurance, and risk management services.",
+    "headquarters": "London, United Kingdom",
+    "ceo": "Sir William Westminster",
+    "employees": "75,000+",
+    "founded": "1999",
+    "majorAssets": ["Insurance Networks", "Risk Assessment", "Corporate Protection", "Investment Portfolios"],
+    "keyPersonnel": [
+      "Sir William Westminster - CEO",
+      "Dr. Elena Rodriguez - Risk Analysis",
+      "Marcus Torres - Claims Investigation"
+    ],
+    "relationships": {
+      "International Credit Bank": "Allied",
+      "Trauma Team": "Business Partner",
+      "World Stock Exchange": "Neutral"
+    },
+    "secrets": "Insurance fraud coverups, corporate assassination funding, illegal surveillance of clients."
+  },
+  {
+    "name": "Raven Microcyb",
+    "type": "Technology",
+    "powerLevel": 5,
+    "description": "Cybernetics and micro-technology specialist known for cutting-edge implants and neural enhancement systems.",
+    "headquarters": "Night City, Free State",
+    "ceo": "Dr. Evelyn Sharp",
+    "employees": "85,000+",
+    "founded": "2010",
+    "majorAssets": ["Cybernetic Implants", "Neural Processors", "Micro-Technology", "Medical Cybernetics"],
+    "keyPersonnel": [
+      "Dr. Evelyn Sharp - CEO",
+      "Dr. Michael Torres - Neural Tech Director",
+      "Lisa Chen - Quality Control"
+    ],
+    "relationships": {
+      "Zetatech": "Hostile",
+      "Trauma Team": "Allied",
+      "Arasaka": "Rival"
+    },
+    "secrets": "Experimental brain-computer interfaces, illegal cyborg research, black market implant sales."
+  },
+  {
+    "name": "Diverse Media Systems",
+    "type": "Entertainment",
+    "powerLevel": 5,
+    "description": "Multimedia conglomerate specializing in news networks, publishing, and digital content distribution.",
+    "headquarters": "New York, NUSA",
+    "ceo": "Jonathan Blake",
+    "employees": "120,000+",
+    "founded": "2004",
+    "majorAssets": ["News Networks", "Publishing Houses", "Digital Platforms", "Social Media"],
+    "keyPersonnel": [
+      "Jonathan Blake - CEO",
+      "Sarah Mitchell - News Director",
+      "Dr. Kevin Park - Digital Strategy"
+    ],
+    "relationships": {
+      "World Entertainment Network": "Rival",
+      "Militech": "Allied",
+      "Arasaka": "Hostile"
+    },
+    "secrets": "Corporate-sponsored journalism, government propaganda contracts, illegal surveillance of journalists."
+  },
+  {
+    "name": "Microtech",
+    "type": "Technology",
+    "powerLevel": 5,
+    "description": "Specialized microprocessor and computer component manufacturer focusing on cutting-edge chip design.",
+    "headquarters": "Seattle, NUSA",
+    "ceo": "Dr. Amanda Chen",
+    "employees": "95,000+",
+    "founded": "2009",
+    "majorAssets": ["Microprocessors", "Computer Components", "Chip Design", "Quantum Computing Research"],
+    "keyPersonnel": [
+      "Dr. Amanda Chen - CEO",
+      "Kevin Liu - Research Director",
+      "Maria Santos - Manufacturing Chief"
+    ],
+    "relationships": {
+      "Zetatech": "Rival",
+      "Euro Business Machines": "Allied",
+      "Kang Tao": "Neutral"
+    },
+    "secrets": "Backdoor access in consumer chips, corporate espionage through hardware, government surveillance contracts."
+  },
+  {
+    "name": "BioMass Food Industries",
+    "type": "Food & Beverage",
+    "powerLevel": 5,
+    "description": "Synthetic food production giant creating artificial meat, processed nutrients, and survival rations.",
+    "headquarters": "São Paulo, Brazil",
+    "ceo": "Carlos Mendoza",
+    "employees": "150,000+",
+    "founded": "2006",
+    "majorAssets": ["Synthetic Food Production", "Nutrient Processing", "Distribution Networks", "Agricultural Labs"],
+    "keyPersonnel": [
+      "Carlos Mendoza - CEO",
+      "Dr. Maria Santos - Food Science Director",
+      "Roberto Silva - Distribution Chief"
+    ],
+    "relationships": {
+      "Biotechnica": "Hostile",
+      "SovOil": "Allied",
+      "World Entertainment Network": "Business Partner"
+    },
+    "secrets": "Addictive chemicals in food products, illegal genetic modification, corporate food dependency schemes."
+  },
+  {
+    "name": "Dynacorp Energy Solutions",
+    "type": "Energy",
+    "powerLevel": 5,
+    "description": "Alternative energy corporation focusing on fusion power, solar technology, and energy storage systems.",
+    "headquarters": "Phoenix, NUSA",
+    "ceo": "Dr. Robert Clarke",
+    "employees": "85,000+",
+    "founded": "2010",
+    "majorAssets": ["Fusion Reactors", "Solar Technology", "Energy Storage", "Power Grid Management"],
+    "keyPersonnel": [
+      "Dr. Robert Clarke - CEO",
+      "Dr. Lisa Park - Fusion Research",
+      "Kevin Morrison - Grid Operations"
+    ],
+    "relationships": {
+      "IEC": "Rival",
+      "Petrochem": "Hostile",
+      "NetWatch": "Allied"
+    },
+    "secrets": "Unstable reactor technology, environmental cover-ups, corporate sabotage of competitors."
+  },
+  {
+    "name": "SynthPharm Industries",
+    "type": "Medical",
+    "powerLevel": 5,
+    "description": "Pharmaceutical giant specializing in synthetic drugs, combat stimulants, and medical enhancement compounds.",
+    "headquarters": "Basel, Switzerland",
+    "ceo": "Dr. Klaus Hoffman",
+    "employees": "65,000+",
+    "founded": "2005",
+    "majorAssets": ["Pharmaceutical Production", "Drug Research", "Medical Compounds", "Enhancement Drugs"],
+    "keyPersonnel": [
+      "Dr. Klaus Hoffman - CEO",
+      "Dr. Ingrid Weber - Research Director",
+      "Hans Mueller - Production Chief"
+    ],
+    "relationships": {
+      "Biotechnica": "Rival",
+      "Night City Medical": "Business Partner",
+      "Trauma Team": "Allied"
+    },
+    "secrets": "Illegal drug testing, addictive enhancement compounds, black market stimulant distribution."
+  },
+  {
+    "name": "Adrek Robotics",
+    "type": "Technology",
+    "powerLevel": 4,
+    "description": "Robotics and automation specialist creating industrial robots and AI-controlled systems.",
+    "headquarters": "Frankfurt, Germany",
+    "ceo": "Dr. Klaus Weber",
+    "employees": "65,000+",
+    "founded": "2013",
+    "majorAssets": ["Industrial Robotics", "AI Systems", "Automation Technology", "Smart Manufacturing"],
+    "keyPersonnel": [
+      "Dr. Klaus Weber - CEO",
+      "Ingrid Mueller - AI Director",
+      "Hans Schmidt - Robotics Engineer"
+    ],
+    "relationships": {
+      "Zetatech": "Allied",
+      "IEC": "Business Partner",
+      "Kang Tao": "Rival"
+    },
+    "secrets": "Autonomous weapons development, illegal AI consciousness experiments, industrial sabotage capabilities."
+  },
+  {
+    "name": "Night City Medical Center",
+    "type": "Medical",
+    "powerLevel": 4,
+    "description": "Premier medical corporation providing advanced healthcare, cybernetic surgery, and experimental treatments.",
+    "headquarters": "Night City, Free State",
+    "ceo": "Dr. Jennifer Walsh",
+    "employees": "35,000+",
+    "founded": "2008",
+    "majorAssets": ["Medical Facilities", "Cybernetic Surgery", "Pharmaceutical Research", "Trauma Centers"],
+    "keyPersonnel": [
+      "Dr. Jennifer Walsh - CEO",
+      "Dr. Mohammed Hassan - Chief Surgeon",
+      "Dr. Lisa Chen - Research Director"
+    ],
+    "relationships": {
+      "Trauma Team": "Allied",
+      "Raven Microcyb": "Business Partner",
+      "Biotechnica": "Rival"
+    },
+    "secrets": "Illegal human experimentation, black market organ trading, experimental drug testing on patients."
+  },
+  {
+    "name": "MegaHab Construction",
+    "type": "Real Estate",
+    "powerLevel": 4,
+    "description": "Urban housing corporation specializing in megabuildings, corporate housing, and residential complexes.",
+    "headquarters": "Night City, Free State",
+    "ceo": "Elena Vasquez",
+    "employees": "95,000+",
+    "founded": "2007",
+    "majorAssets": ["Megabuilding Construction", "Residential Complexes", "Corporate Housing", "Urban Planning"],
+    "keyPersonnel": [
+      "Elena Vasquez - CEO",
+      "Tommy Johnson - Construction Chief",
+      "Maria Santos - Urban Planning"
+    ],
+    "relationships": {
+      "Ziggurat Corporation": "Rival",
+      "Arasaka": "Business Partner",
+      "Night City Medical": "Allied"
+    },
+    "secrets": "Substandard construction materials, corporate surveillance in buildings, illegal tenant exploitation."
+  },
+  {
+    "name": "ChromeCast Entertainment",
+    "type": "Entertainment",
+    "powerLevel": 4,
+    "description": "Virtual reality and gaming corporation creating immersive experiences and digital entertainment platforms.",
+    "headquarters": "Tokyo, Japan",
+    "ceo": "Akiko Sato",
+    "employees": "45,000+",
+    "founded": "2014",
+    "majorAssets": ["VR Technology", "Gaming Platforms", "Digital Entertainment", "Immersive Experiences"],
+    "keyPersonnel": [
+      "Akiko Sato - CEO",
+      "Dr. Yuki Tanaka - VR Director",
+      "Kenji Nakamura - Game Development"
+    ],
+    "relationships": {
+      "World Entertainment Network": "Rival",
+      "Arasaka": "Allied",
+      "Raven Microcyb": "Business Partner"
+    },
+    "secrets": "Addictive gaming algorithms, virtual reality addiction centers, illegal neural interface experiments."
+  },
+  {
+    "name": "Oceanic Freight Systems",
+    "type": "Transportation",
+    "powerLevel": 4,
+    "description": "Maritime shipping corporation controlling cargo routes, shipping containers, and oceanic transport networks.",
+    "headquarters": "Hong Kong, China",
+    "ceo": "Captain Li Wei",
+    "employees": "120,000+",
+    "founded": "2003",
+    "majorAssets": ["Shipping Fleet", "Cargo Networks", "Port Facilities", "Maritime Infrastructure"],
+    "keyPersonnel": [
+      "Captain Li Wei - CEO",
+      "Jennifer Liu - Operations Director",
+      "Dr. Zhang Min - Logistics"
+    ],
+    "relationships": {
+      "Orbital Air": "Rival",
+      "Kang Tao": "Allied",
+      "Highrider": "Neutral"
+    },
+    "secrets": "Human trafficking operations, weapons smuggling, illegal cargo transportation."
+  },
+  {
+    "name": "Neural Networks Inc",
+    "type": "Technology",
+    "powerLevel": 3,
+    "description": "Emerging AI and neural interface company developing brain-computer connections and artificial consciousness.",
+    "headquarters": "Boston, NUSA",
+    "ceo": "Dr. Sarah Connor",
+    "employees": "15,000+",
+    "founded": "2017",
+    "majorAssets": ["Neural Interfaces", "AI Development", "Brain-Computer Links", "Consciousness Research"],
+    "keyPersonnel": [
+      "Dr. Sarah Connor - CEO",
+      "Dr. Michael Torres - Neural Research",
+      "Jennifer Walsh - AI Ethics"
+    ],
+    "relationships": {
+      "Raven Microcyb": "Rival",
+      "Zetatech": "Hostile",
+      "NetWatch": "Under Investigation"
+    },
+    "secrets": "Illegal human testing, consciousness theft experiments, rogue AI development."
+  },
+  {
+    "name": "SportMax Global",
+    "type": "Entertainment",
+    "powerLevel": 3,
+    "description": "Sports entertainment corporation managing extreme sports leagues, athlete enhancement, and competitive gaming.",
+    "headquarters": "Las Vegas, NUSA",
+    "ceo": "Marcus 'Blade' Rodriguez",
+    "employees": "25,000+",
+    "founded": "2015",
+    "majorAssets": ["Sports Leagues", "Athletic Enhancement", "Gaming Tournaments", "Entertainment Venues"],
+    "keyPersonnel": [
+      "Marcus Rodriguez - CEO",
+      "Lisa Chen - Athletic Director",
+      "Tommy Johnson - Enhancement Division"
+    ],
+    "relationships": {
+      "ChromeCast Entertainment": "Allied",
+      "SynthPharm Industries": "Business Partner",
+      "World Entertainment Network": "Rival"
+    },
+    "secrets": "Illegal performance enhancement, fixed competitions, underground blood sports."
+  }
+]
